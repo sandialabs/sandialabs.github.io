@@ -1,25 +1,22 @@
-name: "LLNL Software Portal"
-author: "LLNL Open Source <open-source@llnl.gov>"
-title: LLNL Software Portal
-description: "Lawrence Livermore National Laboratory Software Portal"
-remote_theme: LLNL/Jekyll-LLNL-Theme
+name: "Sandia Software Portal"
+author: "Sandia Open Source <open-source@llnl.gov>"
+title: Sandia Software Portal
+description: "Sandia National Laboratory Software Portal"
+remote_theme: LLNL/Jekyll-LLNL-Theme  # You might change this later.
 
-url: "https://software.llnl.gov"
-repo_url: "https://github.com/LLNL/llnl.github.io"
-
-# LLNL Piwik Analytics https://analytics.llnl.gov
-piwik_id: 250
+url: "https://software.sandia.gov"
+repo_url: "https://github.com/sandialabs/sandialabs.github.io"
 
 # Google Analytics ID
-google_analytics:
-  tracking_id: UA-75179431-1
+# google_analytics:
+#   tracking_id: UA-75179431-1
 
 # Twitter username (used by jekyll-seo-tag)
-twitter:
-  username: llnl_opensource
+# twitter:
+#   username: llnl_opensource
 
 # GitHub Metadata -- https://github.com/jekyll/github-metadata
-repository: llnl/llnl.github.io
+repository: sandialabs/sandialabs.github.io
 plugins:
   - jekyll-github-metadata
   - jekyll-seo-tag
