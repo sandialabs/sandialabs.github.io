@@ -84,11 +84,11 @@ function draw_line_repoActivity(areaID, byCommits=true, repoNameWOwner) {
 
         var dToday = x.domain()[1];
         // Supercomputing
-        var dSupercomp = '11-18';
+        // var dSupercomp = '11-18';
         // Thanksgiving
-        var dThnxgiv = '11-25';
+        // var dThnxgiv = '11-25';
         // Christmas
-        var dXmas = '12-25';
+        // var dXmas = '12-25';
 
         function addDateLine(dateString, label) {
             var dateObj = getYearDate(dateString, dToday);
