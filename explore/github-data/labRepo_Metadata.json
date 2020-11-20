@@ -1,9 +1,142 @@
 {
+    "Coramin/Coramin": {
+        "description": "A collection of tools (classes, functions, etc.) for developing MINLP algorithms",
+        "name": "Coramin/Coramin",
+        "topics": null,
+        "website": null
+    },
+    "Parapint/parapint": {
+        "description": "Parallel solution of structured nonlinear programs",
+        "name": "Parapint/parapint",
+        "topics": null,
+        "website": null
+    },
     "Pyomo/pyomo": {
         "description": "An object-oriented algebraic modeling language in Python for structured optimization problems.",
         "name": "Pyomo/pyomo",
         "topics": null,
         "website": "https://www.pyomo.org"
+    },
+    "SNLComputation/Albany": {
+        "description": "Sandia National Laboratories' Albany multiphysics code",
+        "name": "SNLComputation/Albany",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/LCM": {
+        "description": "Laboratory for Computational Mechanics",
+        "name": "SNLComputation/LCM",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/archie": {
+        "description": "Archie build system for open-source LGR",
+        "name": "SNLComputation/archie",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/compadre": {
+        "description": "Compadre (Compatible Particle Discretization and Remap)",
+        "name": "SNLComputation/compadre",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/lgrtk": {
+        "description": "Tool Kit for Lagrangian Grid Reconnection",
+        "name": "SNLComputation/lgrtk",
+        "topics": [
+            "hpc",
+            "gpu",
+            "cuda",
+            "physics"
+        ],
+        "website": ""
+    },
+    "SNLComputation/lgrtk-build": {
+        "description": null,
+        "name": "SNLComputation/lgrtk-build",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/lgrtk-doc": {
+        "description": "The official documentation of LGRTK.",
+        "name": "SNLComputation/lgrtk-doc",
+        "topics": null,
+        "website": "https://snlcomputation.github.io/lgrtk-doc/"
+    },
+    "SNLComputation/lgrtk-spack": {
+        "description": "External Spack stuff like mirrored tarballs, overridden package files, and configuration files",
+        "name": "SNLComputation/lgrtk-spack",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/omega_h": {
+        "description": "Simplex mesh adaptivity for HPC",
+        "name": "SNLComputation/omega_h",
+        "topics": [
+            "mpi",
+            "cuda",
+            "meshing",
+            "mesh-generation",
+            "finite-elements",
+            "c-plus-plus",
+            "parallel-computing",
+            "cmake",
+            "hpc",
+            "openmp",
+            "cpp",
+            "gpu",
+            "triangulation",
+            "parallel",
+            "parallelism",
+            "mesh",
+            "geometry",
+            "cpp14",
+            "c-plus-plus-14"
+        ],
+        "website": ""
+    },
+    "SNLComputation/omega_h-build": {
+        "description": null,
+        "name": "SNLComputation/omega_h-build",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/spack": {
+        "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.",
+        "name": "SNLComputation/spack",
+        "topics": null,
+        "website": "https://spack.io"
+    },
+    "SNLComputation/yaml-cpp": {
+        "description": "A YAML parser and emitter in C++",
+        "name": "SNLComputation/yaml-cpp",
+        "topics": null,
+        "website": ""
+    },
+    "frothga/n2a": {
+        "description": "An object-oriented language for modeling large-scale neural systems, along with an IDE for writing and simulating models.",
+        "name": "frothga/n2a",
+        "topics": [
+            "equations",
+            "brain",
+            "language",
+            "neurons",
+            "simulator"
+        ],
+        "website": ""
+    },
+    "pyGSTio/pyGSTi": {
+        "description": "A python implementation of Gate Set Tomography",
+        "name": "pyGSTio/pyGSTi",
+        "topics": [
+            "tomography",
+            "qcvv",
+            "quantum-computing",
+            "characterization",
+            "gst"
+        ],
+        "website": "http://www.pygsti.info"
     },
     "sandialabs/Arcus": {
         "description": "Arcus, developed by Sandia National Laboratories, is a C# library for calculating, parsing, formatting, converting and comparing both IPv4 and IPv6 addresses and subnets. It accounts for 128-bit numbers on 32-bit platforms.",
@@ -62,6 +195,12 @@
             "seed-expansion"
         ],
         "website": ""
+    },
+    "sandialabs/Chaco": {
+        "description": null,
+        "name": "sandialabs/Chaco",
+        "topics": null,
+        "website": null
     },
     "sandialabs/Chordly": {
         "description": "Chordly is a plug-in library for jQuery 1.3+ that may be used to detect and act upon key sequences entered by a user.",
@@ -244,6 +383,12 @@
             "epanet"
         ],
         "website": ""
+    },
+    "sandialabs/Zoltan": {
+        "description": "Zoltan Dynamic Load Balancing and Graph Algorithm Toolkit -- Distribution site",
+        "name": "sandialabs/Zoltan",
+        "topics": null,
+        "website": null
     },
     "sandialabs/alert-triage": {
         "description": null,
@@ -463,10 +608,10 @@
         "website": "https://samlab.readthedocs.io/en/latest/"
     },
     "sandialabs/sandialabs.github.io": {
-        "description": "Public home for SNL software catalog",
+        "description": "Public home for Sandia software catalog",
         "name": "sandialabs/sandialabs.github.io",
         "topics": null,
-        "website": "https://software.sandia.gov"
+        "website": ""
     },
     "sandialabs/scatter": {
         "description": "Continuous scatterplot experiments for use with Slycat.",
