@@ -21,8 +21,8 @@ function draw_line_repoCreationHistory(areaID, repoNameWOwner) {
         var gitrelease = '2005-04-07';
         // GitHub founded
         var ghfounded = '2008-02-08';
-        // Software.llnl.gov founded
-        var sw_llnl = '2015-11-24';
+        // Software.sandia.gov founded
+        var sw_snl = '2021-01-01';
 
         function addDateLine(dateString, label) {
             var dateObj = parseTime(dateString);
@@ -68,7 +68,7 @@ function draw_line_repoCreationHistory(areaID, repoNameWOwner) {
         );
         timerange.push(gitrelease);
         timerange.push(ghfounded);
-        timerange.push(sw_llnl);
+        timerange.push(sw_snl);
 
         // Get min-max values across both datasets
         var datrange = d3.extent(data, function(d) {
@@ -142,7 +142,7 @@ function draw_line_repoCreationHistory(areaID, repoNameWOwner) {
         // Draw reference date lines
         addDateLine(gitrelease, 'Git Released');
         addDateLine(ghfounded, 'GitHub Founded');
-        addDateLine(sw_llnl, 'LLNL Soft. Portal');
+        // addDateLine(sw_snl, 'Sandia Soft. Portal');
 
         // Add title
         chart

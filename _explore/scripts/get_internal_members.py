@@ -6,7 +6,7 @@ datfilepath = "%s/labUsers.json" % ghDataDir
 queryPath = "../queries/org-Members.gql"
 
 # Only looking at Sandia org members
-orglist = ["sandialabs"]
+orglist = ["sandialabs", "SNLComputation"]
 
 # Initialize data collector
 dataCollector = qm.DataManager(datfilepath, False)

@@ -8,7 +8,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
 
     // Draws graph
     function drawGraph(data, areaID, adjacentAreaID) {
-        const graphHeader = 'LLNL Dependencies';
+        const graphHeader = 'Sandia Dependencies';
 
         const margin = { top: stdMargin.top, right: stdMargin.right / 2, bottom: stdMargin.bottom / 2, left: stdMargin.left / 2 },
             width = stdTotalWidth * 2 + 80 - margin.left - margin.right,
@@ -178,7 +178,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
         });
 
         // Data for legend
-        const labels = ['LLNL Repositories with Dependencies', 'External Packages', 'Internal Packages'];
+        const labels = ['Sandia Repositories with Dependencies', 'External Packages', 'Internal Packages'];
     
         // Creates legend
         const legend = chart
@@ -274,10 +274,10 @@ function draw_force_graph(areaID, adjacentAreaID) {
         const options = {};
 
         // Options for graph view
-        options.normalView = { name: 'normalView', text: 'Repos connected to dependencies', labels: ['LLNL Repositories with Dependencies', 'External Packages', 'Internal Packages'], languages: true, function: redraw };
-        options.simplifiedView = { name: 'simplifiedView', text: 'Repos connected by shared dependencies', labels: ['LLNL Repositories with Dependencies', 'External Packages', 'Internal Packages'], languages: true, function: simplify };
-        options.orgView = { name: 'orgView', text: 'Organizations connected to dependency organizations', labels: ['LLNL Organizations', 'External Package Organizations', 'LLNL Package Organizations'], languages: false, function: organize };
-        options.simplifiedOrgView = { name: 'simplifiedOrgView', text: 'Organizations connected by shared dependencies', labels: ['LLNL Organizations', 'External Package Organizations', 'LLNL Package Organizations'], languages: false, function: simplifyOrganize };
+        options.normalView = { name: 'normalView', text: 'Repos connected to dependencies', labels: ['Sandia Repositories with Dependencies', 'External Packages', 'Internal Packages'], languages: true, function: redraw };
+        options.simplifiedView = { name: 'simplifiedView', text: 'Repos connected by shared dependencies', labels: ['Sandia Repositories with Dependencies', 'External Packages', 'Internal Packages'], languages: true, function: simplify };
+        options.orgView = { name: 'orgView', text: 'Organizations connected to dependency organizations', labels: ['Sandia Organizations', 'External Package Organizations', 'Sandia Package Organizations'], languages: false, function: organize };
+        options.simplifiedOrgView = { name: 'simplifiedOrgView', text: 'Organizations connected by shared dependencies', labels: ['Sandia Organizations', 'External Package Organizations', 'Sandia Package Organizations'], languages: false, function: simplifyOrganize };
         const optionsArray = Object.values(options);
 
         // Options slider
