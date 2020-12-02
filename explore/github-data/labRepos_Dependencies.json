@@ -159,7 +159,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "ply",
                                     "repository": {
-                                        "nameWithOwner": "inducer/ply-git"
+                                        "nameWithOwner": "Josiastech/ply"
                                     }
                                 },
                                 {
@@ -333,6 +333,32 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "SNLComputation/lgrtk-build": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    }
+                ]
+            }
+        },
+        "SNLComputation/lgrtk-doc": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -527,7 +553,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "ply",
                                     "repository": {
-                                        "nameWithOwner": "inducer/ply-git"
+                                        "nameWithOwner": "Josiastech/ply"
                                     }
                                 },
                                 {
@@ -568,7 +594,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "ply",
                                     "repository": {
-                                        "nameWithOwner": "inducer/ply-git"
+                                        "nameWithOwner": "Josiastech/ply"
                                     }
                                 },
                                 {
@@ -602,7 +628,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "ply",
                                     "repository": {
-                                        "nameWithOwner": "inducer/ply-git"
+                                        "nameWithOwner": "Josiastech/ply"
                                     }
                                 },
                                 {
@@ -698,7 +724,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.SourceLink.GitHub",
                                     "repository": {
-                                        "nameWithOwner": "alefranz/sourcelink"
+                                        "nameWithOwner": "adamralph/sourcelink"
                                     }
                                 },
                                 {
@@ -1187,7 +1213,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.SourceLink.GitHub",
                                     "repository": {
-                                        "nameWithOwner": "alefranz/sourcelink"
+                                        "nameWithOwner": "adamralph/sourcelink"
                                     }
                                 },
                                 {
@@ -2761,137 +2787,6 @@
                     {
                         "color": "#4d41b1",
                         "name": "Fortran"
-                    }
-                ]
-            }
-        },
-        "sandialabs/WNTR": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "folium",
-                                    "repository": {
-                                        "nameWithOwner": "python-visualization/folium"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "networkx",
-                                    "repository": {
-                                        "nameWithOwner": "networkx/networkx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "nose",
-                                    "repository": {
-                                        "nameWithOwner": "nose-devs/nose"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "openpyxl",
-                                    "repository": {
-                                        "nameWithOwner": "ericgazoni/openpyxl"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "plotly",
-                                    "repository": {
-                                        "nameWithOwner": "plotly/plotly.py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "utm",
-                                    "repository": {
-                                        "nameWithOwner": "Turbo87/utm"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "networkx",
-                                    "repository": {
-                                        "nameWithOwner": "networkx/networkx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
@@ -4677,7 +4572,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "tqdm",
                                     "repository": {
-                                        "nameWithOwner": "tqdm/tqdm"
+                                        "nameWithOwner": "noamraph/tqdm"
                                     }
                                 }
                             ]
@@ -5043,7 +4938,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "tqdm",
                                     "repository": {
-                                        "nameWithOwner": "tqdm/tqdm"
+                                        "nameWithOwner": "noamraph/tqdm"
                                     }
                                 },
                                 {
@@ -5182,7 +5077,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "tqdm",
                                     "repository": {
-                                        "nameWithOwner": "tqdm/tqdm"
+                                        "nameWithOwner": "noamraph/tqdm"
                                     }
                                 }
                             ]
@@ -5620,6 +5515,14 @@
                         "name": "Python"
                     }
                 ]
+            }
+        },
+        "sandialabs/mesquite": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/miniGraphics": {

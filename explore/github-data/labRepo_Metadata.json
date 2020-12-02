@@ -544,6 +544,12 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/mesquite": {
+        "description": "Mesquite: Mesh Quality Improvement Toolkit",
+        "name": "sandialabs/mesquite",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/miniGraphics": {
         "description": "Miniapp to demonstrate parallel rendering in an MPI environment using a sort-last parallel rendering approach.",
         "name": "sandialabs/miniGraphics",
@@ -610,7 +616,11 @@
     "sandialabs/sandialabs.github.io": {
         "description": "Public home for Sandia software catalog",
         "name": "sandialabs/sandialabs.github.io",
-        "topics": null,
+        "topics": [
+            "foo",
+            "bar",
+            "baz"
+        ],
         "website": ""
     },
     "sandialabs/scatter": {
@@ -677,7 +687,10 @@
     "sandialabs/toyplot": {
         "description": "Interactive plotting for Python.",
         "name": "sandialabs/toyplot",
-        "topics": null,
+        "topics": [
+            "toyplot",
+            "python"
+        ],
         "website": "https://toyplot.readthedocs.io"
     },
     "sandialabs/tracktable": {
