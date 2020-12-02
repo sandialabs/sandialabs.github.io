@@ -77,7 +77,7 @@ angular.module('app', []).controller('gitHubDataController', [
                     path: '/assets/images/catalog.svg',
                     alt: 'All Software'
                 },
-                description: 'Browse all LLNL open source projects',
+                description: 'Browse all Sandia open source projects',
                 displayTitle: 'All Software',
                 topics: []
             };

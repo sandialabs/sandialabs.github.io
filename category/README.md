@@ -14,17 +14,17 @@ For each category, this file contains its title, [icon][icon dir] filepath, and 
 - **Build Tools**: Automate and simplify complex dependencies and deployments - `build-tools`
 - **Data Management & Viz**: Manage visualizations with robust features and configurable analysis - `data-management`, `data-viz`
 - **File Systems**: Configure data storage and retrieval for more efficient workloads - `file-system`
-- **Full Catalog / All Software**: Browse all LLNL open source projects - no tags required
+- **Full Catalog / All Software**: Browse all Sandia open source projects - no tags required
 - **Math & Physics Libraries**: Optimize solvers, higher order methods, and AMR frameworks - `math-physics`
 - **Performance & Workflow**: Manage and scale complex workflows, tracking, and data collection - `performance`, `workflows`
 - **Portable Execution & Memory Mgmt**: Automate data motion and memory allocation on advanced architectures - `memory-management`, `portability`
 - **Proxy Applications**: Prepare for testing and porting applications - `proxy-application`
 - **System Software**: Manage laptop and desktop computer systems, HPC clusters, and parallel environments - `system-software`
 
-In general, topic tags raise a repo's visibility on GitHub and help users find related projects. The following tags, which are are not associated with the home page categories above, are recommended for LLNL repos: `amr` (adaptive mesh refinement), `checkpoint`, `cmake`, `cpp` (C++), `data-analysis`, `energy`, `exascale-computing`, `finite-elements`, `fortran`, `gpu`, `graph`, `high-dimensional-data`, `hpc`, `java`, `javascript`, `machine-learning`, `matlab`, `molecular-dynamics`, `monte-carlo`, `mpi`, `neural-network`, `openmp`, `parallel`, `python`, `shell`, `simulation`, `solver`, `uncertainty-quantification`.
+In general, topic tags raise a repo's visibility on GitHub and help users find related projects. The following tags, which are are not associated with the home page categories above, are recommended for Sandia repos: `amr` (adaptive mesh refinement), `checkpoint`, `cmake`, `cpp` (C++), `data-analysis`, `energy`, `exascale-computing`, `finite-elements`, `fortran`, `gpu`, `graph`, `high-dimensional-data`, `hpc`, `java`, `javascript`, `machine-learning`, `matlab`, `molecular-dynamics`, `monte-carlo`, `mpi`, `neural-network`, `openmp`, `parallel`, `python`, `shell`, `simulation`, `solver`, `uncertainty-quantification`.
 
 To add a new category to the catalog:
 1. Update this README with the category name (in alphabetical order), description, and tag.
-2. Add the new icon (.svg) to [Assets > Images](https://github.com/LLNL/llnl.github.io/tree/master/assets/images).
-3. Update [`category_info.json`](https://github.com/LLNL/llnl.github.io/blob/master/category/category_info.json) with category metadata such as image file path, descriptive blurb, and corresponding topic(s).
+2. Add the new icon (.svg) to [Assets > Images](https://github.com/sandialabs/sandialabs.github.io/tree/master/assets/images).
+3. Update [`category_info.json`](https://github.com/sandialabs/sandialabs.github.io/blob/master/category/category_info.json) with category metadata such as image file path, descriptive blurb, and corresponding topic(s).
 4. Tag repos with the new topic as appropriate.

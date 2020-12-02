@@ -270,7 +270,7 @@ function draw_pie_lines(areaID) {
 
     // Turn json obj into desired working data
     function reformatData(obj) {
-        var data = [{ label: 'In Top Ten LLNL Repos', count: totalLines(obj, mostPopularRepositories.map(d => `${d.owner}/${d.name}`)) }, { label: 'In Other LLNL Repos', count: totalLines(obj) }, { labels: mostPopularRepositories.map(d => `${d.owner}/${d.name}`), counts: mostPopularRepositories.map(d => totalLines(obj, [`${d.owner}/${d.name}`])) }];
+        var data = [{ label: 'In Top Ten Sandia Repos', count: totalLines(obj, mostPopularRepositories.map(d => `${d.owner}/${d.name}`)) }, { label: 'In Other Sandia Repos', count: totalLines(obj) }, { labels: mostPopularRepositories.map(d => `${d.owner}/${d.name}`), counts: mostPopularRepositories.map(d => totalLines(obj, [`${d.owner}/${d.name}`])) }];
         return data;
     }
 
