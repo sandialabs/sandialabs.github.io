@@ -74,7 +74,7 @@ Make sure your repository is included on this website’s home page and [full ca
 
 ### How do I contribute news or other content to this website?
 
-Submit a pull request! This website is a GitHub repo just like any other Sandia open source project. News is housed in the [`_posts` directory](https://github.com/sandialabs/sandialabs.github.io/tree/master/_posts), and templates are found in the [sandialabs/.github repo](https://github.com/sandialabs/.github). See the guidelines below about contributing.
+Submit a pull request! This website is a GitHub repo just like any other Sandia open source project. See the guidelines below about contributing.
 
 Before contributing, please contact [wg-1424-ops@sandia.gov](mailto:wg-1424-ops@sandia.gov) with your idea or if you have questions about whether your proposed content requires the Sandia review and release process.
 
