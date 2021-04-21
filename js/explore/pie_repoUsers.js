@@ -134,36 +134,36 @@ function draw_pie_repoUsers(areaID, repoNameWOwner) {
     }
 
     // Turn json obj into desired working data
-    function reformatData(objLabUsers, objExtUsers) {
-        var repoContribs = function(objUsers) {
-            var users = Object.keys(objUsers['data']);
-            var contribs = new Set();
-            users.forEach(function(user) {
-                if (objUsers['data'].hasOwnProperty(user) && objUsers['data'][user].hasOwnProperty('contributedLabRepositories')) {
-                    var labRepos = objUsers['data'][user]['contributedLabRepositories']['nodes'];
-                    if (repoNameWOwner == null) {
-                        var userLogin = objUsers['data'][user]['login'];
-                        contribs.add(userLogin);
-                    } else {
-                        labRepos.forEach(function(repo) {
-                            if (repo == repoNameWOwner) {
-                                var userLogin = objUsers['data'][user]['login'];
-                                contribs.add(userLogin);
-                            }
-                        });
-                    }
-                }
-            });
-            return contribs;
-        };
+//    function reformatData(objLabUsers, objExtUsers) {
+//        var repoContribs = function(objUsers) {
+//            var users = Object.keys(objUsers['data']);
+//            var contribs = new Set();
+//            users.forEach(function(user) {
+//                if (objUsers['data'].hasOwnProperty(user) && objUsers['data'][user].hasOwnProperty('contributedLabRepositories')) {
+//                    var labRepos = objUsers['data'][user]['contributedLabRepositories']['nodes'];
+//                    if (repoNameWOwner == null) {
+//                        var userLogin = objUsers['data'][user]['login'];
+//                        contribs.add(userLogin);
+//                    } else {
+//                        labRepos.forEach(function(repo) {
+//                            if (repo == repoNameWOwner) {
+//                                var userLogin = objUsers['data'][user]['login'];
+//                               contribs.add(userLogin);
+//                            }
+//                        });
+//                    }
+//                }
+//            });
+//            return contribs;
+//        };
 
-        var contribs_lab = repoContribs(objLabUsers);
-        var contribs_ext = repoContribs(objExtUsers);
+//        var contribs_lab = repoContribs(objLabUsers);
+//        var contribs_ext = repoContribs(objExtUsers);
 
-        var labTotal = contribs_lab.size;
-        var extTotal = contribs_ext.size;
-
-        var data = [{ label: 'External Users', count: extTotal }, { label: 'Sandia Members', count: labTotal }];
-        return data;
-    }
+//        var labTotal = contribs_lab.size;
+//        var extTotal = contribs_ext.size;
+//
+//        var data = [{ label: 'External Users', count: extTotal }, { label: 'Sandia Members', count: labTotal }];
+//        return data;
+//    }
 }
