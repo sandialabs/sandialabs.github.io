@@ -52,24 +52,6 @@
         ],
         "website": ""
     },
-    "SNLComputation/lgrtk-build": {
-        "description": null,
-        "name": "SNLComputation/lgrtk-build",
-        "topics": null,
-        "website": null
-    },
-    "SNLComputation/lgrtk-doc": {
-        "description": "The official documentation of LGRTK.",
-        "name": "SNLComputation/lgrtk-doc",
-        "topics": null,
-        "website": "https://snlcomputation.github.io/lgrtk-doc/"
-    },
-    "SNLComputation/lgrtk-spack": {
-        "description": "External Spack stuff like mirrored tarballs, overridden package files, and configuration files",
-        "name": "SNLComputation/lgrtk-spack",
-        "topics": null,
-        "website": null
-    },
     "SNLComputation/omega_h": {
         "description": "Simplex mesh adaptivity for HPC",
         "name": "SNLComputation/omega_h",
@@ -96,11 +78,27 @@
         ],
         "website": ""
     },
-    "SNLComputation/omega_h-build": {
-        "description": null,
-        "name": "SNLComputation/omega_h-build",
-        "topics": null,
-        "website": null
+    "SNLComputation/parsegen-cpp": {
+        "description": "A C++17 library for parser generation for LALR(1) languages",
+        "name": "SNLComputation/parsegen-cpp",
+        "topics": [
+            "parse",
+            "parser-generator",
+            "parser",
+            "parser-library",
+            "cpp",
+            "cpp17",
+            "c-plus-plus",
+            "c-plus-plus-17",
+            "context-free-grammar",
+            "regular-expression",
+            "regular-expressions",
+            "lalr-parser-generator",
+            "lalr1",
+            "lalr-grammar",
+            "cmake"
+        ],
+        "website": ""
     },
     "SNLComputation/spack": {
         "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.",
@@ -189,6 +187,18 @@
         ],
         "website": ""
     },
+    "sandialabs/BaseObjects": {
+        "description": "Standard object classes used by multiple GNDD software packages.",
+        "name": "sandialabs/BaseObjects",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/Bender": {
+        "description": "Seismic ray tracing using the bending algorithm of Um and Thurber (1987) and modified to enforce Snell's Law at velocity discontinuities as described by Zhao et al. (2004).",
+        "name": "sandialabs/Bender",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/BioCompoundML": {
         "description": "BioCompoundML is a software tool for rapidly screening chemicals by chemical properties, using machine learning.",
         "name": "sandialabs/BioCompoundML",
@@ -198,6 +208,12 @@
     "sandialabs/BioRAM": {
         "description": "BioSafety and BioSecurity Laboratory Risk Assessment Tool",
         "name": "sandialabs/BioRAM",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/CSPlib": {
+        "description": "Computational singular perturbation analysis library",
+        "name": "sandialabs/CSPlib",
         "topics": null,
         "website": null
     },
@@ -251,11 +267,41 @@
         ],
         "website": ""
     },
+    "sandialabs/DbTableDefs": {
+        "description": "SQL utility classes for working with seismic data",
+        "name": "sandialabs/DbTableDefs",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/DbTableDefsExtended": {
+        "description": "SQL utility classes for working with extended GNDD seismic tables",
+        "name": "sandialabs/DbTableDefsExtended",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/FeatureCreature": {
         "description": "This software is provided to assess structural features in a QSAR environment.",
         "name": "sandialabs/FeatureCreature",
         "topics": null,
         "website": null
+    },
+    "sandialabs/GeoTessBuilder": {
+        "description": "Utility for building GeoTess models.",
+        "name": "sandialabs/GeoTessBuilder",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/GeoTessCPP": {
+        "description": "A model parameterization and software support system that implements the construction, population, storage and interrogation of data stored in 3D Earth models. This version is in C++ and intended for Linux systems.",
+        "name": "sandialabs/GeoTessCPP",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/GeoTessJava": {
+        "description": "A model parameterization and software support system that implements the construction, population, storage and interrogation of data stored in 3D Earth models. This version is in Java.",
+        "name": "sandialabs/GeoTessJava",
+        "topics": null,
+        "website": ""
     },
     "sandialabs/Gulliver": {
         "description": "Gulliver is a C# utility package and library engineered for the manipulation of arbitrary sized byte arrays accounting for appropriate endianness and jagged byte length.",
@@ -291,6 +337,12 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/InfrasoundPredictor": {
+        "description": null,
+        "name": "sandialabs/InfrasoundPredictor",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/InterSpec": {
         "description": "spectral radiation analysis software",
         "name": "sandialabs/InterSpec",
@@ -300,6 +352,18 @@
     "sandialabs/Juxtaposer": {
         "description": "Juxtaposer is software used to identify actively mobile genomic elements using Hight Throughput Sequencing data.",
         "name": "sandialabs/Juxtaposer",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/LibCorr3dGMP": {
+        "description": null,
+        "name": "sandialabs/LibCorr3dGMP",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/LookupTablesDz": {
+        "description": null,
+        "name": "sandialabs/LookupTablesDz",
         "topics": null,
         "website": null
     },
@@ -315,9 +379,33 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/PCalc": {
+        "description": "Performs ray-tracing and travel-time predictions in 3D GeoTess velocity models.",
+        "name": "sandialabs/PCalc",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/PRIME": {
+        "description": "PRIME is a modeling framework designed for the \"real-time\" characterization and forecasting of partially observed epidemics",
+        "name": "sandialabs/PRIME",
+        "topics": null,
+        "website": "http://sandialabs.github.io/PRIME"
+    },
+    "sandialabs/ParallelUtils": {
+        "description": "Parallel computation classes for use in GNDD applications",
+        "name": "sandialabs/ParallelUtils",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/Peak-Map": {
         "description": "Tool for identifying photopeaks and generating nuclide libraries",
         "name": "sandialabs/Peak-Map",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/PredictorFactory": {
+        "description": null,
+        "name": "sandialabs/PredictorFactory",
         "topics": null,
         "website": null
     },
@@ -330,6 +418,12 @@
     "sandialabs/RetSynth": {
         "description": null,
         "name": "sandialabs/RetSynth",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/SLBMWrapper": {
+        "description": null,
+        "name": "sandialabs/SLBMWrapper",
         "topics": null,
         "website": null
     },
@@ -361,6 +455,12 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/SeismicBaseData": {
+        "description": "Travel time information for various seismic phases",
+        "name": "sandialabs/SeismicBaseData",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/SpecUtils": {
         "description": "A library for opening, manipulating, and exporting gamma spectral files",
         "name": "sandialabs/SpecUtils",
@@ -368,9 +468,15 @@
         "website": null
     },
     "sandialabs/Spitfire": {
-        "description": "Spitfire is a Python/C++ library for constructing tabulated chemistry models and studying solver algorithms and complex combustion chemistry",
+        "description": "Spitfire is a Python/C++ library for constructing tabulated chemistry models and solving differential equations.",
         "name": "sandialabs/Spitfire",
-        "topics": null,
+        "topics": [
+            "spitfire",
+            "tabulated-chemistry-models",
+            "homogeneous-reactors",
+            "combustion",
+            "python"
+        ],
         "website": ""
     },
     "sandialabs/TChem": {
@@ -378,6 +484,12 @@
         "name": "sandialabs/TChem",
         "topics": null,
         "website": ""
+    },
+    "sandialabs/TEB": {
+        "description": "Tiered Energy in Buildings",
+        "name": "sandialabs/TEB",
+        "topics": null,
+        "website": null
     },
     "sandialabs/TIGER": {
         "description": "Target / Integrative Genetic Element Retriever: precisely maps IGEs (a defined type of genomic island) in bacterial and archaeal genomes; package also includes orthogonal program Islander",
@@ -388,6 +500,12 @@
     "sandialabs/The-Hybrid-Toolkit": {
         "description": null,
         "name": "sandialabs/The-Hybrid-Toolkit",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/Tines": {
+        "description": null,
+        "name": "sandialabs/Tines",
         "topics": null,
         "website": null
     },
@@ -417,6 +535,12 @@
     "sandialabs/alert-triage": {
         "description": null,
         "name": "sandialabs/alert-triage",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/avatar": {
+        "description": "The Avatar Tools codes are an implementation of ensembles specifically for decision trees.",
+        "name": "sandialabs/avatar",
         "topics": null,
         "website": null
     },
@@ -487,6 +611,12 @@
     "sandialabs/galen-view": {
         "description": "Python software for visualizing and exploring the CORD-19 Dataset",
         "name": "sandialabs/galen-view",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/gndd_utils": {
+        "description": "Util classes for working with GNDD projects.",
+        "name": "sandialabs/gndd_utils",
         "topics": null,
         "website": null
     },
@@ -568,6 +698,12 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/mcdn-3d-seg": {
+        "description": "Monte Carlo Dropout Network for 3D Image Segmentation",
+        "name": "sandialabs/mcdn-3d-seg",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/mesquite": {
         "description": "Mesquite: Mesh Quality Improvement Toolkit",
         "name": "sandialabs/mesquite",
@@ -616,6 +752,12 @@
     "sandialabs/pyapprox": {
         "description": null,
         "name": "sandialabs/pyapprox",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/pymtensor": {
+        "description": null,
+        "name": "sandialabs/pymtensor",
         "topics": null,
         "website": null
     },
@@ -730,6 +872,12 @@
     "sandialabs/wafl": {
         "description": "WeightedAFL(WAFL) allows for weighted distribution sampling of byte locations for subsequent fuzzing.",
         "name": "sandialabs/wafl",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/watchr-jenkins": {
+        "description": "The Jenkins plugin version of Watchr, which measures performance of subroutines over time.",
+        "name": "sandialabs/watchr-jenkins",
         "topics": null,
         "website": null
     },
