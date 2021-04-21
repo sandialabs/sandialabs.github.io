@@ -140,8 +140,6 @@ function draw_line_repoCreationHistory(areaID, repoNameWOwner) {
             .call(yAxis);
 
         // Draw reference date lines
-        addDateLine(gitrelease, 'Git Released');
-        addDateLine(ghfounded, 'GitHub Founded');
         // addDateLine(sw_snl, 'Sandia Soft. Portal');
 
         // Add title

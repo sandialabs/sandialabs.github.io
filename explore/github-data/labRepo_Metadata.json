@@ -124,30 +124,6 @@
         ],
         "website": ""
     },
-    "mrmundt/github-actions-test": {
-        "description": "Testing Github Actions",
-        "name": "mrmundt/github-actions-test",
-        "topics": [
-            "workflows"
-        ],
-        "website": ""
-    },
-    "mrmundt/pyomo": {
-        "description": "The main repository for the Pyomo optimization modeling software.",
-        "name": "mrmundt/pyomo",
-        "topics": [
-            "math-physics"
-        ],
-        "website": ""
-    },
-    "mrmundt/usage-control": {
-        "description": "Control Project Repository for Center Usage Tracking",
-        "name": "mrmundt/usage-control",
-        "topics": [
-            "data-management"
-        ],
-        "website": ""
-    },
     "pyGSTio/pyGSTi": {
         "description": "A python implementation of Gate Set Tomography",
         "name": "pyGSTio/pyGSTi",
@@ -886,5 +862,60 @@
         "name": "sandialabs/xyz",
         "topics": null,
         "website": null
+    },
+    "sstsimulator/sst-core": {
+        "description": "SST Structural Simulation Toolkit Parallel Discrete Event Core and Services",
+        "name": "sstsimulator/sst-core",
+        "topics": [
+            "simulator",
+            "mpi",
+            "parallel",
+            "discrete-event",
+            "simulation-core"
+        ],
+        "website": "http://www.sst-simulator.org"
+    },
+    "sstsimulator/sst-elements": {
+        "description": "SST Architectural Simulation Components and Libraries",
+        "name": "sstsimulator/sst-elements",
+        "topics": [
+            "simulator",
+            "memory",
+            "processor-architecture",
+            "networking",
+            "processor",
+            "network-analysis",
+            "cache",
+            "cache-simulator",
+            "trace",
+            "system-design",
+            "hpc"
+        ],
+        "website": "http://www.sst-simulator.org"
+    },
+    "sstsimulator/sst-macro": {
+        "description": "SST Macro Element Library",
+        "name": "sstsimulator/sst-macro",
+        "topics": [
+            "simulator"
+        ],
+        "website": "http://sst-simulator.org/"
+    },
+    "sstsimulator/sst-sqe": {
+        "description": "SST Software Quality, Testing and Engineering Resources",
+        "name": "sstsimulator/sst-sqe",
+        "topics": [
+            "simulation",
+            "testing",
+            "sst",
+            "discrete-event"
+        ],
+        "website": null
+    },
+    "trilinos/Trilinos": {
+        "description": "Primary repository for the Trilinos Project",
+        "name": "trilinos/Trilinos",
+        "topics": null,
+        "website": "https://trilinos.org/"
     }
 }

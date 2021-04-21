@@ -134,20 +134,20 @@ function draw_pie_members(areaID) {
     }
 
     // Turn json obj into desired working data
-    function reformatData(objLabUsers, objExtRepos) {
-        var userTotal = Object.keys(objLabUsers['data']).length;
-        var userSubset = new Set();
-        var extRepos = Object.keys(objExtRepos['data']);
-        extRepos.forEach(function(repo) {
-            if (objExtRepos['data'].hasOwnProperty(repo)) {
-                var labContrib = objExtRepos['data'][repo]['labContributors']['nodes'];
-                labContrib.forEach(function(member) {
-                    userSubset.add(member);
-                });
-            }
-        });
-        var subTotal = userSubset.size;
-        var data = [{ label: 'Contributing Externally', count: subTotal }, { label: 'No External Repos', count: userTotal - subTotal }];
-        return data;
-    }
+//    function reformatData(objLabUsers, objExtRepos) {
+//        var userTotal = Object.keys(objLabUsers['data']).length;
+//        var userSubset = new Set();
+//        var extRepos = Object.keys(objExtRepos['data']);
+//        extRepos.forEach(function(repo) {
+//            if (objExtRepos['data'].hasOwnProperty(repo)) {
+//                var labContrib = objExtRepos['data'][repo]['labContributors']['nodes'];
+//                labContrib.forEach(function(member) {
+//                    userSubset.add(member);
+//                });
+//            }
+//        });
+//        var subTotal = userSubset.size;
+//        var data = [{ label: 'Contributing Externally', count: subTotal }, { label: 'No External Repos', count: userTotal - subTotal }];
+//        return data;
+//    }
 }
