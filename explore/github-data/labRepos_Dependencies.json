@@ -293,6 +293,14 @@
                 ]
             }
         },
+        "Mantevo/Mantevo": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "Mantevo/miniFE": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -307,6 +315,19 @@
             }
         },
         "Mantevo/miniMD": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "PEBBL/pebbl": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -381,6 +402,19 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "PyProveIt/Prove-It": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
                     }
                 ]
             }
@@ -713,6 +747,221 @@
                 ]
             }
         },
+        "USEPA/CANARY": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "log4j:log4j",
+                                    "repository": {
+                                        "nameWithOwner": "apache/log4j"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-changelog-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-jar-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-javadoc-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-project-info-reports-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-surefire-report-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "mkiami/maven-surefire-report-plugin"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.codehaus.mojo:cobertura-maven-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "mojohaus/cobertura-maven-plugin"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "gov.sandia.seme:seme-framework",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-jar-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.commons:commons-math3",
+                                    "repository": {
+                                        "nameWithOwner": "haidaros/defects4j-math"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-jar-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.netbeans.external:AbsoluteLayout",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.netbeans.external:swing-layout-1.0.4",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.yaml:snakeyaml",
+                                    "repository": {
+                                        "nameWithOwner": "bmoliveira/snake-yaml"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "gov.sandia.seme:seme-framework",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-jar-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jdesktop:beansbinding",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.swinglabs:swing-layout",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.teva:CanarysCore",
+                                    "repository": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.canaryeds:canaryeds-base",
+                                    "repository": null
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            }
+        },
         "USEPA/WNTR": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -844,6 +1093,19 @@
                 ]
             }
         },
+        "bartvbw/MILO": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "dicengine/dice": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -866,6 +1128,19 @@
                     {
                         "color": "#b07219",
                         "name": "Java"
+                    }
+                ]
+            }
+        },
+        "kokkos/kokkos-kernels": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -1158,6 +1433,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "samitch/SpokeDartsPublic": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -10616,6 +10904,19 @@
             }
         },
         "sstsimulator/sst-macro": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sstsimulator/sst-tutorials": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
