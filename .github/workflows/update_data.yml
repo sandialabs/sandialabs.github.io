@@ -37,14 +37,14 @@ jobs:
     - name: Install requirements
       run: |
         which python
-        cd $GITHUB_WORKSPACE/sandialabs.github.io/_explore/scripts
+        cd $GITHUB_WORKSPACE/_explore/scripts
         pip install -r requirements.txt
     - name: Run main script
       run: |
         ./MASTER.sh
     - name: Add results to repository
       run: |
-        cd $GITHUB_WORKSPACE/sandialabs.github.io
+        cd $GITHUB_WORKSPACE
         git add -A .
         git commit -m "${DATA_TIMESTAMP} Data Update"
         git push origin main
