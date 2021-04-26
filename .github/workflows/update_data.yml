@@ -15,7 +15,6 @@ on:
 env:
   GITHUB_API_TOKEN: ${{ secrets.SECRET_TOKEN }}
   TOKEN_USER: mrmundt
-  DATA_TIMESTAMP: $(date -u "+%F-%H")
   
 
 jobs:
@@ -43,6 +42,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/_explore/scripts
         ./MASTER.sh
+       echo "DATA_TIMESTAMP=$(date -u '+%F-%H')"  >> $GITHUB_ENV
     - name: Add results to repository
       run: |
         cd $GITHUB_WORKSPACE
