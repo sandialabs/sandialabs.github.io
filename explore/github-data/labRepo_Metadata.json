@@ -5,17 +5,109 @@
         "topics": null,
         "website": null
     },
+    "E3SM-Project/E3SM": {
+        "description": "Energy Exascale Earth System Model source code.",
+        "name": "E3SM-Project/E3SM",
+        "topics": [
+            "climate-model",
+            "climate-science",
+            "climate",
+            "fortran",
+            "e3sm"
+        ],
+        "website": "https://e3sm.org"
+    },
+    "HobbesOSR/kitten": {
+        "description": "Kitten Lightweight Kernel",
+        "name": "HobbesOSR/kitten",
+        "topics": null,
+        "website": null
+    },
+    "IDAES/idaes-pse": {
+        "description": "The IDAES Process Systems Engineering Framework",
+        "name": "IDAES/idaes-pse",
+        "topics": [
+            "process-systems-engineering",
+            "process-modeling",
+            "chemical-engineering"
+        ],
+        "website": "https://idaes-pse.readthedocs.io/"
+    },
+    "Mantevo/Mantevo": {
+        "description": "Core Mantevo Repository containing common resources",
+        "name": "Mantevo/Mantevo",
+        "topics": null,
+        "website": null
+    },
+    "Mantevo/miniFE": {
+        "description": "MiniFE Finite Element Mini-Application",
+        "name": "Mantevo/miniFE",
+        "topics": [
+            "miniapp",
+            "minife",
+            "ecp",
+            "finite-elements",
+            "solvers",
+            "solver"
+        ],
+        "website": "http://www.mantevo.org"
+    },
+    "Mantevo/miniMD": {
+        "description": "MiniMD Molecular Dynamics Mini-App",
+        "name": "Mantevo/miniMD",
+        "topics": null,
+        "website": "http://www.mantevo.org"
+    },
+    "PEBBL/pebbl": {
+        "description": "Main repository for the PEBBL branch-and-bound library",
+        "name": "PEBBL/pebbl",
+        "topics": null,
+        "website": null
+    },
     "Parapint/parapint": {
         "description": "Parallel solution of structured nonlinear programs",
         "name": "Parapint/parapint",
         "topics": null,
         "website": null
     },
+    "Pressio/pressio": {
+        "description": "Projection-based model reduction for nonlinear dynamical systems: core C++ library",
+        "name": "Pressio/pressio",
+        "topics": [
+            "model-reduct",
+            "hpc",
+            "generic-programming",
+            "trilinos",
+            "kokkos",
+            "galerkin",
+            "petrov-galerkin",
+            "reduced-order-models",
+            "surrogate-models",
+            "uq",
+            "dynamical-systems",
+            "nonlinear-dynamics",
+            "cpp",
+            "templates"
+        ],
+        "website": ""
+    },
+    "PyProveIt/Prove-It": {
+        "description": "A tool for proving and organizing general theorems using Python. ",
+        "name": "PyProveIt/Prove-It",
+        "topics": null,
+        "website": "http://pyproveit.org"
+    },
     "Pyomo/pyomo": {
         "description": "An object-oriented algebraic modeling language in Python for structured optimization problems.",
         "name": "Pyomo/pyomo",
         "topics": null,
         "website": "https://www.pyomo.org"
+    },
+    "Qthreads/qthreads": {
+        "description": "Lightweight locality-aware user-level threading runtime.",
+        "name": "Qthreads/qthreads",
+        "topics": null,
+        "website": "http://www.cs.sandia.gov/qthreads/"
     },
     "SNLComputation/Albany": {
         "description": "Sandia National Laboratories' Albany multiphysics code",
@@ -112,6 +204,51 @@
         "topics": null,
         "website": ""
     },
+    "Sandia-OpenSHMEM/SOS": {
+        "description": "Sandia OpenSHMEM is an implementation of the OpenSHMEM specification over multiple Networking APIs, including Portals 4, the Open Fabric Interface (OFI), and UCX.  Please click on the Wiki tab for help with building and using SOS.",
+        "name": "Sandia-OpenSHMEM/SOS",
+        "topics": [
+            "hpc",
+            "pgas",
+            "openshmem",
+            "middleware",
+            "parallel-computing"
+        ],
+        "website": ""
+    },
+    "USEPA/CANARY": {
+        "description": "ORD OSIM",
+        "name": "USEPA/CANARY",
+        "topics": null,
+        "website": null
+    },
+    "USEPA/WNTR": {
+        "description": "An EPANET compatible python package to simulate and analyze water distribution networks under disaster scenarios.",
+        "name": "USEPA/WNTR",
+        "topics": null,
+        "website": ""
+    },
+    "bartvbw/MILO": {
+        "description": null,
+        "name": "bartvbw/MILO",
+        "topics": null,
+        "website": null
+    },
+    "dicengine/dice": {
+        "description": "Digital Image Correlation Engine (DICe): a stereo DIC application that runs on a desktop or high performance computing platform (massively parallel)",
+        "name": "dicengine/dice",
+        "topics": [
+            "digital-images",
+            "algorithm",
+            "correlation",
+            "tracking",
+            "computer-vision",
+            "modelling",
+            "stereo-dic",
+            "dic"
+        ],
+        "website": ""
+    },
     "frothga/n2a": {
         "description": "An object-oriented language for modeling large-scale neural systems, along with an IDE for writing and simulating models.",
         "name": "frothga/n2a",
@@ -124,6 +261,34 @@
         ],
         "website": ""
     },
+    "kokkos/kokkos-kernels": {
+        "description": "Kokkos C++ Performance Portability Programming EcoSystem: Math Kernels - Provides BLAS, Sparse BLAS and Graph Kernels",
+        "name": "kokkos/kokkos-kernels",
+        "topics": [
+            "kokkos",
+            "linear-algebra",
+            "sparse-matrix",
+            "performance-portability",
+            "blas"
+        ],
+        "website": ""
+    },
+    "lammps/lammps": {
+        "description": "Public development project of the LAMMPS MD software package  ",
+        "name": "lammps/lammps",
+        "topics": [
+            "molecular-dynamics",
+            "lammps",
+            "simulation"
+        ],
+        "website": "http://lammps.sandia.gov"
+    },
+    "peridigm/peridigm": {
+        "description": "Peridigm peridynamics code.",
+        "name": "peridigm/peridigm",
+        "topics": null,
+        "website": null
+    },
     "pyGSTio/pyGSTi": {
         "description": "A python implementation of Gate Set Tomography",
         "name": "pyGSTio/pyGSTi",
@@ -135,6 +300,12 @@
             "gst"
         ],
         "website": "http://www.pygsti.info"
+    },
+    "samitch/SpokeDartsPublic": {
+        "description": "SpokeDarts sphere-packing sampling in any dimension. Advancing front sampling from radial lines (spokes) through prior samples.",
+        "name": "samitch/SpokeDartsPublic",
+        "topics": null,
+        "website": null
     },
     "sandialabs/Arcus": {
         "description": "Arcus, developed by Sandia National Laboratories, is a C# library for calculating, parsing, formatting, converting and comparing both IPv4 and IPv6 addresses and subnets. It accounts for 128-bit numbers on 32-bit platforms.",
@@ -857,10 +1028,26 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/wvm": {
+        "description": "Matlab source code for the Wavelet Variability Model (WVM).",
+        "name": "sandialabs/wvm",
+        "topics": null,
+        "website": ""
+    },
     "sandialabs/xyz": {
         "description": "zip metadata extraction tool",
         "name": "sandialabs/xyz",
         "topics": null,
+        "website": null
+    },
+    "sparta/sparta": {
+        "description": "Public development project of the SPARTA DSMC software package http://sparta.sandia.gov",
+        "name": "sparta/sparta",
+        "topics": [
+            "dsmc",
+            "sparta",
+            "simulation"
+        ],
         "website": null
     },
     "sstsimulator/sst-core": {
@@ -901,15 +1088,10 @@
         ],
         "website": "http://sst-simulator.org/"
     },
-    "sstsimulator/sst-sqe": {
-        "description": "SST Software Quality, Testing and Engineering Resources",
-        "name": "sstsimulator/sst-sqe",
-        "topics": [
-            "simulation",
-            "testing",
-            "sst",
-            "discrete-event"
-        ],
+    "sstsimulator/sst-tutorials": {
+        "description": "Tutorial Material from the SST Team",
+        "name": "sstsimulator/sst-tutorials",
+        "topics": null,
         "website": null
     },
     "trilinos/Trilinos": {
