@@ -1,0 +1,50 @@
+name: Sandia Page Nightly Update
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: Git Hash (Optional)
+        required: false
+
+env:
+  GITHUB_API_TOKEN: ${{ secrets.SECRET_TOKEN }}
+  TOKEN_USER: mrmundt
+  DATA_TIMESTAMP: $(date -u "+%F-%H")
+  
+
+jobs:
+  build:
+    name: data-update
+    runs-on: [ubuntu-latest]
+    steps:
+    - name: Checkout sandialabs.github.io source
+      uses: actions/checkout@v2
+    - name: Configure git
+      run: |
+        git config --global user.name "${TOKEN_USER}"
+        git config --global user.email "${TOKEN_USER}@users.noreply.github.com"
+        git config --global hub.protocol https
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install requirements
+      run: |
+        which python
+        cd $GITHUB_WORKSPACE/sandialabs.github.io/_explore/scripts
+        pip install -r requirements.txt
+    - name: Run main script
+      run: |
+        ./MASTER.sh
+    - name: Add results to repository
+      run: |
+        cd $GITHUB_WORKSPACE/sandialabs.github.io
+        git add -A .
+        git commit -m "${DATA_TIMESTAMP} Data Update"
+        git push origin main
