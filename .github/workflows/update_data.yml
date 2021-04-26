@@ -41,6 +41,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run main script
       run: |
+        cd $GITHUB_WORKSPACE/_explore/scripts
         ./MASTER.sh
     - name: Add results to repository
       run: |
