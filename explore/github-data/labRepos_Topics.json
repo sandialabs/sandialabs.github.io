@@ -284,13 +284,35 @@
                 "totalCount": 0
             }
         },
-        "SNLComputation/LCM": {
+        "SNLComputation/CApp": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/cmake",
+                        "topic": {
+                            "name": "cmake"
+                        },
+                        "url": "https://github.com/topics/cmake"
+                    },
+                    {
+                        "resourcePath": "/topics/package-manager",
+                        "topic": {
+                            "name": "package-manager"
+                        },
+                        "url": "https://github.com/topics/package-manager"
+                    },
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    }
+                ],
+                "totalCount": 3
             }
         },
-        "SNLComputation/archie": {
+        "SNLComputation/LCM": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -475,6 +497,83 @@
                     }
                 ],
                 "totalCount": 19
+            }
+        },
+        "SNLComputation/p3a": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/c-plus-plus",
+                        "topic": {
+                            "name": "c-plus-plus"
+                        },
+                        "url": "https://github.com/topics/c-plus-plus"
+                    },
+                    {
+                        "resourcePath": "/topics/cpp",
+                        "topic": {
+                            "name": "cpp"
+                        },
+                        "url": "https://github.com/topics/cpp"
+                    },
+                    {
+                        "resourcePath": "/topics/cpp17-library",
+                        "topic": {
+                            "name": "cpp17-library"
+                        },
+                        "url": "https://github.com/topics/cpp17-library"
+                    },
+                    {
+                        "resourcePath": "/topics/cpp17",
+                        "topic": {
+                            "name": "cpp17"
+                        },
+                        "url": "https://github.com/topics/cpp17"
+                    },
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    },
+                    {
+                        "resourcePath": "/topics/hpc-tools",
+                        "topic": {
+                            "name": "hpc-tools"
+                        },
+                        "url": "https://github.com/topics/hpc-tools"
+                    },
+                    {
+                        "resourcePath": "/topics/cuda",
+                        "topic": {
+                            "name": "cuda"
+                        },
+                        "url": "https://github.com/topics/cuda"
+                    },
+                    {
+                        "resourcePath": "/topics/avx512",
+                        "topic": {
+                            "name": "avx512"
+                        },
+                        "url": "https://github.com/topics/avx512"
+                    },
+                    {
+                        "resourcePath": "/topics/avx-512",
+                        "topic": {
+                            "name": "avx-512"
+                        },
+                        "url": "https://github.com/topics/avx-512"
+                    },
+                    {
+                        "resourcePath": "/topics/cmake",
+                        "topic": {
+                            "name": "cmake"
+                        },
+                        "url": "https://github.com/topics/cmake"
+                    }
+                ],
+                "totalCount": 10
             }
         },
         "SNLComputation/parsegen-cpp": {
@@ -1446,6 +1545,12 @@
             }
         },
         "sandialabs/LookupTablesDz": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "sandialabs/MAPIT": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0

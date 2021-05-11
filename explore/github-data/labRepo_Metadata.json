@@ -107,7 +107,7 @@
         "description": "Lightweight locality-aware user-level threading runtime.",
         "name": "Qthreads/qthreads",
         "topics": null,
-        "website": "http://www.cs.sandia.gov/qthreads/"
+        "website": "https://cs.sandia.gov/qthreads/"
     },
     "SNLComputation/Albany": {
         "description": "Sandia National Laboratories' Albany multiphysics code",
@@ -115,15 +115,19 @@
         "topics": null,
         "website": null
     },
+    "SNLComputation/CApp": {
+        "description": "A simple, portable package manager for applications",
+        "name": "SNLComputation/CApp",
+        "topics": [
+            "cmake",
+            "package-manager",
+            "hpc"
+        ],
+        "website": ""
+    },
     "SNLComputation/LCM": {
         "description": "Laboratory for Computational Mechanics",
         "name": "SNLComputation/LCM",
-        "topics": null,
-        "website": null
-    },
-    "SNLComputation/archie": {
-        "description": "Archie build system for open-source LGR",
-        "name": "SNLComputation/archie",
         "topics": null,
         "website": null
     },
@@ -167,6 +171,23 @@
             "geometry",
             "cpp14",
             "c-plus-plus-14"
+        ],
+        "website": ""
+    },
+    "SNLComputation/p3a": {
+        "description": "Portably Performant Physical Algebra",
+        "name": "SNLComputation/p3a",
+        "topics": [
+            "c-plus-plus",
+            "cpp",
+            "cpp17-library",
+            "cpp17",
+            "hpc",
+            "hpc-tools",
+            "cuda",
+            "avx512",
+            "avx-512",
+            "cmake"
         ],
         "website": ""
     },
@@ -511,6 +532,12 @@
     "sandialabs/LookupTablesDz": {
         "description": null,
         "name": "sandialabs/LookupTablesDz",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/MAPIT": {
+        "description": null,
+        "name": "sandialabs/MAPIT",
         "topics": null,
         "website": null
     },

@@ -276,7 +276,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "tinydb",
                                     "repository": {
-                                        "nameWithOwner": "visualrobots/tinydb"
+                                        "nameWithOwner": "abhxi/py"
                                     }
                                 }
                             ]
@@ -293,6 +293,14 @@
                 ]
             }
         },
+        "Mantevo/Mantevo": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "Mantevo/miniFE": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -307,6 +315,19 @@
             }
         },
         "Mantevo/miniMD": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "PEBBL/pebbl": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -385,6 +406,19 @@
                 ]
             }
         },
+        "PyProveIt/Prove-It": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            }
+        },
         "Pyomo/pyomo": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -435,6 +469,11 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "sphinx-copybutton",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
                                         "nameWithOwner": "readthedocs/sphinx_rtd_theme"
@@ -472,47 +511,6 @@
                                     "packageName": "pyutilib",
                                     "repository": {
                                         "nameWithOwner": "PyUtilib/pyutilib"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpydoc",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpydoc"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-rtd-theme",
-                                    "repository": {
-                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -555,6 +553,19 @@
                 ]
             }
         },
+        "SNLComputation/CApp": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": null,
+                        "name": "CMake"
+                    }
+                ]
+            }
+        },
         "SNLComputation/LCM": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -564,19 +575,6 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
-                    }
-                ]
-            }
-        },
-        "SNLComputation/archie": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#89e051",
-                        "name": "Shell"
                     }
                 ]
             }
@@ -661,6 +659,19 @@
                 ]
             }
         },
+        "SNLComputation/p3a": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "SNLComputation/parsegen-cpp": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -709,6 +720,221 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "USEPA/CANARY": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "log4j:log4j",
+                                    "repository": {
+                                        "nameWithOwner": "apache/log4j"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-changelog-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-jar-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-javadoc-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-project-info-reports-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-surefire-report-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "mkiami/maven-surefire-report-plugin"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.codehaus.mojo:cobertura-maven-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "mojohaus/cobertura-maven-plugin"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "gov.sandia.seme:seme-framework",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-jar-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.commons:commons-math3",
+                                    "repository": {
+                                        "nameWithOwner": "haidaros/defects4j-math"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-jar-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.netbeans.external:AbsoluteLayout",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.netbeans.external:swing-layout-1.0.4",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.yaml:snakeyaml",
+                                    "repository": {
+                                        "nameWithOwner": "bmoliveira/snake-yaml"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "gov.sandia.seme:seme-framework",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-jar-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jdesktop:beansbinding",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.swinglabs:swing-layout",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.teva:CanarysCore",
+                                    "repository": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.canaryeds:canaryeds-base",
+                                    "repository": null
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
                     }
                 ]
             }
@@ -844,6 +1070,19 @@
                 ]
             }
         },
+        "bartvbw/MILO": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "dicengine/dice": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -870,6 +1109,19 @@
                 ]
             }
         },
+        "kokkos/kokkos-kernels": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "lammps/lammps": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -888,6 +1140,13 @@
                                     "packageName": "pygments",
                                     "repository": {
                                         "nameWithOwner": "pygments/pygments"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "six",
+                                    "repository": {
+                                        "nameWithOwner": "benjaminp/six"
                                     }
                                 },
                                 {
@@ -1158,6 +1417,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "samitch/SpokeDartsPublic": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -2213,6 +2485,14 @@
                         "name": "Java"
                     }
                 ]
+            }
+        },
+        "sandialabs/MAPIT": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/MATLAB_PV_LIB": {
@@ -10616,6 +10896,19 @@
             }
         },
         "sstsimulator/sst-macro": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sstsimulator/sst-tutorials": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
