@@ -11,14 +11,12 @@ layout: info
 
 **Collaboration fuels our culture.**
 
-Welcome to the Sandia National Laboratories software portal&mdash;a hub for open source software produced at the Lab.
+Welcome to the Sandia National Laboratories software portal&mdash;a hub for GitHub-hosted open source software produced at the Lab.
 
 
 ### Contact
 
-If you have any questions, please don't hesitate to contact [Wade Burgess](mailto:pwburge@sandia.gov).
-
-You can also find us on our mailing list: <wg-1424-ops@sandia.gov>
+If you have any questions, please don't hesitate to contact our mailing list: <wg-1424-ops@sandia.gov>
 
 Follow us on Twitter for up-to-date information about the latest developments!
 
