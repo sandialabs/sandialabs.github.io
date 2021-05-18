@@ -8626,7 +8626,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "react-tag-input",
                                     "repository": {
-                                        "nameWithOwner": "prakhar1989/react-tags"
+                                        "nameWithOwner": "ReactTags/react-tags"
                                     }
                                 },
                                 {
@@ -9031,7 +9031,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "react-tag-input",
                                     "repository": {
-                                        "nameWithOwner": "prakhar1989/react-tags"
+                                        "nameWithOwner": "ReactTags/react-tags"
                                     }
                                 },
                                 {
@@ -10907,7 +10907,7 @@
                 ]
             }
         },
-        "sandialabs/watchr-jenkins": {
+        "sandialabs/watchr-core": {
             "dependencyGraphManifests": {
                 "nodes": [
                     {
@@ -10922,16 +10922,23 @@
                                 },
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "de.ruedigermoeller:fst",
+                                    "packageName": "com.sun.mail:javax.mail",
                                     "repository": {
-                                        "nameWithOwner": "RuedigerMoeller/fast-serialization"
+                                        "nameWithOwner": "javaee/javamail"
                                     }
                                 },
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "joda-time:joda-time",
+                                    "packageName": "commons-io:commons-io",
                                     "repository": {
-                                        "nameWithOwner": "JodaOrg/joda-time"
+                                        "nameWithOwner": "apache/commons-io"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
                                     }
                                 },
                                 {
@@ -10950,18 +10957,91 @@
                                 },
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "org.jenkins-ci.plugins:matrix-project",
+                                    "packageName": "org.apache.logging.log4j:log4j-core",
+                                    "repository": {
+                                        "nameWithOwner": "apache/logging-log4j2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.codehaus.mojo:appassembler-maven-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "mojohaus/appassembler"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jacoco:jacoco-maven-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "jacoco/jacoco"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            }
+        },
+        "sandialabs/watchr-jenkins": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "com.google.code.gson:gson",
+                                    "repository": {
+                                        "nameWithOwner": "google/gson"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "commons-io:commons-io",
+                                    "repository": {
+                                        "nameWithOwner": "apache/commons-io"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "gov.sandia.watchr:watchr-core",
                                     "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "org.jenkins-ci.plugins:script-security",
-                                    "repository": null
+                                    "packageName": "org.apache.commons:commons-lang3",
+                                    "repository": {
+                                        "nameWithOwner": "apache/commons-lang"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "org.jenkins-ci.plugins:structs",
-                                    "repository": null
+                                    "packageName": "org.apache.commons:commons-math3",
+                                    "repository": {
+                                        "nameWithOwner": "haidaros/defects4j-math"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jacoco:jacoco-maven-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "jacoco/jacoco"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
