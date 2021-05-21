@@ -312,13 +312,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pyutilib",
-                                    "repository": {
-                                        "nameWithOwner": "PyUtilib/pyutilib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pyyaml",
                                     "repository": {
                                         "nameWithOwner": "yaml/pyyaml"
@@ -1892,6 +1885,19 @@
                 "nodes": []
             }
         },
+        "sandialabs/CPMod": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/CSPlib": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -1962,13 +1968,6 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "jquery",
-                                    "repository": {
-                                        "nameWithOwner": "jquery/jquery"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
                                     "packageName": "karma",
                                     "repository": {
                                         "nameWithOwner": "karma-runner/karma"
@@ -1986,13 +1985,6 @@
                                     "packageName": "karma-firefox-launcher",
                                     "repository": {
                                         "nameWithOwner": "karma-runner/karma-firefox-launcher"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "karma-jquery",
-                                    "repository": {
-                                        "nameWithOwner": "scf2k/karma-jquery"
                                     }
                                 },
                                 {
