@@ -127,9 +127,21 @@
         "topics": null,
         "website": null
     },
-    "SNLComputation/CApp": {
+    "SNLComputation/LCM": {
+        "description": "Laboratory for Computational Mechanics",
+        "name": "SNLComputation/LCM",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/aprepro": {
+        "description": "Non-official standalone aprepro",
+        "name": "SNLComputation/aprepro",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/capp": {
         "description": "A simple, portable package manager for applications",
-        "name": "SNLComputation/CApp",
+        "name": "SNLComputation/capp",
         "topics": [
             "cmake",
             "package-manager",
@@ -137,15 +149,15 @@
         ],
         "website": ""
     },
-    "SNLComputation/LCM": {
-        "description": "Laboratory for Computational Mechanics",
-        "name": "SNLComputation/LCM",
-        "topics": null,
-        "website": null
-    },
     "SNLComputation/compadre": {
         "description": "Compadre (Compatible Particle Discretization and Remap)",
         "name": "SNLComputation/compadre",
+        "topics": null,
+        "website": null
+    },
+    "SNLComputation/exodus": {
+        "description": "Non-official standalone Exodus",
+        "name": "SNLComputation/exodus",
         "topics": null,
         "website": null
     },
@@ -1006,6 +1018,12 @@
         "name": "sandialabs/pyperc",
         "topics": null,
         "website": null
+    },
+    "sandialabs/pyriid": {
+        "description": "Models, synthetic data generation, and visualization for ML-based radioisotope identification.",
+        "name": "sandialabs/pyriid",
+        "topics": null,
+        "website": ""
     },
     "sandialabs/samlab": {
         "description": "Samlab provides a flexible framework for running, storing, and analyzing machine learning experiments.",
