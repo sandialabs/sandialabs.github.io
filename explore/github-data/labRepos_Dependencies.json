@@ -5319,7 +5319,19 @@
         },
         "sandialabs/GeoTessBuilder": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "gnem:geo-tess-java",
+                                    "repository": null
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
