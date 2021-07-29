@@ -4322,7 +4322,71 @@
         },
         "frothga/n2a": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit.ssh.jsch",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit.ui",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jfree:jfreechart",
+                                    "repository": {
+                                        "nameWithOwner": "jfree/jfreechart"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jfree:jfreesvg",
+                                    "repository": {
+                                        "nameWithOwner": "nicolas-f/JFreeSVG"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.slf4j:slf4j-nop",
+                                    "repository": {
+                                        "nameWithOwner": "qos-ch/slf4j"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "systems.uom:systems-common",
+                                    "repository": {
+                                        "nameWithOwner": "unitsofmeasurement/uom-systems"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "systems.uom:systems-quantity",
+                                    "repository": {
+                                        "nameWithOwner": "unitsofmeasurement/uom-systems"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "systems.uom:systems-ucum",
+                                    "repository": {
+                                        "nameWithOwner": "unitsofmeasurement/uom-systems"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -14441,6 +14505,13 @@
                                     "packageName": "d3fc",
                                     "repository": {
                                         "nameWithOwner": "d3fc/d3fc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3fc-webgl",
+                                    "repository": {
+                                        "nameWithOwner": "DevAndyLee/d3fc-webgl"
                                     }
                                 },
                                 {
