@@ -133,6 +133,12 @@
         "topics": null,
         "website": null
     },
+    "SNLComputation/Trilinos": {
+        "description": "Primary repository for the Trilinos Project",
+        "name": "SNLComputation/Trilinos",
+        "topics": null,
+        "website": "https://trilinos.org/"
+    },
     "SNLComputation/aprepro": {
         "description": "Non-official standalone aprepro",
         "name": "SNLComputation/aprepro",
@@ -387,12 +393,6 @@
             "hacktoberfest"
         ],
         "website": ""
-    },
-    "sandialabs/BaseObjects": {
-        "description": "Standard object classes used by multiple GNDD software packages.",
-        "name": "sandialabs/BaseObjects",
-        "topics": null,
-        "website": null
     },
     "sandialabs/Bender": {
         "description": "Seismic ray tracing using the bending algorithm of Um and Thurber (1987) and modified to enforce Snell's Law at velocity discontinuities as described by Zhao et al. (2004).",
@@ -792,6 +792,14 @@
         "name": "sandialabs/alert-triage",
         "topics": null,
         "website": null
+    },
+    "sandialabs/app-infrastructure": {
+        "description": null,
+        "name": "sandialabs/app-infrastructure",
+        "topics": [
+            "app-infrastructure"
+        ],
+        "website": ""
     },
     "sandialabs/avatar": {
         "description": "The Avatar Tools codes are an implementation of ensembles specifically for decision trees.",

@@ -319,6 +319,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pywin32",
+                                    "repository": {
+                                        "nameWithOwner": "mhammond/pywin32"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pyyaml",
                                     "repository": {
                                         "nameWithOwner": "yaml/pyyaml"
@@ -3764,6 +3771,19 @@
                 ]
             }
         },
+        "SNLComputation/Trilinos": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "SNLComputation/aprepro": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -4328,6 +4348,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "MAVEN",
+                                    "packageName": "net.java.dev.javacc:javacc",
+                                    "repository": {
+                                        "nameWithOwner": "javacc/javacc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
                                     "packageName": "org.eclipse.jgit:org.eclipse.jgit",
                                     "repository": null
                                 },
@@ -4339,6 +4366,16 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.eclipse.jgit:org.eclipse.jgit.ui",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.eclipse.m2e:lifecycle-mapping",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.javacc.plugin:javacc-maven-plugin",
                                     "repository": null
                                 },
                                 {
@@ -4945,36 +4982,6 @@
                     {
                         "color": "#178600",
                         "name": "C#"
-                    }
-                ]
-            }
-        },
-        "sandialabs/BaseObjects": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:db-table-defs-extended",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:seismic-base-data",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
                     }
                 ]
             }
@@ -8212,6 +8219,14 @@
                         "name": "Python"
                     }
                 ]
+            }
+        },
+        "sandialabs/app-infrastructure": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/avatar": {
