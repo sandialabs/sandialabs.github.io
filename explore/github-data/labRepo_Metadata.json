@@ -157,7 +157,11 @@
         "topics": [
             "cmake",
             "package-manager",
-            "hpc"
+            "hpc",
+            "build-tools",
+            "build-tool",
+            "sandia-national-laboratories",
+            "snl-build-tools"
         ],
         "website": ""
     },
@@ -180,7 +184,9 @@
             "hpc",
             "gpu",
             "cuda",
-            "physics"
+            "physics",
+            "sandia-national-laboratories",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -192,8 +198,6 @@
             "cuda",
             "meshing",
             "mesh-generation",
-            "finite-elements",
-            "c-plus-plus",
             "parallel-computing",
             "cmake",
             "hpc",
@@ -206,7 +210,8 @@
             "mesh",
             "geometry",
             "cpp14",
-            "c-plus-plus-14"
+            "sandia-national-laboratories",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -214,7 +219,6 @@
         "description": "Portably Performant Physical Algebra",
         "name": "SNLComputation/p3a",
         "topics": [
-            "c-plus-plus",
             "cpp",
             "cpp17-library",
             "cpp17",
@@ -228,11 +232,10 @@
             "gpgpu",
             "vector",
             "hip",
-            "intel",
             "nvidia-cuda",
-            "nvidia",
-            "amd",
-            "amd-gpu"
+            "amd-gpu",
+            "sandia-national-laboratories",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -246,15 +249,12 @@
             "parser-library",
             "cpp",
             "cpp17",
-            "c-plus-plus",
-            "c-plus-plus-17",
             "context-free-grammar",
             "regular-expression",
-            "regular-expressions",
             "lalr-parser-generator",
-            "lalr1",
-            "lalr-grammar",
-            "cmake"
+            "cmake",
+            "sandia-national-laboratories",
+            "snl-comp-science-libs"
         ],
         "website": ""
     },
@@ -809,7 +809,8 @@
         "description": null,
         "name": "sandialabs/app-infrastructure",
         "topics": [
-            "app-infrastructure"
+            "app-infrastructure",
+            "wade"
         ],
         "website": ""
     },
