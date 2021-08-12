@@ -3771,19 +3771,6 @@
                 ]
             }
         },
-        "SNLComputation/LCM": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "SNLComputation/Trilinos": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -5185,19 +5172,6 @@
                 ]
             }
         },
-        "sandialabs/CausalFS": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "sandialabs/Chaco": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -5840,6 +5814,19 @@
                     {
                         "color": "#0298c3",
                         "name": "Perl"
+                    }
+                ]
+            }
+        },
+        "sandialabs/LCM": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -9683,9 +9670,7 @@
                                 {
                                     "packageManager": "NUGET",
                                     "packageName": "Dragablz",
-                                    "repository": {
-                                        "nameWithOwner": "egorozh/Egorozh.Dragablz"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NUGET",
