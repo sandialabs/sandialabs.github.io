@@ -1786,6 +1786,22 @@
                 "login": "apache"
             }
         },
+        "apache/logging-log4j2": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "logging-log4j2",
+            "nameWithOwner": "apache/logging-log4j2",
+            "owner": {
+                "isVerified": true,
+                "login": "apache"
+            }
+        },
         "apache/maven-plugins": {
             "languages": {
                 "nodes": [
@@ -5157,6 +5173,22 @@
                 "login": "javacc"
             }
         },
+        "javaee/javamail": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "javamail",
+            "nameWithOwner": "javaee/javamail",
+            "owner": {
+                "isVerified": false,
+                "login": "javaee"
+            }
+        },
         "javaee/jaxb-spec": {
             "languages": {
                 "nodes": [
@@ -7045,6 +7077,22 @@
                 "login": "mockito"
             }
         },
+        "mojohaus/appassembler": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "appassembler",
+            "nameWithOwner": "mojohaus/appassembler",
+            "owner": {
+                "isVerified": false,
+                "login": "mojohaus"
+            }
+        },
         "mojohaus/cobertura-maven-plugin": {
             "languages": {
                 "nodes": [
@@ -8409,21 +8457,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "qunitjs"
-            }
-        },
-        "raccoonmonk/pyside2": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pyside2",
-            "nameWithOwner": "raccoonmonk/pyside2",
-            "owner": {
-                "login": "raccoonmonk"
             }
         },
         "ramda/ramda": {
