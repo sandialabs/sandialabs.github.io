@@ -5199,19 +5199,6 @@
                 "nodes": []
             }
         },
-        "sandialabs/CPMod": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "sandialabs/CSPlib": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -12709,6 +12696,13 @@
                                     "packageName": "jekyll-sitemap",
                                     "repository": {
                                         "nameWithOwner": "jekyll/jekyll-sitemap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "webrick",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/webrick"
                                     }
                                 }
                             ]
