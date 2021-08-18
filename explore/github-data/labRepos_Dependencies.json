@@ -3799,19 +3799,6 @@
                 ]
             }
         },
-        "SNLComputation/capp": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#DA3434",
-                        "name": "CMake"
-                    }
-                ]
-            }
-        },
         "SNLComputation/compadre": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -3879,46 +3866,7 @@
                 ]
             }
         },
-        "SNLComputation/lgrtk": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "SNLComputation/omega_h": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
-        "SNLComputation/p3a": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
-        "SNLComputation/parsegen-cpp": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -6063,6 +6011,61 @@
                     {
                         "color": "#b07219",
                         "name": "Java"
+                    }
+                ]
+            }
+        },
+        "sandialabs/MAPIT": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "python-pillow/Pillow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyside2",
+                                    "repository": {
+                                        "nameWithOwner": "raccoonmonk/pyside2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -8544,6 +8547,19 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "sandialabs/capp": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
                     }
                 ]
             }
@@ -11154,6 +11170,19 @@
                 ]
             }
         },
+        "sandialabs/lgrtk": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/limeext": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -11322,6 +11351,19 @@
                 ]
             }
         },
+        "sandialabs/p3a": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/packet2vec": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -11395,6 +11437,19 @@
                         }
                     }
                 ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/parsegen-cpp": {
+            "dependencyGraphManifests": {
+                "nodes": []
             },
             "languages": {
                 "nodes": [

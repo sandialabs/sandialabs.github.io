@@ -106,7 +106,13 @@
     "Pyomo/pyomo": {
         "description": "An object-oriented algebraic modeling language in Python for structured optimization problems.",
         "name": "Pyomo/pyomo",
-        "topics": null,
+        "topics": [
+            "python",
+            "optimization",
+            "snl-data-analysis",
+            "snl-applications",
+            "snl-science-libs"
+        ],
         "website": "https://www.pyomo.org"
     },
     "Qthreads/qthreads": {
@@ -145,20 +151,6 @@
         "topics": null,
         "website": null
     },
-    "SNLComputation/capp": {
-        "description": "A simple, portable package manager for applications",
-        "name": "SNLComputation/capp",
-        "topics": [
-            "cmake",
-            "package-manager",
-            "hpc",
-            "build-tools",
-            "build-tool",
-            "sandia-national-laboratories",
-            "snl-build-tools"
-        ],
-        "website": ""
-    },
     "SNLComputation/compadre": {
         "description": "Compadre (Compatible Particle Discretization and Remap)",
         "name": "SNLComputation/compadre",
@@ -170,19 +162,6 @@
         "name": "SNLComputation/exodus",
         "topics": null,
         "website": null
-    },
-    "SNLComputation/lgrtk": {
-        "description": "Tool Kit for Lagrangian Grid Reconnection",
-        "name": "SNLComputation/lgrtk",
-        "topics": [
-            "hpc",
-            "gpu",
-            "cuda",
-            "physics",
-            "sandia-national-laboratories",
-            "snl-applications"
-        ],
-        "website": ""
     },
     "SNLComputation/omega_h": {
         "description": "Simplex mesh adaptivity for HPC",
@@ -206,49 +185,6 @@
             "cpp14",
             "sandia-national-laboratories",
             "snl-science-libs"
-        ],
-        "website": ""
-    },
-    "SNLComputation/p3a": {
-        "description": "Portably Performant Physical Algebra",
-        "name": "SNLComputation/p3a",
-        "topics": [
-            "cpp",
-            "cpp17-library",
-            "cpp17",
-            "hpc",
-            "hpc-tools",
-            "cuda",
-            "avx512",
-            "avx-512",
-            "cmake",
-            "simd",
-            "gpgpu",
-            "vector",
-            "hip",
-            "nvidia-cuda",
-            "amd-gpu",
-            "sandia-national-laboratories",
-            "snl-science-libs"
-        ],
-        "website": ""
-    },
-    "SNLComputation/parsegen-cpp": {
-        "description": "A C++17 library for parser generation for LALR(1) languages",
-        "name": "SNLComputation/parsegen-cpp",
-        "topics": [
-            "parse",
-            "parser-generator",
-            "parser",
-            "parser-library",
-            "cpp",
-            "cpp17",
-            "context-free-grammar",
-            "regular-expression",
-            "lalr-parser-generator",
-            "cmake",
-            "sandia-national-laboratories",
-            "snl-comp-science-libs"
         ],
         "website": ""
     },
@@ -856,6 +792,20 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/capp": {
+        "description": "A simple, portable package manager for applications",
+        "name": "sandialabs/capp",
+        "topics": [
+            "cmake",
+            "package-manager",
+            "hpc",
+            "build-tools",
+            "build-tool",
+            "sandia-national-laboratories",
+            "snl-build-tools"
+        ],
+        "website": ""
+    },
     "sandialabs/chama": {
         "description": "Python package for sensor placement optimization",
         "name": "sandialabs/chama",
@@ -962,6 +912,19 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/lgrtk": {
+        "description": "Tool Kit for Lagrangian Grid Reconnection",
+        "name": "sandialabs/lgrtk",
+        "topics": [
+            "hpc",
+            "gpu",
+            "cuda",
+            "physics",
+            "sandia-national-laboratories",
+            "snl-applications"
+        ],
+        "website": ""
+    },
     "sandialabs/limeext": {
         "description": "Lightweight Integrating Multiphysics Environment for coupling codes",
         "name": "sandialabs/limeext",
@@ -1004,11 +967,54 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/p3a": {
+        "description": "Portably Performant Physical Algebra",
+        "name": "sandialabs/p3a",
+        "topics": [
+            "cpp",
+            "cpp17-library",
+            "cpp17",
+            "hpc",
+            "hpc-tools",
+            "cuda",
+            "avx512",
+            "avx-512",
+            "cmake",
+            "simd",
+            "gpgpu",
+            "vector",
+            "hip",
+            "nvidia-cuda",
+            "amd-gpu",
+            "sandia-national-laboratories",
+            "snl-science-libs"
+        ],
+        "website": ""
+    },
     "sandialabs/packet2vec": {
         "description": "Word2Vec embeddings over packet capture data n-grams.",
         "name": "sandialabs/packet2vec",
         "topics": null,
         "website": null
+    },
+    "sandialabs/parsegen-cpp": {
+        "description": "A C++17 library for parser generation for LALR(1) languages",
+        "name": "sandialabs/parsegen-cpp",
+        "topics": [
+            "parse",
+            "parser-generator",
+            "parser",
+            "parser-library",
+            "cpp",
+            "cpp17",
+            "context-free-grammar",
+            "regular-expression",
+            "lalr-parser-generator",
+            "cmake",
+            "sandia-national-laboratories",
+            "snl-comp-science-libs"
+        ],
+        "website": ""
     },
     "sandialabs/pecos": {
         "description": "Python package for performance monitoring of time series data",
