@@ -4,7 +4,7 @@ angular.module('app', []).controller('gitHubDataController', [
     '$window',
     '$location',
     function($scope, $http, $window, $location) {
-        var getCategoryInfo = $http.get('/category/category_info.json', {
+        var getCategoryInfo = $http.get('../category/category_info.json', {
             cache: true
         });
 
@@ -82,6 +82,19 @@ angular.module('app', []).controller('gitHubDataController', [
                 topics: []
             };
             $scope.catData.unshift(complete);
+
+            var other = {
+                title: 'OTHER',
+                icon: {
+                    path: '/assets/images/other_sandia.svg',
+                    alt: 'Other'
+                },
+                description: 'Other software packages',
+                displayTitle: 'Other',
+                topics: ['snl-other']
+            };
+
+            $scope.catData.push(other);
 
             var catTitle = $location.path().slice(1);
 
