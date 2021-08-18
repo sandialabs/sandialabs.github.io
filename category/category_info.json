@@ -6,32 +6,31 @@
                 "path": "/assets/images/build-tools_sandia.svg",
                 "alt": "Build Tools"
             },
-            "description": "Automate and simplify complex dependencies and deployments",
+            "description": "Manage dependencies and create libraries and executables",
             "topics": [
-                "build-tools"
+                "snl-build-tools"
             ]
         },
-        "MATH & PHYSICS LIBRARIES": {
-            "title": "MATH & PHYSICS LIBRARIES",
+        "SCIENTIFIC LIBRARIES": {
+            "title": "SCIENTIFIC LIBRARIES",
             "icon": {
                 "path": "/assets/images/math_sandia.svg",
-                "alt": "Math & Physics Libraries"
+                "alt": "Scientific Libraries"
             },
-            "description": "Optimize solvers, higher order methods, and AMR frameworks",
+            "description": "Floating-point computation tools and linear solvers ",
             "topics": [
-                "math-physics"
+                "snl-science-libs"
             ]
         },
-        "DATA MANAGEMENT & VIZ": {
-            "title": "DATA MANAGEMENT & VIZ",
+        "VISUALIZATION": {
+            "title": "VISUALIZATION",
             "icon": {
                 "path": "/assets/images/data-manage_sandia.svg",
-                "alt": "Data Management & Visualization"
+                "alt": "Visualization"
             },
-            "description": "Manage visualizations with robust features and configurable analysis",
+            "description": "Manage visualizations",
             "topics": [
-                "data-management",
-                "data-viz"
+                "snl-visualization"
             ]
         },
         "APPLICATIONS": {
@@ -40,43 +39,42 @@
                 "path": "/assets/images/application_sandia.svg",
                 "alt": "Applications"
             },
-            "description": "Browse scientific simulation codes and IT management tools",
+            "description": "Executable scripts or codes that provide solutions, eg. Simulations, real time computing/data acquisition, etc.",
             "topics": [
-                "application"
+                "snl-applications"
             ]
         },
-        "PROXY APPLICATIONS": {
-            "title": "PROXY APPLICATIONS",
+        "CYBER SECURITY": {
+            "title": "CYBER SECURITY",
             "icon": {
-                "path": "/assets/images/prox-app_sandia.svg",
-                "alt": "Proxy Applications"
+                "path": "/assets/images/cyber-security_sandia.svg",
+                "alt": "Cyber Security"
             },
-            "description": "Prepare for testing and porting applications",
+            "description": "Cyber security tools",
             "topics": [
-                "proxy-application"
+                "snl-cyber-sec"
             ]
         },
-        "SYSTEM SOFTWARE": {
-            "title": "SYSTEM SOFTWARE",
+        "OS & SYSTEM SOFTWARE": {
+            "title": "OS & SYSTEM SOFTWARE",
             "icon": {
                 "path": "/assets/images/system-software_sandia.svg",
-                "alt": "Systems Software"
+                "alt": "Operating Systems & Systems Software"
             },
-            "description": "Manage laptop and desktop computer systems, HPC clusters, and parallel environments",
+            "description": "Manage laptop and desktop computer systems, HPC clusters, schedulers, drivers etc.",
             "topics": [
-                "system-software"
+                "snl-os-sys-software"
             ]
         },
-        "PORTABLE EXECUTION & MEMORY MGMT": {
-            "title": "PORTABLE EXECUTION & MEMORY MGMT",
+        "DATA ANALYSIS & MACHINE LEARNING": {
+            "title": "DATA ANALYSIS & MACHINE LEARNING",
             "icon": {
-                "path": "/assets/images/portable-data_sandia.svg",
-                "alt": "Portable Execution & Memory Management "
+                "path": "/assets/images/data-analysis-ML_sandia.svg",
+                "alt": "Data Analysis and Machine Learning"
             },
-            "description": "Automate data motion and memory allocation on advanced architectures",
+            "description": "Access and analyze your data including machine learning, AI, deep learning, regression, etc.",
             "topics": [
-                "portability",
-                "memory-management"
+                "snl-data-analysis"
             ]
         },
         "PERFORMANCE & WORKFLOW": {
@@ -87,30 +85,62 @@
             },
             "description": "Manage and scale complex workflows, tracking, and data collection",
             "topics": [
-                "performance",
-                "workflows"
+                "snl-performance-workflow"
             ]
         },
-        "FILE SYSTEMS": {
-            "title": "FILE SYSTEMS",
+        "COMPUTER SCIENCE LIBRARIES": {
+            "title": "COMPUTER SCIENCE LIBRARIES",
             "icon": {
-                "path": "/assets/images/file-systems_sandia.svg",
-                "alt": "File Systems"
+                "path": "/assets/images/computer-science-libraries_sandia.svg",
+                "alt": "Computer Science Libraries"
             },
-            "description": "Configure data storage and retrieval for more efficient workloads",
+            "description": "File parsers and other libraries not focused on floating-point computation",
             "topics": [
-                "file-system"
+                "snl-comp-science-libs"
             ]
         },
-        "APP INFRASTRUCTURE": {
-            "title": "APP INFRASTRUCTURE",
+        "PROGRAMMING MODELS & RUNTIMES": {
+            "title": "PROGRAMMING MODELS & RUNTIMES",
             "icon": {
                 "path": "/assets/images/app-infrastructure_sandia.svg",
-                "alt": "App Infrastructure"
+                "alt": "Programming Models and Runtimes"
             },
-            "description": "Browse tools for basic functionality common in HPC codes",
+            "description": "Programming models and runtimes",
             "topics":[
-                "app-infrastructure"
+                "snl-prog-models-runtimes"
+            ]
+        },
+        "MINI-APPS": {
+            "title": "MINI-APPS",
+            "icon": {
+                "path": "/assets/images/placeholder.svg",
+                "alt": "Mini Applications"
+            },
+            "description": "Small executables with kernels that model the performance of real world apps",
+            "topics": [
+                "snl-mini-apps"
+            ]
+        },
+        "QUANTUM COMPUTING": {
+            "title": "QUANTUM COMPUTING",
+            "icon": {
+                "path": "/assets/images/mini-apps_sandia.svg",
+                "alt": "Quatum Computing"
+            },
+            "description": "Software and algorithms for quantum computers",
+            "topics": [
+                "snl-quantum-computing"
+            ]
+        },
+        "OTHER": {
+            "title": "OTHER",
+            "icon": {
+                "path": "/assets/images/other_sandia.svg",
+                "alt": "Other"
+            },
+            "description": "Other software packages",
+            "topics": [
+                "snl-other"
             ]
         }
     }
