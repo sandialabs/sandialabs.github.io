@@ -5199,6 +5199,19 @@
                 "nodes": []
             }
         },
+        "sandialabs/CPMod": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/CSPlib": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -5252,89 +5265,6 @@
             },
             "languages": {
                 "nodes": []
-            }
-        },
-        "sandialabs/Chordly": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "copyfiles",
-                                    "repository": {
-                                        "nameWithOwner": "calvinmetcalf/copyfiles"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "karma",
-                                    "repository": {
-                                        "nameWithOwner": "karma-runner/karma"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "karma-chrome-launcher",
-                                    "repository": {
-                                        "nameWithOwner": "karma-runner/karma-chrome-launcher"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "karma-firefox-launcher",
-                                    "repository": {
-                                        "nameWithOwner": "karma-runner/karma-firefox-launcher"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "karma-qunit",
-                                    "repository": {
-                                        "nameWithOwner": "karma-runner/karma-qunit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "karma-trx-reporter",
-                                    "repository": {
-                                        "nameWithOwner": "hatchteam/karma-trx-reporter"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "qunit",
-                                    "repository": {
-                                        "nameWithOwner": "qunitjs/qunit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "rimraf",
-                                    "repository": {
-                                        "nameWithOwner": "isaacs/rimraf"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "uglify-js",
-                                    "repository": {
-                                        "nameWithOwner": "mishoo/UglifyJS"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
             }
         },
         "sandialabs/DbTableDefs": {
