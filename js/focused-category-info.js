@@ -47,16 +47,6 @@ angular.module('app', []).controller('gitHubDataController', [
             return false;
         }
 
-        function titleCase(str) {
-            return str
-                .toLowerCase()
-                .split(' ')
-                .map(function(word) {
-                    return word.charAt(0).toUpperCase() + word.slice(1);
-                })
-                .join(' ');
-        }
-
         $scope.orderProp = '-stars';
 
         $scope.showHamburger = false;
@@ -67,7 +57,7 @@ angular.module('app', []).controller('gitHubDataController', [
             $scope.catData = [];
             angular.forEach($scope.cats, function(value, key) {
                 var data = catsObj[value];
-                data['displayTitle'] = titleCase(data.title);
+                data['displayTitle'] = data.icon.alt;
                 $scope.catData.push(data);
             });
             $scope.catData = sortAlphabetically($scope.catData, 'title');
