@@ -1,13 +1,4 @@
 app.service('Category', function() {
-    //sort by alphabetical key
-    this.sortAlphabetically = function(array, key) {
-        return array.sort(function(a, b) {
-            var x = a[key].toLowerCase();
-            var y = b[key].toLowerCase();
-            return x < y ? -1 : x > y ? 1 : 0;
-        });
-    };
-
     //sort repos in descending order of stars
     this.sortStars = function(array, key) {
         return array.sort(function(a, b) {
@@ -21,16 +12,6 @@ app.service('Category', function() {
     this.containsTopics = function(catTopics, repoTopics) {
         for (var i = 0; i < catTopics.length; i++) {
             if ($.inArray(catTopics[i], repoTopics) != -1) {
-                return true;
-            }
-        }
-        return false;
-    };
-
-    //check if repo is tagged as "radiuss" as well as one of the categories
-    this.containsRadiussTopics = function(catTopics, repoTopics) {
-        for (var i = 0; i < catTopics.length; i++) {
-            if ($.inArray(catTopics[i], repoTopics) != -1 && $.inArray('radiuss', repoTopics) != -1) {
                 return true;
             }
         }

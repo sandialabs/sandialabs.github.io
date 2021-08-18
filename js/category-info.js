@@ -15,6 +15,15 @@ app.controller('gitHubDataController', function($scope, $http, $window, Category
         cache: true
     });
 
+    //sort by alphabetical key
+    function sortAlphabetically(array, key) {
+        return array.sort(function(a, b) {
+            var x = a[key].toLowerCase();
+            var y = b[key].toLowerCase();
+            return x < y ? -1 : x > y ? 1 : 0;
+        });
+    }
+
     getCategoryInfo.then(function(response) {
         var catsObj = response.data.data;
         $scope.cats = Object.keys(catsObj);
@@ -24,7 +33,20 @@ app.controller('gitHubDataController', function($scope, $http, $window, Category
             $scope.catData.push(data);
         });
 
-        $scope.catdata = Category.sortAlphabetically($scope.catData, 'title');
+        $scope.catData = sortAlphabetically($scope.catData, 'title');
+
+        var other = {
+            title: 'OTHER',
+            icon: {
+                path: '/assets/images/other_sandia.svg',
+                alt: 'Other'
+            },
+            description: 'Other software packages',
+            displayTitle: 'Other',
+            topics: ['snl-other']
+        };
+
+        $scope.catData.push(other);
 
         getReposTopics.then(function(response) {
             var reposObj = response.data.data;
