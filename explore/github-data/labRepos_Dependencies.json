@@ -440,6 +440,61 @@
                 ]
             }
         },
+        "Parapint/parapint": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mpi4py",
+                                    "repository": {
+                                        "nameWithOwner": "mpi4py/mpi4py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyomo",
+                                    "repository": {
+                                        "nameWithOwner": "Pyomo/pyomo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyutilib",
+                                    "repository": {
+                                        "nameWithOwner": "PyUtilib/pyutilib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "Pressio/pressio": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -5000,43 +5055,6 @@
                 ]
             }
         },
-        "sandialabs/Bender": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:base-objects",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:geo-tess-java",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "jfree:jfreechart",
-                                    "repository": {
-                                        "nameWithOwner": "sungjma/JFreeChart"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
         "sandialabs/BioCompoundML": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -5290,75 +5308,6 @@
                 ]
             }
         },
-        "sandialabs/DbTableDefs": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem.jars:ojdbc7",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "junit:junit",
-                                    "repository": {
-                                        "nameWithOwner": "junit-team/junit4"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
-        "sandialabs/DbTableDefsExtended": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:db-table-defs",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:utils",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "junit:junit",
-                                    "repository": {
-                                        "nameWithOwner": "junit-team/junit4"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
         "sandialabs/Easee": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -5413,31 +5362,6 @@
                 ]
             }
         },
-        "sandialabs/GeoTessBuilder": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:geo-tess-java",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
         "sandialabs/GeoTessCPP": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -5451,62 +5375,12 @@
                 ]
             }
         },
-        "sandialabs/GeoTessGMP": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:base-objects",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:geo-tess-java",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
         "sandialabs/GeoTessJava": {
             "dependencyGraphManifests": {
                 "nodes": [
                     {
                         "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:utils",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "junit:junit",
-                                    "repository": {
-                                        "nameWithOwner": "junit-team/junit4"
-                                    }
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
-                                    }
-                                }
-                            ]
+                            "nodes": []
                         }
                     }
                 ]
@@ -5725,31 +5599,6 @@
                 ]
             }
         },
-        "sandialabs/InfrasoundPredictor": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:base-objects",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
         "sandialabs/InterSpec": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -5858,36 +5707,6 @@
                 ]
             }
         },
-        "sandialabs/LibCorr3dGMP": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:base-objects",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:geo-tess-java",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
         "sandialabs/LocOO3D": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -5896,50 +5715,15 @@
                             "nodes": [
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "gnem:geo-tess-gmp",
+                                    "packageName": "gnem.jars:ojdbc7",
                                     "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "gnem:predictor-factory",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gov.sandia.gmp:parallel-utils",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.apache.maven.plugins:maven-source-plugin",
+                                    "packageName": "jfree:jfreechart",
                                     "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
+                                        "nameWithOwner": "sungjma/JFreeChart"
                                     }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
-        "sandialabs/LookupTablesDz": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:lib-corr3d-gmp",
-                                    "repository": null
                                 }
                             ]
                         }
@@ -6265,14 +6049,38 @@
                             "nodes": [
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "gnem:predictor-factory",
+                                    "packageName": "com.sun.xml.bind:jaxb-core",
                                     "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "org.apache.maven.plugins:maven-source-plugin",
+                                    "packageName": "com.sun.xml.bind:jaxb-impl",
                                     "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
+                                        "nameWithOwner": "javagems/jaxb-impl"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "gnem.jars:help4",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "gnem.jars:ojdbc7",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "javax.xml.bind:jaxb-api",
+                                    "repository": {
+                                        "nameWithOwner": "javaee/jaxb-spec"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "jfree:jfreechart",
+                                    "repository": {
+                                        "nameWithOwner": "sungjma/JFreeChart"
                                     }
                                 }
                             ]
@@ -6347,19 +6155,6 @@
                 ]
             }
         },
-        "sandialabs/ParallelUtils": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            }
-        },
         "sandialabs/Peak-Map": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -6423,58 +6218,6 @@
                     {
                         "color": "#178600",
                         "name": "C#"
-                    }
-                ]
-            }
-        },
-        "sandialabs/PredictorFactory": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:bender",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:geo-tess-builder",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:infrasound-predictor",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:lookup-tables-dz",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gov.sandia.gmp:parallel-utils",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "junit:junit",
-                                    "repository": {
-                                        "nameWithOwner": "junit-team/junit4"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
                     }
                 ]
             }
@@ -6649,43 +6392,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "sandialabs/SLBMWrapper": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:lib-corr3d-gmp",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "gnem:slbm-jni",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.apache.maven.plugins:maven-source-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
                     }
                 ]
             }
@@ -7691,19 +7397,6 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
-                    }
-                ]
-            }
-        },
-        "sandialabs/SeismicBaseData": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
                     }
                 ]
             }
@@ -10696,33 +10389,6 @@
                     {
                         "color": "#DA5B0B",
                         "name": "Jupyter Notebook"
-                    }
-                ]
-            }
-        },
-        "sandialabs/gndd_utils": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "junit:junit",
-                                    "repository": {
-                                        "nameWithOwner": "junit-team/junit4"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
                     }
                 ]
             }
@@ -15653,7 +15319,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pypng",
                                     "repository": {
-                                        "nameWithOwner": "drj11/pypng"
+                                        "nameWithOwner": "rossburton/pypng"
                                     }
                                 },
                                 {
