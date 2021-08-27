@@ -151,42 +151,11 @@
         "topics": null,
         "website": null
     },
-    "SNLComputation/compadre": {
-        "description": "Compadre (Compatible Particle Discretization and Remap)",
-        "name": "SNLComputation/compadre",
-        "topics": null,
-        "website": null
-    },
     "SNLComputation/exodus": {
         "description": "Non-official standalone Exodus",
         "name": "SNLComputation/exodus",
         "topics": null,
         "website": null
-    },
-    "SNLComputation/omega_h": {
-        "description": "Simplex mesh adaptivity for HPC",
-        "name": "SNLComputation/omega_h",
-        "topics": [
-            "mpi",
-            "cuda",
-            "meshing",
-            "mesh-generation",
-            "parallel-computing",
-            "cmake",
-            "hpc",
-            "openmp",
-            "cpp",
-            "gpu",
-            "triangulation",
-            "parallel",
-            "parallelism",
-            "mesh",
-            "geometry",
-            "cpp14",
-            "sandia-national-laboratories",
-            "snl-science-libs"
-        ],
-        "website": ""
     },
     "SNLComputation/spack": {
         "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.",
@@ -750,6 +719,12 @@
         "topics": null,
         "website": ""
     },
+    "sandialabs/compadre": {
+        "description": "Compadre (Compatible Particle Discretization and Remap)",
+        "name": "sandialabs/compadre",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/dial-a-cluster": {
         "description": "Dial-a-cluster can be used to perform interactive visualization/clustering of multi-variate time series data. The original version was in Matlab. This is version 2 and is implemented using the Slycat framework.",
         "name": "sandialabs/dial-a-cluster",
@@ -888,6 +863,31 @@
         "name": "sandialabs/miniIsosurface",
         "topics": null,
         "website": null
+    },
+    "sandialabs/omega_h": {
+        "description": "Simplex mesh adaptivity for HPC",
+        "name": "sandialabs/omega_h",
+        "topics": [
+            "mpi",
+            "cuda",
+            "meshing",
+            "mesh-generation",
+            "parallel-computing",
+            "cmake",
+            "hpc",
+            "openmp",
+            "cpp",
+            "gpu",
+            "triangulation",
+            "parallel",
+            "parallelism",
+            "mesh",
+            "geometry",
+            "cpp14",
+            "sandia-national-laboratories",
+            "snl-science-libs"
+        ],
+        "website": ""
     },
     "sandialabs/p3a": {
         "description": "Portably Performant Physical Algebra",

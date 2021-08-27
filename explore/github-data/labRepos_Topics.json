@@ -350,149 +350,10 @@
                 "totalCount": 0
             }
         },
-        "SNLComputation/compadre": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "SNLComputation/exodus": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
-            }
-        },
-        "SNLComputation/omega_h": {
-            "repositoryTopics": {
-                "nodes": [
-                    {
-                        "resourcePath": "/topics/mpi",
-                        "topic": {
-                            "name": "mpi"
-                        },
-                        "url": "https://github.com/topics/mpi"
-                    },
-                    {
-                        "resourcePath": "/topics/cuda",
-                        "topic": {
-                            "name": "cuda"
-                        },
-                        "url": "https://github.com/topics/cuda"
-                    },
-                    {
-                        "resourcePath": "/topics/meshing",
-                        "topic": {
-                            "name": "meshing"
-                        },
-                        "url": "https://github.com/topics/meshing"
-                    },
-                    {
-                        "resourcePath": "/topics/mesh-generation",
-                        "topic": {
-                            "name": "mesh-generation"
-                        },
-                        "url": "https://github.com/topics/mesh-generation"
-                    },
-                    {
-                        "resourcePath": "/topics/parallel-computing",
-                        "topic": {
-                            "name": "parallel-computing"
-                        },
-                        "url": "https://github.com/topics/parallel-computing"
-                    },
-                    {
-                        "resourcePath": "/topics/cmake",
-                        "topic": {
-                            "name": "cmake"
-                        },
-                        "url": "https://github.com/topics/cmake"
-                    },
-                    {
-                        "resourcePath": "/topics/hpc",
-                        "topic": {
-                            "name": "hpc"
-                        },
-                        "url": "https://github.com/topics/hpc"
-                    },
-                    {
-                        "resourcePath": "/topics/openmp",
-                        "topic": {
-                            "name": "openmp"
-                        },
-                        "url": "https://github.com/topics/openmp"
-                    },
-                    {
-                        "resourcePath": "/topics/cpp",
-                        "topic": {
-                            "name": "cpp"
-                        },
-                        "url": "https://github.com/topics/cpp"
-                    },
-                    {
-                        "resourcePath": "/topics/gpu",
-                        "topic": {
-                            "name": "gpu"
-                        },
-                        "url": "https://github.com/topics/gpu"
-                    },
-                    {
-                        "resourcePath": "/topics/triangulation",
-                        "topic": {
-                            "name": "triangulation"
-                        },
-                        "url": "https://github.com/topics/triangulation"
-                    },
-                    {
-                        "resourcePath": "/topics/parallel",
-                        "topic": {
-                            "name": "parallel"
-                        },
-                        "url": "https://github.com/topics/parallel"
-                    },
-                    {
-                        "resourcePath": "/topics/parallelism",
-                        "topic": {
-                            "name": "parallelism"
-                        },
-                        "url": "https://github.com/topics/parallelism"
-                    },
-                    {
-                        "resourcePath": "/topics/mesh",
-                        "topic": {
-                            "name": "mesh"
-                        },
-                        "url": "https://github.com/topics/mesh"
-                    },
-                    {
-                        "resourcePath": "/topics/geometry",
-                        "topic": {
-                            "name": "geometry"
-                        },
-                        "url": "https://github.com/topics/geometry"
-                    },
-                    {
-                        "resourcePath": "/topics/cpp14",
-                        "topic": {
-                            "name": "cpp14"
-                        },
-                        "url": "https://github.com/topics/cpp14"
-                    },
-                    {
-                        "resourcePath": "/topics/sandia-national-laboratories",
-                        "topic": {
-                            "name": "sandia-national-laboratories"
-                        },
-                        "url": "https://github.com/topics/sandia-national-laboratories"
-                    },
-                    {
-                        "resourcePath": "/topics/snl-science-libs",
-                        "topic": {
-                            "name": "snl-science-libs"
-                        },
-                        "url": "https://github.com/topics/snl-science-libs"
-                    }
-                ],
-                "totalCount": 18
             }
         },
         "SNLComputation/spack": {
@@ -1741,6 +1602,12 @@
                 "totalCount": 0
             }
         },
+        "sandialabs/compadre": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "sandialabs/dial-a-cluster": {
             "repositoryTopics": {
                 "nodes": [],
@@ -1914,6 +1781,139 @@
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
+            }
+        },
+        "sandialabs/omega_h": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/mpi",
+                        "topic": {
+                            "name": "mpi"
+                        },
+                        "url": "https://github.com/topics/mpi"
+                    },
+                    {
+                        "resourcePath": "/topics/cuda",
+                        "topic": {
+                            "name": "cuda"
+                        },
+                        "url": "https://github.com/topics/cuda"
+                    },
+                    {
+                        "resourcePath": "/topics/meshing",
+                        "topic": {
+                            "name": "meshing"
+                        },
+                        "url": "https://github.com/topics/meshing"
+                    },
+                    {
+                        "resourcePath": "/topics/mesh-generation",
+                        "topic": {
+                            "name": "mesh-generation"
+                        },
+                        "url": "https://github.com/topics/mesh-generation"
+                    },
+                    {
+                        "resourcePath": "/topics/parallel-computing",
+                        "topic": {
+                            "name": "parallel-computing"
+                        },
+                        "url": "https://github.com/topics/parallel-computing"
+                    },
+                    {
+                        "resourcePath": "/topics/cmake",
+                        "topic": {
+                            "name": "cmake"
+                        },
+                        "url": "https://github.com/topics/cmake"
+                    },
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    },
+                    {
+                        "resourcePath": "/topics/openmp",
+                        "topic": {
+                            "name": "openmp"
+                        },
+                        "url": "https://github.com/topics/openmp"
+                    },
+                    {
+                        "resourcePath": "/topics/cpp",
+                        "topic": {
+                            "name": "cpp"
+                        },
+                        "url": "https://github.com/topics/cpp"
+                    },
+                    {
+                        "resourcePath": "/topics/gpu",
+                        "topic": {
+                            "name": "gpu"
+                        },
+                        "url": "https://github.com/topics/gpu"
+                    },
+                    {
+                        "resourcePath": "/topics/triangulation",
+                        "topic": {
+                            "name": "triangulation"
+                        },
+                        "url": "https://github.com/topics/triangulation"
+                    },
+                    {
+                        "resourcePath": "/topics/parallel",
+                        "topic": {
+                            "name": "parallel"
+                        },
+                        "url": "https://github.com/topics/parallel"
+                    },
+                    {
+                        "resourcePath": "/topics/parallelism",
+                        "topic": {
+                            "name": "parallelism"
+                        },
+                        "url": "https://github.com/topics/parallelism"
+                    },
+                    {
+                        "resourcePath": "/topics/mesh",
+                        "topic": {
+                            "name": "mesh"
+                        },
+                        "url": "https://github.com/topics/mesh"
+                    },
+                    {
+                        "resourcePath": "/topics/geometry",
+                        "topic": {
+                            "name": "geometry"
+                        },
+                        "url": "https://github.com/topics/geometry"
+                    },
+                    {
+                        "resourcePath": "/topics/cpp14",
+                        "topic": {
+                            "name": "cpp14"
+                        },
+                        "url": "https://github.com/topics/cpp14"
+                    },
+                    {
+                        "resourcePath": "/topics/sandia-national-laboratories",
+                        "topic": {
+                            "name": "sandia-national-laboratories"
+                        },
+                        "url": "https://github.com/topics/sandia-national-laboratories"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-science-libs",
+                        "topic": {
+                            "name": "snl-science-libs"
+                        },
+                        "url": "https://github.com/topics/snl-science-libs"
+                    }
+                ],
+                "totalCount": 18
             }
         },
         "sandialabs/p3a": {
