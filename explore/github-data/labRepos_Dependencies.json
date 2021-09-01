@@ -4239,7 +4239,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.eclipse.jgit:org.eclipse.jgit",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "spearce/jgit"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -4249,7 +4251,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.eclipse.jgit:org.eclipse.jgit.ui",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "spearce/jgit"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -5254,6 +5258,73 @@
                 ]
             }
         },
+        "sandialabs/ExTK": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.test-framework",
+                                    "repository": {
+                                        "nameWithOwner": "needle-mirror/com.unity.test-framework"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.ugui",
+                                    "repository": {
+                                        "nameWithOwner": "TobiasPott/com.unity.ugui"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.ext.nunit",
+                                    "repository": {
+                                        "nameWithOwner": "needle-mirror/com.unity.ext.nunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.modules.imgui",
+                                    "repository": {
+                                        "nameWithOwner": "npm/security-holder"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.modules.jsonserialize",
+                                    "repository": {
+                                        "nameWithOwner": "npm/security-holder"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#178600",
+                        "name": "C#"
+                    }
+                ]
+            }
+        },
         "sandialabs/FeatureCreature": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -5894,6 +5965,86 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/MenuFramework": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.MixedReality.Toolkit.Foundation",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/MixedRealityToolkit-Unity"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.test-framework",
+                                    "repository": {
+                                        "nameWithOwner": "needle-mirror/com.unity.test-framework"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.ugui",
+                                    "repository": {
+                                        "nameWithOwner": "TobiasPott/com.unity.ugui"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.ext.nunit",
+                                    "repository": {
+                                        "nameWithOwner": "needle-mirror/com.unity.ext.nunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.modules.imgui",
+                                    "repository": {
+                                        "nameWithOwner": "npm/security-holder"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.modules.jsonserialize",
+                                    "repository": {
+                                        "nameWithOwner": "npm/security-holder"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#178600",
+                        "name": "C#"
                     }
                 ]
             }
@@ -7317,6 +7468,73 @@
                     {
                         "color": "#2b7489",
                         "name": "TypeScript"
+                    }
+                ]
+            }
+        },
+        "sandialabs/STTK": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.test-framework",
+                                    "repository": {
+                                        "nameWithOwner": "needle-mirror/com.unity.test-framework"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.ugui",
+                                    "repository": {
+                                        "nameWithOwner": "TobiasPott/com.unity.ugui"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.ext.nunit",
+                                    "repository": {
+                                        "nameWithOwner": "needle-mirror/com.unity.ext.nunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.modules.imgui",
+                                    "repository": {
+                                        "nameWithOwner": "npm/security-holder"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "com.unity.modules.jsonserialize",
+                                    "repository": {
+                                        "nameWithOwner": "npm/security-holder"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#178600",
+                        "name": "C#"
                     }
                 ]
             }
