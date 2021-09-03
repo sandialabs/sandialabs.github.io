@@ -15093,6 +15093,26 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cherrypy",
+                                    "repository": {
+                                        "nameWithOwner": "cherrypy/cherrypy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
                                         "nameWithOwner": "readthedocs/sphinx_rtd_theme"
@@ -15254,6 +15274,13 @@
                                     "packageName": "pyparsing",
                                     "repository": {
                                         "nameWithOwner": "pyparsing/pyparsing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pysmb",
+                                    "repository": {
+                                        "nameWithOwner": "miketeo/pysmb"
                                     }
                                 },
                                 {
