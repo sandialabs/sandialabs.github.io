@@ -8,8 +8,10 @@
     "E3SM-Project/COMPOSE": {
         "description": "Compact Multi-moment Performance-Portable Semi-Lagrangian methods for non-hydrostatic dynamics",
         "name": "E3SM-Project/COMPOSE",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-science-libs"
+        ],
+        "website": ""
     },
     "E3SM-Project/E3SM": {
         "description": "Energy Exascale Earth System Model source code.",
@@ -19,7 +21,8 @@
             "climate-science",
             "climate",
             "fortran",
-            "e3sm"
+            "e3sm",
+            "snl-applications"
         ],
         "website": "https://e3sm.org"
     },
@@ -54,14 +57,21 @@
             "ecp",
             "finite-elements",
             "solvers",
-            "solver"
+            "solver",
+            "snl-mini-apps"
         ],
         "website": "http://www.mantevo.org"
     },
     "Mantevo/miniMD": {
         "description": "MiniMD Molecular Dynamics Mini-App",
         "name": "Mantevo/miniMD",
-        "topics": null,
+        "topics": [
+            "snl-mini-apps",
+            "molecular-dynamics",
+            "molecular-dynamics-simulation",
+            "mini-app",
+            "mantevo"
+        ],
         "website": "http://www.mantevo.org"
     },
     "PEBBL/pebbl": {
@@ -118,7 +128,9 @@
     "Qthreads/qthreads": {
         "description": "Lightweight locality-aware user-level threading runtime.",
         "name": "Qthreads/qthreads",
-        "topics": null,
+        "topics": [
+            "snl-prog-models-runtimes"
+        ],
         "website": "https://cs.sandia.gov/qthreads/"
     },
     "SNL-GMS/GMS-PI13-OPEN": {
@@ -222,7 +234,8 @@
             "brain",
             "language",
             "neurons",
-            "simulator"
+            "simulator",
+            "snl-prog-models-runtimes"
         ],
         "website": ""
     },
@@ -301,7 +314,7 @@
             "ipv6-network",
             "ipv4-network",
             "c-sharp",
-            "hacktoberfest"
+            "snl-other"
         ],
         "website": ""
     },
@@ -381,7 +394,8 @@
             "keydown",
             "keyup",
             "keypress",
-            "hacktoberfest"
+            "hacktoberfest",
+            "snl-other"
         ],
         "website": ""
     },
@@ -433,7 +447,8 @@
             "little-endian",
             "arcus",
             "c-sharp",
-            "hacktoberfest"
+            "hacktoberfest",
+            "snl-other"
         ],
         "website": ""
     },
@@ -452,7 +467,11 @@
     "sandialabs/InterSpec": {
         "description": "spectral radiation analysis software",
         "name": "sandialabs/InterSpec",
-        "topics": null,
+        "topics": [
+            "snl-applications",
+            "snl-data-analysis",
+            "snl-visualization"
+        ],
         "website": "https://sandialabs.github.io/InterSpec"
     },
     "sandialabs/Juxtaposer": {
@@ -496,6 +515,14 @@
         "name": "sandialabs/MEWS",
         "topics": null,
         "website": null
+    },
+    "sandialabs/MatMCNP": {
+        "description": "A utility code for generating material cards for MCNP",
+        "name": "sandialabs/MatMCNP",
+        "topics": [
+            "snl-applications"
+        ],
+        "website": ""
     },
     "sandialabs/MenuFramework": {
         "description": "This project is a multi-level menu system that provides access to multiple Unity training projects.",
@@ -582,14 +609,18 @@
     "sandialabs/SandiaDecay": {
         "description": "Easy to use C++ library to calculate nuclear decays and emissions ",
         "name": "sandialabs/SandiaDecay",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-other"
+        ],
+        "website": ""
     },
     "sandialabs/SpecUtils": {
         "description": "A library for opening, manipulating, and exporting gamma spectral files",
         "name": "sandialabs/SpecUtils",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-data-analysis"
+        ],
+        "website": ""
     },
     "sandialabs/Spitfire": {
         "description": "Spitfire is a Python/C++ library for constructing tabulated chemistry models and solving differential equations.",
@@ -618,7 +649,11 @@
     "sandialabs/TIGER": {
         "description": "Target / Integrative Genetic Element Retriever: precisely maps IGEs (a defined type of genomic island) in bacterial and archaeal genomes; package also includes orthogonal program Islander",
         "name": "sandialabs/TIGER",
-        "topics": null,
+        "topics": [
+            "snl-other",
+            "bioinformatics",
+            "perl"
+        ],
         "website": ""
     },
     "sandialabs/The-Hybrid-Toolkit": {
@@ -636,8 +671,20 @@
     "sandialabs/UQTk": {
         "description": "Sandia Uncertainty Quantification Toolkit",
         "name": "sandialabs/UQTk",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-data-analysis",
+            "bayesian-inference",
+            "snl-science-libs",
+            "uq",
+            "uncertainty-quantification",
+            "uncertainty-estimation",
+            "uncertainty-propagation",
+            "uncertainty",
+            "mcmc",
+            "mcmc-sampler",
+            "mcmc-methods"
+        ],
+        "website": ""
     },
     "sandialabs/WNTR": {
         "description": "An EPANET compatible python package to simulate and analyze water distribution networks under disaster scenarios.",
@@ -698,8 +745,11 @@
     "sandialabs/bigdna": {
         "description": "BigDNA suggests primers for the long PCRs used in an overlap assembly project (e.g. Gibson assembly)",
         "name": "sandialabs/bigdna",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-other",
+            "bioinformatics"
+        ],
+        "website": ""
     },
     "sandialabs/calibr8": {
         "description": "Material model calibration and error estimation research code",
@@ -710,8 +760,11 @@
     "sandialabs/cambio": {
         "description": "Spectroscopic file conversion tool",
         "name": "sandialabs/cambio",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-applications",
+            "snl-visualization"
+        ],
+        "website": ""
     },
     "sandialabs/capp": {
         "description": "A simple, portable package manager for applications",
@@ -746,8 +799,11 @@
     "sandialabs/compadre": {
         "description": "Compadre (Compatible Particle Discretization and Remap)",
         "name": "sandialabs/compadre",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-comp-science-libs",
+            "snl-data-analysis"
+        ],
+        "website": ""
     },
     "sandialabs/dial-a-cluster": {
         "description": "Dial-a-cluster can be used to perform interactive visualization/clustering of multi-variate time series data. The original version was in Matlab. This is version 2 and is implemented using the Slycat framework.",
@@ -978,7 +1034,12 @@
         "name": "sandialabs/poblano_toolbox",
         "topics": [
             "matlab",
-            "optimization"
+            "optimization",
+            "snl-data-analysis",
+            "snl-science-libs",
+            "snl-applications",
+            "tensor",
+            "decomposition-methods"
         ],
         "website": "https://sandialabs.github.io/poblano_toolbox/"
     },
@@ -1046,7 +1107,11 @@
             "javascript",
             "cyber-security",
             "incident-response",
-            "threat-intelligence"
+            "threat-intelligence",
+            "applications",
+            "snl-cyber-sec",
+            "cybersecurity",
+            "snl-applications"
         ],
         "website": "http://getscot.sandia.gov"
     },
@@ -1181,7 +1246,10 @@
             "mpi",
             "parallel",
             "discrete-event",
-            "simulation-core"
+            "simulation-core",
+            "simulation",
+            "snl-performance-workflow",
+            "snl-other"
         ],
         "website": "http://www.sst-simulator.org"
     },
@@ -1199,7 +1267,10 @@
             "cache-simulator",
             "trace",
             "system-design",
-            "hpc"
+            "hpc",
+            "simulation",
+            "snl-other",
+            "snl-performance-workflow"
         ],
         "website": "http://www.sst-simulator.org"
     },
@@ -1207,7 +1278,10 @@
         "description": "SST Macro Element Library",
         "name": "sstsimulator/sst-macro",
         "topics": [
-            "simulator"
+            "simulator",
+            "simulation",
+            "snl-performance-workflow",
+            "snl-other"
         ],
         "website": "http://sst-simulator.org/"
     },
