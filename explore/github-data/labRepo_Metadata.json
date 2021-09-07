@@ -1,4 +1,10 @@
 {
+    "Cantera/cantera": {
+        "description": "Chemical kinetics, thermodynamics, and transport tool suite",
+        "name": "Cantera/cantera",
+        "topics": null,
+        "website": "https://cantera.org"
+    },
     "Coramin/Coramin": {
         "description": "A collection of tools (classes, functions, etc.) for developing MINLP algorithms",
         "name": "Coramin/Coramin",
@@ -26,6 +32,62 @@
         ],
         "website": "https://e3sm.org"
     },
+    "E3SM-Project/HOMMEXX": {
+        "description": "Clone of ACME for CMDV-SE project to convert HOMME to C++",
+        "name": "E3SM-Project/HOMMEXX",
+        "topics": null,
+        "website": ""
+    },
+    "E3SM-Project/sta-imex": {
+        "description": null,
+        "name": "E3SM-Project/sta-imex",
+        "topics": null,
+        "website": null
+    },
+    "ECP-copa/ExaMiniMD": {
+        "description": null,
+        "name": "ECP-copa/ExaMiniMD",
+        "topics": null,
+        "website": null
+    },
+    "ESMCI/cime": {
+        "description": "Common Infrastructure for Modeling the Earth",
+        "name": "ESMCI/cime",
+        "topics": null,
+        "website": "http://esmci.github.io/cime"
+    },
+    "Exawind/nalu-wind": {
+        "description": "Solver for wind farm simulations targeting exascale computational platforms",
+        "name": "Exawind/nalu-wind",
+        "topics": [
+            "low-mach",
+            "wind-energy",
+            "les",
+            "cfd",
+            "ecp",
+            "exascale-computing",
+            "exawind"
+        ],
+        "website": "https://exawind.org"
+    },
+    "FitSNAP/TestSNAP": {
+        "description": "SNAP Proxy app",
+        "name": "FitSNAP/TestSNAP",
+        "topics": null,
+        "website": null
+    },
+    "HPCGraphAnalysis/HPCGraph": {
+        "description": null,
+        "name": "HPCGraphAnalysis/HPCGraph",
+        "topics": null,
+        "website": null
+    },
+    "HexHive/EPOXY": {
+        "description": "Root Repo for the EPOXY tool that applies Privilege Overlays on bare-metal systems",
+        "name": "HexHive/EPOXY",
+        "topics": null,
+        "website": ""
+    },
     "HobbesOSR/kitten": {
         "description": "Kitten Lightweight Kernel",
         "name": "HobbesOSR/kitten",
@@ -42,11 +104,92 @@
         ],
         "website": "https://idaes-pse.readthedocs.io/"
     },
+    "LauraMatzen/Matrices": {
+        "description": "Contains the matrix generation software and normed matrices described in \"Recreating Raven's: Software for systematically generating large numbers of Raven-like matrix problems with normed properties,\" published in Behavior Research Methods in 2010",
+        "name": "LauraMatzen/Matrices",
+        "topics": null,
+        "website": null
+    },
+    "MHKiT-Software/MHKiT-MATLAB": {
+        "description": "MHKiT-MATLAB provides the marine renewable energy (MRE) community tools for data processing, visualization, quality control, resource assessment, and device performance.",
+        "name": "MHKiT-Software/MHKiT-MATLAB",
+        "topics": [
+            "mhkit-matlab",
+            "mhkit",
+            "marine-renewable-energy",
+            "quality-control",
+            "visualization",
+            "matlab"
+        ],
+        "website": "https://mhkit-software.github.io/MHKiT/"
+    },
+    "MHKiT-Software/MHKiT-Python": {
+        "description": "MHKiT-Python provides the marine renewable energy (MRE) community tools for data processing, visualization, quality control, resource assessment, and device performance.",
+        "name": "MHKiT-Software/MHKiT-Python",
+        "topics": [
+            "mhkit-python",
+            "mhkit",
+            "marine-renewable-energy",
+            "quality-control",
+            "visualization",
+            "python"
+        ],
+        "website": "https://mhkit-software.github.io/MHKiT/"
+    },
+    "Mantevo/CloverLeaf": {
+        "description": "Compressible Euler equations on a Cartesian grid",
+        "name": "Mantevo/CloverLeaf",
+        "topics": null,
+        "website": null
+    },
+    "Mantevo/HPCCG": {
+        "description": "High Performance Computing Conjugate Gradients:  The original Mantevo miniapp",
+        "name": "Mantevo/HPCCG",
+        "topics": null,
+        "website": null
+    },
     "Mantevo/Mantevo": {
         "description": "Core Mantevo Repository containing common resources",
         "name": "Mantevo/Mantevo",
         "topics": null,
         "website": null
+    },
+    "Mantevo/PathFinder": {
+        "description": "PathFinder Graph Search Mini-App",
+        "name": "Mantevo/PathFinder",
+        "topics": [
+            "snl-mini-apps",
+            "mantevo",
+            "mini-app",
+            "graph-algorithms"
+        ],
+        "website": "http://www.mantevo.org"
+    },
+    "Mantevo/mantevo.github.io": {
+        "description": null,
+        "name": "Mantevo/mantevo.github.io",
+        "topics": null,
+        "website": "https://mantevo.github.io"
+    },
+    "Mantevo/miniAMR": {
+        "description": "MiniAMR Adaptive Mesh Refinement (AMR) Mini-App",
+        "name": "Mantevo/miniAMR",
+        "topics": [
+            "mini-apps"
+        ],
+        "website": "http://www.mantevo.org"
+    },
+    "Mantevo/miniAero": {
+        "description": "MiniAero Unstructured Finite Volume Compressible Navier-Stokes Mini-App",
+        "name": "Mantevo/miniAero",
+        "topics": [
+            "snl-mini-apps",
+            "mantevo",
+            "mini-app",
+            "cfd",
+            "computational-fluid-dynamics"
+        ],
+        "website": "http://www.mantevo.org"
     },
     "Mantevo/miniFE": {
         "description": "MiniFE Finite Element Mini-Application",
@@ -62,6 +205,17 @@
         ],
         "website": "http://www.mantevo.org"
     },
+    "Mantevo/miniGhost": {
+        "description": "MiniGhost Halo Exchange Mini-Application",
+        "name": "Mantevo/miniGhost",
+        "topics": [
+            "snl-mini-apps",
+            "mantevo",
+            "mini-app",
+            "communication"
+        ],
+        "website": "http://www.mantevo.org"
+    },
     "Mantevo/miniMD": {
         "description": "MiniMD Molecular Dynamics Mini-App",
         "name": "Mantevo/miniMD",
@@ -74,17 +228,64 @@
         ],
         "website": "http://www.mantevo.org"
     },
+    "Mantevo/miniSMAC": {
+        "description": "MiniSMAC 2D incompressible Navier-Stokes Mini-App",
+        "name": "Mantevo/miniSMAC",
+        "topics": null,
+        "website": "http://www.mantevo.org"
+    },
+    "Mantevo/miniTri": {
+        "description": "miniTri data analytics miniapp",
+        "name": "Mantevo/miniTri",
+        "topics": null,
+        "website": null
+    },
+    "Mantevo/miniXyce": {
+        "description": "miniXyce Circuit Design Mini-Application",
+        "name": "Mantevo/miniXyce",
+        "topics": [
+            "snl-mini-apps",
+            "circuit-simulator",
+            "mini-app",
+            "mantevo"
+        ],
+        "website": "http://www.mantevo.org"
+    },
+    "NimbleSM/NimbleSM": {
+        "description": "Lagrangian finite-element code for solid mechanics on next-generation computing platforms.",
+        "name": "NimbleSM/NimbleSM",
+        "topics": null,
+        "website": ""
+    },
     "PEBBL/pebbl": {
         "description": "Main repository for the PEBBL branch-and-bound library",
         "name": "PEBBL/pebbl",
         "topics": null,
         "website": null
     },
+    "PECOS-packages/PECOS": {
+        "description": "A Python framework, library, and set of tools for exploring, developing, and evaluating quantum error-correction protocols.",
+        "name": "PECOS-packages/PECOS",
+        "topics": null,
+        "website": ""
+    },
     "Parapint/parapint": {
         "description": "Parallel solution of structured nonlinear programs",
         "name": "Parapint/parapint",
         "topics": null,
         "website": null
+    },
+    "PerceptTools/percept": {
+        "description": "Parallel mesh refinement and adaptivity tools for the finite element method.",
+        "name": "PerceptTools/percept",
+        "topics": null,
+        "website": null
+    },
+    "Portals4/portals4": {
+        "description": "Portals is a low-level network API for high-performance networking on high-performance computing systems developed by Sandia National Laboratories, Intel Corporation, and the University of New Mexico.  The Portals 4 Reference Implementation is a complete implementation of Portals 4, with transport over InfiniBand VERBS and UDP. Shared memory transport is available as an optimization, including Linux KNEM support. The Portals 4 reference implementation is supported on both modern 64 bit Linux and 64 bit Mac OS X. The reference implementation has been developed by Sandia National Laboratories, Intel Corporation, and System Fabric Works.  For more information on the Portals 4 standard, please see the Portals 4 page. ",
+        "name": "Portals4/portals4",
+        "topics": null,
+        "website": "http://www.cs.sandia.gov/Portals/portals4.html"
     },
     "Pressio/pressio": {
         "description": "Model reduction for linear and nonlinear dynamical systems: core C++ library",
@@ -113,6 +314,16 @@
         "topics": null,
         "website": "http://pyproveit.org"
     },
+    "PyUtilib/pyutilib": {
+        "description": "A collection of general Python utilities, including logging and file IO, subprocess management, plugin systems, and workflow management.",
+        "name": "PyUtilib/pyutilib",
+        "topics": [
+            "pyomo",
+            "pypi",
+            "codecov"
+        ],
+        "website": ""
+    },
     "Pyomo/pyomo": {
         "description": "An object-oriented algebraic modeling language in Python for structured optimization problems.",
         "name": "Pyomo/pyomo",
@@ -133,6 +344,24 @@
         ],
         "website": "https://cs.sandia.gov/qthreads/"
     },
+    "Rapid-Design-of-Systems-Laboratory/beluga": {
+        "description": "General purpose indirect trajectory optimization",
+        "name": "Rapid-Design-of-Systems-Laboratory/beluga",
+        "topics": null,
+        "website": ""
+    },
+    "SMASHtoolbox/SDAlibrary": {
+        "description": "Sandia Data Archive (SDA) library for MATLAB, python, and other languages",
+        "name": "SMASHtoolbox/SDAlibrary",
+        "topics": null,
+        "website": null
+    },
+    "SMASHtoolbox/release": {
+        "description": "Version 1.0 of the SMASH toolbox",
+        "name": "SMASHtoolbox/release",
+        "topics": null,
+        "website": ""
+    },
     "SNL-GMS/GMS-PI13-OPEN": {
         "description": "GMS PI13 open source release",
         "name": "SNL-GMS/GMS-PI13-OPEN",
@@ -144,6 +373,95 @@
         "name": "SNL-GMS/GMS-PI7-OPEN",
         "topics": null,
         "website": ""
+    },
+    "SNL-NERL/Whetstone": {
+        "description": null,
+        "name": "SNL-NERL/Whetstone",
+        "topics": null,
+        "website": null
+    },
+    "SNL-WaterPower/CACTUS": {
+        "description": "CACTUS (Code for Axial and Cross-flow TUrbine Simulation) is a turbine performance simulation code, based on a free wake vortex method, to study wind turbines and marine hydrokinetic (MHK) devices. ",
+        "name": "SNL-WaterPower/CACTUS",
+        "topics": null,
+        "website": ""
+    },
+    "SNL-WaterPower/CACTUS-tools": {
+        "description": "Tools for preprocessing (geometry generation) and post-processing of CACTUS (Code for Axial and Cross-flow TUrbine Simulation) results. ",
+        "name": "SNL-WaterPower/CACTUS-tools",
+        "topics": null,
+        "website": "http://snl-waterpower.github.io/CACTUS-tools/"
+    },
+    "SNL-WaterPower/Paracousti": {
+        "description": "Paracousti is an underwater sound propagation tool used to investigate changes to the marine environment from arrays of current- and wave-energy converters. Paracousti solves the governing equations with a finite-difference, time-domain scheme that can be massively parallelized for use on high performance computing clusters.",
+        "name": "SNL-WaterPower/Paracousti",
+        "topics": null,
+        "website": "https://snl-waterpower.github.io/Paracousti/"
+    },
+    "SNL-WaterPower/SNL-Delft3D-CEC": {
+        "description": null,
+        "name": "SNL-WaterPower/SNL-Delft3D-CEC",
+        "topics": null,
+        "website": null
+    },
+    "SNL-WaterPower/SNL-Delft3D-FM-CEC": {
+        "description": null,
+        "name": "SNL-WaterPower/SNL-Delft3D-FM-CEC",
+        "topics": null,
+        "website": null
+    },
+    "SNL-WaterPower/SNL-ESSC": {
+        "description": "Sandia National Laboratories - Extreme Sea State Contour",
+        "name": "SNL-WaterPower/SNL-ESSC",
+        "topics": [
+            "inverse-form",
+            "principal-component-analysis",
+            "environmental-contours",
+            "extreme-sea-state-characterization"
+        ],
+        "website": ""
+    },
+    "SNL-WaterPower/SNL-SWAN": {
+        "description": "SNL-SWAN",
+        "name": "SNL-WaterPower/SNL-SWAN",
+        "topics": null,
+        "website": "http://snl-waterpower.github.io/SNL-SWAN/"
+    },
+    "SNL-WaterPower/WecOptTool": {
+        "description": null,
+        "name": "SNL-WaterPower/WecOptTool",
+        "topics": null,
+        "website": null
+    },
+    "SNL-WaterPower/WecOptTool-MATLAB": {
+        "description": "WEC Design Optimization Toolbox",
+        "name": "SNL-WaterPower/WecOptTool-MATLAB",
+        "topics": null,
+        "website": "https://snl-waterpower.github.io/WecOptTool/"
+    },
+    "SNL-WaterPower/dtocean": {
+        "description": "Download the DTOcean installation wizard, get help and report issues here. ",
+        "name": "SNL-WaterPower/dtocean",
+        "topics": null,
+        "website": ""
+    },
+    "SNL-WaterPower/fbWecCntrl": {
+        "description": "Feedback controller design of wave energy converters (WECs)",
+        "name": "SNL-WaterPower/fbWecCntrl",
+        "topics": null,
+        "website": ""
+    },
+    "SNL-WaterPower/nefis-python": {
+        "description": "NEFIS is a library of functions designed for scientific programs. These programs are characterised by their large volume of input and output data. NEFIS is able to store and retrieve large volumes of data on file or in shared memory. To achieve a good performance when storing and retrieving data, the files are self-describing binary direct access files. ",
+        "name": "SNL-WaterPower/nefis-python",
+        "topics": null,
+        "website": null
+    },
+    "SNL-WaterPower/siweed": {
+        "description": "Sandia Interactive Wave Energy Education Display (SIWEED)",
+        "name": "SNL-WaterPower/siweed",
+        "topics": null,
+        "website": null
     },
     "SNLComputation/Albany": {
         "description": "Sandia National Laboratories' Albany multiphysics code",
@@ -181,6 +499,25 @@
         "topics": null,
         "website": ""
     },
+    "STEllAR-GROUP/hpx": {
+        "description": "The C++ Standard Library for Parallelism and Concurrency",
+        "name": "STEllAR-GROUP/hpx",
+        "topics": [
+            "c-plus-plus",
+            "distributed",
+            "cross-platform",
+            "parallelism",
+            "concurrency",
+            "cpp"
+        ],
+        "website": "https://hpx.stellar-group.org"
+    },
+    "SamuelMulder/oxide": {
+        "description": "A flexible, modular framework for analyzing binary files.",
+        "name": "SamuelMulder/oxide",
+        "topics": null,
+        "website": ""
+    },
     "Sandia-OpenSHMEM/SOS": {
         "description": "Sandia OpenSHMEM is an implementation of the OpenSHMEM specification over multiple Networking APIs, including Portals 4, the Open Fabric Interface (OFI), and UCX.  Please click on the Wiki tab for help with building and using SOS.",
         "name": "Sandia-OpenSHMEM/SOS",
@@ -192,6 +529,25 @@
             "parallel-computing"
         ],
         "website": ""
+    },
+    "TriBITSPub/TriBITS": {
+        "description": "TriBITS: Tribal Build, Integrate, and Test System,",
+        "name": "TriBITSPub/TriBITS",
+        "topics": [
+            "build-tool",
+            "sandia-national-laboratoires",
+            "cmake",
+            "python",
+            "snl-build-tools",
+            "package-manager",
+            "package-manager-tool",
+            "hpc",
+            "agile",
+            "cdash",
+            "ctest",
+            "build-tools"
+        ],
+        "website": "http://tribits.org"
     },
     "USEPA/CANARY": {
         "description": "ORD OSIM",
@@ -205,9 +561,64 @@
         "topics": null,
         "website": ""
     },
+    "WEC-Sim/WDRT": {
+        "description": "WEC Design Response Toolbox (WDRT)",
+        "name": "WEC-Sim/WDRT",
+        "topics": [
+            "python",
+            "wdrt"
+        ],
+        "website": "http://wec-sim.github.io/WDRT/"
+    },
+    "WEC-Sim/WEC-Sim": {
+        "description": "Wave Energy Converter Simulator (WEC-Sim), an open-source code for simulating wave energy converters. ",
+        "name": "WEC-Sim/WEC-Sim",
+        "topics": [
+            "wec-sim",
+            "marine-renewable-energy",
+            "wave-energy",
+            "matlab",
+            "simulink",
+            "snl-applications",
+            "hydrodynamics"
+        ],
+        "website": "http://wec-sim.github.io/WEC-Sim"
+    },
+    "Xyce/Xyce": {
+        "description": "The Xyce\u2122 Parallel Electronic Simulator",
+        "name": "Xyce/Xyce",
+        "topics": [
+            "snl-applications",
+            "simulation",
+            "simulator",
+            "circuit-simulator",
+            "spice",
+            "xyce",
+            "spice-simulator"
+        ],
+        "website": ""
+    },
     "bartvbw/MILO": {
         "description": null,
         "name": "bartvbw/MILO",
+        "topics": null,
+        "website": null
+    },
+    "cgvalic/GeoPlace": {
+        "description": "Sampling and placement algorithms for optimal placement of sensor footprint and subfootprint shapes.",
+        "name": "cgvalic/GeoPlace",
+        "topics": null,
+        "website": null
+    },
+    "chapel-lang/chapel": {
+        "description": "a Productive Parallel Programming Language",
+        "name": "chapel-lang/chapel",
+        "topics": null,
+        "website": "https://chapel-lang.org"
+    },
+    "csafta/EGSim": {
+        "description": null,
+        "name": "csafta/EGSim",
         "topics": null,
         "website": null
     },
@@ -226,6 +637,40 @@
         ],
         "website": ""
     },
+    "elgood/SAM": {
+        "description": "Streaming Analytics Machine",
+        "name": "elgood/SAM",
+        "topics": null,
+        "website": null
+    },
+    "embedded-sec/halucinator": {
+        "description": null,
+        "name": "embedded-sec/halucinator",
+        "topics": null,
+        "website": null
+    },
+    "epizon-project/Fenix": {
+        "description": "Fenix: A Portable, Flexible Fault Tolerance Programming Framework for MPI Applications",
+        "name": "epizon-project/Fenix",
+        "topics": null,
+        "website": ""
+    },
+    "ewalkup/cuckoomac": {
+        "description": "An OS X extension for the open-source Cuckoo Sandbox for malware analysis, developed over the summer in 2014.",
+        "name": "ewalkup/cuckoomac",
+        "topics": null,
+        "website": ""
+    },
+    "faodel/faodel": {
+        "description": "Flexible, Asynchronous, Object Data-Exchange Libraries: HPC libraries for moving data between applications",
+        "name": "faodel/faodel",
+        "topics": [
+            "snl-performance",
+            "snl-os-sys-software",
+            "snl-data-analysis"
+        ],
+        "website": ""
+    },
     "frothga/n2a": {
         "description": "An object-oriented language for modeling large-scale neural systems, along with an IDE for writing and simulating models.",
         "name": "frothga/n2a",
@@ -235,6 +680,68 @@
             "language",
             "neurons",
             "simulator",
+            "snl-prog-models-runtimes"
+        ],
+        "website": ""
+    },
+    "gflofst/SmartBlock": {
+        "description": "Reusable workflow components using ADIOS + FlexPath",
+        "name": "gflofst/SmartBlock",
+        "topics": null,
+        "website": null
+    },
+    "goma/goma": {
+        "description": "A Full-Newton Finite Element Program for Free and Moving Boundary Problems with Coupled Fluid/Solid Momentum, Energy, Mass, and Chemical Species Transport",
+        "name": "goma/goma",
+        "topics": [
+            "finite-elements",
+            "finite-element-analysis",
+            "simulation",
+            "parallel",
+            "multiphysics",
+            "fem"
+        ],
+        "website": "https://www.gomafem.com"
+    },
+    "gregorburger/py_epanet": {
+        "description": "EPAnet implementation in python",
+        "name": "gregorburger/py_epanet",
+        "topics": null,
+        "website": ""
+    },
+    "grid-parity-exchange/Egret": {
+        "description": "Tools for building power systems optimization problems",
+        "name": "grid-parity-exchange/Egret",
+        "topics": null,
+        "website": null
+    },
+    "harrisonedwards/RUBRIC": {
+        "description": null,
+        "name": "harrisonedwards/RUBRIC",
+        "topics": null,
+        "website": null
+    },
+    "jcrussell/que-ldrd-tools": {
+        "description": "Tools used in support of the QUE LDRD.",
+        "name": "jcrussell/que-ldrd-tools",
+        "topics": null,
+        "website": null
+    },
+    "kevincopps/affect": {
+        "description": "read/write and postprocess results of the finite element method",
+        "name": "kevincopps/affect",
+        "topics": null,
+        "website": null
+    },
+    "kokkos/kokkos": {
+        "description": "Kokkos C++ Performance Portability Programming EcoSystem: The Programming Model - Parallel Execution and Memory Abstraction",
+        "name": "kokkos/kokkos",
+        "topics": [
+            "programming-model",
+            "parallel-computing",
+            "c-plus-plus",
+            "abstraction",
+            "high-performance-computing",
             "snl-prog-models-runtimes"
         ],
         "website": ""
@@ -251,6 +758,18 @@
         ],
         "website": ""
     },
+    "kokkos/llvm-project": {
+        "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Note: the repository does not accept github pull requests at this moment. Please submit your patches at http://reviews.llvm.org.",
+        "name": "kokkos/llvm-project",
+        "topics": null,
+        "website": "http://llvm.org"
+    },
+    "kyungjoo-kim/implicit-sph": {
+        "description": "Implicit SPH code using LAMMPS and Trilinos",
+        "name": "kyungjoo-kim/implicit-sph",
+        "topics": null,
+        "website": null
+    },
     "lammps/lammps": {
         "description": "Public development project of the LAMMPS MD software package  ",
         "name": "lammps/lammps",
@@ -261,11 +780,86 @@
         ],
         "website": "https://www.lammps.org"
     },
+    "lkersting/SCR-2123": {
+        "description": "SCR #2123",
+        "name": "lkersting/SCR-2123",
+        "topics": null,
+        "website": null
+    },
+    "matthewcurry/single-sided-messaging": {
+        "description": null,
+        "name": "matthewcurry/single-sided-messaging",
+        "topics": null,
+        "website": null
+    },
+    "matthewcurry/sirocco-release": {
+        "description": null,
+        "name": "matthewcurry/sirocco-release",
+        "topics": null,
+        "website": null
+    },
+    "mlawsonca/empress": {
+        "description": null,
+        "name": "mlawsonca/empress",
+        "topics": null,
+        "website": null
+    },
+    "nachos-ii/nachos-ii": {
+        "description": "A Finite Element Computer Program for Incompressible Flow Problems",
+        "name": "nachos-ii/nachos-ii",
+        "topics": null,
+        "website": null
+    },
+    "netmeld/netmeld": {
+        "description": null,
+        "name": "netmeld/netmeld",
+        "topics": null,
+        "website": ""
+    },
+    "nikdon/pyEntropy": {
+        "description": "Entropy for Python",
+        "name": "nikdon/pyEntropy",
+        "topics": [
+            "entropy",
+            "python",
+            "permutation",
+            "sample",
+            "multiscale"
+        ],
+        "website": ""
+    },
+    "nsights/nSIGHTS": {
+        "description": "Open-source version of nSIGHTS, the MS-Windows n-dimensional Statistical Inverse Graphical Hydraulic Test Simulator",
+        "name": "nsights/nSIGHTS",
+        "topics": null,
+        "website": ""
+    },
+    "ovis-hpc/ovis": {
+        "description": "OVIS High Performance Computing monitoring, analysis, and visualization project. ",
+        "name": "ovis-hpc/ovis",
+        "topics": [
+            "ldms",
+            "monitoring"
+        ],
+        "website": "https://github.com/ovis-hpc/ovis-wiki/wiki"
+    },
     "peridigm/peridigm": {
         "description": "Peridigm peridynamics code.",
         "name": "peridigm/peridigm",
         "topics": null,
         "website": null
+    },
+    "platoengine/platoengine": {
+        "description": "Plato Engine - Optimization-Based Design Ecosystem",
+        "name": "platoengine/platoengine",
+        "topics": null,
+        "website": ""
+    },
+    "pwrapi/pwrapi-ref": {
+        "description": "PowerAPI Reference Implementation and Plugins",
+        "name": "pwrapi/pwrapi-ref",
+        "topics": null,
+        "website": ""
     },
     "pyGSTio/pyGSTi": {
         "description": "A python implementation of Gate Set Tomography",
@@ -630,7 +1224,9 @@
             "tabulated-chemistry-models",
             "homogeneous-reactors",
             "combustion",
-            "python"
+            "python",
+            "snl-science-libs",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -1228,6 +1824,29 @@
         "topics": null,
         "website": null
     },
+    "schw4b/DGM": {
+        "description": "Dynamical graphical models for multivariate time series data to estimate directed dynamic relationships in networks.",
+        "name": "schw4b/DGM",
+        "topics": [
+            "functional-connectivity",
+            "dynamic-graphical-models",
+            "time-varying-connectivity"
+        ],
+        "website": ""
+    },
+    "snl-quest/snl-quest": {
+        "description": "An open source, Python-based software application suite for energy storage simulation and analysis developed by Sandia National Laboratories.",
+        "name": "snl-quest/snl-quest",
+        "topics": [
+            "energy-storage",
+            "pyomo",
+            "kivy",
+            "sandia-national-laboratories",
+            "optimization",
+            "python"
+        ],
+        "website": ""
+    },
     "sparta/sparta": {
         "description": "Public development project of the SPARTA DSMC software package http://sparta.sandia.gov",
         "name": "sparta/sparta",
@@ -1291,10 +1910,45 @@
         "topics": null,
         "website": null
     },
+    "supercontainers/atse": {
+        "description": "Advanced Tri-Lab Software Environment (ATSE) https://vanguard.sandia.gov/ATSE/",
+        "name": "supercontainers/atse",
+        "topics": null,
+        "website": null
+    },
+    "timkostka/exomerge": {
+        "description": "Exomerge is a lightweight Python module for reading, manipulating and writing ExodusII files.",
+        "name": "timkostka/exomerge",
+        "topics": null,
+        "website": null
+    },
     "trilinos/Trilinos": {
         "description": "Primary repository for the Trilinos Project",
         "name": "trilinos/Trilinos",
         "topics": null,
         "website": "https://trilinos.org/"
+    },
+    "zadorlab/KinBot": {
+        "description": "Automated reaction pathway search for gas-phase molecules",
+        "name": "zadorlab/KinBot",
+        "topics": [
+            "automation",
+            "kinetics",
+            "chemistry",
+            "gas-phase-molecules",
+            "combustion",
+            "atmospheric-chemistry",
+            "potential-energy-surfaces"
+        ],
+        "website": ""
+    },
+    "zadorlab/sella": {
+        "description": null,
+        "name": "zadorlab/sella",
+        "topics": [
+            "chemistry",
+            "geometry-optimization"
+        ],
+        "website": null
     }
 }
