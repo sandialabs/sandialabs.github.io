@@ -417,7 +417,8 @@
             "inverse-form",
             "principal-component-analysis",
             "environmental-contours",
-            "extreme-sea-state-characterization"
+            "extreme-sea-state-characterization",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -430,13 +431,18 @@
     "SNL-WaterPower/WecOptTool": {
         "description": null,
         "name": "SNL-WaterPower/WecOptTool",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-applications"
+        ],
+        "website": ""
     },
     "SNL-WaterPower/WecOptTool-MATLAB": {
         "description": "WEC Design Optimization Toolbox",
         "name": "SNL-WaterPower/WecOptTool-MATLAB",
-        "topics": null,
+        "topics": [
+            "matlab",
+            "snl-applications"
+        ],
         "website": "https://snl-waterpower.github.io/WecOptTool/"
     },
     "SNL-WaterPower/dtocean": {
@@ -448,7 +454,10 @@
     "SNL-WaterPower/fbWecCntrl": {
         "description": "Feedback controller design of wave energy converters (WECs)",
         "name": "SNL-WaterPower/fbWecCntrl",
-        "topics": null,
+        "topics": [
+            "snl-applications",
+            "matlab"
+        ],
         "website": ""
     },
     "SNL-WaterPower/nefis-python": {
@@ -460,8 +469,11 @@
     "SNL-WaterPower/siweed": {
         "description": "Sandia Interactive Wave Energy Education Display (SIWEED)",
         "name": "SNL-WaterPower/siweed",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-applications",
+            "arduino"
+        ],
+        "website": ""
     },
     "SNLComputation/Albany": {
         "description": "Sandia National Laboratories' Albany multiphysics code",
@@ -699,7 +711,8 @@
             "simulation",
             "parallel",
             "multiphysics",
-            "fem"
+            "fem",
+            "snl-applications"
         ],
         "website": "https://www.gomafem.com"
     },
@@ -1389,7 +1402,9 @@
     "sandialabs/common": {
         "description": "NSDD Communication Systems Monitor",
         "name": "sandialabs/common",
-        "topics": null,
+        "topics": [
+            "snl-other"
+        ],
         "website": ""
     },
     "sandialabs/compadre": {
@@ -1458,8 +1473,10 @@
     "sandialabs/hyram": {
         "description": null,
         "name": "sandialabs/hyram",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-applications"
+        ],
+        "website": ""
     },
     "sandialabs/iDASH2019GeneDrug": {
         "description": "Repository for iDASH 2019 Task 1 - Solidity for Gene Drug Interactions",
