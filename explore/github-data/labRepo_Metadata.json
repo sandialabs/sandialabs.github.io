@@ -265,8 +265,11 @@
     "PEBBL/pebbl": {
         "description": "Main repository for the PEBBL branch-and-bound library",
         "name": "PEBBL/pebbl",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-science-libs",
+            "snl-applications"
+        ],
+        "website": ""
     },
     "PECOS-packages/PECOS": {
         "description": "A Python framework, library, and set of tools for exploring, developing, and evaluating quantum error-correction protocols.",
@@ -329,7 +332,8 @@
         "topics": [
             "pyomo",
             "pypi",
-            "codecov"
+            "codecov",
+            "snl-comp-science-libs"
         ],
         "website": ""
     },
@@ -1329,15 +1333,6 @@
         "name": "sandialabs/alert-triage",
         "topics": null,
         "website": null
-    },
-    "sandialabs/app-infrastructure": {
-        "description": null,
-        "name": "sandialabs/app-infrastructure",
-        "topics": [
-            "app-infrastructure",
-            "wade"
-        ],
-        "website": ""
     },
     "sandialabs/avatar": {
         "description": "The Avatar Tools codes are an implementation of ensembles specifically for decision trees.",

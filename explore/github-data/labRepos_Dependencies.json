@@ -607,46 +607,6 @@
                 "nodes": []
             }
         },
-        "MHKiT-Software/MHKiT-MATLAB": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e16737",
-                        "name": "MATLAB"
-                    }
-                ]
-            }
-        },
         "MHKiT-Software/MHKiT-Python": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -5562,6 +5522,19 @@
                     {
                         "color": "#3D6117",
                         "name": "TeX"
+                    }
+                ]
+            }
+        },
+        "SNL-WaterPower/WecOptTool-MATLAB": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
                     }
                 ]
             }
@@ -10985,14 +10958,6 @@
                 ]
             }
         },
-        "sandialabs/app-infrastructure": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
         "sandialabs/avatar": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -15092,7 +15057,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pathlib2",
                                     "repository": {
-                                        "nameWithOwner": "mcmtroffaes/pathlib2"
+                                        "nameWithOwner": "jazzband/pathlib2"
                                     }
                                 },
                                 {
@@ -15311,7 +15276,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pathlib2",
                                     "repository": {
-                                        "nameWithOwner": "mcmtroffaes/pathlib2"
+                                        "nameWithOwner": "jazzband/pathlib2"
                                     }
                                 },
                                 {
@@ -19100,6 +19065,26 @@
                                     "packageManager": "PIP",
                                     "packageName": "manager-",
                                     "repository": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
                                 }
                             ]
                         }
