@@ -5589,6 +5589,19 @@
                 "nodes": []
             }
         },
+        "SNL-WaterPower/fbWecCntrl": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
         "SNL-WaterPower/nefis-python": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -5683,54 +5696,6 @@
         "SNLComputation/yaml-cpp": {
             "dependencyGraphManifests": {
                 "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
-        "STEllAR-GROUP/hpx": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "lxml",
-                                    "repository": {
-                                        "nameWithOwner": "lxml/lxml"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-dateutil",
-                                    "repository": {
-                                        "nameWithOwner": "dateutil/dateutil"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
             },
             "languages": {
                 "nodes": [
@@ -7549,7 +7514,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "typing",
                                     "repository": {
-                                        "nameWithOwner": "python/typing"
+                                        "nameWithOwner": "akaihola/typing"
                                     }
                                 }
                             ]
@@ -7604,7 +7569,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "typing",
                                     "repository": {
-                                        "nameWithOwner": "python/typing"
+                                        "nameWithOwner": "akaihola/typing"
                                     }
                                 }
                             ]
@@ -11231,102 +11196,6 @@
                     {
                         "color": "#DA3434",
                         "name": "CMake"
-                    }
-                ]
-            }
-        },
-        "sandialabs/chama": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "nose",
-                                    "repository": {
-                                        "nameWithOwner": "nose-devs/nose"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyomo",
-                                    "repository": {
-                                        "nameWithOwner": "Pyomo/pyomo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyomo",
-                                    "repository": {
-                                        "nameWithOwner": "Pyomo/pyomo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
