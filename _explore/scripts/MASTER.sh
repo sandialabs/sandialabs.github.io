@@ -45,6 +45,7 @@ runScript cleanup_inputs.py
 # --- BASIC DATA ---
 # Required before any other repo scripts (output used as repo list)
 runScript get_repos_info.py
+runScript get_total_repos.py
 # Required before any other member scripts (output used as member list)
 runScript get_internal_members.py
 
