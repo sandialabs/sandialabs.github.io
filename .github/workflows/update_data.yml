@@ -14,7 +14,7 @@ on:
 
 env:
   GITHUB_API_TOKEN: ${{ secrets.SECRET_TOKEN }}
-  TOKEN_USER: mrmundt
+  TOKEN_USER: ${{ secrets.TOKEN_USER }}
   
 
 jobs:
