@@ -1,23 +1,29 @@
 """
-Count the total number of repositories being tracked
+Count the total number of repositories being tracked and add to
+index page and full catalog page
 """
 
 import json
 from os.path import abspath, dirname, join
 
+# Get the root directory
 rootDir = dirname(dirname(dirname(abspath(__file__))))
+# Define affected files
 datfilepath = join(rootDir, 'explore', 'github-data', 'labReposInfo.json')
 jsfilepath = join(rootDir, 'js', 'focused-category-info.js')
 indexfilepath = join(dirname(dirname(dirname(abspath(__file__)))), 'index.html')
 
+# Read the repos info
 with open(datfilepath, 'r') as f:
     contents = json.load(f)
 
+# Count the unique repos
 numberOfRepos = 0
 for key in contents['data'].keys():
     numberOfRepos += 1
 
 
+# HTML code for index.html
 HTML = """
 ---
 title: Sandia Software Portal
@@ -74,9 +80,11 @@ layout: homepage
 """
 HTML = HTML.replace('numberOfRepos', str(numberOfRepos))
 
+# Overwrite index.html
 with open(indexfilepath, 'w') as f:
     f.write(HTML)
 
+# JS code for focused-category-info.json
 js = """
 angular.module('app', []).controller('gitHubDataController', [
     '$scope',
@@ -263,5 +271,6 @@ angular.module('app', []).controller('gitHubDataController', [
 
 js = js.replace('numberOfRepos', str(numberOfRepos))
 
+# Overwrite JS file
 with open(jsfilepath, 'w') as f:
     f.write(js)
