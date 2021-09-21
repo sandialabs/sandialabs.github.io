@@ -24,8 +24,7 @@ for key in contents['data'].keys():
 
 
 # HTML code for index.html
-HTML = """
----
+HTML = """---
 title: Sandia Software Portal
 layout: homepage
 ---
