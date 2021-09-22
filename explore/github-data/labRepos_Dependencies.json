@@ -6335,6 +6335,136 @@
                 ]
             }
         },
+        "ccss-sandia/antfarm": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "activerecord",
+                                    "repository": {
+                                        "nameWithOwner": "rails/rails"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "ipaddress",
+                                    "repository": {
+                                        "nameWithOwner": "ipaddress-gem/ipaddress"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "launchy",
+                                    "repository": {
+                                        "nameWithOwner": "copiousfreetime/launchy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "packetfu",
+                                    "repository": {
+                                        "nameWithOwner": "packetfu/packetfu"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "pg",
+                                    "repository": {
+                                        "nameWithOwner": "ged/ruby-pg"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "pry",
+                                    "repository": {
+                                        "nameWithOwner": "pry/pry"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "slim",
+                                    "repository": {
+                                        "nameWithOwner": "slim-template/slim"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "sqlite3",
+                                    "repository": {
+                                        "nameWithOwner": "sparklemotion/sqlite3-ruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "terminal-table",
+                                    "repository": {
+                                        "nameWithOwner": "tj/terminal-table"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "trollop",
+                                    "repository": {
+                                        "nameWithOwner": "ManageIQ/optimist"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "fabrication",
+                                    "repository": {
+                                        "nameWithOwner": "gmanley/fabrication"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "minitest",
+                                    "repository": {
+                                        "nameWithOwner": "seattlerb/minitest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "simplecov",
+                                    "repository": {
+                                        "nameWithOwner": "simplecov-ruby/simplecov"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#701516",
+                        "name": "Ruby"
+                    }
+                ]
+            }
+        },
+        "ccss-sandia/cicm": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            }
+        },
         "cgvalic/GeoPlace": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -6566,6 +6696,19 @@
             }
         },
         "faodel/faodel": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "frothga/fl": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
