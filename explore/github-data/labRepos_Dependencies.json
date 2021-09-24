@@ -7308,6 +7308,46 @@
                 ]
             }
         },
+        "nikdon/pyEntropy": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "nsights/nSIGHTS": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -17850,9 +17890,7 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@types/sinon",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
