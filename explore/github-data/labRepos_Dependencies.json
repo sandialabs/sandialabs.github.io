@@ -7509,16 +7509,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pandas",
+                                    "packageName": "psutil",
                                     "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
+                                        "nameWithOwner": "giampaolo/psutil"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "psutil",
+                                    "packageName": "seaborn",
                                     "repository": {
-                                        "nameWithOwner": "giampaolo/psutil"
+                                        "nameWithOwner": "mwaskom/seaborn"
                                     }
                                 }
                             ]
@@ -7536,16 +7536,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "plotly",
+                                    "packageName": "pandas",
                                     "repository": {
-                                        "nameWithOwner": "plotly/plotly.py"
+                                        "nameWithOwner": "pandas-dev/pandas"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "ply",
+                                    "packageName": "plotly",
                                     "repository": {
-                                        "nameWithOwner": "Josiastech/ply"
+                                        "nameWithOwner": "plotly/plotly.py"
                                     }
                                 },
                                 {
@@ -7577,6 +7577,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "plotly",
                                     "repository": {
                                         "nameWithOwner": "plotly/plotly.py"
@@ -7584,16 +7591,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "ply",
+                                    "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "Josiastech/ply"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "scipy",
+                                    "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 }
                             ]
@@ -7611,16 +7618,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "plotly",
+                                    "packageName": "pandas",
                                     "repository": {
-                                        "nameWithOwner": "plotly/plotly.py"
+                                        "nameWithOwner": "pandas-dev/pandas"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "ply",
+                                    "packageName": "plotly",
                                     "repository": {
-                                        "nameWithOwner": "Josiastech/ply"
+                                        "nameWithOwner": "plotly/plotly.py"
                                     }
                                 },
                                 {
@@ -7632,14 +7639,41 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpydoc",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpydoc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
             "languages": {
                 "nodes": [
                     {
-                        "color": "#3572A5",
-                        "name": "Python"
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
                     }
                 ]
             }
