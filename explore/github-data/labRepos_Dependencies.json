@@ -7283,54 +7283,6 @@
                 ]
             }
         },
-        "or-fusion/pao": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "munch",
-                                    "repository": {
-                                        "nameWithOwner": "scooterman/pymunch"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "parameterized",
-                                    "repository": {
-                                        "nameWithOwner": "wolever/parameterized"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyomo",
-                                    "repository": {
-                                        "nameWithOwner": "Pyomo/pyomo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "or-fusion/pyomo_simplemodel": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -9396,6 +9348,116 @@
                     {
                         "color": "#178600",
                         "name": "C#"
+                    }
+                ]
+            }
+        },
+        "sandialabs/PyRIID": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "coverage",
+                                    "repository": {
+                                        "nameWithOwner": "nedbat/coveragepy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flake8",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "seaborn",
+                                    "repository": {
+                                        "nameWithOwner": "mwaskom/seaborn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tables",
+                                    "repository": {
+                                        "nameWithOwner": "Seth-Rothschild/seatingchart-helper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tensorflow",
+                                    "repository": {
+                                        "nameWithOwner": "tensorflow/tensorflow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tensorflow-model-optimization",
+                                    "repository": {
+                                        "nameWithOwner": "tensorflow/model-optimization"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -15685,13 +15747,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "cachetools",
-                                    "repository": {
-                                        "nameWithOwner": "miku/cachetools"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "flask",
                                     "repository": {
                                         "nameWithOwner": "pallets/flask"
@@ -15713,27 +15768,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "nose",
-                                    "repository": {
-                                        "nameWithOwner": "nose-devs/nose"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pymongo",
-                                    "repository": {
-                                        "nameWithOwner": "mongodb/mongo-python-driver"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyparsing",
-                                    "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "requests",
                                     "repository": {
                                         "nameWithOwner": "psf/requests"
@@ -15741,9 +15775,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "toyplot",
+                                    "packageName": "watchdog",
                                     "repository": {
-                                        "nameWithOwner": "sandialabs/toyplot"
+                                        "nameWithOwner": "gorakhargosh/watchdog"
                                     }
                                 }
                             ]
@@ -15775,20 +15809,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "huey",
-                                    "repository": {
-                                        "nameWithOwner": "coleifer/huey"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "hyperopt",
-                                    "repository": {
-                                        "nameWithOwner": "hyperopt/hyperopt"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "ldap3",
                                     "repository": {
                                         "nameWithOwner": "cannatag/ldap3"
@@ -15803,34 +15823,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "nose",
-                                    "repository": {
-                                        "nameWithOwner": "nose-devs/nose"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pymongo",
-                                    "repository": {
-                                        "nameWithOwner": "mongodb/mongo-python-driver"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyparsing",
-                                    "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "redis",
-                                    "repository": {
-                                        "nameWithOwner": "alisaifee/redis-py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "requests",
                                     "repository": {
                                         "nameWithOwner": "psf/requests"
@@ -15838,16 +15830,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "six",
+                                    "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "benjaminp/six"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "sphinx-js",
+                                    "packageName": "sphinx-gallery",
                                     "repository": {
-                                        "nameWithOwner": "mozilla/sphinx-js"
+                                        "nameWithOwner": "sphinx-gallery/sphinx-gallery"
                                     }
                                 },
                                 {
@@ -15855,20 +15847,6 @@
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
                                         "nameWithOwner": "readthedocs/sphinx_rtd_theme"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinxcontrib-napoleon",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-contrib/napoleon"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "toyplot",
-                                    "repository": {
-                                        "nameWithOwner": "sandialabs/toyplot"
                                     }
                                 }
                             ]
@@ -18326,7 +18304,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "worker-loader",
                                     "repository": {
-                                        "nameWithOwner": "webpack-contrib/worker-loader"
+                                        "nameWithOwner": "githoniel/webpack-fork-loader"
                                     }
                                 },
                                 {
