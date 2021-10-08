@@ -5890,7 +5890,7 @@
                                     "packageManager": "MAVEN",
                                     "packageName": "org.yaml:snakeyaml",
                                     "repository": {
-                                        "nameWithOwner": "bmoliveira/snake-yaml"
+                                        "nameWithOwner": "asomov/snakeyaml"
                                     }
                                 }
                             ]
@@ -7279,6 +7279,54 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "or-fusion/pao": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "munch",
+                                    "repository": {
+                                        "nameWithOwner": "scooterman/pymunch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "parameterized",
+                                    "repository": {
+                                        "nameWithOwner": "wolever/parameterized"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyomo",
+                                    "repository": {
+                                        "nameWithOwner": "Pyomo/pyomo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -15809,6 +15857,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "ipython",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "ldap3",
                                     "repository": {
                                         "nameWithOwner": "cannatag/ldap3"
@@ -15819,6 +15874,13 @@
                                     "packageName": "nbsphinx",
                                     "repository": {
                                         "nameWithOwner": "spatialaudio/nbsphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
                                     }
                                 },
                                 {
@@ -15847,6 +15909,20 @@
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
                                         "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
                                     }
                                 }
                             ]
