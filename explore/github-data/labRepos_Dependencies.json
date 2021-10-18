@@ -5414,19 +5414,6 @@
                 ]
             }
         },
-        "SNL-WaterPower/CACTUS": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
-                    }
-                ]
-            }
-        },
         "SNL-WaterPower/CACTUS-tools": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -6229,19 +6216,6 @@
                 ]
             }
         },
-        "Xyce/Xyce": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            }
-        },
         "bartvbw/MILO": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -6434,19 +6408,6 @@
                     {
                         "color": "#4d41b1",
                         "name": "Fortran"
-                    }
-                ]
-            }
-        },
-        "dicengine/dice": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
                     }
                 ]
             }
@@ -7352,40 +7313,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "ovis-hpc/ovis": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.apache.hadoop:hadoop-common",
-                                    "repository": {
-                                        "nameWithOwner": "apache/hadoop"
-                                    }
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
                     }
                 ]
             }
@@ -19277,32 +19204,6 @@
             }
         },
         "sparta/sparta": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
-        "sstsimulator/sst-core": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
-        "sstsimulator/sst-elements": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
