@@ -181,6 +181,66 @@
                 ]
             }
         },
+        "Exawind/nalu-wind": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "breathe",
+                                    "repository": {
+                                        "nameWithOwner": "michaeljones/breathe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "docutils",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygments",
+                                    "repository": {
+                                        "nameWithOwner": "pygments/pygments"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyparsing",
+                                    "repository": {
+                                        "nameWithOwner": "pyparsing/pyparsing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-bibtex",
+                                    "repository": {
+                                        "nameWithOwner": "mcmtroffaes/sphinxcontrib-bibtex"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "FitSNAP/TestSNAP": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -3605,7 +3665,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "@cypress/webpack-preprocessor",
                                     "repository": {
-                                        "nameWithOwner": "cypress-io/cypress-webpack-preprocessor"
+                                        "nameWithOwner": "cypress-io/cypress"
                                     }
                                 },
                                 {
@@ -3839,7 +3899,9 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link-batch-http",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "apollographql/apollo-link"
+                                    }
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -4709,7 +4771,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "blob",
                                     "repository": {
-                                        "nameWithOwner": "WordPress/gutenberg"
+                                        "nameWithOwner": "webmodules/blob"
                                     }
                                 },
                                 {
@@ -5638,6 +5700,40 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "TriBITSPub/TriBITS": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
                     }
                 ]
             }
@@ -10087,7 +10183,9 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@soda/friendly-errors-webpack-plugin",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "sodatea/friendly-errors-webpack-plugin"
+                                    }
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -11922,7 +12020,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "blob",
                                     "repository": {
-                                        "nameWithOwner": "WordPress/gutenberg"
+                                        "nameWithOwner": "webmodules/blob"
                                     }
                                 },
                                 {
@@ -17929,7 +18027,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "buffer",
                                     "repository": {
-                                        "nameWithOwner": "coolaj86/browser-buffer"
+                                        "nameWithOwner": "feross/buffer"
                                     }
                                 },
                                 {
