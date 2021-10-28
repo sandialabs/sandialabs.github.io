@@ -6220,6 +6220,19 @@
                 ]
             }
         },
+        "WEC-Sim/WEC-Sim": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
         "Xyce/Xyce": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -7595,7 +7608,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-autoapi",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx-autoapi"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -19441,6 +19456,47 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "zadorlab/KinBot": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ase",
+                                    "repository": {
+                                        "nameWithOwner": "rosswhitfield/ase"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "networkx",
+                                    "repository": {
+                                        "nameWithOwner": "networkx/networkx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
