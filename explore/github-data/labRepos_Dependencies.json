@@ -662,9 +662,23 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "lxml",
+                                    "repository": {
+                                        "nameWithOwner": "lxml/lxml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "matplotlib",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "netcdf4",
+                                    "repository": {
+                                        "nameWithOwner": "Unidata/netcdf4-python"
                                     }
                                 },
                                 {
@@ -700,6 +714,13 @@
                                     "packageName": "requests",
                                     "repository": {
                                         "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
                                     }
                                 },
                                 {
@@ -6645,6 +6666,104 @@
                 ]
             }
         },
+        "frothga/n2a": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "net.java.dev.javacc:javacc",
+                                    "repository": {
+                                        "nameWithOwner": "javacc/javacc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit",
+                                    "repository": {
+                                        "nameWithOwner": "spearce/jgit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit.ssh.jsch",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit.ui",
+                                    "repository": {
+                                        "nameWithOwner": "spearce/jgit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.eclipse.m2e:lifecycle-mapping",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.javacc.plugin:javacc-maven-plugin",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jfree:jfreechart",
+                                    "repository": {
+                                        "nameWithOwner": "jfree/jfreechart"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jfree:jfreesvg",
+                                    "repository": {
+                                        "nameWithOwner": "nicolas-f/JFreeSVG"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.slf4j:slf4j-nop",
+                                    "repository": {
+                                        "nameWithOwner": "qos-ch/slf4j"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "systems.uom:systems-common",
+                                    "repository": {
+                                        "nameWithOwner": "unitsofmeasurement/uom-systems"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "systems.uom:systems-quantity",
+                                    "repository": {
+                                        "nameWithOwner": "unitsofmeasurement/uom-systems"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "systems.uom:systems-ucum",
+                                    "repository": {
+                                        "nameWithOwner": "unitsofmeasurement/uom-systems"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            }
+        },
         "gflofst/SmartBlock": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -12232,7 +12351,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "deprecated",
                                     "repository": {
-                                        "nameWithOwner": "contra/deprecated"
+                                        "nameWithOwner": "yocontra/deprecated"
                                     }
                                 },
                                 {
