@@ -61,19 +61,6 @@
                 ]
             }
         },
-        "E3SM-Project/COMPOSE": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "E3SM-Project/E3SM": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -4470,7 +4457,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "abbrev",
                                     "repository": {
-                                        "nameWithOwner": "isaacs/abbrev-js"
+                                        "nameWithOwner": "npm/abbrev-js"
                                     }
                                 },
                                 {
@@ -11509,6 +11496,19 @@
                 ]
             }
         },
+        "sandialabs/capp": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
+                    }
+                ]
+            }
+        },
         "sandialabs/chama": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -12950,6 +12950,39 @@
                                     "packageName": "breathe",
                                     "repository": {
                                         "nameWithOwner": "michaeljones/breathe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "docutils",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-moderncmakedomain",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-build/moderncmakedomain"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-svg2pdfconverter",
+                                    "repository": {
+                                        "nameWithOwner": "missinglinkelectronics/sphinxcontrib-svg2pdfconverter"
                                     }
                                 }
                             ]
