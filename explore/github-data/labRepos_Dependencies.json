@@ -1981,7 +1981,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "numexpr",
                                     "repository": {
-                                        "nameWithOwner": "eleddy/numexpr"
+                                        "nameWithOwner": "pydata/numexpr"
                                     }
                                 },
                                 {
@@ -6953,7 +6953,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "numexpr",
                                     "repository": {
-                                        "nameWithOwner": "eleddy/numexpr"
+                                        "nameWithOwner": "pydata/numexpr"
                                     }
                                 },
                                 {
@@ -7030,7 +7030,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "numexpr",
                                     "repository": {
-                                        "nameWithOwner": "eleddy/numexpr"
+                                        "nameWithOwner": "pydata/numexpr"
                                     }
                                 },
                                 {
@@ -7210,6 +7210,19 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "mlawsonca/empress": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -12933,9 +12946,16 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "cmake",
+                                    "packageName": "nose",
                                     "repository": {
-                                        "nameWithOwner": "scikit-build/cmake-python-distributions"
+                                        "nameWithOwner": "nose-devs/nose"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
                                     }
                                 }
                             ]
@@ -18851,6 +18871,208 @@
         "sandialabs/spat": {
             "dependencyGraphManifests": {
                 "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/sudoku-online": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/core",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@fontsource/roboto",
+                                    "repository": {
+                                        "nameWithOwner": "fontsource/fontsource"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@material-ui/core",
+                                    "repository": {
+                                        "nameWithOwner": "mui-org/material-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@material-ui/icons",
+                                    "repository": {
+                                        "nameWithOwner": "mui-org/material-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@popperjs/core",
+                                    "repository": {
+                                        "nameWithOwner": "popperjs/popper-core"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@testing-library/jest-dom",
+                                    "repository": {
+                                        "nameWithOwner": "testing-library/jest-dom"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@testing-library/react",
+                                    "repository": {
+                                        "nameWithOwner": "testing-library/react-testing-library"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@testing-library/user-event",
+                                    "repository": {
+                                        "nameWithOwner": "testing-library/user-event"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "twbs/bootstrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "browserslist",
+                                    "repository": {
+                                        "nameWithOwner": "browserslist/browserslist"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "css-select",
+                                    "repository": {
+                                        "nameWithOwner": "fb55/css-select"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "css-what",
+                                    "repository": {
+                                        "nameWithOwner": "fb55/css-what"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "glob-parent",
+                                    "repository": {
+                                        "nameWithOwner": "gulpjs/glob-parent"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "popper.js",
+                                    "repository": {
+                                        "nameWithOwner": "popperjs/popper-core"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "postcss",
+                                    "repository": {
+                                        "nameWithOwner": "postcss/postcss"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "ramda",
+                                    "repository": {
+                                        "nameWithOwner": "ramda/ramda"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react",
+                                    "repository": {
+                                        "nameWithOwner": "facebook/react"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap/react-bootstrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-dev-utils",
+                                    "repository": {
+                                        "nameWithOwner": "facebook/create-react-app"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-dom",
+                                    "repository": {
+                                        "nameWithOwner": "facebook/react"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-router-dom",
+                                    "repository": {
+                                        "nameWithOwner": "remix-run/react-router"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-scripts",
+                                    "repository": {
+                                        "nameWithOwner": "facebook/create-react-app"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-treebeard",
+                                    "repository": {
+                                        "nameWithOwner": "storybookjs/react-treebeard"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "svgo",
+                                    "repository": {
+                                        "nameWithOwner": "svg/svgo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "typescript",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/TypeScript"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
