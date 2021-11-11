@@ -5989,9 +5989,30 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "ipykernel",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipykernel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "matplotlib",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbconvert",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbconvert"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbformat",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbformat"
                                     }
                                 },
                                 {
@@ -8242,19 +8263,6 @@
                 ]
             }
         },
-        "sandialabs/CausalFS": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "sandialabs/Chaco": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -9221,6 +9229,13 @@
                                     "packageName": "pandas",
                                     "repository": {
                                         "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyinstaller",
+                                    "repository": {
+                                        "nameWithOwner": "pyinstaller/pyinstaller"
                                     }
                                 },
                                 {
@@ -12770,7 +12785,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "MvvmLight",
                                     "repository": {
-                                        "nameWithOwner": "timdetering/mvvmlight"
+                                        "nameWithOwner": "lbugnion/mvvmlight"
                                     }
                                 },
                                 {
