@@ -8216,6 +8216,19 @@
                 "nodes": []
             }
         },
+        "sandialabs/CLDERA-E3SM": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
         "sandialabs/CPMod": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -8874,61 +8887,6 @@
                     {
                         "color": "#b07219",
                         "name": "Java"
-                    }
-                ]
-            }
-        },
-        "sandialabs/MAPIT": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pillow",
-                                    "repository": {
-                                        "nameWithOwner": "wiredfool/pillow-fuzz"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyside2",
-                                    "repository": {
-                                        "nameWithOwner": "raccoonmonk/pyside2"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
@@ -19241,6 +19199,96 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "sandialabs/watchr-core": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "com.google.code.gson:gson",
+                                    "repository": {
+                                        "nameWithOwner": "google/gson"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "com.sun.mail:javax.mail",
+                                    "repository": {
+                                        "nameWithOwner": "javaee/javamail"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "commons-io:commons-io",
+                                    "repository": {
+                                        "nameWithOwner": "apache/commons-io"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.commons:commons-lang3",
+                                    "repository": {
+                                        "nameWithOwner": "apache/commons-lang"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.commons:commons-math3",
+                                    "repository": {
+                                        "nameWithOwner": "haidaros/defects4j-math"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.logging.log4j:log4j-core",
+                                    "repository": {
+                                        "nameWithOwner": "apache/logging-log4j2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-plugins"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.codehaus.mojo:appassembler-maven-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "mojohaus/appassembler"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "org.jacoco:jacoco-maven-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "jacoco/jacoco"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
                     }
                 ]
             }
