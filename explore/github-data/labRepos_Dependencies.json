@@ -3309,7 +3309,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "csv-parse",
                                     "repository": {
-                                        "nameWithOwner": "segmentio/node-csv-parse"
+                                        "nameWithOwner": "adaltas/node-csv"
                                     }
                                 },
                                 {
@@ -7938,7 +7938,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -7993,7 +7993,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -8062,7 +8062,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -8229,6 +8229,19 @@
                 ]
             }
         },
+        "sandialabs/CPMod": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/CSPlib": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -8282,6 +8295,89 @@
             },
             "languages": {
                 "nodes": []
+            }
+        },
+        "sandialabs/Chordly": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "copyfiles",
+                                    "repository": {
+                                        "nameWithOwner": "calvinmetcalf/copyfiles"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma",
+                                    "repository": {
+                                        "nameWithOwner": "karma-runner/karma"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma-chrome-launcher",
+                                    "repository": {
+                                        "nameWithOwner": "karma-runner/karma-chrome-launcher"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma-firefox-launcher",
+                                    "repository": {
+                                        "nameWithOwner": "karma-runner/karma-firefox-launcher"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma-qunit",
+                                    "repository": {
+                                        "nameWithOwner": "karma-runner/karma-qunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma-trx-reporter",
+                                    "repository": {
+                                        "nameWithOwner": "hatchteam/karma-trx-reporter"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "qunit",
+                                    "repository": {
+                                        "nameWithOwner": "qunitjs/qunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "rimraf",
+                                    "repository": {
+                                        "nameWithOwner": "isaacs/rimraf"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "uglify-js",
+                                    "repository": {
+                                        "nameWithOwner": "mishoo/UglifyJS"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
             }
         },
         "sandialabs/Easee": {
@@ -8494,7 +8590,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -8542,7 +8638,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -8604,7 +8700,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -12675,7 +12771,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "CommonServiceLocator",
                                     "repository": {
-                                        "nameWithOwner": "unitycontainer/commonservicelocator"
+                                        "nameWithOwner": "dcomartin/DDD-CQRS-ES-Example"
                                     }
                                 },
                                 {
@@ -16082,6 +16178,95 @@
                                     "packageName": "tqdm",
                                     "repository": {
                                         "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            }
+        },
+        "sandialabs/sandialabs.github.io": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "github-pages",
+                                    "repository": {
+                                        "nameWithOwner": "github/pages-gem"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-coffeescript",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-coffeescript"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-redirect-from",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-redirect-from"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-remote-theme",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-remote-theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-seo-tag",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-seo-tag"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-sitemap",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-sitemap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "webrick",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/webrick"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "llnl-scraper",
+                                    "repository": {
+                                        "nameWithOwner": "LLNL/scraper"
                                     }
                                 }
                             ]
