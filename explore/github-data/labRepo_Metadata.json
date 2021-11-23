@@ -529,7 +529,6 @@
         "name": "TriBITSPub/TriBITS",
         "topics": [
             "build-tool",
-            "sandia-national-laboratoires",
             "cmake",
             "python",
             "snl-build-tools",
@@ -539,7 +538,8 @@
             "agile",
             "cdash",
             "ctest",
-            "build-tools"
+            "build-tools",
+            "sandia-national-laboratories"
         ],
         "website": "http://tribits.org"
     },
@@ -2054,7 +2054,10 @@
     "trilinos/Trilinos": {
         "description": "Primary repository for the Trilinos Project",
         "name": "trilinos/Trilinos",
-        "topics": null,
+        "topics": [
+            "snl-science-libs",
+            "sandia-national-laboratories"
+        ],
         "website": "https://trilinos.org/"
     },
     "zadorlab/KinBot": {

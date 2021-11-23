@@ -1250,13 +1250,6 @@
                         "url": "https://github.com/topics/build-tool"
                     },
                     {
-                        "resourcePath": "/topics/sandia-national-laboratoires",
-                        "topic": {
-                            "name": "sandia-national-laboratoires"
-                        },
-                        "url": "https://github.com/topics/sandia-national-laboratoires"
-                    },
-                    {
                         "resourcePath": "/topics/cmake",
                         "topic": {
                             "name": "cmake"
@@ -1325,6 +1318,13 @@
                             "name": "build-tools"
                         },
                         "url": "https://github.com/topics/build-tools"
+                    },
+                    {
+                        "resourcePath": "/topics/sandia-national-laboratories",
+                        "topic": {
+                            "name": "sandia-national-laboratories"
+                        },
+                        "url": "https://github.com/topics/sandia-national-laboratories"
                     }
                 ],
                 "totalCount": 12
@@ -4814,8 +4814,23 @@
         },
         "trilinos/Trilinos": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/snl-science-libs",
+                        "topic": {
+                            "name": "snl-science-libs"
+                        },
+                        "url": "https://github.com/topics/snl-science-libs"
+                    },
+                    {
+                        "resourcePath": "/topics/sandia-national-laboratories",
+                        "topic": {
+                            "name": "sandia-national-laboratories"
+                        },
+                        "url": "https://github.com/topics/sandia-national-laboratories"
+                    }
+                ],
+                "totalCount": 2
             }
         },
         "zadorlab/KinBot": {
