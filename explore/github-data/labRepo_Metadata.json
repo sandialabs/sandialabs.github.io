@@ -834,7 +834,11 @@
     "netmeld/netmeld": {
         "description": "A tool suite for use during system assessments.",
         "name": "netmeld/netmeld",
-        "topics": null,
+        "topics": [
+            "snl-cyber-sec",
+            "snl-comp-science-libs",
+            "snl-performance-workflow"
+        ],
         "website": ""
     },
     "nikdon/pyEntropy": {
@@ -1029,6 +1033,14 @@
         "name": "sandialabs/Chaco",
         "topics": null,
         "website": null
+    },
+    "sandialabs/ChemicalAssetTracker": {
+        "description": "The Chemical Asset Tracker is a web application that facilitates tracking and reporting on chemical inventories.",
+        "name": "sandialabs/ChemicalAssetTracker",
+        "topics": [
+            "snl-applications"
+        ],
+        "website": ""
     },
     "sandialabs/Chordly": {
         "description": "Chordly is a javascript library that may be used to detect and act upon key sequences entered by a user.",
@@ -1232,7 +1244,7 @@
         "website": null
     },
     "sandialabs/PyRIID": {
-        "description": "Models, synthetic data generation, and visualization for ML-based radioisotope identification.",
+        "description": "PyRIID (pronounced: \"PIE-rid\") is a Python package containing models, synthetic data generation, and visualization for ML-based radioisotope identification.",
         "name": "sandialabs/PyRIID",
         "topics": null,
         "website": ""
