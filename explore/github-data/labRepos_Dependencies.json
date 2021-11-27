@@ -1,5 +1,18 @@
 {
     "data": {
+        "Cantera/cantera": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "Coramin/Coramin": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -4191,7 +4204,7 @@
                                     "packageManager": "MAVEN",
                                     "packageName": "com.mashape.unirest:unirest-java",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/unirest-java"
+                                        "nameWithOwner": "acidburn0zzz/unirest-java"
                                     }
                                 },
                                 {
@@ -8797,6 +8810,33 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "PIP",
+                                    "packageName": "dotmap",
+                                    "repository": {
+                                        "nameWithOwner": "drgrib/dotmap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyodbc",
+                                    "repository": {
+                                        "nameWithOwner": "mkleehammer/pyodbc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "xlrd",
+                                    "repository": {
+                                        "nameWithOwner": "python-excel/xlrd"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.EntityFrameworkCore.Tools",
                                     "repository": {
@@ -10017,6 +10057,40 @@
                     {
                         "color": "#178600",
                         "name": "C#"
+                    }
+                ]
+            }
+        },
+        "sandialabs/PyNucleus": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cython",
+                                    "repository": {
+                                        "nameWithOwner": "cython/cython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#fedf5b",
+                        "name": "Cython"
                     }
                 ]
             }
