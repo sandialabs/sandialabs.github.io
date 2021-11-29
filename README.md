@@ -34,11 +34,6 @@ Followed by opening <http://localhost:4000> in a web browser.
 
 The gems in your sourcefile get updated frequently. It is a good idea to occasionally run `bundle update` from within your project's root directory to make sure the software on your computer is up to date.
 
-## Contact
-
-If you have any questions, please don't hesitate to contact [Wade Burgess](mailto:pwburge@sandia.gov).
-
-You can also contact us via our mailing list: <wg-1424-ops@sandia.gov>
 
 # Release
 
