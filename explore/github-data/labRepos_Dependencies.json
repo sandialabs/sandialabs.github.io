@@ -74,6 +74,58 @@
                 ]
             }
         },
+        "E3SM-Project/E3SM": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
+        "E3SM-Project/HOMMEXX": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
+        "E3SM-Project/sta-imex": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
+        "ECP-copa/ExaMiniMD": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "ESMCI/cime": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -189,6 +241,19 @@
                 ]
             }
         },
+        "FitSNAP/TestSNAP": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "HPCGraphAnalysis/HPCGraph": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -203,6 +268,19 @@
             }
         },
         "HexHive/EPOXY": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
+        "HobbesOSR/kitten": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -521,6 +599,14 @@
                 ]
             }
         },
+        "LauraMatzen/Matrices": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "MHKiT-Software/MHKiT-MATLAB": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -780,6 +866,27 @@
                         "name": "Fortran"
                     }
                 ]
+            }
+        },
+        "Mantevo/HPCCG": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "Mantevo/Mantevo": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "Mantevo/PathFinder": {
@@ -1339,6 +1446,58 @@
                 ]
             }
         },
+        "Mantevo/miniAMR": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
+        "Mantevo/miniAero": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "Mantevo/miniFE": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "Mantevo/miniGhost": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
         "Mantevo/miniMD": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -1378,7 +1537,33 @@
                 ]
             }
         },
+        "Mantevo/miniXyce": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "NimbleSM/NimbleSM": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "PEBBL/pebbl": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -1526,57 +1711,15 @@
                 ]
             }
         },
-        "Parapint/parapint": {
+        "PerceptTools/percept": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mpi4py",
-                                    "repository": {
-                                        "nameWithOwner": "mpi4py/mpi4py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyomo",
-                                    "repository": {
-                                        "nameWithOwner": "Pyomo/pyomo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyutilib",
-                                    "repository": {
-                                        "nameWithOwner": "PyUtilib/pyutilib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
                     {
-                        "color": "#3572A5",
-                        "name": "Python"
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -1590,6 +1733,19 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "Pressio/pressio": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -5228,6 +5384,19 @@
                 ]
             }
         },
+        "SNL-WaterPower/CACTUS": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
         "SNL-WaterPower/CACTUS-tools": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -6207,6 +6376,19 @@
                 ]
             }
         },
+        "cgvalic/GeoPlace": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "chapel-lang/chapel": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -6230,6 +6412,19 @@
                     {
                         "color": "#8dc63f",
                         "name": "Chapel"
+                    }
+                ]
+            }
+        },
+        "csafta/EGSim": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
                     }
                 ]
             }
@@ -6385,7 +6580,46 @@
                 ]
             }
         },
+        "epizon-project/Fenix": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
+        "ewalkup/cuckoomac": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "faodel/faodel": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "frothga/fl": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -6624,6 +6858,19 @@
                 ]
             }
         },
+        "jcrussell/que-ldrd-tools": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "kevincopps/affect": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -6780,6 +7027,32 @@
                 ]
             }
         },
+        "kokkos/kokkos": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "kokkos/kokkos-kernels": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "kokkos/llvm-project": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -6871,6 +7144,71 @@
                         }
                     }
                 ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "matthewcurry/single-sided-messaging": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "matthewcurry/sirocco-release": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
+        "mlawsonca/empress": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "nachos-ii/nachos-ii": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
+        "netmeld/netmeld": {
+            "dependencyGraphManifests": {
+                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -7044,6 +7382,19 @@
             }
         },
         "peridigm/peridigm": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "platoengine/platoengine": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -7341,6 +7692,14 @@
                         "name": "C++"
                     }
                 ]
+            }
+        },
+        "sandialabs/.github": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/AirNet-SNL": {
@@ -7842,6 +8201,40 @@
             }
         },
         "sandialabs/CasAnn": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
+        "sandialabs/CasCollect": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/CausalFS": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/Chaco": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -9019,69 +9412,28 @@
                 ]
             }
         },
-        "sandialabs/ExTK": {
+        "sandialabs/Easee": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.test-framework",
-                                    "repository": {
-                                        "nameWithOwner": "needle-mirror/com.unity.test-framework"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.ugui",
-                                    "repository": {
-                                        "nameWithOwner": "TobiasPott/com.unity.ugui"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.ext.nunit",
-                                    "repository": {
-                                        "nameWithOwner": "needle-mirror/com.unity.ext.nunit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.modules.imgui",
-                                    "repository": {
-                                        "nameWithOwner": "npm/security-holder"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.modules.jsonserialize",
-                                    "repository": {
-                                        "nameWithOwner": "npm/security-holder"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
                     {
-                        "color": "#178600",
-                        "name": "C#"
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            }
+        },
+        "sandialabs/FRENSIE-0.3.0": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -9351,6 +9703,19 @@
                 ]
             }
         },
+        "sandialabs/IX2.6": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#C1F12E",
+                        "name": "Batchfile"
+                    }
+                ]
+            }
+        },
         "sandialabs/InterSpec": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -9433,6 +9798,19 @@
                 ]
             }
         },
+        "sandialabs/Juxtaposer": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#0298c3",
+                        "name": "Perl"
+                    }
+                ]
+            }
+        },
         "sandialabs/LCM": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -9476,6 +9854,14 @@
                         "name": "Java"
                     }
                 ]
+            }
+        },
+        "sandialabs/MANIPULATE-2020": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/MAPIT": {
@@ -9542,6 +9928,19 @@
                     {
                         "color": "#e34c26",
                         "name": "HTML"
+                    }
+                ]
+            }
+        },
+        "sandialabs/MCMD1": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#867db1",
+                        "name": "VBA"
                     }
                 ]
             }
@@ -9700,86 +10099,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "sandialabs/MenuFramework": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.MixedReality.Toolkit.Foundation",
-                                    "repository": {
-                                        "nameWithOwner": "microsoft/MixedRealityToolkit-Unity"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.test-framework",
-                                    "repository": {
-                                        "nameWithOwner": "needle-mirror/com.unity.test-framework"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.ugui",
-                                    "repository": {
-                                        "nameWithOwner": "TobiasPott/com.unity.ugui"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.ext.nunit",
-                                    "repository": {
-                                        "nameWithOwner": "needle-mirror/com.unity.ext.nunit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.modules.imgui",
-                                    "repository": {
-                                        "nameWithOwner": "npm/security-holder"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "com.unity.modules.jsonserialize",
-                                    "repository": {
-                                        "nameWithOwner": "npm/security-holder"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#178600",
-                        "name": "C#"
                     }
                 ]
             }
@@ -10285,6 +10604,32 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "sandialabs/SMB": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
+        "sandialabs/SPiFI": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4298b8",
+                        "name": "Groovy"
                     }
                 ]
             }
@@ -11311,6 +11656,19 @@
                 ]
             }
         },
+        "sandialabs/SandiaDecay": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/SpecUtils": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -11604,6 +11962,32 @@
                 ]
             }
         },
+        "sandialabs/Tines": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/UQTk": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
         "sandialabs/WNTR": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -11735,6 +12119,19 @@
                 ]
             }
         },
+        "sandialabs/Zoltan": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "sandialabs/aevmod": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -11848,6 +12245,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/ali-perf-tests": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
                     }
                 ]
             }
@@ -12044,6 +12454,32 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/bigdna": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#0298c3",
+                        "name": "Perl"
+                    }
+                ]
+            }
+        },
+        "sandialabs/calibr8": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -13550,6 +13986,32 @@
                 ]
             }
         },
+        "sandialabs/dial-a-cluster": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            }
+        },
+        "sandialabs/distribution-system-model-calibration": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/dr_robot": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -14332,6 +14794,19 @@
                 ]
             }
         },
+        "sandialabs/gate-public": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/gr-fhss_utils": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -14345,7 +14820,33 @@
                 ]
             }
         },
+        "sandialabs/gr-pdu_utils": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/gr-sandia_utils": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/gr-timing_utils": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -14691,6 +15192,19 @@
                 "nodes": []
             }
         },
+        "sandialabs/idash2018task1": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/ikalash.github.io": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -14774,6 +15288,32 @@
                 ]
             }
         },
+        "sandialabs/lgrtk": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/limeext": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/linkshop": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -14805,6 +15345,19 @@
                         }
                     }
                 ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/mac-sandbox": {
+            "dependencyGraphManifests": {
+                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -14899,6 +15452,58 @@
                     {
                         "color": "#e34c26",
                         "name": "HTML"
+                    }
+                ]
+            }
+        },
+        "sandialabs/miniGraphics": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/miniIsosurface": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/omega_h": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/p3a": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -15246,6 +15851,19 @@
                     {
                         "color": "#c22d40",
                         "name": "Scala"
+                    }
+                ]
+            }
+        },
+        "sandialabs/poblano_toolbox": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
                     }
                 ]
             }
@@ -16250,6 +16868,19 @@
             }
         },
         "sandialabs/pymtensor": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/pyomo_optimization_example_problems": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -19192,6 +19823,19 @@
                 ]
             }
         },
+        "sandialabs/slycat-data": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/snl-pstess": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -19201,6 +19845,19 @@
                     {
                         "color": "#e16737",
                         "name": "MATLAB"
+                    }
+                ]
+            }
+        },
+        "sandialabs/spat": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -19571,6 +20228,19 @@
                 ]
             }
         },
+        "sandialabs/wafl": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "sandialabs/watchr-core": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -19741,6 +20411,19 @@
                 ]
             }
         },
+        "sandialabs/xyz": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "schw4b/DGM": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -19763,6 +20446,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sparta/sparta": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -19793,7 +20489,46 @@
                 ]
             }
         },
+        "sstsimulator/sst-macro": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sstsimulator/sst-tutorials": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "supercontainers/atse": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "timkostka/exomerge": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -19884,6 +20619,66 @@
                                     }
                                 }
                             ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "zadorlab/sella": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ase",
+                                    "repository": {
+                                        "nameWithOwner": "rosswhitfield/ase"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jax",
+                                    "repository": {
+                                        "nameWithOwner": "google/jax"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jaxlib",
+                                    "repository": {
+                                        "nameWithOwner": "google/jax"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": []
                         }
                     }
                 ]
