@@ -531,7 +531,6 @@
             "build-tool",
             "cmake",
             "python",
-            "snl-build-tools",
             "package-manager",
             "package-manager-tool",
             "hpc",
@@ -539,7 +538,13 @@
             "cdash",
             "ctest",
             "build-tools",
-            "sandia-national-laboratories"
+            "cpp",
+            "testing",
+            "testing-tools",
+            "testing-framework",
+            "build-system",
+            "build-automation",
+            "cmake-scripts"
         ],
         "website": "http://tribits.org"
     },
@@ -1218,6 +1223,12 @@
         "name": "sandialabs/NJOY2016",
         "topics": null,
         "website": "https://www.njoy21.io/NJOY2016"
+    },
+    "sandialabs/NuMAD": {
+        "description": "Numerical Manufacturing And Design Tool (NuMAD) -- A design tool for wind and water turbine composite blades",
+        "name": "sandialabs/NuMAD",
+        "topics": null,
+        "website": ""
     },
     "sandialabs/OperonSEQer": {
         "description": null,
