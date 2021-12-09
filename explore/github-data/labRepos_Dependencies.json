@@ -126,6 +126,61 @@
                 ]
             }
         },
+        "ESMCI/cime": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbsphinx",
+                                    "repository": {
+                                        "nameWithOwner": "spatialaudio/nbsphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "wiredfool/pillow-fuzz"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-reload",
+                                    "repository": {
+                                        "nameWithOwner": "prkumar/sphinx-reload"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "Exawind/nalu-wind": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -1870,6 +1925,172 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "Rapid-Design-of-Systems-Laboratory/beluga": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cloudpickle",
+                                    "repository": {
+                                        "nameWithOwner": "cloudpipe/cloudpickle"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "docopt",
+                                    "repository": {
+                                        "nameWithOwner": "docopt/docopt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "liepack",
+                                    "repository": {
+                                        "nameWithOwner": "msparapa/liepack"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "llvmlite",
+                                    "repository": {
+                                        "nameWithOwner": "numba/llvmlite"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numba",
+                                    "repository": {
+                                        "nameWithOwner": "numba/numba"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numexpr",
+                                    "repository": {
+                                        "nameWithOwner": "eleddy/numexpr"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pathos",
+                                    "repository": {
+                                        "nameWithOwner": "uqfoundation/pathos"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyyaml",
+                                    "repository": {
+                                        "nameWithOwner": "yaml/pyyaml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sympy",
+                                    "repository": {
+                                        "nameWithOwner": "sympy/sympy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "coverage",
+                                    "repository": {
+                                        "nameWithOwner": "nedbat/coveragepy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "coverage-badge",
+                                    "repository": {
+                                        "nameWithOwner": "dbrgn/coverage-badge"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pylint",
+                                    "repository": {
+                                        "nameWithOwner": "s0undt3ch/pylint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-describe",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-describe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -3693,7 +3914,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link",
                                     "repository": {
-                                        "nameWithOwner": "kinyat/apollo-link-import-fix"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -3707,7 +3928,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link-schema",
                                     "repository": {
-                                        "nameWithOwner": "brabeji/temporary-apollo-link-schema"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -5274,19 +5495,6 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
-                    }
-                ]
-            }
-        },
-        "SNL-WaterPower/SNL-Delft3D-CEC": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
                     }
                 ]
             }
@@ -19856,7 +20064,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "popper.js",
                                     "repository": {
-                                        "nameWithOwner": "popperjs/popper-core"
+                                        "nameWithOwner": "floating-ui/floating-ui"
                                     }
                                 },
                                 {
@@ -20435,7 +20643,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "@popperjs/core",
                                     "repository": {
-                                        "nameWithOwner": "popperjs/popper-core"
+                                        "nameWithOwner": "floating-ui/floating-ui"
                                     }
                                 },
                                 {
@@ -20505,7 +20713,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "popper.js",
                                     "repository": {
-                                        "nameWithOwner": "popperjs/popper-core"
+                                        "nameWithOwner": "floating-ui/floating-ui"
                                     }
                                 },
                                 {
