@@ -6308,6 +6308,136 @@
                 ]
             }
         },
+        "ccss-sandia/antfarm": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "activerecord",
+                                    "repository": {
+                                        "nameWithOwner": "rails/rails"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "ipaddress",
+                                    "repository": {
+                                        "nameWithOwner": "ipaddress-gem/ipaddress"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "launchy",
+                                    "repository": {
+                                        "nameWithOwner": "copiousfreetime/launchy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "packetfu",
+                                    "repository": {
+                                        "nameWithOwner": "packetfu/packetfu"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "pg",
+                                    "repository": {
+                                        "nameWithOwner": "ged/ruby-pg"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "pry",
+                                    "repository": {
+                                        "nameWithOwner": "pry/pry"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "slim",
+                                    "repository": {
+                                        "nameWithOwner": "slim-template/slim"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "sqlite3",
+                                    "repository": {
+                                        "nameWithOwner": "sparklemotion/sqlite3-ruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "terminal-table",
+                                    "repository": {
+                                        "nameWithOwner": "tj/terminal-table"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "trollop",
+                                    "repository": {
+                                        "nameWithOwner": "ManageIQ/optimist"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "fabrication",
+                                    "repository": {
+                                        "nameWithOwner": "paulelliott/fabrication"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "minitest",
+                                    "repository": {
+                                        "nameWithOwner": "seattlerb/minitest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "simplecov",
+                                    "repository": {
+                                        "nameWithOwner": "simplecov-ruby/simplecov"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#701516",
+                        "name": "Ruby"
+                    }
+                ]
+            }
+        },
+        "ccss-sandia/cicm": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            }
+        },
         "cgvalic/GeoPlace": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -11929,6 +12059,139 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/SetProgramOptions": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "configparser",
+                                    "repository": {
+                                        "nameWithOwner": "mdsitton/configparser-3.2.0r3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "configparserenhanced",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mock",
+                                    "repository": {
+                                        "nameWithOwner": "calvinchengx/python-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "Sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-argparse",
+                                    "repository": {
+                                        "nameWithOwner": "alex-rudakov/sphinx-argparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mock",
+                                    "repository": {
+                                        "nameWithOwner": "calvinchengx/python-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-argparse",
+                                    "repository": {
+                                        "nameWithOwner": "alex-rudakov/sphinx-argparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
