@@ -6451,6 +6451,33 @@
                 ]
             }
         },
+        "chapel-lang/chapel": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyzmq",
+                                    "repository": {
+                                        "nameWithOwner": "zeromq/pyzmq"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#8dc63f",
+                        "name": "Chapel"
+                    }
+                ]
+            }
+        },
         "csafta/EGSim": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -7250,6 +7277,46 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "nikdon/pyEntropy": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -15982,6 +16049,61 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/optimism": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jax",
+                                    "repository": {
+                                        "nameWithOwner": "google/jax"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jaxlib",
+                                    "repository": {
+                                        "nameWithOwner": "google/jax"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "netcdf4",
+                                    "repository": {
+                                        "nameWithOwner": "Unidata/netcdf4-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
