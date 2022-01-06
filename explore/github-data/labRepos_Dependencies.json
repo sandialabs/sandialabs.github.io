@@ -7334,54 +7334,6 @@
                 ]
             }
         },
-        "or-fusion/pao": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "munch",
-                                    "repository": {
-                                        "nameWithOwner": "scooterman/pymunch"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "parameterized",
-                                    "repository": {
-                                        "nameWithOwner": "wolever/parameterized"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyomo",
-                                    "repository": {
-                                        "nameWithOwner": "Pyomo/pyomo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "or-fusion/pyomo_simplemodel": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -19267,40 +19219,6 @@
                 "nodes": []
             }
         },
-        "sandialabs/shadow": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch",
-                                    "repository": {
-                                        "nameWithOwner": "pytorch/pytorch"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "sandialabs/sibl": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -21026,9 +20944,7 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@popperjs/core",
-                                    "repository": {
-                                        "nameWithOwner": "floating-ui/floating-ui"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
