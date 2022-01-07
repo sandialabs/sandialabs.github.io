@@ -3351,7 +3351,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "faker",
                                     "repository": {
-                                        "nameWithOwner": "yoyodream2017/vuecli-mockserver-faker"
+                                        "nameWithOwner": "Marak/faker.js"
                                     }
                                 },
                                 {
@@ -4005,7 +4005,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "faker",
                                     "repository": {
-                                        "nameWithOwner": "yoyodream2017/vuecli-mockserver-faker"
+                                        "nameWithOwner": "Marak/faker.js"
                                     }
                                 },
                                 {
@@ -7334,6 +7334,54 @@
                 ]
             }
         },
+        "or-fusion/pao": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "munch",
+                                    "repository": {
+                                        "nameWithOwner": "scooterman/pymunch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "parameterized",
+                                    "repository": {
+                                        "nameWithOwner": "wolever/parameterized"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyomo",
+                                    "repository": {
+                                        "nameWithOwner": "Pyomo/pyomo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "or-fusion/pyomo_simplemodel": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -8874,7 +8922,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "@babel/plugin-transform-named-capturing-groups-regex",
                                     "repository": {
-                                        "nameWithOwner": "Kunal150/covid_homequarentine"
+                                        "nameWithOwner": "babel/babel"
                                     }
                                 },
                                 {
@@ -11415,7 +11463,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "@babel/plugin-transform-named-capturing-groups-regex",
                                     "repository": {
-                                        "nameWithOwner": "Kunal150/covid_homequarentine"
+                                        "nameWithOwner": "babel/babel"
                                     }
                                 },
                                 {
@@ -19219,6 +19267,40 @@
                 "nodes": []
             }
         },
+        "sandialabs/shadow": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/sibl": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -19823,7 +19905,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "@babel/plugin-transform-named-capturing-groups-regex",
                                     "repository": {
-                                        "nameWithOwner": "Kunal150/covid_homequarentine"
+                                        "nameWithOwner": "babel/babel"
                                     }
                                 },
                                 {
@@ -21173,13 +21255,6 @@
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
                                         "nameWithOwner": "readthedocs/sphinx_rtd_theme"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinxcontrib-napoleon",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-contrib/napoleon"
                                     }
                                 }
                             ]
