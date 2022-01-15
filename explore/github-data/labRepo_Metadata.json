@@ -549,10 +549,12 @@
         "website": "http://tribits.org"
     },
     "USEPA/CANARY": {
-        "description": "ORD OSIM",
+        "description": "Tool for finding events in water quality metrics",
         "name": "USEPA/CANARY",
-        "topics": null,
-        "website": null
+        "topics": [
+            "ord"
+        ],
+        "website": ""
     },
     "USEPA/WNTR": {
         "description": "An EPANET compatible python package to simulate and analyze water distribution networks under disaster scenarios.",
