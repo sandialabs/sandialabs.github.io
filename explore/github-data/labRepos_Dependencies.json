@@ -19456,7 +19456,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.eclipse.jgit:org.eclipse.jgit.ssh.jsch",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "msohn/jgit"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -31593,7 +31595,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "react-table",
                                     "repository": {
-                                        "nameWithOwner": "tannerlinsley/react-table"
+                                        "nameWithOwner": "tamalweb/periodic-table"
                                     }
                                 },
                                 {
@@ -31998,7 +32000,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "react-table",
                                     "repository": {
-                                        "nameWithOwner": "tannerlinsley/react-table"
+                                        "nameWithOwner": "tamalweb/periodic-table"
                                     }
                                 },
                                 {
@@ -34255,7 +34257,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#e34c26",
+                        "name": "HTML"
+                    }
+                ]
             }
         },
         "sandialabs/tracktable-docs": {
