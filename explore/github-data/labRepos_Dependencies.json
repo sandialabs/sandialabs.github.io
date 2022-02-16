@@ -187,6 +187,33 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "s-weigand/setup-conda",
+                                    "repository": {
+                                        "nameWithOwner": "s-weigand/setup-conda"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
@@ -591,7 +618,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pyparsing",
                                     "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
+                                        "nameWithOwner": "5monkeys/pyparsing"
                                     }
                                 },
                                 {
@@ -26360,7 +26387,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pyparsing",
                                     "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
+                                        "nameWithOwner": "5monkeys/pyparsing"
                                     }
                                 },
                                 {
@@ -31680,7 +31707,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pyparsing",
                                     "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
+                                        "nameWithOwner": "5monkeys/pyparsing"
                                     }
                                 },
                                 {
@@ -32405,7 +32432,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pyparsing",
                                     "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
+                                        "nameWithOwner": "5monkeys/pyparsing"
                                     }
                                 },
                                 {
@@ -33780,13 +33807,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "nose",
-                                    "repository": {
-                                        "nameWithOwner": "nose-devs/nose"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "numba",
                                     "repository": {
                                         "nameWithOwner": "numba/numba"
@@ -33825,13 +33845,6 @@
                                     "packageName": "scipy",
                                     "repository": {
                                         "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "seaborn",
-                                    "repository": {
-                                        "nameWithOwner": "mwaskom/seaborn"
                                     }
                                 },
                                 {
@@ -34321,7 +34334,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pyparsing",
                                     "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
+                                        "nameWithOwner": "5monkeys/pyparsing"
                                     }
                                 },
                                 {
@@ -38148,7 +38161,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pyparsing",
                                     "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
+                                        "nameWithOwner": "5monkeys/pyparsing"
                                     }
                                 },
                                 {
