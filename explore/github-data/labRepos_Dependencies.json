@@ -6546,7 +6546,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link",
                                     "repository": {
-                                        "nameWithOwner": "kinyat/apollo-link-import-fix"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -6560,7 +6560,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link-dedup",
                                     "repository": {
-                                        "nameWithOwner": "hashamhabib/apollo-link-dedup"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -9027,7 +9027,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link",
                                     "repository": {
-                                        "nameWithOwner": "kinyat/apollo-link-import-fix"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -9041,7 +9041,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link-schema",
                                     "repository": {
-                                        "nameWithOwner": "brabeji/temporary-apollo-link-schema"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -13384,7 +13384,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link",
                                     "repository": {
-                                        "nameWithOwner": "kinyat/apollo-link-import-fix"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -13398,7 +13398,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link-dedup",
                                     "repository": {
-                                        "nameWithOwner": "hashamhabib/apollo-link-dedup"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -16967,7 +16967,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link",
                                     "repository": {
-                                        "nameWithOwner": "kinyat/apollo-link-import-fix"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -16981,7 +16981,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-link-schema",
                                     "repository": {
-                                        "nameWithOwner": "brabeji/temporary-apollo-link-schema"
+                                        "nameWithOwner": "apollographql/apollo-link"
                                     }
                                 },
                                 {
@@ -38811,12 +38811,18 @@
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
                                     }
-                                },
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
+                                    "packageName": "actions/checkout",
                                     "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
