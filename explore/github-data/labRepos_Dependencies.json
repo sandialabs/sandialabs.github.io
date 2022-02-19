@@ -33807,13 +33807,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "numba",
-                                    "repository": {
-                                        "nameWithOwner": "numba/numba"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
@@ -39114,7 +39107,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#0000cc",
+                        "name": "GAP"
+                    }
+                ]
             }
         },
         "sandialabs/xyz": {
