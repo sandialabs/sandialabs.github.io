@@ -32533,6 +32533,89 @@
                 ]
             }
         },
+        "sandialabs/isml": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "arrow",
+                                    "repository": {
+                                        "nameWithOwner": "arrow-py/arrow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "imagecat",
+                                    "repository": {
+                                        "nameWithOwner": "shead-custom-design/imagecat"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "netcdf4",
+                                    "repository": {
+                                        "nameWithOwner": "Unidata/netcdf4-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "toyplot",
+                                    "repository": {
+                                        "nameWithOwner": "sandialabs/toyplot"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/laikaboss": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -36584,14 +36667,14 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/cli",
+                                    "packageName": "@ampproject/remapping",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "ampproject/remapping"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/code-frame",
+                                    "packageName": "@babel/cli",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -36664,6 +36747,13 @@
                                     "packageName": "@babel/helper-define-polyfill-provider",
                                     "repository": {
                                         "nameWithOwner": "babel/babel-polyfills"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/helper-environment-visitor",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
                                     }
                                 },
                                 {
@@ -36802,6 +36892,13 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@babel/parser",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -37267,20 +37364,6 @@
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-sticky-regex",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-template-literals",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
                                 }
                             ]
                         }
@@ -37669,6 +37752,13 @@
                                     "packageName": "knockout-mapping",
                                     "repository": {
                                         "nameWithOwner": "crissdev/knockout.mapping"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "layout-jquery3",
+                                    "repository": {
+                                        "nameWithOwner": "allpro/layout"
                                     }
                                 },
                                 {
