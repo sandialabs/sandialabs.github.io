@@ -4946,7 +4946,12 @@
         },
         "dotnet/source-build": {
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    }
+                ]
             },
             "name": "source-build",
             "nameWithOwner": "dotnet/source-build",
@@ -6592,16 +6597,6 @@
             "nameWithOwner": "hughsk/vinyl-source-stream",
             "owner": {
                 "login": "hughsk"
-            }
-        },
-        "huhuanming/uuid-types": {
-            "languages": {
-                "nodes": []
-            },
-            "name": "uuid-types",
-            "nameWithOwner": "huhuanming/uuid-types",
-            "owner": {
-                "login": "huhuanming"
             }
         },
         "hustcc/jest-canvas-mock": {
