@@ -26712,6 +26712,158 @@
                 ]
             }
         },
+        "sandialabs/Repometer": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mysql-connector-python",
+                                    "repository": {
+                                        "nameWithOwner": "mysql/mysql-connector-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygithub",
+                                    "repository": {
+                                        "nameWithOwner": "PyGithub/PyGithub"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-socket",
+                                    "repository": {
+                                        "nameWithOwner": "miketheman/pytest-socket"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-gitlab",
+                                    "repository": {
+                                        "nameWithOwner": "python-gitlab/python-gitlab"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "testing-mysqld",
+                                    "repository": {
+                                        "nameWithOwner": "tk0miya/testing.mysqld"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mysql-connector-python",
+                                    "repository": {
+                                        "nameWithOwner": "mysql/mysql-connector-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygithub",
+                                    "repository": {
+                                        "nameWithOwner": "PyGithub/PyGithub"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-socket",
+                                    "repository": {
+                                        "nameWithOwner": "miketheman/pytest-socket"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-gitlab",
+                                    "repository": {
+                                        "nameWithOwner": "python-gitlab/python-gitlab"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "testing-mysqld",
+                                    "repository": {
+                                        "nameWithOwner": "tk0miya/testing.mysqld"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/RetSynth": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -29355,22 +29507,20 @@
                                     "packageManager": "NPM",
                                     "packageName": "angular",
                                     "repository": {
-                                        "nameWithOwner": "jaesung2061/anvel"
+                                        "nameWithOwner": "angular/angular.js"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "angular-animate",
                                     "repository": {
-                                        "nameWithOwner": "angular/bower-angular-animate"
+                                        "nameWithOwner": "Caballerog/angular-animate.css"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "angular-aria",
-                                    "repository": {
-                                        "nameWithOwner": "angular/bower-angular-aria"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -29390,7 +29540,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "angular-messages",
                                     "repository": {
-                                        "nameWithOwner": "angular/bower-angular-messages"
+                                        "nameWithOwner": "direcionawebsites/angular-messages_v1.6.3"
                                     }
                                 },
                                 {
@@ -30038,15 +30188,13 @@
                                     "packageManager": "NPM",
                                     "packageName": "angular-animate",
                                     "repository": {
-                                        "nameWithOwner": "angular/bower-angular-animate"
+                                        "nameWithOwner": "Caballerog/angular-animate.css"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "angular-aria",
-                                    "repository": {
-                                        "nameWithOwner": "angular/bower-angular-aria"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -30066,7 +30214,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "angular-messages",
                                     "repository": {
-                                        "nameWithOwner": "angular/bower-angular-messages"
+                                        "nameWithOwner": "direcionawebsites/angular-messages_v1.6.3"
                                     }
                                 },
                                 {
