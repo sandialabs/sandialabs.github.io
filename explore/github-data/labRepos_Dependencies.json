@@ -20773,6 +20773,13 @@
                                 },
                                 {
                                     "packageManager": "MAVEN",
+                                    "packageName": "org.apache.sshd:sshd-sftp",
+                                    "repository": {
+                                        "nameWithOwner": "apache/mina-sshd"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
                                     "packageName": "org.eclipse.jgit:org.eclipse.jgit",
                                     "repository": {
                                         "nameWithOwner": "spearce/jgit"
@@ -20780,16 +20787,9 @@
                                 },
                                 {
                                     "packageManager": "MAVEN",
-                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit.ssh.jsch",
+                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit.ssh.apache",
                                     "repository": {
-                                        "nameWithOwner": "terrorizer1980/jgit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.eclipse.jgit:org.eclipse.jgit.ui",
-                                    "repository": {
-                                        "nameWithOwner": "spearce/jgit"
+                                        "nameWithOwner": "Datical/jgit"
                                     }
                                 },
                                 {
@@ -31283,13 +31283,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "dill",
-                                    "repository": {
-                                        "nameWithOwner": "uqfoundation/dill"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "matplotlib",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/matplotlib"
@@ -31304,23 +31297,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pythonnet",
                                     "repository": {
                                         "nameWithOwner": "pythonnet/pythonnet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-image",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-image/scikit-image"
                                     }
                                 },
                                 {
