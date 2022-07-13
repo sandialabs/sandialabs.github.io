@@ -30861,6 +30861,19 @@
                 ]
             }
         },
+        "sandialabs/SCO2_CONTROL_SOFTWARE": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#fede06",
+                        "name": "LabVIEW"
+                    }
+                ]
+            }
+        },
         "sandialabs/SMARTT": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -39803,6 +39816,13 @@
                                     "packageName": "pytest",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
