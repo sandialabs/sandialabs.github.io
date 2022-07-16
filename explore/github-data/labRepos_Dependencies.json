@@ -23904,6 +23904,26 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "jwlawson/actions-setup-cmake",
+                                    "repository": {
+                                        "nameWithOwner": "jwlawson/actions-setup-cmake"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "PIP",
                                     "packageName": "lxml",
                                     "repository": {
@@ -35620,6 +35640,19 @@
                 ]
             }
         },
+        "sandialabs/fsea": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/gait": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -39285,8 +39318,10 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "cx_Oracle",
-                                    "repository": null
+                                    "packageName": "cx-oracle",
+                                    "repository": {
+                                        "nameWithOwner": "oracle/python-cx_Oracle"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -43085,28 +43120,38 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "jaraco.classes",
-                                    "repository": null
+                                    "packageName": "jaraco-classes",
+                                    "repository": {
+                                        "nameWithOwner": "jaraco/jaraco.classes"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "jaraco.collections",
-                                    "repository": null
+                                    "packageName": "jaraco-collections",
+                                    "repository": {
+                                        "nameWithOwner": "jaraco/jaraco.collections"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "jaraco.context",
-                                    "repository": null
+                                    "packageName": "jaraco-context",
+                                    "repository": {
+                                        "nameWithOwner": "jaraco/jaraco.context"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "jaraco.functools",
-                                    "repository": null
+                                    "packageName": "jaraco-functools",
+                                    "repository": {
+                                        "nameWithOwner": "jaraco/jaraco.functools"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "jaraco.text",
-                                    "repository": null
+                                    "packageName": "jaraco-text",
+                                    "repository": {
+                                        "nameWithOwner": "jaraco/jaraco.text"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -43229,8 +43274,10 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "repoze.lru",
-                                    "repository": null
+                                    "packageName": "repoze-lru",
+                                    "repository": {
+                                        "nameWithOwner": "repoze/repoze.lru"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -43295,8 +43342,10 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "zc.lockfile",
-                                    "repository": null
+                                    "packageName": "zc-lockfile",
+                                    "repository": {
+                                        "nameWithOwner": "zopefoundation/zc.lockfile"
+                                    }
                                 }
                             ]
                         }
