@@ -38714,6 +38714,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pymc3",
+                                    "repository": {
+                                        "nameWithOwner": "clk8908/pymc3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pytest",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest"
@@ -38746,32 +38753,12 @@
                                     "repository": {
                                         "nameWithOwner": "sympy/sympy"
                                     }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "nose",
-                                    "repository": {
-                                        "nameWithOwner": "nose-devs/nose"
-                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pyapprox",
+                                    "packageName": "torch",
                                     "repository": {
-                                        "nameWithOwner": "sandialabs/pyapprox"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pymc3",
-                                    "repository": {
-                                        "nameWithOwner": "clk8908/pymc3"
+                                        "nameWithOwner": "pytorch/pytorch"
                                     }
                                 }
                             ]
