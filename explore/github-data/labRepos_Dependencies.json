@@ -64,6 +64,60 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Nullable",
+                                    "repository": {
+                                        "nameWithOwner": "manuelroemer/Nullable"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Memory",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "coverlet.collector",
+                                    "repository": {
+                                        "nameWithOwner": "coverlet-coverage/coverlet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.NET.Test.Sdk",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/vstest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit",
+                                    "repository": {
+                                        "nameWithOwner": "xunit/xunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.runner.visualstudio",
+                                    "repository": {
+                                        "nameWithOwner": "xunit/visualstudio.xunit"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
