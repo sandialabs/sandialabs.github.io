@@ -41663,6 +41663,33 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "docker/build-push-action",
+                                    "repository": {
+                                        "nameWithOwner": "docker/build-push-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "docker/login-action",
+                                    "repository": {
+                                        "nameWithOwner": "docker/login-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/cache",
                                     "repository": {
                                         "nameWithOwner": "actions/cache"
