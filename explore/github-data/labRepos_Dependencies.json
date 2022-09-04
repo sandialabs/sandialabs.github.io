@@ -30688,26 +30688,6 @@
                         "dependencies": {
                             "nodes": [
                                 {
-                                    "packageManager": "RUBYGEMS",
-                                    "packageName": "jekyll",
-                                    "repository": {
-                                        "nameWithOwner": "jekyll/jekyll"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUBYGEMS",
-                                    "packageName": "jekyll-timeago",
-                                    "repository": {
-                                        "nameWithOwner": "markets/jekyll-timeago"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
                                     "packageManager": "RUST",
                                     "packageName": "blas-src",
                                     "repository": {
@@ -30740,6 +30720,26 @@
                                     "packageName": "openblas-src",
                                     "repository": {
                                         "nameWithOwner": "blas-lapack-rs/openblas-src"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-timeago",
+                                    "repository": {
+                                        "nameWithOwner": "markets/jekyll-timeago"
                                     }
                                 }
                             ]
@@ -30912,8 +30912,8 @@
             "languages": {
                 "nodes": [
                     {
-                        "color": "#dea584",
-                        "name": "Rust"
+                        "color": "#563d7c",
+                        "name": "CSS"
                     }
                 ]
             }
@@ -39657,7 +39657,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "retrying",
                                     "repository": {
-                                        "nameWithOwner": "johnnoone/py-retry"
+                                        "nameWithOwner": "rholder/retrying"
                                     }
                                 },
                                 {
