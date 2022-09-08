@@ -30767,6 +30767,13 @@
                                 },
                                 {
                                     "packageManager": "RUST",
+                                    "packageName": "ndarray-rand",
+                                    "repository": {
+                                        "nameWithOwner": "rust-ndarray/ndarray"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUST",
                                     "packageName": "openblas-src",
                                     "repository": {
                                         "nameWithOwner": "blas-lapack-rs/openblas-src"
@@ -30797,6 +30804,33 @@
                                     "packageName": "jekyll-timeago",
                                     "repository": {
                                         "nameWithOwner": "markets/jekyll-timeago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -32351,7 +32385,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue-router",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/router"
+                                        "nameWithOwner": "vuejs/vue-router"
                                     }
                                 },
                                 {
@@ -37931,7 +37965,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue-router",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/router"
+                                        "nameWithOwner": "vuejs/vue-router"
                                     }
                                 },
                                 {
