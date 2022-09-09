@@ -24352,7 +24352,7 @@
                                     "packageManager": "MAVEN",
                                     "packageName": "org.yaml:snakeyaml",
                                     "repository": {
-                                        "nameWithOwner": "bmoliveira/snake-yaml"
+                                        "nameWithOwner": "snakeyaml/snakeyaml"
                                     }
                                 }
                             ]
@@ -32711,6 +32711,14 @@
                 ]
             }
         },
+        "sandialabs/SmartDBs": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/SpecUtils": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -40899,6 +40907,136 @@
                     {
                         "color": "#f1e05a",
                         "name": "JavaScript"
+                    }
+                ]
+            }
+        },
+        "sandialabs/sbovqaopt": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flake8",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flake8-annotations",
+                                    "repository": {
+                                        "nameWithOwner": "sco1/flake8-annotations"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "notebook",
+                                    "repository": {
+                                        "nameWithOwner": "mirobeka/notebook"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-repeat",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-repeat"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "qiskit",
+                                    "repository": {
+                                        "nameWithOwner": "Qiskit/qiskit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "qiskit",
+                                    "repository": {
+                                        "nameWithOwner": "Qiskit/qiskit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
