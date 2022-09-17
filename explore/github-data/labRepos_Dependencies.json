@@ -3053,7 +3053,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "natural-compare",
                                     "repository": {
-                                        "nameWithOwner": "discoveryjs/natural-compare"
+                                        "nameWithOwner": "litejs/natural-compare-lite"
                                     }
                                 },
                                 {
@@ -4836,7 +4836,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "breathe",
                                     "repository": {
-                                        "nameWithOwner": "michaeljones/breathe"
+                                        "nameWithOwner": "breathe-doc/breathe"
                                     }
                                 },
                                 {
@@ -26097,7 +26097,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "breathe",
                                     "repository": {
-                                        "nameWithOwner": "michaeljones/breathe"
+                                        "nameWithOwner": "breathe-doc/breathe"
                                     }
                                 },
                                 {
@@ -32781,7 +32781,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "breathe",
                                     "repository": {
-                                        "nameWithOwner": "michaeljones/breathe"
+                                        "nameWithOwner": "breathe-doc/breathe"
                                     }
                                 },
                                 {
@@ -33839,7 +33839,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "breathe",
                                     "repository": {
-                                        "nameWithOwner": "michaeljones/breathe"
+                                        "nameWithOwner": "breathe-doc/breathe"
                                     }
                                 }
                             ]
@@ -35402,7 +35402,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "breathe",
                                     "repository": {
-                                        "nameWithOwner": "michaeljones/breathe"
+                                        "nameWithOwner": "breathe-doc/breathe"
                                     }
                                 },
                                 {
@@ -38362,6 +38362,26 @@
                                     "packageName": "scipy",
                                     "repository": {
                                         "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
                                     }
                                 }
                             ]
