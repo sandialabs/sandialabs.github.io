@@ -32551,6 +32551,71 @@
                 ]
             }
         },
+        "sandialabs/Salsa3DSoftware": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "com.oracle.database.security:oraclepki",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "com.oracle.ojdbc:ojdbc8",
+                                    "repository": {
+                                        "nameWithOwner": "IbraheemHalasah/Hospital-Database-Project"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "com.sun.xml.bind:jaxb-core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "com.sun.xml.bind:jaxb-impl",
+                                    "repository": {
+                                        "nameWithOwner": "javagems/jaxb-impl"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "javax.xml.bind:jaxb-api",
+                                    "repository": {
+                                        "nameWithOwner": "javaee/jaxb-spec"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "jfree:jfreechart",
+                                    "repository": {
+                                        "nameWithOwner": "sungjma/JFreeChart"
+                                    }
+                                },
+                                {
+                                    "packageManager": "MAVEN",
+                                    "packageName": "junit:junit",
+                                    "repository": {
+                                        "nameWithOwner": "junit-team/junit4"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            }
+        },
         "sandialabs/SandiaDecay": {
             "dependencyGraphManifests": {
                 "nodes": []
