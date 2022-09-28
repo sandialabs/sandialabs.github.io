@@ -4703,7 +4703,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -4775,6 +4775,13 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
@@ -4799,6 +4806,20 @@
                                     "packageName": "docker/metadata-action",
                                     "repository": {
                                         "nameWithOwner": "docker/metadata-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "docker/setup-buildx-action",
+                                    "repository": {
+                                        "nameWithOwner": "docker/setup-buildx-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "docker/setup-qemu-action",
+                                    "repository": {
+                                        "nameWithOwner": "docker/setup-qemu-action"
                                     }
                                 },
                                 {
@@ -4858,7 +4879,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -5082,7 +5103,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -5096,7 +5117,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -5891,9 +5912,44 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "commonmarker",
+                                    "repository": {
+                                        "nameWithOwner": "gjtorikian/commonmarker"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "concurrent-ruby",
+                                    "repository": {
+                                        "nameWithOwner": "ruby-concurrency/concurrent-ruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "dnsruby",
+                                    "repository": {
+                                        "nameWithOwner": "alexdalitz/dnsruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "em-websocket",
+                                    "repository": {
+                                        "nameWithOwner": "igrigorik/em-websocket"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "ethon",
                                     "repository": {
                                         "nameWithOwner": "typhoeus/ethon"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "eventmachine",
+                                    "repository": {
+                                        "nameWithOwner": "eventmachine/eventmachine"
                                     }
                                 },
                                 {
@@ -5908,6 +5964,13 @@
                                     "packageName": "faraday",
                                     "repository": {
                                         "nameWithOwner": "lostisland/faraday"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "faraday-net_http",
+                                    "repository": {
+                                        "nameWithOwner": "lostisland/faraday-net_http"
                                     }
                                 },
                                 {
@@ -5954,6 +6017,13 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "http_parser.rb",
+                                    "repository": {
+                                        "nameWithOwner": "tmm1/http_parser.rb"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "i18n",
                                     "repository": {
                                         "nameWithOwner": "ruby-i18n/i18n"
@@ -5982,6 +6052,20 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-commonmark",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-commonmark"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-commonmark-ghpages",
+                                    "repository": {
+                                        "nameWithOwner": "github/jekyll-commonmark-ghpages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "jekyll-default-layout",
                                     "repository": {
                                         "nameWithOwner": "benbalter/jekyll-default-layout"
@@ -6006,6 +6090,13 @@
                                     "packageName": "jekyll-github-metadata",
                                     "repository": {
                                         "nameWithOwner": "jekyll/github-metadata"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-include-cache",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-include-cache"
                                     }
                                 },
                                 {
@@ -6048,6 +6139,13 @@
                                     "packageName": "jekyll-relative-links",
                                     "repository": {
                                         "nameWithOwner": "benbalter/jekyll-relative-links"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-remote-theme",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-remote-theme"
                                     }
                                 },
                                 {
@@ -6192,16 +6290,16 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
-                                    "packageName": "json",
+                                    "packageName": "kramdown",
                                     "repository": {
-                                        "nameWithOwner": "flori/json"
+                                        "nameWithOwner": "ashmaroli/calmdown"
                                     }
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
-                                    "packageName": "kramdown",
+                                    "packageName": "kramdown-parser-gfm",
                                     "repository": {
-                                        "nameWithOwner": "ashmaroli/calmdown"
+                                        "nameWithOwner": "kramdown/parser-gfm"
                                     }
                                 },
                                 {
@@ -6248,20 +6346,6 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
-                                    "packageName": "multipart-post",
-                                    "repository": {
-                                        "nameWithOwner": "socketry/multipart-post"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUBYGEMS",
-                                    "packageName": "net-dns",
-                                    "repository": {
-                                        "nameWithOwner": "bluemonk/net-dns"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUBYGEMS",
                                     "packageName": "nokogiri",
                                     "repository": {
                                         "nameWithOwner": "sparklemotion/nokogiri"
@@ -6290,6 +6374,13 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "racc",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/racc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "rb-fsevent",
                                     "repository": {
                                         "nameWithOwner": "guard/rb-fsevent"
@@ -6304,9 +6395,30 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "rexml",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/rexml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "rouge",
                                     "repository": {
                                         "nameWithOwner": "rouge-ruby/rouge"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "ruby2_keywords",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/ruby2_keywords"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "rubyzip",
+                                    "repository": {
+                                        "nameWithOwner": "rubyzip/rubyzip"
                                     }
                                 },
                                 {
@@ -6325,9 +6437,23 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "sass-listen",
+                                    "repository": {
+                                        "nameWithOwner": "hixio-mh/listen"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "sawyer",
                                     "repository": {
                                         "nameWithOwner": "lostisland/sawyer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "simpleidn",
+                                    "repository": {
+                                        "nameWithOwner": "mmriis/simpleidn"
                                     }
                                 },
                                 {
@@ -6360,9 +6486,30 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "unf",
+                                    "repository": {
+                                        "nameWithOwner": "knu/ruby-unf"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "unf_ext",
+                                    "repository": {
+                                        "nameWithOwner": "knu/ruby-unf_ext"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "unicode-display_width",
                                     "repository": {
                                         "nameWithOwner": "janlelis/unicode-display_width"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "zeitwerk",
+                                    "repository": {
+                                        "nameWithOwner": "fxn/zeitwerk"
                                     }
                                 }
                             ]
@@ -6710,14 +6857,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -7408,7 +7555,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 }
                             ]
@@ -7525,7 +7672,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 }
                             ]
@@ -24162,14 +24309,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -24498,7 +24645,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -25478,7 +25625,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 }
                             ]
@@ -26146,7 +26293,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -27143,7 +27290,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 }
                             ]
@@ -27197,14 +27344,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -27552,14 +27699,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -29218,7 +29365,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "Sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -29232,7 +29379,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -29272,7 +29419,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -29286,7 +29433,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -29526,14 +29673,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -30072,14 +30219,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -30208,6 +30355,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/MLC": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -30396,14 +30556,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -31088,6 +31248,13 @@
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 }
                             ]
@@ -32679,7 +32846,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "Sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -32693,7 +32860,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -32766,7 +32933,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -32780,7 +32947,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -32928,14 +33095,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -33990,9 +34157,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "cffi",
-                                    "repository": {
-                                        "nameWithOwner": "chevah/python-cffi"
-                                    }
+                                    "repository": null
                                 }
                             ]
                         }
@@ -35536,14 +35701,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -35735,14 +35900,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -36059,14 +36224,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -36580,7 +36745,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -36913,14 +37078,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -37378,9 +37543,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "cffi",
-                                    "repository": {
-                                        "nameWithOwner": "chevah/python-cffi"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -40614,7 +40777,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -40662,7 +40825,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -40683,7 +40846,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -40930,7 +41093,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -40944,7 +41107,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -42430,14 +42593,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -44035,9 +44198,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "cffi",
-                                    "repository": {
-                                        "nameWithOwner": "chevah/python-cffi"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -44484,7 +44645,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -44552,7 +44713,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -44851,14 +45012,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -44978,14 +45139,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -45501,7 +45662,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -45706,14 +45867,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -45802,14 +45963,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -46467,14 +46628,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
