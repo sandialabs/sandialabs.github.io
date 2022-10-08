@@ -23103,7 +23103,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "capture-stack-trace",
                                     "repository": {
-                                        "nameWithOwner": "floatdrop/capture-stack-trace"
+                                        "nameWithOwner": "sindresorhus/capture-stack-trace"
                                     }
                                 },
                                 {
@@ -34156,11 +34156,9 @@
                         "dependencies": {
                             "nodes": [
                                 {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
+                                    "packageManager": "PIP",
+                                    "packageName": "cffi",
+                                    "repository": null
                                 }
                             ]
                         }
@@ -34169,9 +34167,18 @@
                         "dependencies": {
                             "nodes": [
                                 {
-                                    "packageManager": "PIP",
-                                    "packageName": "cffi",
-                                    "repository": null
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
                                 }
                             ]
                         }
