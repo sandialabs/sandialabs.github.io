@@ -11405,7 +11405,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-server",
                                     "repository": {
-                                        "nameWithOwner": "apollographql/apollo-server"
+                                        "nameWithOwner": "wajdikanzali/apollo-server"
                                     }
                                 },
                                 {
@@ -18244,7 +18244,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "apollo-server",
                                     "repository": {
-                                        "nameWithOwner": "apollographql/apollo-server"
+                                        "nameWithOwner": "wajdikanzali/apollo-server"
                                     }
                                 },
                                 {
@@ -25252,6 +25252,33 @@
                                     "packageName": "actions/upload-artifact",
                                     "repository": {
                                         "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "dawidd6/action-send-mail",
+                                    "repository": {
+                                        "nameWithOwner": "dawidd6/action-send-mail"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "tj-actions/changed-files",
+                                    "repository": {
+                                        "nameWithOwner": "tj-actions/changed-files"
                                     }
                                 }
                             ]
