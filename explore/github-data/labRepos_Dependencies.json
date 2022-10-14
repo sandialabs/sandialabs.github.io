@@ -2779,7 +2779,9 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "concat-map",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "ljharb/concat-map"
+                                    }
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -2799,7 +2801,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "deep-is",
                                     "repository": {
-                                        "nameWithOwner": "thlorenz/deep-is"
+                                        "nameWithOwner": "deepin-community/node-deep-is"
                                     }
                                 },
                                 {
@@ -4710,6 +4712,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sphinxcontrib-programoutput",
                                     "repository": {
                                         "nameWithOwner": "NextThought/sphinxcontrib-programoutput"
@@ -4743,6 +4752,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/cache",
+                                    "repository": {
+                                        "nameWithOwner": "actions/cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
@@ -4750,9 +4766,30 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/github-script",
+                                    "repository": {
+                                        "nameWithOwner": "actions/github-script"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peaceiris/actions-gh-pages",
+                                    "repository": {
+                                        "nameWithOwner": "peaceiris/actions-gh-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "tj-actions/changed-files",
+                                    "repository": {
+                                        "nameWithOwner": "tj-actions/changed-files"
                                     }
                                 }
                             ]
@@ -23258,7 +23295,9 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "concat-map",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "ljharb/concat-map"
+                                    }
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -29525,7 +29564,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "sandialabs/Easee": {
@@ -32629,7 +32673,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
@@ -34852,7 +34896,9 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "concat-map",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "ljharb/concat-map"
+                                    }
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -38326,7 +38372,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
@@ -45304,13 +45350,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "docker/build-push-action",
                                     "repository": {
                                         "nameWithOwner": "docker/build-push-action"
@@ -46099,13 +46138,6 @@
                     {
                         "dependencies": {
                             "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
                                 {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
