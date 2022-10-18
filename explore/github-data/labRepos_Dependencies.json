@@ -31042,48 +31042,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "RUST",
-                                    "packageName": "blas-src",
-                                    "repository": {
-                                        "nameWithOwner": "blas-lapack-rs/blas-src"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUST",
-                                    "packageName": "lazy_static",
-                                    "repository": {
-                                        "nameWithOwner": "crypto-com/sgx-vendor"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUST",
-                                    "packageName": "ndarray",
-                                    "repository": {
-                                        "nameWithOwner": "rust-ndarray/ndarray"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUST",
-                                    "packageName": "ndarray-linalg",
-                                    "repository": {
-                                        "nameWithOwner": "rust-ndarray/ndarray-linalg"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUST",
-                                    "packageName": "ndarray-rand",
-                                    "repository": {
-                                        "nameWithOwner": "rust-ndarray/ndarray"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUST",
-                                    "packageName": "openblas-src",
-                                    "repository": {
-                                        "nameWithOwner": "blas-lapack-rs/openblas-src"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUST",
                                     "packageName": "rand",
                                     "repository": {
                                         "nameWithOwner": "rust-random/rand"
@@ -34239,7 +34197,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "cffi",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "chevah/python-cffi"
+                                    }
                                 }
                             ]
                         }
@@ -36225,7 +36185,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "multidict",
                                     "repository": {
-                                        "nameWithOwner": "aio-libs/multidict"
+                                        "nameWithOwner": "deepin-community/python-multidict"
                                     }
                                 },
                                 {
@@ -37647,7 +37607,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "cffi",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "chevah/python-cffi"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -38039,7 +38001,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "multidict",
                                     "repository": {
-                                        "nameWithOwner": "aio-libs/multidict"
+                                        "nameWithOwner": "deepin-community/python-multidict"
                                     }
                                 },
                                 {
@@ -44302,7 +44264,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "cffi",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "chevah/python-cffi"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
