@@ -7148,6 +7148,13 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
                                 }
                             ]
                         }
@@ -23922,6 +23929,33 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "modflowpy/install-gfortran-action",
+                                    "repository": {
+                                        "nameWithOwner": "modflowpy/install-gfortran-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "github/codeql-action/analyze",
                                     "repository": {
                                         "nameWithOwner": "github/codeql-action"
@@ -23956,9 +23990,9 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "packageName": "actions/setup-python",
                                     "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                        "nameWithOwner": "actions/setup-python"
                                     }
                                 },
                                 {
@@ -23993,26 +24027,6 @@
                                     "packageName": "pypa/gh-action-pypi-publish",
                                     "repository": {
                                         "nameWithOwner": "pypa/gh-action-pypi-publish"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
                                     }
                                 }
                             ]
@@ -42970,6 +42984,13 @@
                                 },
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "@babel/eslint-parser",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "@babel/generator",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
@@ -43034,13 +43055,6 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@babel/helper-function-name",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/helper-get-function-arity",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -43118,6 +43132,13 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@babel/helper-split-export-declaration",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/helper-string-parser",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -43321,6 +43342,13 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@babel/plugin-syntax-export-namespace-from",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-syntax-import-assertions",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -43618,20 +43646,6 @@
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-shorthand-properties",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-spread",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
                                 }
                             ]
                         }
@@ -43649,6 +43663,13 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@babel/core",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/eslint-parser",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -43732,13 +43753,6 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@types/enzyme",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
                                     "packageName": "@types/jest",
                                     "repository": {
                                         "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
@@ -43795,23 +43809,9 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@wojtekmaj/enzyme-adapter-react-17",
-                                    "repository": {
-                                        "nameWithOwner": "wojtekmaj/enzyme-adapter-react-17"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
                                     "packageName": "autoprefixer",
                                     "repository": {
                                         "nameWithOwner": "postcss/autoprefixer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "babel-eslint",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel-eslint"
                                     }
                                 },
                                 {
@@ -43886,35 +43886,9 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "d3fc",
+                                    "packageName": "deep-equal",
                                     "repository": {
-                                        "nameWithOwner": "d3fc/d3fc"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "d3fc-webgl",
-                                    "repository": {
-                                        "nameWithOwner": "DevAndyLee/d3fc-webgl"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "d3v6",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "enzyme",
-                                    "repository": {
-                                        "nameWithOwner": "enzymejs/enzyme"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "enzyme-to-json",
-                                    "repository": {
-                                        "nameWithOwner": "adriantoine/enzyme-to-json"
+                                        "nameWithOwner": "inspect-js/node-deep-equal"
                                     }
                                 },
                                 {
@@ -44066,30 +44040,9 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "popper.js",
-                                    "repository": {
-                                        "nameWithOwner": "floating-ui/floating-ui"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "postcss-loader",
-                                    "repository": {
-                                        "nameWithOwner": "webpack-contrib/postcss-loader"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
                                     "packageName": "pre-commit",
                                     "repository": {
                                         "nameWithOwner": "observing/pre-commit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "precss",
-                                    "repository": {
-                                        "nameWithOwner": "csstools/precss"
                                     }
                                 },
                                 {
@@ -44111,13 +44064,6 @@
                                     "packageName": "react-dom",
                                     "repository": {
                                         "nameWithOwner": "facebook/react"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "react-ga",
-                                    "repository": {
-                                        "nameWithOwner": "react-ga/react-ga"
                                     }
                                 },
                                 {
