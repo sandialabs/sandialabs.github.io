@@ -44891,9 +44891,23 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "nptdms",
+                                    "repository": {
+                                        "nameWithOwner": "adamreeve/npTDMS"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
                                     }
                                 },
                                 {
@@ -44908,6 +44922,13 @@
                                     "packageName": "requests-kerberos",
                                     "repository": {
                                         "nameWithOwner": "requests/requests-kerberos"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sklearn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
                                     }
                                 }
                             ]
