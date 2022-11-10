@@ -31678,6 +31678,19 @@
                 ]
             }
         },
+        "sandialabs/QML": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/Relleno": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -37535,6 +37548,11 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "openjdk-11-jdk-headless",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "p7zip-full",
                                     "repository": null
                                 },
@@ -38326,6 +38344,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "python-pillow/Pillow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pip-tools",
                                     "repository": {
                                         "nameWithOwner": "magicshui/pip-tools"
@@ -38397,13 +38422,6 @@
                                     "packageName": "pyclamd",
                                     "repository": {
                                         "nameWithOwner": "duggan/pyclamd"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pycodestyle",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/pycodestyle"
                                     }
                                 }
                             ]
