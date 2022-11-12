@@ -30404,6 +30404,27 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "bokeh",
+                                    "repository": {
+                                        "nameWithOwner": "Maluuba/bokeh"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bottleneck",
+                                    "repository": {
+                                        "nameWithOwner": "pydata/bottleneck"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cfgrib",
+                                    "repository": {
+                                        "nameWithOwner": "ecmwf/cfgrib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "cycler",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/cycler"
@@ -30414,6 +30435,27 @@
                                     "packageName": "cython",
                                     "repository": {
                                         "nameWithOwner": "cython/cython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "dask",
+                                    "repository": {
+                                        "nameWithOwner": "dask/dask"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flox",
+                                    "repository": {
+                                        "nameWithOwner": "getflox/flox"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5netcdf",
+                                    "repository": {
+                                        "nameWithOwner": "h5netcdf/h5netcdf"
                                     }
                                 },
                                 {
@@ -30432,9 +30474,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "netcdf4",
+                                    "packageName": "nc-time-axis",
                                     "repository": {
-                                        "nameWithOwner": "Unidata/netcdf4-python"
+                                        "nameWithOwner": "SciTools/nc-time-axis"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numbagg",
+                                    "repository": {
+                                        "nameWithOwner": "numbagg/numbagg"
                                     }
                                 },
                                 {
@@ -30467,6 +30516,20 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pooch",
+                                    "repository": {
+                                        "nameWithOwner": "JustinGOSSES/pooch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydap",
+                                    "repository": {
+                                        "nameWithOwner": "lukecampbell/pydap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pyparsing",
                                     "repository": {
                                         "nameWithOwner": "pyparsing/pyparsing"
@@ -30495,9 +30558,23 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "rasterio",
+                                    "repository": {
+                                        "nameWithOwner": "rasterio/rasterio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
                                         "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "seaborn",
+                                    "repository": {
+                                        "nameWithOwner": "claudiouzelac/seaborn"
                                     }
                                 },
                                 {
@@ -30534,6 +30611,13 @@
                                     "repository": {
                                         "nameWithOwner": "pydata/xarray"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "zarr",
+                                    "repository": {
+                                        "nameWithOwner": "zarr-developers/zarr-python"
+                                    }
                                 }
                             ]
                         }
@@ -30541,6 +30625,13 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cython",
+                                    "repository": {
+                                        "nameWithOwner": "cython/cython"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "matplotlib",
@@ -31524,102 +31615,6 @@
         "sandialabs/PyRIID": {
             "dependencyGraphManifests": {
                 "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "coverage",
-                                    "repository": {
-                                        "nameWithOwner": "nedbat/coveragepy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-learn",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "seaborn",
-                                    "repository": {
-                                        "nameWithOwner": "claudiouzelac/seaborn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tables",
-                                    "repository": {
-                                        "nameWithOwner": "Seth-Rothschild/seatingchart-helper"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tensorflow",
-                                    "repository": {
-                                        "nameWithOwner": "tensorflow/tensorflow"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tensorflow-model-optimization",
-                                    "repository": {
-                                        "nameWithOwner": "tensorflow/model-optimization"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tensorflow-probability",
-                                    "repository": {
-                                        "nameWithOwner": "tensorflow/probability"
-                                    }
-                                }
-                            ]
-                        }
-                    },
                     {
                         "dependencies": {
                             "nodes": [
@@ -37095,7 +37090,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "WiX",
                                     "repository": {
-                                        "nameWithOwner": "wixtoolset/Tools"
+                                        "nameWithOwner": "wixtoolset/wix4"
                                     }
                                 }
                             ]
