@@ -40963,13 +40963,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pymc3",
-                                    "repository": {
-                                        "nameWithOwner": "clk8908/pymc3"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pytest",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest"
@@ -41008,6 +41001,13 @@
                                     "packageName": "torch",
                                     "repository": {
                                         "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
                                     }
                                 }
                             ]
@@ -43755,6 +43755,106 @@
                     {
                         "color": "#f1e05a",
                         "name": "JavaScript"
+                    }
+                ]
+            }
+        },
+        "sandialabs/sdynpy": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "netcdf4",
+                                    "repository": {
+                                        "nameWithOwner": "Unidata/netcdf4-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "python-pillow/Pillow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyqt5",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyqtgraph",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-pptx",
+                                    "repository": {
+                                        "nameWithOwner": "scanny/python-pptx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyvista",
+                                    "repository": {
+                                        "nameWithOwner": "pyvista/pyvista"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyvistaqt",
+                                    "repository": {
+                                        "nameWithOwner": "pyvista/pyvistaqt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "vtk",
+                                    "repository": {
+                                        "nameWithOwner": "KitwareMedical/VTKPythonPackage"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
