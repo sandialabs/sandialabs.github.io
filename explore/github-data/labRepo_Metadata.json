@@ -2091,12 +2091,6 @@
         ],
         "website": ""
     },
-    "sandialabs/openmp_task_bench": {
-        "description": "OMP-TB is a collection of benchmarks to measure tasking performance and tasking-related features in OpenMP.",
-        "name": "sandialabs/openmp_task_bench",
-        "topics": null,
-        "website": null
-    },
     "sandialabs/optimism": {
         "description": "Computational solid mechanics made easy with Jax",
         "name": "sandialabs/optimism",
@@ -2137,6 +2131,12 @@
     "sandialabs/packet2vec": {
         "description": "Word2Vec embeddings over packet capture data n-grams.",
         "name": "sandialabs/packet2vec",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/parallel_task_bench": {
+        "description": "OMP-TB is a collection of benchmarks to measure tasking performance and tasking-related features in OpenMP.",
+        "name": "sandialabs/parallel_task_bench",
         "topics": null,
         "website": null
     },
@@ -2338,6 +2338,16 @@
         "name": "sandialabs/snl-pstess",
         "topics": null,
         "website": null
+    },
+    "sandialabs/spack-manager": {
+        "description": "A project and machine deployment model using Spack",
+        "name": "sandialabs/spack-manager",
+        "topics": [
+            "spack",
+            "hpc",
+            "build-system"
+        ],
+        "website": "https://sandialabs.github.io/spack-manager/"
     },
     "sandialabs/spat": {
         "description": "A graphical user interface for measuring and performing inter-active analysis of physical unclonable functions (PUFs)",

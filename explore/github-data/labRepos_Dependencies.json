@@ -7453,20 +7453,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "docker/setup-qemu-action",
-                                    "repository": {
-                                        "nameWithOwner": "docker/setup-qemu-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "RalfG/python-wheels-manylinux-build",
-                                    "repository": {
-                                        "nameWithOwner": "RalfG/python-wheels-manylinux-build"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "RalfG/python-wheels-manylinux-build",
                                     "repository": {
                                         "nameWithOwner": "RalfG/python-wheels-manylinux-build"
@@ -39844,19 +39830,6 @@
                 ]
             }
         },
-        "sandialabs/openmp_task_bench": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#ed5051",
-                        "name": "ReScript"
-                    }
-                ]
-            }
-        },
         "sandialabs/optimism": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -40032,6 +40005,19 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/parallel_task_bench": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#ed5051",
+                        "name": "ReScript"
                     }
                 ]
             }
@@ -43847,6 +43833,26 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -46328,6 +46334,74 @@
                     {
                         "color": "#e16737",
                         "name": "MATLAB"
+                    }
+                ]
+            }
+        },
+        "sandialabs/spack-manager": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "JamesIves/github-pages-deploy-action",
+                                    "repository": {
+                                        "nameWithOwner": "JamesIves/github-pages-deploy-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "styfle/cancel-workflow-action",
+                                    "repository": {
+                                        "nameWithOwner": "styfle/cancel-workflow-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
