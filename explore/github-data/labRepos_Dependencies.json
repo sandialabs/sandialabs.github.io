@@ -5525,6 +5525,26 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -40942,6 +40962,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "numba",
+                                    "repository": {
+                                        "nameWithOwner": "numba/numba"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
@@ -40987,13 +41014,6 @@
                                     "packageName": "torch",
                                     "repository": {
                                         "nameWithOwner": "pytorch/pytorch"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tqdm",
-                                    "repository": {
-                                        "nameWithOwner": "tqdm/tqdm"
                                     }
                                 }
                             ]
@@ -43849,6 +43869,53 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peaceiris/actions-gh-pages",
+                                    "repository": {
+                                        "nameWithOwner": "peaceiris/actions-gh-pages"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pypa/gh-action-pypi-publish",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/gh-action-pypi-publish"
                                     }
                                 }
                             ]
