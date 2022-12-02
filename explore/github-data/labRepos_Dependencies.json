@@ -310,7 +310,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "build",
                                     "repository": {
-                                        "nameWithOwner": "benjamin-hodgson/build"
+                                        "nameWithOwner": "pypa/build"
                                     }
                                 },
                                 {
@@ -26552,7 +26552,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "build",
                                     "repository": {
-                                        "nameWithOwner": "benjamin-hodgson/build"
+                                        "nameWithOwner": "pypa/build"
                                     }
                                 },
                                 {
@@ -32454,6 +32454,31 @@
                 ]
             }
         },
+        "sandialabs/PyRIID-Examples": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipykernel",
+                                    "repository": null
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/QML": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -33912,7 +33937,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "build",
                                     "repository": {
-                                        "nameWithOwner": "benjamin-hodgson/build"
+                                        "nameWithOwner": "pypa/build"
                                     }
                                 },
                                 {
