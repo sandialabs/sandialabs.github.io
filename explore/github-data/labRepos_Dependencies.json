@@ -5147,14 +5147,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "black",
                                     "repository": {
-                                        "nameWithOwner": "qualname/grey"
+                                        "nameWithOwner": "psf/black"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "black",
                                     "repository": {
-                                        "nameWithOwner": "qualname/grey"
+                                        "nameWithOwner": "psf/black"
                                     }
                                 },
                                 {
@@ -48652,6 +48652,19 @@
                                     "packageName": "actions/stale",
                                     "repository": {
                                         "nameWithOwner": "actions/stale"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/create-or-update-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/create-or-update-comment"
                                     }
                                 }
                             ]
