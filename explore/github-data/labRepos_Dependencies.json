@@ -5341,7 +5341,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "nbformat",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbformat"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -24831,7 +24833,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "nbformat",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbformat"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -31645,7 +31649,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "nbformat",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbformat"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -32125,13 +32131,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "RUST",
-                                    "packageName": "pyo3",
-                                    "repository": {
-                                        "nameWithOwner": "PyO3/pyo3"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUST",
                                     "packageName": "rand",
                                     "repository": {
                                         "nameWithOwner": "rust-random/rand"
@@ -32216,6 +32215,19 @@
                                     "packageName": "github/codeql-action/init",
                                     "repository": {
                                         "nameWithOwner": "github/codeql-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
@@ -34448,7 +34460,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "nbformat",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbformat"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -40612,7 +40626,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "nbformat",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbformat"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
