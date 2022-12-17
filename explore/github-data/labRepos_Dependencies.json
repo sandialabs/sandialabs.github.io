@@ -37721,6 +37721,19 @@
                 ]
             }
         },
+        "sandialabs/hod-carrier": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/hsolo": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -38593,7 +38606,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "vim",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "kathirraj/vim"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
