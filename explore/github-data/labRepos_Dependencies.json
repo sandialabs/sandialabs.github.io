@@ -24060,6 +24060,13 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "conda-incubator/setup-miniconda",
                                     "repository": {
                                         "nameWithOwner": "conda-incubator/setup-miniconda"
@@ -31304,7 +31311,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "filelock",
                                     "repository": {
-                                        "nameWithOwner": "deepin-community/python-filelock"
+                                        "nameWithOwner": "tox-dev/py-filelock"
                                     }
                                 },
                                 {
@@ -31528,7 +31535,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "multidict",
                                     "repository": {
-                                        "nameWithOwner": "deepin-community/python-multidict"
+                                        "nameWithOwner": "aio-libs/multidict"
                                     }
                                 },
                                 {
@@ -34178,7 +34185,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup",
                                     "repository": {
-                                        "nameWithOwner": "adevore/old-beautiful-soup"
+                                        "nameWithOwner": "gazs/orarender"
                                     }
                                 },
                                 {
@@ -37074,7 +37081,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "multidict",
                                     "repository": {
-                                        "nameWithOwner": "deepin-community/python-multidict"
+                                        "nameWithOwner": "aio-libs/multidict"
                                     }
                                 },
                                 {
@@ -39123,7 +39130,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "multidict",
                                     "repository": {
-                                        "nameWithOwner": "deepin-community/python-multidict"
+                                        "nameWithOwner": "aio-libs/multidict"
                                     }
                                 },
                                 {
@@ -43784,33 +43791,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "docker/build-push-action",
-                                    "repository": {
-                                        "nameWithOwner": "docker/build-push-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "docker/login-action",
-                                    "repository": {
-                                        "nameWithOwner": "docker/login-action"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "dawidd6/action-get-tag",
                                     "repository": {
                                         "nameWithOwner": "dawidd6/action-get-tag"
@@ -43821,6 +43801,13 @@
                                     "packageName": "docker/build-push-action",
                                     "repository": {
                                         "nameWithOwner": "docker/build-push-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "docker/login-action",
+                                    "repository": {
+                                        "nameWithOwner": "docker/login-action"
                                     }
                                 },
                                 {
