@@ -28410,7 +28410,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "opencv-python-headless",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "opencv/opencv-python"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -30250,6 +30252,33 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "ilammy/msvc-dev-cmd",
+                                    "repository": {
+                                        "nameWithOwner": "ilammy/msvc-dev-cmd"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "lukka/get-cmake",
+                                    "repository": {
+                                        "nameWithOwner": "lukka/get-cmake"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "NPM",
                                     "packageName": "electron",
                                     "repository": {
@@ -31226,9 +31255,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": {
-                                        "nameWithOwner": "waylan/beautifulsoup"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -34143,9 +34170,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": {
-                                        "nameWithOwner": "waylan/beautifulsoup"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -36784,9 +36809,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": {
-                                        "nameWithOwner": "waylan/beautifulsoup"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -36949,9 +36972,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": {
-                                        "nameWithOwner": "waylan/beautifulsoup"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -37315,9 +37336,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": {
-                                        "nameWithOwner": "waylan/beautifulsoup"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -38722,9 +38741,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": {
-                                        "nameWithOwner": "waylan/beautifulsoup"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
