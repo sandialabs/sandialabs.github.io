@@ -4694,6 +4694,106 @@
                 ]
             }
         },
+        "DARMA-tasking/vt-dwv": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "joel-coffman/action-git-diff-check",
+                                    "repository": {
+                                        "nameWithOwner": "joel-coffman/action-git-diff-check"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/check-commit-format",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/check-commit-format"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/check-pr-fixes-issue",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/check-pr-fixes-issue"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/find-trailing-whitespace",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/find-trailing-whitespace"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/find-unsigned-commits",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/find-unsigned-commits"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "DARMA-tasking/vt-sample-project": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -7195,7 +7295,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "furo",
                                     "repository": {
-                                        "nameWithOwner": "ai-charlie/blog"
+                                        "nameWithOwner": "divio/docs-theme"
                                     }
                                 },
                                 {
@@ -14551,7 +14651,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "flask-sqlalchemy",
                                     "repository": {
-                                        "nameWithOwner": "pallets-eco/flask-sqlalchemy"
+                                        "nameWithOwner": "s0undt3ch/flask-sqlalchemy"
                                     }
                                 },
                                 {
@@ -38918,7 +39018,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "flask-sqlalchemy",
                                     "repository": {
-                                        "nameWithOwner": "pallets-eco/flask-sqlalchemy"
+                                        "nameWithOwner": "s0undt3ch/flask-sqlalchemy"
                                     }
                                 },
                                 {
