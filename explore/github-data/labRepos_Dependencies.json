@@ -4694,7 +4694,20 @@
                 ]
             }
         },
-        "DARMA-tasking/vt-dwv": {
+        "DARMA-tasking/vt-sample-project": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "DARMA-tasking/vt-tv": {
             "dependencyGraphManifests": {
                 "nodes": [
                     {
@@ -4784,19 +4797,6 @@
                         }
                     }
                 ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
-        "DARMA-tasking/vt-sample-project": {
-            "dependencyGraphManifests": {
-                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -30371,19 +30371,32 @@
                                     "repository": {
                                         "nameWithOwner": "actions/upload-artifact"
                                     }
-                                },
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "ilammy/msvc-dev-cmd",
+                                    "packageName": "actions/cache",
                                     "repository": {
-                                        "nameWithOwner": "ilammy/msvc-dev-cmd"
+                                        "nameWithOwner": "actions/cache"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "lukka/get-cmake",
+                                    "packageName": "actions/checkout",
                                     "repository": {
-                                        "nameWithOwner": "lukka/get-cmake"
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 }
                             ]
@@ -31369,7 +31382,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "getanewsletter/BeautifulSoup4"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -34284,7 +34299,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "getanewsletter/BeautifulSoup4"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -36923,7 +36940,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "getanewsletter/BeautifulSoup4"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -37086,7 +37105,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "getanewsletter/BeautifulSoup4"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -37450,7 +37471,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "getanewsletter/BeautifulSoup4"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -38855,7 +38878,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "beautifulsoup4",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "getanewsletter/BeautifulSoup4"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
