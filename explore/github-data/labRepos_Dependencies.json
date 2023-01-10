@@ -341,6 +341,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
@@ -434,6 +441,13 @@
                                     "packageName": "coverage",
                                     "repository": {
                                         "nameWithOwner": "nedbat/coveragepy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
                                     }
                                 },
                                 {
@@ -30378,13 +30392,6 @@
                     {
                         "dependencies": {
                             "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
                                 {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
