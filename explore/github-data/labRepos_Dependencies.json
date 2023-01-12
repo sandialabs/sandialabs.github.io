@@ -3141,7 +3141,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "inflight",
                                     "repository": {
-                                        "nameWithOwner": "npm/inflight"
+                                        "nameWithOwner": "isaacs/inflight"
                                     }
                                 },
                                 {
@@ -30385,6 +30385,13 @@
                                     "repository": {
                                         "nameWithOwner": "actions/upload-artifact"
                                     }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "marvinpinto/action-automatic-releases",
+                                    "repository": {
+                                        "nameWithOwner": "marvinpinto/action-automatic-releases"
+                                    }
                                 }
                             ]
                         }
@@ -32267,6 +32274,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
                                         "nameWithOwner": "sphinx-doc/sphinx"
@@ -32311,6 +32325,19 @@
                                     "packageName": "jekyll-timeago",
                                     "repository": {
                                         "nameWithOwner": "markets/jekyll-timeago"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/github-script",
+                                    "repository": {
+                                        "nameWithOwner": "actions/github-script"
                                     }
                                 }
                             ]
