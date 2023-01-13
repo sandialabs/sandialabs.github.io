@@ -30388,9 +30388,9 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "marvinpinto/action-automatic-releases",
+                                    "packageName": "ncipollo/release-action",
                                     "repository": {
-                                        "nameWithOwner": "marvinpinto/action-automatic-releases"
+                                        "nameWithOwner": "ncipollo/release-action"
                                     }
                                 }
                             ]
@@ -32457,9 +32457,37 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions-rs/toolchain",
+                                    "repository": {
+                                        "nameWithOwner": "actions-rs/toolchain"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/download-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/download-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 }
                             ]
