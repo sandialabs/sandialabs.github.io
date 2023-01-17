@@ -32227,6 +32227,26 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "cffi",
+                                    "repository": {
+                                        "nameWithOwner": "chevah/python-cffi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "maturin",
+                                    "repository": {
+                                        "nameWithOwner": "PyO3/maturin"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "docutils",
                                     "repository": null
                                 },
@@ -32406,6 +32426,33 @@
                                     "packageName": "docker/login-action",
                                     "repository": {
                                         "nameWithOwner": "docker/login-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions-rs/toolchain",
+                                    "repository": {
+                                        "nameWithOwner": "actions-rs/toolchain"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "julia-actions/setup-julia",
+                                    "repository": {
+                                        "nameWithOwner": "julia-actions/setup-julia"
                                     }
                                 }
                             ]
@@ -47822,7 +47869,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "react-treebeard",
                                     "repository": {
-                                        "nameWithOwner": "storybookjs/react-treebeard"
+                                        "nameWithOwner": "storybook-eol/react-treebeard"
                                     }
                                 },
                                 {
