@@ -7309,7 +7309,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "furo",
                                     "repository": {
-                                        "nameWithOwner": "divio/docs-theme"
+                                        "nameWithOwner": "pradyunsg/furo"
                                     }
                                 },
                                 {
@@ -14665,7 +14665,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "flask-sqlalchemy",
                                     "repository": {
-                                        "nameWithOwner": "s0undt3ch/flask-sqlalchemy"
+                                        "nameWithOwner": "pallets-eco/flask-sqlalchemy"
                                     }
                                 },
                                 {
@@ -28646,7 +28646,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "DocumentFormat.OpenXml",
                                     "repository": {
-                                        "nameWithOwner": "OfficeDev/Open-XML-SDK"
+                                        "nameWithOwner": "dotnet/Open-XML-SDK"
                                     }
                                 },
                                 {
@@ -29654,7 +29654,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "DocumentFormat.OpenXml",
                                     "repository": {
-                                        "nameWithOwner": "OfficeDev/Open-XML-SDK"
+                                        "nameWithOwner": "dotnet/Open-XML-SDK"
                                     }
                                 },
                                 {
@@ -32406,6 +32406,19 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
@@ -32569,6 +32582,26 @@
                                     "packageName": "codecov/codecov-action",
                                     "repository": {
                                         "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "InsonusK/get-latest-release",
+                                    "repository": {
+                                        "nameWithOwner": "InsonusK/get-latest-release"
                                     }
                                 }
                             ]
@@ -33961,6 +33994,19 @@
                     {
                         "color": "#3178c6",
                         "name": "TypeScript"
+                    }
+                ]
+            }
+        },
+        "sandialabs/STACS": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
                     }
                 ]
             }
@@ -37107,6 +37153,33 @@
                 ]
             }
         },
+        "sandialabs/copyright": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyyaml",
+                                    "repository": {
+                                        "nameWithOwner": "yaml/pyyaml"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/cross-sim": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -39631,7 +39704,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "flask-sqlalchemy",
                                     "repository": {
-                                        "nameWithOwner": "s0undt3ch/flask-sqlalchemy"
+                                        "nameWithOwner": "pallets-eco/flask-sqlalchemy"
                                     }
                                 },
                                 {
