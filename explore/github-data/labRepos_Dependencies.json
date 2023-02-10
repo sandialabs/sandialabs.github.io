@@ -31883,7 +31883,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "py-spy",
                                     "repository": {
-                                        "nameWithOwner": "pyroscope-io/py-spy"
+                                        "nameWithOwner": "benfred/py-spy"
                                     }
                                 },
                                 {
@@ -49113,7 +49113,49 @@
         },
         "zadorlab/KinBot": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ase",
+                                    "repository": {
+                                        "nameWithOwner": "rosswhitfield/ase"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "networkx",
+                                    "repository": {
+                                        "nameWithOwner": "networkx/networkx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "rmsd",
+                                    "repository": {
+                                        "nameWithOwner": "charnley/rmsd"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typing-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "python/typing"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
