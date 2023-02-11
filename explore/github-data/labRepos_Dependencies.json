@@ -5297,7 +5297,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-argparse",
                                     "repository": {
-                                        "nameWithOwner": "alex-rudakov/sphinx-argparse"
+                                        "nameWithOwner": "ashb/sphinx-argparse"
                                     }
                                 },
                                 {
@@ -5756,9 +5756,9 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "dolfyn",
+                                    "packageName": "bottleneck",
                                     "repository": {
-                                        "nameWithOwner": "lkilcher/dolfyn"
+                                        "nameWithOwner": "pydata/bottleneck"
                                     }
                                 },
                                 {
@@ -5766,6 +5766,20 @@
                                     "packageName": "fatpack",
                                     "repository": {
                                         "nameWithOwner": "Gunnstein/fatpack"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5pyd",
+                                    "repository": {
+                                        "nameWithOwner": "HDFGroup/h5pyd"
                                     }
                                 },
                                 {
@@ -5867,9 +5881,9 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "dolfyn",
+                                    "packageName": "bottleneck",
                                     "repository": {
-                                        "nameWithOwner": "lkilcher/dolfyn"
+                                        "nameWithOwner": "pydata/bottleneck"
                                     }
                                 },
                                 {
@@ -5877,6 +5891,20 @@
                                     "packageName": "fatpack",
                                     "repository": {
                                         "nameWithOwner": "Gunnstein/fatpack"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5pyd",
+                                    "repository": {
+                                        "nameWithOwner": "HDFGroup/h5pyd"
                                     }
                                 },
                                 {
@@ -6002,6 +6030,13 @@
                                     "packageName": "conda-incubator/setup-miniconda",
                                     "repository": {
                                         "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "s-weigand/setup-conda",
+                                    "repository": {
+                                        "nameWithOwner": "s-weigand/setup-conda"
                                     }
                                 }
                             ]
@@ -24077,6 +24112,61 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "PIP",
+                                    "packageName": "autograd",
+                                    "repository": {
+                                        "nameWithOwner": "HIPS/autograd"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "capytaine",
+                                    "repository": {
+                                        "nameWithOwner": "capytaine/capytaine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "joblib",
+                                    "repository": {
+                                        "nameWithOwner": "joblib/joblib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "wavespectra",
+                                    "repository": {
+                                        "nameWithOwner": "wavespectra/wavespectra"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "xarray",
+                                    "repository": {
+                                        "nameWithOwner": "pydata/xarray"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
@@ -25631,13 +25721,6 @@
                                     "packageName": "nick-fields/retry",
                                     "repository": {
                                         "nameWithOwner": "nick-fields/retry"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "tj-actions/changed-files",
-                                    "repository": {
-                                        "nameWithOwner": "tj-actions/changed-files"
                                     }
                                 }
                             ]
@@ -29794,7 +29877,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-argparse",
                                     "repository": {
-                                        "nameWithOwner": "alex-rudakov/sphinx-argparse"
+                                        "nameWithOwner": "ashb/sphinx-argparse"
                                     }
                                 },
                                 {
@@ -29848,7 +29931,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-argparse",
                                     "repository": {
-                                        "nameWithOwner": "alex-rudakov/sphinx-argparse"
+                                        "nameWithOwner": "ashb/sphinx-argparse"
                                     }
                                 },
                                 {
@@ -30766,7 +30849,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pooch",
                                     "repository": {
-                                        "nameWithOwner": "JustinGOSSES/pooch"
+                                        "nameWithOwner": "fatiando/pooch"
                                     }
                                 },
                                 {
@@ -32713,6 +32796,96 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "PIP",
+                                    "packageName": "jsonschema",
+                                    "repository": {
+                                        "nameWithOwner": "python-jsonschema/jsonschema"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pythonnet",
+                                    "repository": {
+                                        "nameWithOwner": "pythonnet/pythonnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyyaml",
+                                    "repository": {
+                                        "nameWithOwner": "yaml/pyyaml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "seaborn",
+                                    "repository": {
+                                        "nameWithOwner": "mwaskom/seaborn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tables",
+                                    "repository": {
+                                        "nameWithOwner": "PyTables/PyTables"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tensorflow",
+                                    "repository": {
+                                        "nameWithOwner": "tensorflow/tensorflow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tensorflow-io",
+                                    "repository": {
+                                        "nameWithOwner": "JazzEd-EdTech/io"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tensorflow-model-optimization",
+                                    "repository": {
+                                        "nameWithOwner": "tensorflow/model-optimization"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tensorflow-probability",
+                                    "repository": {
+                                        "nameWithOwner": "tensorflow/probability"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
@@ -34193,7 +34366,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-argparse",
                                     "repository": {
-                                        "nameWithOwner": "alex-rudakov/sphinx-argparse"
+                                        "nameWithOwner": "ashb/sphinx-argparse"
                                     }
                                 },
                                 {
@@ -34280,7 +34453,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-argparse",
                                     "repository": {
-                                        "nameWithOwner": "alex-rudakov/sphinx-argparse"
+                                        "nameWithOwner": "ashb/sphinx-argparse"
                                     }
                                 },
                                 {
@@ -43032,7 +43205,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-argparse",
                                     "repository": {
-                                        "nameWithOwner": "alex-rudakov/sphinx-argparse"
+                                        "nameWithOwner": "ashb/sphinx-argparse"
                                     }
                                 },
                                 {
@@ -46298,9 +46471,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "tempora",
-                                    "repository": {
-                                        "nameWithOwner": "jaraco/tempora"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
