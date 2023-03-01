@@ -25114,6 +25114,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
                                         "nameWithOwner": "readthedocs/sphinx_rtd_theme"
@@ -45556,6 +45563,11 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "@asielick/knockout-projections",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "@babel/cli",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
@@ -45888,6 +45900,13 @@
                                     "packageName": "jquery-ui",
                                     "repository": {
                                         "nameWithOwner": "jquery/jquery-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery.scrollintoview",
+                                    "repository": {
+                                        "nameWithOwner": "adamtal3/jquery-scrollintoview"
                                     }
                                 },
                                 {
@@ -49293,13 +49312,6 @@
                                     "packageName": "rmsd",
                                     "repository": {
                                         "nameWithOwner": "charnley/rmsd"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "typing-extensions",
-                                    "repository": {
-                                        "nameWithOwner": "python/typing"
                                     }
                                 }
                             ]
