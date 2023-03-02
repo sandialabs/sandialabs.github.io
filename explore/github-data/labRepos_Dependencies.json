@@ -24554,6 +24554,19 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
@@ -32632,6 +32645,13 @@
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/github-script",
+                                    "repository": {
+                                        "nameWithOwner": "actions/github-script"
                                     }
                                 },
                                 {
@@ -48697,180 +48717,6 @@
                                     "repository": {
                                         "nameWithOwner": "WireGuard/wgctrl-go"
                                     }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "gvisor.dev/gvisor",
-                                    "repository": {
-                                        "nameWithOwner": "google/gvisor"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/atotto/clipboard",
-                                    "repository": {
-                                        "nameWithOwner": "atotto/clipboard"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/davecgh/go-spew",
-                                    "repository": {
-                                        "nameWithOwner": "davecgh/go-spew"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/fatih/color",
-                                    "repository": {
-                                        "nameWithOwner": "fatih/color"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/go-ping/ping",
-                                    "repository": {
-                                        "nameWithOwner": "go-ping/ping"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/google/btree",
-                                    "repository": {
-                                        "nameWithOwner": "google/btree"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/google/go-cmp",
-                                    "repository": {
-                                        "nameWithOwner": "google/go-cmp"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/google/gopacket",
-                                    "repository": {
-                                        "nameWithOwner": "google/gopacket"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/google/uuid",
-                                    "repository": {
-                                        "nameWithOwner": "google/uuid"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/inconshreveable/mousetrap",
-                                    "repository": {
-                                        "nameWithOwner": "inconshreveable/mousetrap"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/libp2p/go-reuseport",
-                                    "repository": {
-                                        "nameWithOwner": "libp2p/go-reuseport"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/luker983/wireguard-go",
-                                    "repository": {
-                                        "nameWithOwner": "luker983/wireguard-go"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mattn/go-colorable",
-                                    "repository": {
-                                        "nameWithOwner": "mattn/go-colorable"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mattn/go-isatty",
-                                    "repository": {
-                                        "nameWithOwner": "mattn/go-isatty"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/pmezard/go-difflib",
-                                    "repository": {
-                                        "nameWithOwner": "pmezard/go-difflib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/spf13/cobra",
-                                    "repository": {
-                                        "nameWithOwner": "spf13/cobra"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/spf13/pflag",
-                                    "repository": {
-                                        "nameWithOwner": "spf13/pflag"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/stretchr/testify",
-                                    "repository": {
-                                        "nameWithOwner": "stretchr/testify"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/crypto",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/net",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/sync",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/sys",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/time",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.zx2c4.com/wintun",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.zx2c4.com/wireguard/wgctrl",
-                                    "repository": {
-                                        "nameWithOwner": "WireGuard/wgctrl-go"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "gopkg.in/yaml.v3",
-                                    "repository": null
                                 },
                                 {
                                     "packageManager": "GO",
