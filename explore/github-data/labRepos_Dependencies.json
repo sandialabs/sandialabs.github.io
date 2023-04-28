@@ -5026,6 +5026,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/stale",
+                                    "repository": {
+                                        "nameWithOwner": "actions/stale"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/cache",
                                     "repository": {
                                         "nameWithOwner": "actions/cache"
