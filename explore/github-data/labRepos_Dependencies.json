@@ -32553,171 +32553,13 @@
         },
         "SNL-WaterPower/WecOptTool": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "autograd",
-                                    "repository": {
-                                        "nameWithOwner": "HIPS/autograd"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "capytaine",
-                                    "repository": {
-                                        "nameWithOwner": "capytaine/capytaine"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "joblib",
-                                    "repository": {
-                                        "nameWithOwner": "joblib/joblib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "wavespectra",
-                                    "repository": {
-                                        "nameWithOwner": "wavespectra/wavespectra"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "xarray",
-                                    "repository": {
-                                        "nameWithOwner": "pydata/xarray"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "github/codeql-action/analyze",
-                                    "repository": {
-                                        "nameWithOwner": "github/codeql-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "github/codeql-action/autobuild",
-                                    "repository": {
-                                        "nameWithOwner": "github/codeql-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "github/codeql-action/init",
-                                    "repository": {
-                                        "nameWithOwner": "github/codeql-action"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peaceiris/actions-gh-pages",
-                                    "repository": {
-                                        "nameWithOwner": "peaceiris/actions-gh-pages"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "pypa/gh-action-pypi-publish",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/gh-action-pypi-publish"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
                     {
-                        "color": "#3572A5",
-                        "name": "Python"
+                        "color": "#e34c26",
+                        "name": "HTML"
                     }
                 ]
             }
@@ -43500,6 +43342,177 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/WecOptTool": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "autograd",
+                                    "repository": {
+                                        "nameWithOwner": "HIPS/autograd"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "capytaine",
+                                    "repository": {
+                                        "nameWithOwner": "capytaine/capytaine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "joblib",
+                                    "repository": {
+                                        "nameWithOwner": "joblib/joblib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "wavespectra",
+                                    "repository": {
+                                        "nameWithOwner": "wavespectra/wavespectra"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "xarray",
+                                    "repository": {
+                                        "nameWithOwner": "pydata/xarray"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/analyze",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/autobuild",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/init",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/cache",
+                                    "repository": {
+                                        "nameWithOwner": "actions/cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peaceiris/actions-gh-pages",
+                                    "repository": {
+                                        "nameWithOwner": "peaceiris/actions-gh-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pypa/gh-action-pypi-publish",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/gh-action-pypi-publish"
                                     }
                                 }
                             ]
