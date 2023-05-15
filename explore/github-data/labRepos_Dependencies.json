@@ -44244,6 +44244,1369 @@
                 ]
             }
         },
+        "sandialabs/common": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "EntityFramework",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/ef6"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Nancy",
+                                    "repository": {
+                                        "nameWithOwner": "ChrisMH/Cassette.Nancy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Nancy.Hosting.Self",
+                                    "repository": {
+                                        "nameWithOwner": "aquedev/Appia"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Newtonsoft.Json",
+                                    "repository": {
+                                        "nameWithOwner": "JamesNK/Newtonsoft.Json"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite",
+                                    "repository": {
+                                        "nameWithOwner": "cityindex-attic/CIAPI.CS"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.Core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.EF6",
+                                    "repository": {
+                                        "nameWithOwner": "haf/System.Data.SQLite"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.Linq",
+                                    "repository": {
+                                        "nameWithOwner": "haf/System.Data.SQLite"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "EntityFramework",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/ef6"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Newtonsoft.Json",
+                                    "repository": {
+                                        "nameWithOwner": "JamesNK/Newtonsoft.Json"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular-cookies",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular-route",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular-translate",
+                                    "repository": {
+                                        "nameWithOwner": "jpierront/types-angular-translate"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular-ui-bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/chart.js",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/jasmine",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/jquery",
+                                    "repository": {
+                                        "nameWithOwner": "soul4code/types-jquery"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/requirejs",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/sizzle",
+                                    "repository": {
+                                        "nameWithOwner": "baberthal/at-types--sizzle"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "accepts",
+                                    "repository": {
+                                        "nameWithOwner": "jshttp/accepts"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "after",
+                                    "repository": {
+                                        "nameWithOwner": "Raynos/after"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular",
+                                    "repository": {
+                                        "nameWithOwner": "angular/angular.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-animate",
+                                    "repository": {
+                                        "nameWithOwner": "angular/bower-angular-animate"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-aria",
+                                    "repository": {
+                                        "nameWithOwner": "angular/bower-angular-aria"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-chart.js",
+                                    "repository": {
+                                        "nameWithOwner": "jtblin/angular-chart.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-material",
+                                    "repository": {
+                                        "nameWithOwner": "angular/bower-material"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-messages",
+                                    "repository": {
+                                        "nameWithOwner": "angular/bower-angular-messages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-treasure-overlay-spinner",
+                                    "repository": {
+                                        "nameWithOwner": "treasure-data/angular-treasure-overlay-spinner"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "ansi-gray",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/ansi-gray"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "ansi-regex",
+                                    "repository": {
+                                        "nameWithOwner": "chalk/ansi-regex"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "ansi-styles",
+                                    "repository": {
+                                        "nameWithOwner": "chalk/ansi-styles"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "ansi-wrap",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/ansi-wrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "anymatch",
+                                    "repository": {
+                                        "nameWithOwner": "micromatch/anymatch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "archy",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "arr-diff",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/arr-diff"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "arr-flatten",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/arr-flatten"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "arr-union",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/arr-union"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "array-differ",
+                                    "repository": {
+                                        "nameWithOwner": "sindresorhus/array-differ"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "array-each",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/array-each"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "array-slice",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/array-slice"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "array-uniq",
+                                    "repository": {
+                                        "nameWithOwner": "sindresorhus/array-uniq"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "array-unique",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/array-unique"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "arraybuffer.slice",
+                                    "repository": {
+                                        "nameWithOwner": "rase-/arraybuffer.slice"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "assign-symbols",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/assign-symbols"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "async-each",
+                                    "repository": {
+                                        "nameWithOwner": "paulmillr/async-each"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "async-limiter",
+                                    "repository": {
+                                        "nameWithOwner": "STRML/async-limiter"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "atob",
+                                    "repository": {
+                                        "nameWithOwner": "node-browser-compat/atob"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "backo2",
+                                    "repository": {
+                                        "nameWithOwner": "mokesmokes/backo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "balanced-match",
+                                    "repository": {
+                                        "nameWithOwner": "juliangruber/balanced-match"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "base",
+                                    "repository": {
+                                        "nameWithOwner": "base/base"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "base64-arraybuffer",
+                                    "repository": {
+                                        "nameWithOwner": "niklasvh/base64-arraybuffer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "base64id",
+                                    "repository": {
+                                        "nameWithOwner": "faeldt/base64id"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "beeper",
+                                    "repository": {
+                                        "nameWithOwner": "sindresorhus/beeper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "better-assert",
+                                    "repository": {
+                                        "nameWithOwner": "tj/better-assert"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "binary-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "sindresorhus/binary-extensions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "blob",
+                                    "repository": {
+                                        "nameWithOwner": "webmodules/blob"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "bluebird",
+                                    "repository": {
+                                        "nameWithOwner": "petkaantonov/bluebird"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "body-parser",
+                                    "repository": {
+                                        "nameWithOwner": "expressjs/body-parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "bower",
+                                    "repository": {
+                                        "nameWithOwner": "bower/bower"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "brace-expansion",
+                                    "repository": {
+                                        "nameWithOwner": "juliangruber/brace-expansion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "braces",
+                                    "repository": {
+                                        "nameWithOwner": "micromatch/braces"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "buffer-alloc",
+                                    "repository": {
+                                        "nameWithOwner": "LinusU/buffer-alloc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "buffer-alloc-unsafe",
+                                    "repository": {
+                                        "nameWithOwner": "LinusU/buffer-alloc-unsafe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "buffer-fill",
+                                    "repository": {
+                                        "nameWithOwner": "LinusU/buffer-fill"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "bytes",
+                                    "repository": {
+                                        "nameWithOwner": "visionmedia/bytes.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "cache-base",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/cache-base"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "callsite",
+                                    "repository": {
+                                        "nameWithOwner": "tj/callsite"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chalk",
+                                    "repository": {
+                                        "nameWithOwner": "chalk/chalk"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chart.js",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/Chart.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chartjs-color",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chartjs-color-string",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/chartjs-color-string"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chokidar",
+                                    "repository": {
+                                        "nameWithOwner": "paulmillr/chokidar"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "circular-json",
+                                    "repository": {
+                                        "nameWithOwner": "WebReflection/circular-json"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "class-utils",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/class-utils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "clone",
+                                    "repository": {
+                                        "nameWithOwner": "pvorb/clone"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "clone-stats",
+                                    "repository": {
+                                        "nameWithOwner": "hughsk/clone-stats"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "collection-visit",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/collection-visit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "color-name",
+                                    "repository": {
+                                        "nameWithOwner": "colorjs/color-name"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "color-support",
+                                    "repository": {
+                                        "nameWithOwner": "isaacs/color-support"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "colors",
+                                    "repository": {
+                                        "nameWithOwner": "Marak/colors.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "combine-lists",
+                                    "repository": {
+                                        "nameWithOwner": "sjelin/combine-lists"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "component-bind",
+                                    "repository": {
+                                        "nameWithOwner": "component/bind"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "component-emitter",
+                                    "repository": {
+                                        "nameWithOwner": "component/emitter"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "component-inherit",
+                                    "repository": {
+                                        "nameWithOwner": "component/inherit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "concat-map",
+                                    "repository": {
+                                        "nameWithOwner": "ljharb/concat-map"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "connect",
+                                    "repository": {
+                                        "nameWithOwner": "senchalabs/connect"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "content-type",
+                                    "repository": {
+                                        "nameWithOwner": "jshttp/content-type"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "cookie",
+                                    "repository": {
+                                        "nameWithOwner": "jshttp/cookie"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "copy-descriptor",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/copy-descriptor"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "core-js",
+                                    "repository": {
+                                        "nameWithOwner": "zloirock/core-js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "core-util-is",
+                                    "repository": {
+                                        "nameWithOwner": "isaacs/core-util-is"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "custom-event",
+                                    "repository": {
+                                        "nameWithOwner": "webmodules/custom-event"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "date-format",
+                                    "repository": {
+                                        "nameWithOwner": "nomiddlename/date-format"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "dateformat",
+                                    "repository": {
+                                        "nameWithOwner": "felixge/node-dateformat"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "debug",
+                                    "repository": {
+                                        "nameWithOwner": "debug-js/debug"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "decode-uri-component",
+                                    "repository": {
+                                        "nameWithOwner": "SamVerschueren/decode-uri-component"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "defaults",
+                                    "repository": {
+                                        "nameWithOwner": "sindresorhus/node-defaults"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "define-property",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/define-property"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "depd",
+                                    "repository": {
+                                        "nameWithOwner": "dougwilson/nodejs-depd"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "deprecated",
+                                    "repository": {
+                                        "nameWithOwner": "yocontra/deprecated"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "detect-file",
+                                    "repository": {
+                                        "nameWithOwner": "doowb/detect-file"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "di",
+                                    "repository": {
+                                        "nameWithOwner": "angular/di.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "dom-serialize",
+                                    "repository": {
+                                        "nameWithOwner": "webmodules/dom-serialize"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "duplexer2",
+                                    "repository": {
+                                        "nameWithOwner": "deoxxa/duplexer2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "ee-first",
+                                    "repository": {
+                                        "nameWithOwner": "jonathanong/ee-first"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "encodeurl",
+                                    "repository": {
+                                        "nameWithOwner": "pillarjs/encodeurl"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "end-of-stream",
+                                    "repository": {
+                                        "nameWithOwner": "mafintosh/end-of-stream"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "engine.io",
+                                    "repository": {
+                                        "nameWithOwner": "socketio/engine.io"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular-cookies",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular-route",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular-translate",
+                                    "repository": {
+                                        "nameWithOwner": "jpierront/types-angular-translate"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/angular-ui-bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/chart.js",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/jasmine",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/jquery",
+                                    "repository": {
+                                        "nameWithOwner": "soul4code/types-jquery"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/requirejs",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-animate",
+                                    "repository": {
+                                        "nameWithOwner": "angular/bower-angular-animate"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-aria",
+                                    "repository": {
+                                        "nameWithOwner": "angular/bower-angular-aria"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-chart.js",
+                                    "repository": {
+                                        "nameWithOwner": "jtblin/angular-chart.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-material",
+                                    "repository": {
+                                        "nameWithOwner": "angular/bower-material"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-messages",
+                                    "repository": {
+                                        "nameWithOwner": "angular/bower-angular-messages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "angular-treasure-overlay-spinner",
+                                    "repository": {
+                                        "nameWithOwner": "treasure-data/angular-treasure-overlay-spinner"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "bower",
+                                    "repository": {
+                                        "nameWithOwner": "bower/bower"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chart.js",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/Chart.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "extend",
+                                    "repository": {
+                                        "nameWithOwner": "justmoon/node-extend"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "gulp",
+                                    "repository": {
+                                        "nameWithOwner": "gulpjs/gulp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "gulp-rename",
+                                    "repository": {
+                                        "nameWithOwner": "hparra/gulp-rename"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jasmine",
+                                    "repository": {
+                                        "nameWithOwner": "jasmine/jasmine-npm"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jasmine-core",
+                                    "repository": {
+                                        "nameWithOwner": "jasmine/jasmine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma",
+                                    "repository": {
+                                        "nameWithOwner": "karma-runner/karma"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma-chrome-launcher",
+                                    "repository": {
+                                        "nameWithOwner": "karma-runner/karma-chrome-launcher"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma-ie-launcher",
+                                    "repository": {
+                                        "nameWithOwner": "karma-runner/karma-ie-launcher"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "karma-jasmine",
+                                    "repository": {
+                                        "nameWithOwner": "karma-runner/karma-jasmine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "lodash",
+                                    "repository": {
+                                        "nameWithOwner": "lodash/lodash"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "lodash.template",
+                                    "repository": {
+                                        "nameWithOwner": "lodash/lodash"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "mixin-deep",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/mixin-deep"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "moment",
+                                    "repository": {
+                                        "nameWithOwner": "moment/moment"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "set-value",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/set-value"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "systemjs",
+                                    "repository": {
+                                        "nameWithOwner": "systemjs/systemjs"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "EntityFramework",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/ef6"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "jasmine",
+                                    "repository": {
+                                        "nameWithOwner": "jasmine/jasmine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Nancy",
+                                    "repository": {
+                                        "nameWithOwner": "ChrisMH/Cassette.Nancy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Newtonsoft.Json",
+                                    "repository": {
+                                        "nameWithOwner": "JamesNK/Newtonsoft.Json"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite",
+                                    "repository": {
+                                        "nameWithOwner": "cityindex-attic/CIAPI.CS"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.Core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.EF6",
+                                    "repository": {
+                                        "nameWithOwner": "haf/System.Data.SQLite"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.Linq",
+                                    "repository": {
+                                        "nameWithOwner": "haf/System.Data.SQLite"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "CommonServiceLocator",
+                                    "repository": {
+                                        "nameWithOwner": "unitycontainer/commonservicelocator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "ControlzEx",
+                                    "repository": {
+                                        "nameWithOwner": "ControlzEx/ControlzEx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Dragablz",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "EntityFramework",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/ef6"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "MahApps.Metro",
+                                    "repository": {
+                                        "nameWithOwner": "MahApps/MahApps.Metro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "MahApps.Metro.Resources",
+                                    "repository": {
+                                        "nameWithOwner": "MahApps/MahApps.Metro.Resources"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "MvvmLight",
+                                    "repository": {
+                                        "nameWithOwner": "lbugnion/mvvmlight"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "MvvmLightLibs",
+                                    "repository": {
+                                        "nameWithOwner": "lbugnion/mvvmlight"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Newtonsoft.Json",
+                                    "repository": {
+                                        "nameWithOwner": "JamesNK/Newtonsoft.Json"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite",
+                                    "repository": {
+                                        "nameWithOwner": "cityindex-attic/CIAPI.CS"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.Core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.EF6",
+                                    "repository": {
+                                        "nameWithOwner": "haf/System.Data.SQLite"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.Linq",
+                                    "repository": {
+                                        "nameWithOwner": "haf/System.Data.SQLite"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "WPFLocalizeExtension",
+                                    "repository": {
+                                        "nameWithOwner": "XAMLMarkupExtensions/WPFLocalizeExtension"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "XAMLMarkupExtensions",
+                                    "repository": {
+                                        "nameWithOwner": "XAMLMarkupExtensions/XAMLMarkupExtensions"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "EntityFramework",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/ef6"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Nancy",
+                                    "repository": {
+                                        "nameWithOwner": "ChrisMH/Cassette.Nancy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Nancy.Hosting.Self",
+                                    "repository": {
+                                        "nameWithOwner": "aquedev/Appia"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Newtonsoft.Json",
+                                    "repository": {
+                                        "nameWithOwner": "JamesNK/Newtonsoft.Json"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite",
+                                    "repository": {
+                                        "nameWithOwner": "cityindex-attic/CIAPI.CS"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.Core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.EF6",
+                                    "repository": {
+                                        "nameWithOwner": "haf/System.Data.SQLite"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Data.SQLite.Linq",
+                                    "repository": {
+                                        "nameWithOwner": "haf/System.Data.SQLite"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "CsQuery",
+                                    "repository": {
+                                        "nameWithOwner": "jamietre/CsQuery"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Nancy",
+                                    "repository": {
+                                        "nameWithOwner": "ChrisMH/Cassette.Nancy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Nancy.Testing",
+                                    "repository": {
+                                        "nameWithOwner": "marcusoftnet/DiscoveringNancyThroughTests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Newtonsoft.Json",
+                                    "repository": {
+                                        "nameWithOwner": "JamesNK/Newtonsoft.Json"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit",
+                                    "repository": {
+                                        "nameWithOwner": "xunit/xunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.abstractions",
+                                    "repository": {
+                                        "nameWithOwner": "xamarin/xunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "xunit/xunit.analyzers"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.assert",
+                                    "repository": {
+                                        "nameWithOwner": "xunit/xunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.core",
+                                    "repository": {
+                                        "nameWithOwner": "xunit/xunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.extensibility.core",
+                                    "repository": {
+                                        "nameWithOwner": "clairernovotny/xunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.extensibility.execution",
+                                    "repository": {
+                                        "nameWithOwner": "clairernovotny/xunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.runner.console",
+                                    "repository": {
+                                        "nameWithOwner": "clairernovotny/xunit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "xunit.runner.visualstudio",
+                                    "repository": {
+                                        "nameWithOwner": "xunit/visualstudio.xunit"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#178600",
+                        "name": "C#"
+                    }
+                ]
+            }
+        },
         "sandialabs/compadre": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -45274,6 +46637,82 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/flasquiz": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "click",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/click"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flask",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/flask"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flask-mail",
+                                    "repository": {
+                                        "nameWithOwner": "mattupstate/flask-mail"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "itsdangerous",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/itsdangerous"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jinja2",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/jinja"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "markupsafe",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/markupsafe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyyaml",
+                                    "repository": {
+                                        "nameWithOwner": "yaml/pyyaml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "werkzeug",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/werkzeug"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
