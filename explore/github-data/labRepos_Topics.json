@@ -1066,13 +1066,6 @@
             "repositoryTopics": {
                 "nodes": [
                     {
-                        "resourcePath": "/topics/hpc",
-                        "topic": {
-                            "name": "hpc"
-                        },
-                        "url": "https://github.com/topics/hpc"
-                    },
-                    {
                         "resourcePath": "/topics/generic-programming",
                         "topic": {
                             "name": "generic-programming"
@@ -1092,13 +1085,6 @@
                             "name": "kokkos"
                         },
                         "url": "https://github.com/topics/kokkos"
-                    },
-                    {
-                        "resourcePath": "/topics/galerkin",
-                        "topic": {
-                            "name": "galerkin"
-                        },
-                        "url": "https://github.com/topics/galerkin"
                     },
                     {
                         "resourcePath": "/topics/petrov-galerkin",
@@ -1143,13 +1129,6 @@
                         "url": "https://github.com/topics/nonlinear-dynamics"
                     },
                     {
-                        "resourcePath": "/topics/cpp",
-                        "topic": {
-                            "name": "cpp"
-                        },
-                        "url": "https://github.com/topics/cpp"
-                    },
-                    {
                         "resourcePath": "/topics/snl-applications",
                         "topic": {
                             "name": "snl-applications"
@@ -1190,9 +1169,23 @@
                             "name": "linear-algebra"
                         },
                         "url": "https://github.com/topics/linear-algebra"
+                    },
+                    {
+                        "resourcePath": "/topics/c-plus-plus",
+                        "topic": {
+                            "name": "c-plus-plus"
+                        },
+                        "url": "https://github.com/topics/c-plus-plus"
+                    },
+                    {
+                        "resourcePath": "/topics/high-performance-computing",
+                        "topic": {
+                            "name": "high-performance-computing"
+                        },
+                        "url": "https://github.com/topics/high-performance-computing"
                     }
                 ],
-                "totalCount": 18
+                "totalCount": 17
             }
         },
         "PyUtilib/pyutilib": {
@@ -2069,55 +2062,6 @@
                     }
                 ],
                 "totalCount": 3
-            }
-        },
-        "frothga/n2a": {
-            "repositoryTopics": {
-                "nodes": [
-                    {
-                        "resourcePath": "/topics/equations",
-                        "topic": {
-                            "name": "equations"
-                        },
-                        "url": "https://github.com/topics/equations"
-                    },
-                    {
-                        "resourcePath": "/topics/brain",
-                        "topic": {
-                            "name": "brain"
-                        },
-                        "url": "https://github.com/topics/brain"
-                    },
-                    {
-                        "resourcePath": "/topics/language",
-                        "topic": {
-                            "name": "language"
-                        },
-                        "url": "https://github.com/topics/language"
-                    },
-                    {
-                        "resourcePath": "/topics/neurons",
-                        "topic": {
-                            "name": "neurons"
-                        },
-                        "url": "https://github.com/topics/neurons"
-                    },
-                    {
-                        "resourcePath": "/topics/simulator",
-                        "topic": {
-                            "name": "simulator"
-                        },
-                        "url": "https://github.com/topics/simulator"
-                    },
-                    {
-                        "resourcePath": "/topics/snl-prog-models-runtimes",
-                        "topic": {
-                            "name": "snl-prog-models-runtimes"
-                        },
-                        "url": "https://github.com/topics/snl-prog-models-runtimes"
-                    }
-                ],
-                "totalCount": 6
             }
         },
         "gflofst/SmartBlock": {
@@ -3885,6 +3829,12 @@
                 "totalCount": 0
             }
         },
+        "sandialabs/StrideSearch": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "sandialabs/TChem": {
             "repositoryTopics": {
                 "nodes": [],
@@ -4697,7 +4647,74 @@
                 "totalCount": 0
             }
         },
+        "sandialabs/mose": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "sandialabs/mpicpp": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "sandialabs/n2a": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/equations",
+                        "topic": {
+                            "name": "equations"
+                        },
+                        "url": "https://github.com/topics/equations"
+                    },
+                    {
+                        "resourcePath": "/topics/brain",
+                        "topic": {
+                            "name": "brain"
+                        },
+                        "url": "https://github.com/topics/brain"
+                    },
+                    {
+                        "resourcePath": "/topics/language",
+                        "topic": {
+                            "name": "language"
+                        },
+                        "url": "https://github.com/topics/language"
+                    },
+                    {
+                        "resourcePath": "/topics/neurons",
+                        "topic": {
+                            "name": "neurons"
+                        },
+                        "url": "https://github.com/topics/neurons"
+                    },
+                    {
+                        "resourcePath": "/topics/simulator",
+                        "topic": {
+                            "name": "simulator"
+                        },
+                        "url": "https://github.com/topics/simulator"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-prog-models-runtimes",
+                        "topic": {
+                            "name": "snl-prog-models-runtimes"
+                        },
+                        "url": "https://github.com/topics/snl-prog-models-runtimes"
+                    }
+                ],
+                "totalCount": 6
+            }
+        },
+        "sandialabs/n2a-repo-base": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "sandialabs/n2a-repo-local": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -5432,6 +5449,55 @@
                 "totalCount": 0
             }
         },
+        "sandialabs/snl-quest": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/energy-storage",
+                        "topic": {
+                            "name": "energy-storage"
+                        },
+                        "url": "https://github.com/topics/energy-storage"
+                    },
+                    {
+                        "resourcePath": "/topics/pyomo",
+                        "topic": {
+                            "name": "pyomo"
+                        },
+                        "url": "https://github.com/topics/pyomo"
+                    },
+                    {
+                        "resourcePath": "/topics/kivy",
+                        "topic": {
+                            "name": "kivy"
+                        },
+                        "url": "https://github.com/topics/kivy"
+                    },
+                    {
+                        "resourcePath": "/topics/sandia-national-laboratories",
+                        "topic": {
+                            "name": "sandia-national-laboratories"
+                        },
+                        "url": "https://github.com/topics/sandia-national-laboratories"
+                    },
+                    {
+                        "resourcePath": "/topics/optimization",
+                        "topic": {
+                            "name": "optimization"
+                        },
+                        "url": "https://github.com/topics/optimization"
+                    },
+                    {
+                        "resourcePath": "/topics/python",
+                        "topic": {
+                            "name": "python"
+                        },
+                        "url": "https://github.com/topics/python"
+                    }
+                ],
+                "totalCount": 6
+            }
+        },
         "sandialabs/snlcopyright": {
             "repositoryTopics": {
                 "nodes": [],
@@ -6016,55 +6082,6 @@
                     }
                 ],
                 "totalCount": 3
-            }
-        },
-        "snl-quest/snl-quest": {
-            "repositoryTopics": {
-                "nodes": [
-                    {
-                        "resourcePath": "/topics/energy-storage",
-                        "topic": {
-                            "name": "energy-storage"
-                        },
-                        "url": "https://github.com/topics/energy-storage"
-                    },
-                    {
-                        "resourcePath": "/topics/pyomo",
-                        "topic": {
-                            "name": "pyomo"
-                        },
-                        "url": "https://github.com/topics/pyomo"
-                    },
-                    {
-                        "resourcePath": "/topics/kivy",
-                        "topic": {
-                            "name": "kivy"
-                        },
-                        "url": "https://github.com/topics/kivy"
-                    },
-                    {
-                        "resourcePath": "/topics/sandia-national-laboratories",
-                        "topic": {
-                            "name": "sandia-national-laboratories"
-                        },
-                        "url": "https://github.com/topics/sandia-national-laboratories"
-                    },
-                    {
-                        "resourcePath": "/topics/optimization",
-                        "topic": {
-                            "name": "optimization"
-                        },
-                        "url": "https://github.com/topics/optimization"
-                    },
-                    {
-                        "resourcePath": "/topics/python",
-                        "topic": {
-                            "name": "python"
-                        },
-                        "url": "https://github.com/topics/python"
-                    }
-                ],
-                "totalCount": 6
             }
         },
         "sparta/sparta": {

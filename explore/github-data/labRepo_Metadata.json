@@ -483,24 +483,23 @@
         "description": "Model reduction for linear and nonlinear dynamical systems: core C++ library",
         "name": "Pressio/pressio",
         "topics": [
-            "hpc",
             "generic-programming",
             "trilinos",
             "kokkos",
-            "galerkin",
             "petrov-galerkin",
             "reduced-order-models",
             "surrogate-models",
             "uq",
             "dynamical-systems",
             "nonlinear-dynamics",
-            "cpp",
             "snl-applications",
             "snl-data-analysis",
             "snl-science",
             "cpp-concepts",
             "machine-learning",
-            "linear-algebra"
+            "linear-algebra",
+            "c-plus-plus",
+            "high-performance-computing"
         ],
         "website": ""
     },
@@ -873,19 +872,6 @@
             "snl-performance",
             "snl-os-sys-software",
             "snl-data-analysis"
-        ],
-        "website": ""
-    },
-    "frothga/n2a": {
-        "description": "An object-oriented language for modeling large-scale neural systems, along with an IDE for writing and simulating models.",
-        "name": "frothga/n2a",
-        "topics": [
-            "equations",
-            "brain",
-            "language",
-            "neurons",
-            "simulator",
-            "snl-prog-models-runtimes"
         ],
         "website": ""
     },
@@ -1736,6 +1722,12 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/StrideSearch": {
+        "description": "Storm detection in climate data",
+        "name": "sandialabs/StrideSearch",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/TChem": {
         "description": " TChem - A Software Toolkit for the Analysis of Complex Kinetic Models",
         "name": "sandialabs/TChem",
@@ -2230,11 +2222,42 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/mose": {
+        "description": "Post exploitation tool for configuration management servers. ",
+        "name": "sandialabs/mose",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/mpicpp": {
         "description": "A C++ interface over MPI. Focuses on tried-and-true features and simplicity.",
         "name": "sandialabs/mpicpp",
         "topics": null,
         "website": null
+    },
+    "sandialabs/n2a": {
+        "description": "An object-oriented language for modeling large-scale neural systems, along with an IDE for writing and simulating models.",
+        "name": "sandialabs/n2a",
+        "topics": [
+            "equations",
+            "brain",
+            "language",
+            "neurons",
+            "simulator",
+            "snl-prog-models-runtimes"
+        ],
+        "website": ""
+    },
+    "sandialabs/n2a-repo-base": {
+        "description": "N2A base models",
+        "name": "sandialabs/n2a-repo-base",
+        "topics": null,
+        "website": ""
+    },
+    "sandialabs/n2a-repo-local": {
+        "description": "N2A starter db",
+        "name": "sandialabs/n2a-repo-local",
+        "topics": null,
+        "website": ""
     },
     "sandialabs/omega_h": {
         "description": "Simplex mesh adaptivity for HPC",
@@ -2533,6 +2556,19 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/snl-quest": {
+        "description": "An open source, Python-based software application suite for energy storage simulation and analysis developed by Sandia National Laboratories.",
+        "name": "sandialabs/snl-quest",
+        "topics": [
+            "energy-storage",
+            "pyomo",
+            "kivy",
+            "sandia-national-laboratories",
+            "optimization",
+            "python"
+        ],
+        "website": ""
+    },
     "sandialabs/snlcopyright": {
         "description": "Create, read, update, delete a copyright block in Python source code.",
         "name": "sandialabs/snlcopyright",
@@ -2762,19 +2798,6 @@
             "functional-connectivity",
             "dynamic-graphical-models",
             "time-varying-connectivity"
-        ],
-        "website": ""
-    },
-    "snl-quest/snl-quest": {
-        "description": "An open source, Python-based software application suite for energy storage simulation and analysis developed by Sandia National Laboratories.",
-        "name": "snl-quest/snl-quest",
-        "topics": [
-            "energy-storage",
-            "pyomo",
-            "kivy",
-            "sandia-national-laboratories",
-            "optimization",
-            "python"
         ],
         "website": ""
     },
