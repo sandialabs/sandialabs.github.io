@@ -33886,19 +33886,6 @@
                 ]
             }
         },
-        "cgvalic/GeoPlace": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "chapel-lang/chapel": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -34503,19 +34490,6 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
-                    }
-                ]
-            }
-        },
-        "jcrussell/que-ldrd-tools": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
@@ -36236,6 +36210,19 @@
             },
             "languages": {
                 "nodes": []
+            }
+        },
+        "sandialabs/Adaptive-Self-Tuning": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "sandialabs/Advanced-Data-Analysis-in-Inertial-Confinement-Fusion-and-High-Energy-Density-Physics": {
@@ -38223,6 +38210,19 @@
                 ]
             }
         },
+        "sandialabs/DKE-Scripts": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/DVS": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -38372,6 +38372,19 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/GeoPlace": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -38723,6 +38736,55 @@
                         "name": "Batchfile"
                     }
                 ]
+            }
+        },
+        "sandialabs/IcyPaw": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "paho-mqtt",
+                                    "repository": {
+                                        "nameWithOwner": "eclipse/paho.mqtt.python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "protobuf",
+                                    "repository": {
+                                        "nameWithOwner": "protocolbuffers/protobuf"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dateutil",
+                                    "repository": {
+                                        "nameWithOwner": "dateutil/dateutil"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/IndividualDifferencesDKECleaning": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/InterSpec": {
@@ -41271,6 +41333,13 @@
                                     "packageName": "tqdm",
                                     "repository": {
                                         "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typeguard",
+                                    "repository": {
+                                        "nameWithOwner": "agronholm/typeguard"
                                     }
                                 }
                             ]
@@ -49180,6 +49249,437 @@
                 ]
             }
         },
+        "sandialabs/hyram": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": []
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "MathNet.Numerics",
+                                    "repository": {
+                                        "nameWithOwner": "mathnet/mathnet-numerics"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.Bcl.AsyncInterfaces",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Buffers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Memory",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Numerics.Vectors",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Runtime.CompilerServices.Unsafe",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Text.Encodings.Web",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Text.Json",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Threading.Tasks.Extensions",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.ValueTuple",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "WiX",
+                                    "repository": {
+                                        "nameWithOwner": "Inedo/bmx-wix"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "MathNet.Numerics",
+                                    "repository": {
+                                        "nameWithOwner": "mathnet/mathnet-numerics"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.Bcl.AsyncInterfaces",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Buffers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Memory",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Numerics.Vectors",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Runtime.CompilerServices.Unsafe",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Text.Encodings.Web",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Text.Json",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Threading.Tasks.Extensions",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.ValueTuple",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "MSTest.TestAdapter",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/testfx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "MSTest.TestFramework",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/testfx"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.Bcl.AsyncInterfaces",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Buffers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Memory",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Numerics.Vectors",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Runtime.CompilerServices.Unsafe",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Text.Encodings.Web",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Text.Json",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Threading.Tasks.Extensions",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.ValueTuple",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "coolprop",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cycler",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/cycler"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cython",
+                                    "repository": {
+                                        "nameWithOwner": "cython/cython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "decorator",
+                                    "repository": {
+                                        "nameWithOwner": "micheles/decorator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "dill",
+                                    "repository": {
+                                        "nameWithOwner": "uqfoundation/dill"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "imageio",
+                                    "repository": {
+                                        "nameWithOwner": "imageio/imageio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "kiwisolver",
+                                    "repository": {
+                                        "nameWithOwner": "nucleic/kiwi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "networkx",
+                                    "repository": {
+                                        "nameWithOwner": "networkx/networkx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "python-pillow/Pillow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pycparser",
+                                    "repository": {
+                                        "nameWithOwner": "eliben/pycparser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyparsing",
+                                    "repository": {
+                                        "nameWithOwner": "pyparsing/pyparsing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dateutil",
+                                    "repository": {
+                                        "nameWithOwner": "dateutil/dateutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pythonnet",
+                                    "repository": {
+                                        "nameWithOwner": "pythonnet/pythonnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytz",
+                                    "repository": {
+                                        "nameWithOwner": "stub42/pytz"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pywavelets",
+                                    "repository": {
+                                        "nameWithOwner": "PyWavelets/pywt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-image",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-image/scikit-image"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "six",
+                                    "repository": {
+                                        "nameWithOwner": "benjaminp/six"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tifffile",
+                                    "repository": {
+                                        "nameWithOwner": "blink1073/tifffile"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/iDASH2019GeneDrug": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -50543,6 +51043,19 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/lim1tr": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -53612,6 +54125,32 @@
                         }
                     }
                 ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/qe-rt-tddft": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
+        "sandialabs/que-ldrd-tools": {
+            "dependencyGraphManifests": {
+                "nodes": []
             },
             "languages": {
                 "nodes": [
