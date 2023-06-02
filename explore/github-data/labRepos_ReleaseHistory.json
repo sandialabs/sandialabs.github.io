@@ -184,7 +184,13 @@
         },
         "DARMA-tasking/magistrate": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "1.3.0",
+                        "publishedAt": "2023-06-01T20:26:31Z",
+                        "tagName": "1.3.0"
+                    }
+                ]
             }
         },
         "DARMA-tasking/parallel-for-transformer": {
@@ -2626,42 +2632,6 @@
                 "nodes": []
             }
         },
-        "faodel/faodel": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "Fluid",
-                        "publishedAt": "2021-10-11T19:41:27Z",
-                        "tagName": "v1.2108.1"
-                    },
-                    {
-                        "name": "Excelsior!",
-                        "publishedAt": "2021-01-26T20:56:09Z",
-                        "tagName": "v1.1906.2"
-                    },
-                    {
-                        "name": "Excelsior!",
-                        "publishedAt": "2019-07-08T16:21:26Z",
-                        "tagName": "v1.1906.1"
-                    },
-                    {
-                        "name": "DIO",
-                        "publishedAt": "2019-05-01T20:16:17Z",
-                        "tagName": "v1.1811.2"
-                    },
-                    {
-                        "name": "DIO",
-                        "publishedAt": "2018-12-11T06:39:30Z",
-                        "tagName": "v1.1811.1"
-                    },
-                    {
-                        "name": "Cachet",
-                        "publishedAt": "2018-04-23T21:48:28Z",
-                        "tagName": "v1.1803.1"
-                    }
-                ]
-            }
-        },
         "gflofst/SmartBlock": {
             "releases": {
                 "nodes": []
@@ -4631,7 +4601,7 @@
                     },
                     {
                         "name": "Development Build",
-                        "publishedAt": "2023-01-12T20:20:22Z",
+                        "publishedAt": "2023-06-01T19:55:22Z",
                         "tagName": "latest"
                     },
                     {
@@ -5775,6 +5745,47 @@
             }
         },
         "sandialabs/exodusii": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "sandialabs/faodel": {
+            "releases": {
+                "nodes": [
+                    {
+                        "name": "Fluid",
+                        "publishedAt": "2021-10-11T19:41:27Z",
+                        "tagName": "v1.2108.1"
+                    },
+                    {
+                        "name": "Excelsior!",
+                        "publishedAt": "2021-01-26T20:56:09Z",
+                        "tagName": "v1.1906.2"
+                    },
+                    {
+                        "name": "Excelsior!",
+                        "publishedAt": "2019-07-08T16:21:26Z",
+                        "tagName": "v1.1906.1"
+                    },
+                    {
+                        "name": "DIO",
+                        "publishedAt": "2019-05-01T20:16:17Z",
+                        "tagName": "v1.1811.2"
+                    },
+                    {
+                        "name": "DIO",
+                        "publishedAt": "2018-12-11T06:39:30Z",
+                        "tagName": "v1.1811.1"
+                    },
+                    {
+                        "name": "Cachet",
+                        "publishedAt": "2018-04-23T21:48:28Z",
+                        "tagName": "v1.1803.1"
+                    }
+                ]
+            }
+        },
+        "sandialabs/faodel-pubs": {
             "releases": {
                 "nodes": []
             }
