@@ -1458,48 +1458,12 @@
                 "nodes": []
             }
         },
-        "SNL-WaterPower/SNL-Delft3D-CEC": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "SNL-WaterPower/SNL-Delft3D-FM-CEC": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "SNL-WaterPower/SNL-ESSC": {
             "releases": {
                 "nodes": [
                     {
                         "name": "SNL-ESSC v1.0",
                         "publishedAt": "2020-02-06T23:40:16Z",
-                        "tagName": "v1.0"
-                    }
-                ]
-            }
-        },
-        "SNL-WaterPower/SNL-SWAN": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "SNL-SWAN v2.2",
-                        "publishedAt": "2020-02-13T17:57:38Z",
-                        "tagName": "v2.2"
-                    },
-                    {
-                        "name": "SNL-SWAN v2.1",
-                        "publishedAt": "2019-08-14T20:37:33Z",
-                        "tagName": "v2.1"
-                    },
-                    {
-                        "name": "SNL-SWAN v2.0",
-                        "publishedAt": "2018-03-30T22:34:12Z",
-                        "tagName": "v2.0"
-                    },
-                    {
-                        "name": "SNL-SWAN v1.0",
-                        "publishedAt": "2014-12-15T21:21:52Z",
                         "tagName": "v1.0"
                     }
                 ]
@@ -5244,6 +5208,42 @@
                 ]
             }
         },
+        "sandialabs/SNL-Delft3D-CEC": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "sandialabs/SNL-Delft3D-FM-CEC": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "sandialabs/SNL-SWAN": {
+            "releases": {
+                "nodes": [
+                    {
+                        "name": "SNL-SWAN v2.2",
+                        "publishedAt": "2020-02-13T17:57:38Z",
+                        "tagName": "v2.2"
+                    },
+                    {
+                        "name": "SNL-SWAN v2.1",
+                        "publishedAt": "2019-08-14T20:37:33Z",
+                        "tagName": "v2.1"
+                    },
+                    {
+                        "name": "SNL-SWAN v2.0",
+                        "publishedAt": "2018-03-30T22:34:12Z",
+                        "tagName": "v2.0"
+                    },
+                    {
+                        "name": "SNL-SWAN v1.0",
+                        "publishedAt": "2014-12-15T21:21:52Z",
+                        "tagName": "v1.0"
+                    }
+                ]
+            }
+        },
         "sandialabs/SPiFI": {
             "releases": {
                 "nodes": [
@@ -7107,6 +7107,11 @@
             }
         },
         "sandialabs/tacho": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "sandialabs/tbnn": {
             "releases": {
                 "nodes": []
             }

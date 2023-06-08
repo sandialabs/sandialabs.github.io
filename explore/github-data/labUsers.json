@@ -681,16 +681,16 @@
                     "SNL-WaterPower/CACTUS",
                     "SNL-WaterPower/CACTUS-tools",
                     "SNL-WaterPower/Paracousti",
-                    "SNL-WaterPower/SNL-Delft3D-CEC",
-                    "SNL-WaterPower/SNL-Delft3D-FM-CEC",
                     "SNL-WaterPower/SNL-ESSC",
-                    "SNL-WaterPower/SNL-SWAN",
                     "SNL-WaterPower/WecOptTool",
                     "SNL-WaterPower/WecOptTool-MATLAB",
                     "SNL-WaterPower/dtocean",
                     "SNL-WaterPower/fbWecCntrl",
                     "SNL-WaterPower/nefis-python",
-                    "SNL-WaterPower/siweed"
+                    "SNL-WaterPower/siweed",
+                    "sandialabs/SNL-Delft3D-CEC",
+                    "sandialabs/SNL-Delft3D-FM-CEC",
+                    "sandialabs/SNL-SWAN"
                 ]
             },
             "login": "ccchart",
@@ -1725,13 +1725,13 @@
                     "SNL-WaterPower/CACTUS",
                     "SNL-WaterPower/CACTUS-tools",
                     "SNL-WaterPower/Paracousti",
-                    "SNL-WaterPower/SNL-Delft3D-CEC",
                     "SNL-WaterPower/SNL-ESSC",
-                    "SNL-WaterPower/SNL-SWAN",
                     "USEPA/WNTR",
                     "WEC-Sim/WDRT",
                     "WEC-Sim/WEC-Sim",
                     "sandialabs/NuMAD",
+                    "sandialabs/SNL-Delft3D-CEC",
+                    "sandialabs/SNL-SWAN",
                     "sandialabs/sandialabs.github.io"
                 ]
             },
@@ -2199,6 +2199,9 @@
                     "sandialabs/SCO2_CONTROL_SOFTWARE",
                     "sandialabs/SMARTT",
                     "sandialabs/SMB",
+                    "sandialabs/SNL-Delft3D-CEC",
+                    "sandialabs/SNL-Delft3D-FM-CEC",
+                    "sandialabs/SNL-SWAN",
                     "sandialabs/SPiFI",
                     "sandialabs/SRLS",
                     "sandialabs/STACS",
@@ -2344,6 +2347,7 @@
                     "sandialabs/sudoku-online",
                     "sandialabs/suncal",
                     "sandialabs/tacho",
+                    "sandialabs/tbnn",
                     "sandialabs/tenzing",
                     "sandialabs/toyplot",
                     "sandialabs/tracktable",
@@ -2430,17 +2434,15 @@
                     "SNL-WaterPower/CACTUS",
                     "SNL-WaterPower/CACTUS-tools",
                     "SNL-WaterPower/Paracousti",
-                    "SNL-WaterPower/SNL-Delft3D-CEC",
-                    "SNL-WaterPower/SNL-Delft3D-FM-CEC",
                     "SNL-WaterPower/SNL-ESSC",
-                    "SNL-WaterPower/SNL-SWAN",
                     "SNL-WaterPower/WecOptTool",
                     "SNL-WaterPower/WecOptTool-MATLAB",
                     "SNL-WaterPower/dtocean",
                     "SNL-WaterPower/fbWecCntrl",
                     "SNL-WaterPower/nefis-python",
                     "SNL-WaterPower/siweed",
-                    "WEC-Sim/WEC-Sim"
+                    "WEC-Sim/WEC-Sim",
+                    "sandialabs/SNL-Delft3D-FM-CEC"
                 ]
             },
             "login": "nhu-vnguyen",
@@ -2741,6 +2743,21 @@
             "login": "rigotibi",
             "name": null
         },
+        "rjones-sandia": {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/7750021?v=4",
+            "contributedLabRepositories": {
+                "nodes": [
+                    "NimbleSM/NimbleSM",
+                    "lammps/lammps",
+                    "sandialabs/Albany",
+                    "sandialabs/LCM",
+                    "sandialabs/tbnn",
+                    "trilinos/Trilinos"
+                ]
+            },
+            "login": "rjones-sandia",
+            "name": null
+        },
         "rlhelinski": {
             "avatarUrl": "https://avatars.githubusercontent.com/u/5163049?u=fe8a99cae269279fce6ed1a7daf2bb3c4162bbd1&v=4",
             "contributedLabRepositories": {
@@ -2858,10 +2875,7 @@
                     "SNL-WaterPower/CACTUS",
                     "SNL-WaterPower/CACTUS-tools",
                     "SNL-WaterPower/Paracousti",
-                    "SNL-WaterPower/SNL-Delft3D-CEC",
-                    "SNL-WaterPower/SNL-Delft3D-FM-CEC",
                     "SNL-WaterPower/SNL-ESSC",
-                    "SNL-WaterPower/SNL-SWAN",
                     "SNL-WaterPower/WecOptTool",
                     "SNL-WaterPower/WecOptTool-MATLAB",
                     "SNL-WaterPower/dtocean",
@@ -3258,6 +3272,9 @@
                     "sandialabs/SCO2_CONTROL_SOFTWARE",
                     "sandialabs/SMARTT",
                     "sandialabs/SMB",
+                    "sandialabs/SNL-Delft3D-CEC",
+                    "sandialabs/SNL-Delft3D-FM-CEC",
+                    "sandialabs/SNL-SWAN",
                     "sandialabs/SPiFI",
                     "sandialabs/SRLS",
                     "sandialabs/STACS",
@@ -3403,6 +3420,7 @@
                     "sandialabs/sudoku-online",
                     "sandialabs/suncal",
                     "sandialabs/tacho",
+                    "sandialabs/tbnn",
                     "sandialabs/tenzing",
                     "sandialabs/toyplot",
                     "sandialabs/tracktable",
