@@ -32313,19 +32313,6 @@
                 ]
             }
         },
-        "SNL-WaterPower/CACTUS": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
-                    }
-                ]
-            }
-        },
         "SNL-WaterPower/CACTUS-tools": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -32356,32 +32343,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "SNL-WaterPower/Paracousti": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
-        "SNL-WaterPower/SNL-ESSC": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e16737",
-                        "name": "MATLAB"
                     }
                 ]
             }
@@ -32418,19 +32379,6 @@
             },
             "languages": {
                 "nodes": []
-            }
-        },
-        "SNL-WaterPower/fbWecCntrl": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e16737",
-                        "name": "MATLAB"
-                    }
-                ]
             }
         },
         "SNL-WaterPower/nefis-python": {
@@ -36954,6 +36902,19 @@
                 "nodes": []
             }
         },
+        "sandialabs/CACTUS": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
         "sandialabs/CFTrack": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -39100,14 +39061,6 @@
                 ]
             }
         },
-        "sandialabs/IndividualDifferencesDKECleaning": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
         "sandialabs/InterSpec": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -40896,6 +40849,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/Paracousti": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -43818,6 +43784,19 @@
                     {
                         "color": "#4d41b1",
                         "name": "Fortran"
+                    }
+                ]
+            }
+        },
+        "sandialabs/SNL-ESSC": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
                     }
                 ]
             }
@@ -48939,6 +48918,19 @@
                 "nodes": []
             }
         },
+        "sandialabs/fbWecCntrl": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
         "sandialabs/fbmpi": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -51574,113 +51566,7 @@
                 "nodes": [
                     {
                         "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "coverage",
-                                    "repository": {
-                                        "nameWithOwner": "nedbat/coveragepy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "keras",
-                                    "repository": {
-                                        "nameWithOwner": "dmlc/keras"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "openpyxl",
-                                    "repository": {
-                                        "nameWithOwner": "ericgazoni/openpyxl"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pillow",
-                                    "repository": {
-                                        "nameWithOwner": "python-pillow/Pillow"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-cov",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-cov"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-dotenv",
-                                    "repository": {
-                                        "nameWithOwner": "theskumar/python-dotenv"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-learn",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tensorboard",
-                                    "repository": {
-                                        "nameWithOwner": "tensorflow/tensorboard"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tensorflow",
-                                    "repository": {
-                                        "nameWithOwner": "tensorflow/tensorflow"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch",
-                                    "repository": {
-                                        "nameWithOwner": "pytorch/pytorch"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torchvision",
-                                    "repository": {
-                                        "nameWithOwner": "pytorch/vision"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "xlrd",
-                                    "repository": {
-                                        "nameWithOwner": "python-excel/xlrd"
-                                    }
-                                }
-                            ]
+                            "nodes": []
                         }
                     }
                 ]

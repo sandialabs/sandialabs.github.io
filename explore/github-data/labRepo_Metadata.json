@@ -583,35 +583,11 @@
         "topics": null,
         "website": null
     },
-    "SNL-WaterPower/CACTUS": {
-        "description": "CACTUS (Code for Axial and Cross-flow TUrbine Simulation) is a turbine performance simulation code, based on a free wake vortex method, to study wind turbines and marine hydrokinetic (MHK) devices. ",
-        "name": "SNL-WaterPower/CACTUS",
-        "topics": null,
-        "website": ""
-    },
     "SNL-WaterPower/CACTUS-tools": {
         "description": "Tools for preprocessing (geometry generation) and post-processing of CACTUS (Code for Axial and Cross-flow TUrbine Simulation) results. ",
         "name": "SNL-WaterPower/CACTUS-tools",
         "topics": null,
         "website": "http://snl-waterpower.github.io/CACTUS-tools/"
-    },
-    "SNL-WaterPower/Paracousti": {
-        "description": "Paracousti is an underwater sound propagation tool used to investigate changes to the marine environment from arrays of current- and wave-energy converters. Paracousti solves the governing equations with a finite-difference, time-domain scheme that can be massively parallelized for use on high performance computing clusters.",
-        "name": "SNL-WaterPower/Paracousti",
-        "topics": null,
-        "website": "https://snl-waterpower.github.io/Paracousti/"
-    },
-    "SNL-WaterPower/SNL-ESSC": {
-        "description": "Sandia National Laboratories - Extreme Sea State Contour",
-        "name": "SNL-WaterPower/SNL-ESSC",
-        "topics": [
-            "inverse-form",
-            "principal-component-analysis",
-            "environmental-contours",
-            "extreme-sea-state-characterization",
-            "snl-applications"
-        ],
-        "website": ""
     },
     "SNL-WaterPower/WecOptTool": {
         "description": "WEC Design Optimization Toolbox",
@@ -634,15 +610,6 @@
         "description": "Download the DTOcean installation wizard, get help and report issues here. ",
         "name": "SNL-WaterPower/dtocean",
         "topics": null,
-        "website": ""
-    },
-    "SNL-WaterPower/fbWecCntrl": {
-        "description": "Feedback controller design of wave energy converters (WECs)",
-        "name": "SNL-WaterPower/fbWecCntrl",
-        "topics": [
-            "snl-applications",
-            "matlab"
-        ],
         "website": ""
     },
     "SNL-WaterPower/nefis-python": {
@@ -1120,6 +1087,12 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/CACTUS": {
+        "description": "CACTUS (Code for Axial and Cross-flow TUrbine Simulation) is a turbine performance simulation code, based on a free wake vortex method, to study wind turbines and marine hydrokinetic (MHK) devices. ",
+        "name": "sandialabs/CACTUS",
+        "topics": null,
+        "website": ""
+    },
     "sandialabs/CFTrack": {
         "description": "Optical flow-based feature tracking for following low cloud motion in GOES-R imagery.",
         "name": "sandialabs/CFTrack",
@@ -1374,12 +1347,6 @@
         "topics": null,
         "website": null
     },
-    "sandialabs/IndividualDifferencesDKECleaning": {
-        "description": "Contains scripts to clean DKE project data",
-        "name": "sandialabs/IndividualDifferencesDKECleaning",
-        "topics": null,
-        "website": null
-    },
     "sandialabs/InterSpec": {
         "description": "spectral radiation analysis software",
         "name": "sandialabs/InterSpec",
@@ -1530,6 +1497,12 @@
         "topics": null,
         "website": "http://sandialabs.github.io/PRIME"
     },
+    "sandialabs/Paracousti": {
+        "description": "Paracousti is an underwater sound propagation tool used to investigate changes to the marine environment from arrays of current- and wave-energy converters. Paracousti solves the governing equations with a finite-difference, time-domain scheme that can be massively parallelized for use on high performance computing clusters.",
+        "name": "sandialabs/Paracousti",
+        "topics": null,
+        "website": "https://snl-waterpower.github.io/Paracousti/"
+    },
     "sandialabs/Peak-Map": {
         "description": "Tool for identifying photopeaks and generating nuclide libraries",
         "name": "sandialabs/Peak-Map",
@@ -1655,6 +1628,18 @@
         "name": "sandialabs/SNL-Delft3D-FM-CEC",
         "topics": null,
         "website": null
+    },
+    "sandialabs/SNL-ESSC": {
+        "description": "Sandia National Laboratories - Extreme Sea State Contour",
+        "name": "sandialabs/SNL-ESSC",
+        "topics": [
+            "inverse-form",
+            "principal-component-analysis",
+            "environmental-contours",
+            "extreme-sea-state-characterization",
+            "snl-applications"
+        ],
+        "website": ""
     },
     "sandialabs/SNL-SWAN": {
         "description": "SNL-SWAN",
@@ -2043,6 +2028,15 @@
         "description": "This is a repo of papers/slides that have been reviewed for external release",
         "name": "sandialabs/faodel-pubs",
         "topics": null,
+        "website": ""
+    },
+    "sandialabs/fbWecCntrl": {
+        "description": "Feedback controller design of wave energy converters (WECs)",
+        "name": "sandialabs/fbWecCntrl",
+        "topics": [
+            "snl-applications",
+            "matlab"
+        ],
         "website": ""
     },
     "sandialabs/fbmpi": {
