@@ -857,15 +857,6 @@
         "topics": null,
         "website": null
     },
-    "kevincopps/affect": {
-        "description": "Read/write and post-process results of the finite element method in Python and C++.",
-        "name": "kevincopps/affect",
-        "topics": [
-            "snl-science-libs",
-            "snl-data-analysis"
-        ],
-        "website": ""
-    },
     "kokkos/kokkos": {
         "description": "Kokkos C++ Performance Portability Programming EcoSystem: The Programming Model - Parallel Execution and Memory Abstraction",
         "name": "kokkos/kokkos",
@@ -1515,6 +1506,12 @@
         "topics": null,
         "website": "http://pyproveit.org"
     },
+    "sandialabs/PyNetUQ": {
+        "description": "Python library for uncertainty quantification (UQ) in a network of interconnected components",
+        "name": "sandialabs/PyNetUQ",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/PyNucleus": {
         "description": "PyNucleus is a finite element code that specifically targets nonlocal operators.",
         "name": "sandialabs/PyNucleus",
@@ -1818,6 +1815,15 @@
         "topics": null,
         "website": null
     },
+    "sandialabs/affect": {
+        "description": "Read/write and post-process results of the finite element method in Python and C++.",
+        "name": "sandialabs/affect",
+        "topics": [
+            "snl-science-libs",
+            "snl-data-analysis"
+        ],
+        "website": ""
+    },
     "sandialabs/alert-triage": {
         "description": null,
         "name": "sandialabs/alert-triage",
@@ -1954,6 +1960,12 @@
         ],
         "website": ""
     },
+    "sandialabs/compressed-continuous-computation": {
+        "description": "Library for computing with multidimensional functions",
+        "name": "sandialabs/compressed-continuous-computation",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/cross-sim": {
         "description": "CrossSim: accuracy simulation of analog in-memory computing",
         "name": "sandialabs/cross-sim",
@@ -2005,6 +2017,12 @@
     "sandialabs/exodusii": {
         "description": null,
         "name": "sandialabs/exodusii",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/exomerge": {
+        "description": "Exomerge is a lightweight Python module for reading, manipulating and writing ExodusII files.",
+        "name": "sandialabs/exomerge",
         "topics": null,
         "website": null
     },
@@ -2501,9 +2519,16 @@
         "website": null
     },
     "sandialabs/pyttb": {
-        "description": "Python version of the Tensor Toolbox",
+        "description": "Python Tensor Toolbox",
         "name": "sandialabs/pyttb",
-        "topics": null,
+        "topics": [
+            "cp-decomposition",
+            "data-science",
+            "python",
+            "snl-data-analysis",
+            "tensors",
+            "tucker-decomposition"
+        ],
         "website": "https://pyttb.readthedocs.io"
     },
     "sandialabs/qe-rt-tddft": {
@@ -2977,12 +3002,6 @@
     "supercontainers/atse": {
         "description": "Advanced Tri-Lab Software Environment (ATSE) https://vanguard.sandia.gov/ATSE/",
         "name": "supercontainers/atse",
-        "topics": null,
-        "website": null
-    },
-    "timkostka/exomerge": {
-        "description": "Exomerge is a lightweight Python module for reading, manipulating and writing ExodusII files.",
-        "name": "timkostka/exomerge",
         "topics": null,
         "website": null
     },

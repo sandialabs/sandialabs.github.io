@@ -34274,162 +34274,6 @@
                 ]
             }
         },
-        "kevincopps/affect": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "cython",
-                                    "repository": {
-                                        "nameWithOwner": "cython/cython"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "hdf4",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "hdf5",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ipython",
-                                    "repository": {
-                                        "nameWithOwner": "ipython/ipython"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "jinja2",
-                                    "repository": {
-                                        "nameWithOwner": "pallets/jinja"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "netcdf4",
-                                    "repository": {
-                                        "nameWithOwner": "Unidata/netcdf4-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numexpr",
-                                    "repository": {
-                                        "nameWithOwner": "eleddy/numexpr"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-cov",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-cov"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-runner",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-runner"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-blosc",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "cython",
-                                    "repository": {
-                                        "nameWithOwner": "cython/cython"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "hdf4",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "hdf5",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "netcdf4",
-                                    "repository": {
-                                        "nameWithOwner": "Unidata/netcdf4-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numexpr",
-                                    "repository": {
-                                        "nameWithOwner": "eleddy/numexpr"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            }
-        },
         "kokkos/kokkos": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -41252,6 +41096,19 @@
                 ]
             }
         },
+        "sandialabs/PyNetUQ": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/PyNucleus": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -45743,6 +45600,162 @@
                 ]
             }
         },
+        "sandialabs/affect": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cython",
+                                    "repository": {
+                                        "nameWithOwner": "cython/cython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "hdf4",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "hdf5",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipython",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jinja2",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/jinja"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "netcdf4",
+                                    "repository": {
+                                        "nameWithOwner": "Unidata/netcdf4-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numexpr",
+                                    "repository": {
+                                        "nameWithOwner": "eleddy/numexpr"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-runner",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-runner"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-blosc",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cython",
+                                    "repository": {
+                                        "nameWithOwner": "cython/cython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "hdf4",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "hdf5",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "netcdf4",
+                                    "repository": {
+                                        "nameWithOwner": "Unidata/netcdf4-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numexpr",
+                                    "repository": {
+                                        "nameWithOwner": "eleddy/numexpr"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            }
+        },
         "sandialabs/alert-triage": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -48048,6 +48061,19 @@
                 ]
             }
         },
+        "sandialabs/compressed-continuous-computation": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "sandialabs/cross-sim": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -48783,6 +48809,19 @@
             }
         },
         "sandialabs/exodusii": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/exomerge": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -61578,19 +61617,6 @@
             }
         },
         "supercontainers/atse": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
-        "timkostka/exomerge": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
