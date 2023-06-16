@@ -48808,6 +48808,19 @@
                 ]
             }
         },
+        "sandialabs/euforia": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/exodusii": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -54690,27 +54703,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "coverage",
-                                    "repository": {
-                                        "nameWithOwner": "nedbat/coveragepy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-mock",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-mock"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "python",
                                     "repository": null
                                 }
@@ -54722,9 +54714,16 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "coverage",
+                                    "packageName": "bandit",
                                     "repository": {
-                                        "nameWithOwner": "nedbat/coveragepy"
+                                        "nameWithOwner": "PyCQA/bandit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "black",
+                                    "repository": {
+                                        "nameWithOwner": "psf/black"
                                     }
                                 },
                                 {
@@ -54736,6 +54735,47 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "flake8-bugbear",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8-bugbear"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mypy",
+                                    "repository": {
+                                        "nameWithOwner": "python/mypy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pre-commit",
+                                    "repository": {
+                                        "nameWithOwner": "pre-commit/pre-commit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "prospector",
+                                    "repository": {
+                                        "nameWithOwner": "landscapeio/prospector"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyroma",
+                                    "repository": {
+                                        "nameWithOwner": "vint21h/pyroma"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pytest",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest"
@@ -54743,23 +54783,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pytest-mock",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest-mock"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "toml",
-                                    "repository": {
-                                        "nameWithOwner": "uiri/toml"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "yapf",
-                                    "repository": {
-                                        "nameWithOwner": "google/yapf"
                                     }
                                 }
                             ]
