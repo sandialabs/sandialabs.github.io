@@ -7301,19 +7301,6 @@
                 ]
             }
         },
-        "Portals4/portals4": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            }
-        },
         "Pressio/pressio": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -39781,6 +39768,14 @@
                 ]
             }
         },
+        "sandialabs/NNMC": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/NuMAD": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -52896,6 +52891,19 @@
                 ]
             }
         },
+        "sandialabs/portals4": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "sandialabs/proxy-parent-data": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -55152,6 +55160,13 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
                                     }
                                 }
                             ]
@@ -57658,13 +57673,6 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-explode-assignable-expression",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
                                     "packageName": "@babel/helper-function-name",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
@@ -58250,6 +58258,13 @@
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-runtime",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
                                 }
                             ]
                         }
@@ -58495,6 +58510,13 @@
                                 },
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "combined-reduction",
+                                    "repository": {
+                                        "nameWithOwner": "convoyinc/combined-reduction"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "copy-webpack-plugin",
                                     "repository": {
                                         "nameWithOwner": "webpack-contrib/copy-webpack-plugin"
@@ -58513,6 +58535,18 @@
                                     "repository": {
                                         "nameWithOwner": "d3/d3"
                                     }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3fc",
+                                    "repository": {
+                                        "nameWithOwner": "d3fc/d3fc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3v7",
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
