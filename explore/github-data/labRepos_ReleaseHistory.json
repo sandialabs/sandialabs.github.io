@@ -2861,6 +2861,16 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "Stable release 2 August 2023",
+                        "publishedAt": "2023-08-03T15:58:09Z",
+                        "tagName": "stable_2Aug2023"
+                    },
+                    {
+                        "name": "Stable release candidate 2 August 2023",
+                        "publishedAt": "2023-08-03T12:24:40Z",
+                        "tagName": "patch_2Aug2023"
+                    },
+                    {
                         "name": "Feature release June 15 2023",
                         "publishedAt": "2023-06-15T18:38:46Z",
                         "tagName": "patch_15Jun2023"
@@ -5179,7 +5189,7 @@
                 "nodes": [
                     {
                         "name": "PyRIID v2.0.0",
-                        "publishedAt": null,
+                        "publishedAt": "2023-08-03T23:36:28Z",
                         "tagName": "v2.0.0"
                     },
                     {
@@ -7350,6 +7360,11 @@
                         "tagName": "v0.1.0"
                     }
                 ]
+            }
+        },
+        "sandialabs/stpphawkes": {
+            "releases": {
+                "nodes": []
             }
         },
         "sandialabs/sudoku-online": {
