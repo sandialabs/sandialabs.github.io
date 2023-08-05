@@ -1,183 +1,5 @@
 {
     "data": {
-        "Cantera/cantera": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/download-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/download-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-dotnet",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-dotnet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "codecov/codecov-action",
-                                    "repository": {
-                                        "nameWithOwner": "codecov/codecov-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "egor-tensin/setup-mingw",
-                                    "repository": {
-                                        "nameWithOwner": "egor-tensin/setup-mingw"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "matlab-actions/run-tests",
-                                    "repository": {
-                                        "nameWithOwner": "matlab-actions/run-tests"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "matlab-actions/setup-matlab",
-                                    "repository": {
-                                        "nameWithOwner": "matlab-actions/setup-matlab"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "shimataro/ssh-key-action",
-                                    "repository": {
-                                        "nameWithOwner": "shimataro/ssh-key-action"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Nullable",
-                                    "repository": {
-                                        "nameWithOwner": "manuelroemer/Nullable"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "System.Memory",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "coverlet.collector",
-                                    "repository": {
-                                        "nameWithOwner": "coverlet-coverage/coverlet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.NET.Test.Sdk",
-                                    "repository": {
-                                        "nameWithOwner": "microsoft/vstest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "xunit",
-                                    "repository": {
-                                        "nameWithOwner": "xunit/xunit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "xunit.runner.visualstudio",
-                                    "repository": {
-                                        "nameWithOwner": "xunit/visualstudio.xunit"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "Coramin/Coramin": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -15992,7 +15814,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -16519,7 +16341,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -17213,7 +17035,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -17967,7 +17789,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -18632,7 +18454,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -19257,7 +19079,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -19924,7 +19746,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -20532,7 +20354,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -21015,7 +20837,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -21527,7 +21349,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -22002,7 +21824,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -22423,7 +22245,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -25311,7 +25133,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -25808,7 +25630,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -26200,7 +26022,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -26660,7 +26482,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -27200,7 +27022,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -27685,7 +27507,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -28105,7 +27927,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -28480,7 +28302,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -28877,7 +28699,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -29226,7 +29048,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -29575,7 +29397,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -29951,7 +29773,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -30331,7 +30153,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -30745,7 +30567,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "eslint-config-airbnb",
                                     "repository": {
-                                        "nameWithOwner": "cjddny/eslint-config-airbnb"
+                                        "nameWithOwner": "airbnb/javascript"
                                     }
                                 },
                                 {
@@ -40462,7 +40284,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "entrypoints",
                                     "repository": {
-                                        "nameWithOwner": "takluyver/entrypoints"
+                                        "nameWithOwner": "sdruskat/poetry-entrypoints"
                                     }
                                 },
                                 {
@@ -48615,21 +48437,21 @@
                                     "packageManager": "NUGET",
                                     "packageName": "xunit.extensibility.core",
                                     "repository": {
-                                        "nameWithOwner": "clairernovotny/xunit"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
                                     "packageManager": "NUGET",
                                     "packageName": "xunit.extensibility.execution",
                                     "repository": {
-                                        "nameWithOwner": "clairernovotny/xunit"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
                                     "packageManager": "NUGET",
                                     "packageName": "xunit.runner.console",
                                     "repository": {
-                                        "nameWithOwner": "clairernovotny/xunit"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -49033,7 +48855,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "entrypoints",
                                     "repository": {
-                                        "nameWithOwner": "takluyver/entrypoints"
+                                        "nameWithOwner": "sdruskat/poetry-entrypoints"
                                     }
                                 },
                                 {
@@ -49819,7 +49641,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "entrypoints",
                                     "repository": {
-                                        "nameWithOwner": "takluyver/entrypoints"
+                                        "nameWithOwner": "sdruskat/poetry-entrypoints"
                                     }
                                 },
                                 {
