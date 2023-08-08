@@ -52707,7 +52707,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "@babel/polyfill",
                                     "repository": {
-                                        "nameWithOwner": "tarzan/babel-polyfill"
+                                        "nameWithOwner": "babel/babel"
                                     }
                                 },
                                 {
@@ -52833,7 +52833,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue-style-loader",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/vue-style-loader"
+                                        "nameWithOwner": "trilogy-group/kayako-vue-style-loader"
                                     }
                                 },
                                 {
@@ -65717,7 +65717,49 @@
         },
         "sandialabs/stpphawkes": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "r-lib/actions/check-r-package",
+                                    "repository": {
+                                        "nameWithOwner": "r-lib/actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "r-lib/actions/setup-pandoc",
+                                    "repository": {
+                                        "nameWithOwner": "r-lib/actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "r-lib/actions/setup-r",
+                                    "repository": {
+                                        "nameWithOwner": "r-lib/actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "r-lib/actions/setup-r-dependencies",
+                                    "repository": {
+                                        "nameWithOwner": "r-lib/actions"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
