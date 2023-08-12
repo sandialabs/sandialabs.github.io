@@ -5806,6 +5806,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "beautifulsoup4",
+                                    "repository": {
+                                        "nameWithOwner": "a-tsvetkov/lucid-python-beautifulsoup"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "bottleneck",
                                     "repository": {
                                         "nameWithOwner": "pydata/bottleneck"
@@ -5929,6 +5936,13 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "beautifulsoup4",
+                                    "repository": {
+                                        "nameWithOwner": "a-tsvetkov/lucid-python-beautifulsoup"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "bottleneck",
@@ -6087,6 +6101,33 @@
                                     "packageName": "s-weigand/setup-conda",
                                     "repository": {
                                         "nameWithOwner": "s-weigand/setup-conda"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pypa/gh-action-pypi-publish",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/gh-action-pypi-publish"
                                     }
                                 }
                             ]
@@ -35823,6 +35864,20 @@
                                     "repository": {
                                         "nameWithOwner": "sphinx-doc/sphinx"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-autoapi",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx-autoapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
                                 }
                             ]
                         }
@@ -35856,33 +35911,6 @@
                                     "packageName": "scipy",
                                     "repository": {
                                         "nameWithOwner": "jasonmccampbell/scipy-refactor"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpydoc",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpydoc"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-rtd-theme",
-                                    "repository": {
-                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -53360,9 +53388,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.jfree:jfreechart",
-                                    "repository": {
-                                        "nameWithOwner": "jfree/jfreechart"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -56632,9 +56658,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.jfree:jfreechart",
-                                    "repository": {
-                                        "nameWithOwner": "jfree/jfreechart"
-                                    }
+                                    "repository": null
                                 }
                             ]
                         }
@@ -56676,9 +56700,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.xerial:sqlite-jdbc",
-                                    "repository": {
-                                        "nameWithOwner": "xerial/sqlite-jdbc"
-                                    }
+                                    "repository": null
                                 }
                             ]
                         }
@@ -56921,16 +56943,12 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.codehaus.mojo:versions-maven-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "mojohaus/versions"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.codehaus.mojo:versions-maven-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "mojohaus/versions"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -56950,16 +56968,12 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.owasp:dependency-check-maven",
-                                    "repository": {
-                                        "nameWithOwner": "jeremylong/DependencyCheck"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.owasp:dependency-check-maven",
-                                    "repository": {
-                                        "nameWithOwner": "jeremylong/DependencyCheck"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -57110,9 +57124,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.apache.tika:tika-core",
-                                    "repository": {
-                                        "nameWithOwner": "apache/tika"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -58535,6 +58547,13 @@
                                 },
                                 {
                                     "packageManager": "GO",
+                                    "packageName": "github.com/lmittmann/tint",
+                                    "repository": {
+                                        "nameWithOwner": "lmittmann/tint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
                                     "packageName": "github.com/magiconair/properties",
                                     "repository": {
                                         "nameWithOwner": "magiconair/properties"
@@ -58796,11 +58815,6 @@
                                 {
                                     "packageManager": "GO",
                                     "packageName": "golang.org/x/tools",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/xerrors",
                                     "repository": null
                                 },
                                 {
