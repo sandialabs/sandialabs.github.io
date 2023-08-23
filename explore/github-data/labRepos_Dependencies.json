@@ -32678,6 +32678,40 @@
                 ]
             }
         },
+        "Sandia-OpenSHMEM/SOS": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/cache",
+                                    "repository": {
+                                        "nameWithOwner": "actions/cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "TriBITSPub/TriBITS": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -54016,6 +54050,14 @@
                 ]
             }
         },
+        "sandialabs/phisherman": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/phoenix": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -57491,6 +57533,13 @@
                                     "packageName": "sphinxcontrib-programoutput",
                                     "repository": {
                                         "nameWithOwner": "OpenNTI/sphinxcontrib-programoutput"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-spelling",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-contrib/spelling"
                                     }
                                 }
                             ]
