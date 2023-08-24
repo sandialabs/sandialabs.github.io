@@ -41999,6 +41999,53 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "PIP",
+                                    "packageName": "pdoc3",
+                                    "repository": {
+                                        "nameWithOwner": "pdoc3/pdoc"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/deploy-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/deploy-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-pages-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-pages-artifact"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
@@ -58226,6 +58273,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "helics",
+                                    "repository": {
+                                        "nameWithOwner": "GMLC-TDC/pyhelics"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "matplotlib",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/matplotlib"
@@ -58467,6 +58521,82 @@
                                     "packageManager": "MAVEN",
                                     "packageName": "com.automatak.render:opendnp3-generation-render",
                                     "repository": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "breathe",
+                                    "repository": {
+                                        "nameWithOwner": "breathe-doc/breathe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipykernel",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipykernel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipython",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbsphinx",
+                                    "repository": {
+                                        "nameWithOwner": "spatialaudio/nbsphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pypandoc",
+                                    "repository": {
+                                        "nameWithOwner": "JessicaTegner/pypandoc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "recommonmark",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/recommonmark"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-markdown-tables",
+                                    "repository": {
+                                        "nameWithOwner": "ryanfox/sphinx-markdown-tables"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-pandoc-markdown",
+                                    "repository": {
+                                        "nameWithOwner": "pashango2/sphinxcontrib-pandoc-markdown"
+                                    }
                                 }
                             ]
                         }
@@ -60617,386 +60747,6 @@
                     {
                         "color": "#f1e05a",
                         "name": "JavaScript"
-                    }
-                ]
-            }
-        },
-        "sandialabs/sceptre-phenix-apps": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/activeshadow/libminimega",
-                                    "repository": {
-                                        "nameWithOwner": "activeshadow/libminimega"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/activeshadow/structs",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/coreos/go-semver",
-                                    "repository": {
-                                        "nameWithOwner": "coreos/go-semver"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/coreos/go-systemd/v22",
-                                    "repository": {
-                                        "nameWithOwner": "coreos/go-systemd"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/fatih/color",
-                                    "repository": {
-                                        "nameWithOwner": "fatih/color"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/getkin/kin-openapi",
-                                    "repository": {
-                                        "nameWithOwner": "getkin/kin-openapi"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/go-openapi/jsonpointer",
-                                    "repository": {
-                                        "nameWithOwner": "go-openapi/jsonpointer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/go-openapi/swag",
-                                    "repository": {
-                                        "nameWithOwner": "go-openapi/swag"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/gofrs/uuid",
-                                    "repository": {
-                                        "nameWithOwner": "gofrs/uuid"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/gogo/protobuf",
-                                    "repository": {
-                                        "nameWithOwner": "gogo/protobuf"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/golang/protobuf",
-                                    "repository": {
-                                        "nameWithOwner": "golang/protobuf"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/google/uuid",
-                                    "repository": {
-                                        "nameWithOwner": "google/uuid"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/hashicorp/errwrap",
-                                    "repository": {
-                                        "nameWithOwner": "hashicorp/errwrap"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/hashicorp/go-multierror",
-                                    "repository": {
-                                        "nameWithOwner": "hashicorp/go-multierror"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/invopop/yaml",
-                                    "repository": {
-                                        "nameWithOwner": "invopop/yaml"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/josharian/intern",
-                                    "repository": {
-                                        "nameWithOwner": "josharian/intern"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mailru/easyjson",
-                                    "repository": {
-                                        "nameWithOwner": "mailru/easyjson"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mattn/go-colorable",
-                                    "repository": {
-                                        "nameWithOwner": "mattn/go-colorable"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mattn/go-isatty",
-                                    "repository": {
-                                        "nameWithOwner": "mattn/go-isatty"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mattn/go-runewidth",
-                                    "repository": {
-                                        "nameWithOwner": "mattn/go-runewidth"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mitchellh/mapstructure",
-                                    "repository": {
-                                        "nameWithOwner": "mitchellh/mapstructure"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mohae/deepcopy",
-                                    "repository": {
-                                        "nameWithOwner": "mohae/deepcopy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/perimeterx/marshmallow",
-                                    "repository": {
-                                        "nameWithOwner": "PerimeterX/marshmallow"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/peterh/liner",
-                                    "repository": {
-                                        "nameWithOwner": "peterh/liner"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/stoewer/go-strcase",
-                                    "repository": {
-                                        "nameWithOwner": "stoewer/go-strcase"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "go.etcd.io/bbolt",
-                                    "repository": {
-                                        "nameWithOwner": "etcd-io/bbolt"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "go.etcd.io/etcd/v3",
-                                    "repository": {
-                                        "nameWithOwner": "etcd-io/etcd"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "go.uber.org/atomic",
-                                    "repository": {
-                                        "nameWithOwner": "uber-go/atomic"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "go.uber.org/multierr",
-                                    "repository": {
-                                        "nameWithOwner": "uber-go/multierr"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "go.uber.org/zap",
-                                    "repository": {
-                                        "nameWithOwner": "uber-go/zap"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "go4.org/intern",
-                                    "repository": {
-                                        "nameWithOwner": "go4org/intern"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "go4.org/unsafe/assume-no-moving-gc",
-                                    "repository": {
-                                        "nameWithOwner": "go4org/unsafe-assume-no-moving-gc"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/exp",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/net",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/sys",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/text",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "google.golang.org/genproto",
-                                    "repository": {
-                                        "nameWithOwner": "googleapis/go-genproto"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "google.golang.org/grpc",
-                                    "repository": {
-                                        "nameWithOwner": "grpc/grpc-go"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "google.golang.org/protobuf",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "gopkg.in/yaml.v2",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "gopkg.in/yaml.v3",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "inet.af/netaddr",
-                                    "repository": {
-                                        "nameWithOwner": "inetaf/netaddr"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "phenix",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/activeshadow/libminimega",
-                                    "repository": {
-                                        "nameWithOwner": "activeshadow/libminimega"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/c-robinson/iplib",
-                                    "repository": {
-                                        "nameWithOwner": "c-robinson/iplib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/mitchellh/mapstructure",
-                                    "repository": {
-                                        "nameWithOwner": "mitchellh/mapstructure"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "phenix",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "lxml",
-                                    "repository": {
-                                        "nameWithOwner": "lxml/lxml"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mako",
-                                    "repository": {
-                                        "nameWithOwner": "sqlalchemy/mako"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "minimega",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-box",
-                                    "repository": {
-                                        "nameWithOwner": "cdgriffith/Box"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/repository-dispatch",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/repository-dispatch"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
