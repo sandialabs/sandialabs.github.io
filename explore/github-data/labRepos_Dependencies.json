@@ -42017,6 +42017,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "parmap",
+                                    "repository": {
+                                        "nameWithOwner": "zeehio/parmap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pythonnet",
                                     "repository": {
                                         "nameWithOwner": "pythonnet/pythonnet"
@@ -63008,6 +63015,40 @@
                     {
                         "color": "#e34c26",
                         "name": "HTML"
+                    }
+                ]
+            }
+        },
+        "sandialabs/seat-qgis-plugin": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "ncipollo/release-action",
+                                    "repository": {
+                                        "nameWithOwner": "ncipollo/release-action"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
