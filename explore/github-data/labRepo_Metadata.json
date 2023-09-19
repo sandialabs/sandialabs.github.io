@@ -648,7 +648,9 @@
             "testing-framework",
             "build-system",
             "build-automation",
-            "cmake-scripts"
+            "cmake-scripts",
+            "sandia-national-laboratories",
+            "snl-build-tools"
         ],
         "website": "http://tribits.org"
     },
@@ -1327,6 +1329,12 @@
     "sandialabs/HamiltonianOpInf": {
         "description": "This repo contains files for reproducing results in the following paper:Canonical and Noncanonical Hamiltonian Operator Inference",
         "name": "sandialabs/HamiltonianOpInf",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/HawaiiCoast_GT_Code_Generation": {
+        "description": "This is the codebase for the HawaiiCoast_GT dataset, available at https://zenodo.org/record/8253611",
+        "name": "sandialabs/HawaiiCoast_GT_Code_Generation",
         "topics": null,
         "website": null
     },
@@ -2983,6 +2991,12 @@
         "name": "sandialabs/romans",
         "topics": null,
         "website": null
+    },
+    "sandialabs/romnet": {
+        "description": "A library based on Tensorflow for constructing neural-operator surrogate models for dynamical systems using the DeepONet architecture",
+        "name": "sandialabs/romnet",
+        "topics": null,
+        "website": ""
     },
     "sandialabs/rstf": {
         "description": null,
