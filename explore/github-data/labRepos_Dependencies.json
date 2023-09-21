@@ -3928,6 +3928,106 @@
                 ]
             }
         },
+        "DARMA-tasking/memory-tracer": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "joel-coffman/action-git-diff-check",
+                                    "repository": {
+                                        "nameWithOwner": "joel-coffman/action-git-diff-check"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/check-commit-format",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/check-commit-format"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/check-pr-fixes-issue",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/check-pr-fixes-issue"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/find-trailing-whitespace",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/find-trailing-whitespace"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/find-unsigned-commits",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/find-unsigned-commits"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "DARMA-tasking/parallel-for-transformer": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -36464,7 +36564,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Moq",
                                     "repository": {
-                                        "nameWithOwner": "moq/moq"
+                                        "nameWithOwner": "devlooped/moq"
                                     }
                                 },
                                 {
@@ -38773,6 +38873,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/Cplant": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
                     }
                 ]
             }
@@ -52848,6 +52961,14 @@
                 ]
             }
         },
+        "sandialabs/kontrodo": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/laikaboss": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -54270,7 +54391,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "keras",
                                     "repository": {
-                                        "nameWithOwner": "keras-team/keras"
+                                        "nameWithOwner": "dmlc/keras"
                                     }
                                 },
                                 {
