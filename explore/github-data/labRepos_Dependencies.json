@@ -50541,14 +50541,14 @@
                                     "packageManager": "NUGET",
                                     "packageName": "xunit.extensibility.core",
                                     "repository": {
-                                        "nameWithOwner": "xunit/xunit"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
                                     "packageManager": "NUGET",
                                     "packageName": "xunit.extensibility.execution",
                                     "repository": {
-                                        "nameWithOwner": "xunit/xunit"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -52248,7 +52248,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "yarl",
                                     "repository": {
-                                        "nameWithOwner": "aio-libs/yarl"
+                                        "nameWithOwner": "RayverAimar/yarl"
                                     }
                                 }
                             ]
@@ -58674,6 +58674,33 @@
                                     "packageName": "gaurav-nelson/github-action-markdown-link-check",
                                     "repository": {
                                         "nameWithOwner": "gaurav-nelson/github-action-markdown-link-check"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pre-commit/action",
+                                    "repository": {
+                                        "nameWithOwner": "pre-commit/action"
                                     }
                                 }
                             ]
