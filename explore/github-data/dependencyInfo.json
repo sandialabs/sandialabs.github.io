@@ -93,22 +93,6 @@
                 "login": "Anaconda-Platform"
             }
         },
-        "AssemblyScript/assemblyscript": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#04133b",
-                        "name": "WebAssembly"
-                    }
-                ]
-            },
-            "name": "assemblyscript",
-            "nameWithOwner": "AssemblyScript/assemblyscript",
-            "owner": {
-                "isVerified": true,
-                "login": "AssemblyScript"
-            }
-        },
         "Azure/go-ansiterm": {
             "languages": {
                 "nodes": [
@@ -3313,12 +3297,17 @@
                 "login": "activeshadow"
             }
         },
-        "adaltas/node-csv-parse": {
+        "adaltas/node-csv": {
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#244776",
+                        "name": "CoffeeScript"
+                    }
+                ]
             },
-            "name": "node-csv-parse",
-            "nameWithOwner": "adaltas/node-csv-parse",
+            "name": "node-csv",
+            "nameWithOwner": "adaltas/node-csv",
             "owner": {
                 "isVerified": false,
                 "login": "adaltas"
