@@ -8240,7 +8240,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "tenacity",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jd/tenacity"
+                                    }
                                 }
                             ]
                         }
@@ -14906,7 +14908,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "tenacity",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jd/tenacity"
+                                    }
                                 }
                             ]
                         }
@@ -24100,7 +24104,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "tenacity",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jd/tenacity"
+                                    }
                                 }
                             ]
                         }
@@ -36281,6 +36287,19 @@
                 "nodes": []
             }
         },
+        "sandialabs/2-D-Surface-Temperature-Simulation-Data": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
         "sandialabs/Adaptive-Self-Tuning": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -45903,6 +45922,19 @@
                 ]
             }
         },
+        "sandialabs/SMAC": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
         "sandialabs/SMARTT": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -48361,7 +48393,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "gensim",
                                     "repository": {
-                                        "nameWithOwner": "RaRe-Technologies/gensim"
+                                        "nameWithOwner": "piskvorky/gensim"
                                     }
                                 },
                                 {
@@ -53545,6 +53577,19 @@
                 ]
             }
         },
+        "sandialabs/gibraltar": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
         "sandialabs/giip": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -53736,6 +53781,280 @@
                     {
                         "color": "#427819",
                         "name": "Makefile"
+                    }
+                ]
+            }
+        },
+        "sandialabs/halucinator": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "angr",
+                                    "repository": {
+                                        "nameWithOwner": "AkshaySG14/582proj-angr"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "avatar2",
+                                    "repository": {
+                                        "nameWithOwner": "avatartwo/avatar2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipython",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pycparser",
+                                    "repository": {
+                                        "nameWithOwner": "eliben/pycparser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyelftools",
+                                    "repository": {
+                                        "nameWithOwner": "eliben/pyelftools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyserial",
+                                    "repository": {
+                                        "nameWithOwner": "pyserial/pyserial"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyyaml",
+                                    "repository": {
+                                        "nameWithOwner": "yaml/pyyaml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scapy",
+                                    "repository": {
+                                        "nameWithOwner": "secdev/scapy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "zmq",
+                                    "repository": {
+                                        "nameWithOwner": "minrk/zmq"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/halucinator_GHALdra": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/halucinator_PMatch": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/halucinator_avatar-qemu": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "avocado-framework",
+                                    "repository": {
+                                        "nameWithOwner": "avocado-framework/avocado"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
+        "sandialabs/halucinator_avatar2": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bitstring",
+                                    "repository": {
+                                        "nameWithOwner": "scott-griffiths/bitstring"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cached-property",
+                                    "repository": {
+                                        "nameWithOwner": "pydanny/cached-property"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "capstone",
+                                    "repository": {
+                                        "nameWithOwner": "rackerlabs/capstone"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "configparser",
+                                    "repository": {
+                                        "nameWithOwner": "mdsitton/configparser-3.2.0r3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "enum34",
+                                    "repository": {
+                                        "nameWithOwner": "certik/enum34"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "intervaltree",
+                                    "repository": {
+                                        "nameWithOwner": "chaimleib/intervaltree"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "keystone-engine",
+                                    "repository": {
+                                        "nameWithOwner": "fjh658/keystone-engine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "npyscreen",
+                                    "repository": {
+                                        "nameWithOwner": "npcole/npyscreen"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "parse",
+                                    "repository": {
+                                        "nameWithOwner": "r1chardj0n3s/parse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "posix-ipc",
+                                    "repository": {
+                                        "nameWithOwner": "osvenskan/posix_ipc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygdbmi",
+                                    "repository": {
+                                        "nameWithOwner": "cs01/pygdbmi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygdbmi",
+                                    "repository": {
+                                        "nameWithOwner": "cs01/pygdbmi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pylink-square",
+                                    "repository": {
+                                        "nameWithOwner": "square/pylink"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyusb",
+                                    "repository": {
+                                        "nameWithOwner": "pyusb/pyusb"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "unicorn",
+                                    "repository": {
+                                        "nameWithOwner": "mkoistinen/unicorn-homebridge-integration"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/halucinator_hq-tracer": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -57122,7 +57441,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "gensim",
                                     "repository": {
-                                        "nameWithOwner": "RaRe-Technologies/gensim"
+                                        "nameWithOwner": "piskvorky/gensim"
                                     }
                                 },
                                 {
@@ -57310,7 +57629,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "gensim",
                                     "repository": {
-                                        "nameWithOwner": "RaRe-Technologies/gensim"
+                                        "nameWithOwner": "piskvorky/gensim"
                                     }
                                 },
                                 {
@@ -71095,6 +71414,19 @@
                 ]
             }
         },
+        "sandialabs/yodawg-ci-runner": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#384d54",
+                        "name": "Dockerfile"
+                    }
+                ]
+            }
+        },
         "schw4b/DGM": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -71439,9 +71771,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "ase",
-                                    "repository": {
-                                        "nameWithOwner": "rosswhitfield/ase"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -71487,9 +71817,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "ase",
-                                    "repository": {
-                                        "nameWithOwner": "rosswhitfield/ase"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
