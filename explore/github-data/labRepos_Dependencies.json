@@ -7514,19 +7514,6 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
@@ -31391,9 +31378,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "com.github.tomakehurst:wiremock",
-                                    "repository": {
-                                        "nameWithOwner": "wiremock/wiremock"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -55775,7 +55760,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "maxminddb",
                                     "repository": {
-                                        "nameWithOwner": "nsone/MaxMind-DB-Reader-python"
+                                        "nameWithOwner": "maxmind/MaxMind-DB-Reader-python"
                                     }
                                 },
                                 {
