@@ -32045,7 +32045,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "component-emitter",
                                     "repository": {
-                                        "nameWithOwner": "component/emitter"
+                                        "nameWithOwner": "sindresorhus/component-emitter"
                                     }
                                 },
                                 {
@@ -33282,6 +33282,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pydata-sphinx-theme",
+                                    "repository": {
+                                        "nameWithOwner": "pydata/pydata-sphinx-theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pytest",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest"
@@ -33310,9 +33317,23 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "sphinx-design",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-design"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
                                         "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-bibtex",
+                                    "repository": {
+                                        "nameWithOwner": "mcmtroffaes/sphinxcontrib-bibtex"
                                     }
                                 },
                                 {
@@ -37043,7 +37064,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "@types/knockout",
                                     "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                        "nameWithOwner": "typed-contrib/knockout"
                                     }
                                 },
                                 {
@@ -50468,7 +50489,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "component-emitter",
                                     "repository": {
-                                        "nameWithOwner": "component/emitter"
+                                        "nameWithOwner": "sindresorhus/component-emitter"
                                     }
                                 },
                                 {
@@ -54569,6 +54590,109 @@
                                     "packageName": "six",
                                     "repository": {
                                         "nameWithOwner": "benjaminp/six"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipython",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbsphinx",
+                                    "repository": {
+                                        "nameWithOwner": "spatialaudio/nbsphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbsphinx-link",
+                                    "repository": {
+                                        "nameWithOwner": "vidartf/nbsphinx-link"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-design",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-design"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peaceiris/actions-gh-pages",
+                                    "repository": {
+                                        "nameWithOwner": "peaceiris/actions-gh-pages"
                                     }
                                 }
                             ]
@@ -67217,13 +67341,6 @@
                                     "repository": {
                                         "nameWithOwner": "easimon/maximize-build-space"
                                     }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "modflowpy/install-intelfortran-action",
-                                    "repository": {
-                                        "nameWithOwner": "modflowpy/install-intelfortran-action"
-                                    }
                                 }
                             ]
                         }
@@ -71810,6 +71927,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/veesa": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#198CE7",
+                        "name": "R"
                     }
                 ]
             }
