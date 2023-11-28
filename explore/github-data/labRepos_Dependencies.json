@@ -7782,9 +7782,16 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "RalfG/python-wheels-manylinux-build",
+                                    "packageName": "docker/setup-qemu-action",
                                     "repository": {
-                                        "nameWithOwner": "RalfG/python-wheels-manylinux-build"
+                                        "nameWithOwner": "docker/setup-qemu-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pypa/cibuildwheel",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/cibuildwheel"
                                     }
                                 }
                             ]
@@ -43478,6 +43485,13 @@
                                     "repository": {
                                         "nameWithOwner": "dorny/test-reporter"
                                     }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "modflowpy/install-gfortran-action",
+                                    "repository": {
+                                        "nameWithOwner": "modflowpy/install-gfortran-action"
+                                    }
                                 }
                             ]
                         }
@@ -43532,61 +43546,6 @@
                                     "packageName": "actions/upload-pages-artifact",
                                     "repository": {
                                         "nameWithOwner": "actions/upload-pages-artifact"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache/restore",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache/save",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "dorny/test-reporter",
-                                    "repository": {
-                                        "nameWithOwner": "dorny/test-reporter"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "modflowpy/install-gfortran-action",
-                                    "repository": {
-                                        "nameWithOwner": "modflowpy/install-gfortran-action"
                                     }
                                 }
                             ]
