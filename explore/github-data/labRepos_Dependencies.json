@@ -35925,13 +35925,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "nose",
-                                    "repository": {
-                                        "nameWithOwner": "nose-devs/nose"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "notebook",
                                     "repository": {
                                         "nameWithOwner": "mirobeka/notebook"
@@ -48801,7 +48794,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "keras",
                                     "repository": {
-                                        "nameWithOwner": "keras-team/keras"
+                                        "nameWithOwner": "dmlc/keras"
                                     }
                                 },
                                 {
@@ -49853,7 +49846,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Nancy",
                                     "repository": {
-                                        "nameWithOwner": "NancyFx/Nancy"
+                                        "nameWithOwner": "ChrisMH/Cassette.Nancy"
                                     }
                                 },
                                 {
@@ -50885,7 +50878,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Nancy",
                                     "repository": {
-                                        "nameWithOwner": "NancyFx/Nancy"
+                                        "nameWithOwner": "ChrisMH/Cassette.Nancy"
                                     }
                                 },
                                 {
@@ -51045,7 +51038,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Nancy",
                                     "repository": {
-                                        "nameWithOwner": "NancyFx/Nancy"
+                                        "nameWithOwner": "ChrisMH/Cassette.Nancy"
                                     }
                                 },
                                 {
@@ -51105,7 +51098,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Nancy",
                                     "repository": {
-                                        "nameWithOwner": "NancyFx/Nancy"
+                                        "nameWithOwner": "ChrisMH/Cassette.Nancy"
                                     }
                                 },
                                 {
@@ -52354,7 +52347,70 @@
         },
         "sandialabs/distribution-system-model-calibration": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "haversine",
+                                    "repository": {
+                                        "nameWithOwner": "mapado/haversine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pathlib",
+                                    "repository": {
+                                        "nameWithOwner": "budlight/pathlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "seaborn",
+                                    "repository": {
+                                        "nameWithOwner": "mwaskom/seaborn"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -54101,7 +54157,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "angr",
                                     "repository": {
-                                        "nameWithOwner": "angr/angr"
+                                        "nameWithOwner": "AkshaySG14/582proj-angr"
                                     }
                                 },
                                 {
@@ -57228,7 +57284,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "keras",
                                     "repository": {
-                                        "nameWithOwner": "keras-team/keras"
+                                        "nameWithOwner": "dmlc/keras"
                                     }
                                 },
                                 {
@@ -60578,6 +60634,122 @@
                     {
                         "color": "#4d41b1",
                         "name": "Fortran"
+                    }
+                ]
+            }
+        },
+        "sandialabs/qick-dawg": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyro4",
+                                    "repository": {
+                                        "nameWithOwner": "irmen/Pyro4"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "qick",
+                                    "repository": {
+                                        "nameWithOwner": "openquantumhardware/qick"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "serpent",
+                                    "repository": {
+                                        "nameWithOwner": "irmen/Serpent"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pynq",
+                                    "repository": {
+                                        "nameWithOwner": "Xilinx/PYNQ"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
                     }
                 ]
             }
