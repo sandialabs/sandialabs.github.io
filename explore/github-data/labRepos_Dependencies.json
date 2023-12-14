@@ -42545,6 +42545,13 @@
                                     "repository": {
                                         "nameWithOwner": "rust-random/rand"
                                     }
+                                },
+                                {
+                                    "packageManager": "RUST",
+                                    "packageName": "rand_distr",
+                                    "repository": {
+                                        "nameWithOwner": "rust-random/rand"
+                                    }
                                 }
                             ]
                         }
@@ -63695,7 +63702,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.codehaus.mojo:exec-maven-plugin",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "mojohaus/exec-maven-plugin"
+                                    }
                                 }
                             ]
                         }
