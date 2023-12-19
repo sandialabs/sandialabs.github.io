@@ -33315,6 +33315,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
                                         "nameWithOwner": "sphinx-doc/sphinx"
@@ -33387,6 +33394,13 @@
                                     "packageName": "scipy",
                                     "repository": {
                                         "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
                                 }
                             ]
@@ -40927,7 +40941,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "h5netcdf",
                                     "repository": {
-                                        "nameWithOwner": "h5netcdf/h5netcdf"
+                                        "nameWithOwner": "deepin-community/python-h5netcdf"
                                     }
                                 },
                                 {
@@ -44342,7 +44356,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
@@ -45206,7 +45220,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
@@ -46630,7 +46644,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
@@ -49262,7 +49276,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "h5netcdf",
                                     "repository": {
-                                        "nameWithOwner": "h5netcdf/h5netcdf"
+                                        "nameWithOwner": "deepin-community/python-h5netcdf"
                                     }
                                 },
                                 {
@@ -53230,7 +53244,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "holoviews",
                                     "repository": {
-                                        "nameWithOwner": "HeyLaurelTestOrg/TestDependenciesSetupPy"
+                                        "nameWithOwner": "holoviz/holoviews"
                                     }
                                 },
                                 {
@@ -56391,7 +56405,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
@@ -60714,6 +60728,61 @@
                 ]
             }
         },
+        "sandialabs/pyperc": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "networkx",
+                                    "repository": {
+                                        "nameWithOwner": "networkx/networkx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "plotly",
+                                    "repository": {
+                                        "nameWithOwner": "plotly/plotly.py"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/pypm": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -61130,6 +61199,33 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/qthreads": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
                     }
                 ]
             }
@@ -64474,7 +64570,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
