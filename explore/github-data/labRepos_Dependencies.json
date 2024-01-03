@@ -47569,9 +47569,23 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "coverage",
+                                    "repository": {
+                                        "nameWithOwner": "nedbat/coveragepy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "folium",
                                     "repository": {
                                         "nameWithOwner": "python-visualization/folium"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "geopandas",
+                                    "repository": {
+                                        "nameWithOwner": "geopandas/geopandas"
                                     }
                                 },
                                 {
@@ -47611,13 +47625,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "nose",
-                                    "repository": {
-                                        "nameWithOwner": "nose-devs/nose"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
@@ -47646,9 +47653,65 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pydata-sphinx-theme",
+                                    "repository": {
+                                        "nameWithOwner": "pydata/pydata-sphinx-theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "rtree",
+                                    "repository": {
+                                        "nameWithOwner": "Toblerity/rtree"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
                                         "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-design",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-design"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-bibtex",
+                                    "repository": {
+                                        "nameWithOwner": "mcmtroffaes/sphinxcontrib-bibtex"
                                     }
                                 },
                                 {
@@ -47698,6 +47761,122 @@
                                     "repository": {
                                         "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/configure-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/configure-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/deploy-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/deploy-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-pages-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-pages-artifact"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/download-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/download-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/download-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/download-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
                                 }
                             ]
                         }
@@ -47732,25 +47911,19 @@
                                     "repository": {
                                         "nameWithOwner": "actions/upload-artifact"
                                     }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
+                                },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
+                                    "packageName": "pypa/cibuildwheel",
                                     "repository": {
-                                        "nameWithOwner": "actions/checkout"
+                                        "nameWithOwner": "pypa/cibuildwheel"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
+                                    "packageName": "pypa/gh-action-pypi-publish",
                                     "repository": {
-                                        "nameWithOwner": "actions/setup-python"
+                                        "nameWithOwner": "pypa/gh-action-pypi-publish"
                                     }
                                 }
                             ]
