@@ -49216,6 +49216,19 @@
                 ]
             }
         },
+        "sandialabs/benchmarking_suite_range_searching_libraries": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "sandialabs/bientropy": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -75010,6 +75023,13 @@
                                     "packageName": "DoozyX/clang-format-lint-action",
                                     "repository": {
                                         "nameWithOwner": "DoozyX/clang-format-lint-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "mshick/add-pr-comment",
+                                    "repository": {
+                                        "nameWithOwner": "mshick/add-pr-comment"
                                     }
                                 }
                             ]
