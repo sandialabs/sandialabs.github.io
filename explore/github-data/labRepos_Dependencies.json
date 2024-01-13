@@ -4395,101 +4395,6 @@
                 ]
             }
         },
-        "DARMA-tasking/template-repository": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "joel-coffman/action-git-diff-check",
-                                    "repository": {
-                                        "nameWithOwner": "joel-coffman/action-git-diff-check"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "DARMA-tasking/check-commit-format",
-                                    "repository": {
-                                        "nameWithOwner": "DARMA-tasking/check-commit-format"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "DARMA-tasking/check-pr-fixes-issue",
-                                    "repository": {
-                                        "nameWithOwner": "DARMA-tasking/check-pr-fixes-issue"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "DARMA-tasking/find-trailing-whitespace",
-                                    "repository": {
-                                        "nameWithOwner": "DARMA-tasking/find-trailing-whitespace"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "DARMA-tasking/find-unsigned-commits",
-                                    "repository": {
-                                        "nameWithOwner": "DARMA-tasking/find-unsigned-commits"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
         "DARMA-tasking/vt": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -31468,7 +31373,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "com.fasterxml.jackson.core:jackson-annotations",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "FasterXML/jackson"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -31480,7 +31387,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "com.fasterxml.jackson.core:jackson-databind",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "FasterXML/jackson"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -46908,9 +46817,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "edu.sc.seis:TauP",
-                                    "repository": {
-                                        "nameWithOwner": "crotwell/TauP"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -57902,9 +57809,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "systems.uom:systems-quantity",
-                                    "repository": {
-                                        "nameWithOwner": "unitsofmeasurement/uom-parent"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
