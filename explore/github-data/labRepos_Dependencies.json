@@ -31482,7 +31482,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "com.fasterxml.jackson.core:jackson-annotations",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "FasterXML/jackson"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -45534,7 +45536,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "mysql-connector-python",
                                     "repository": {
-                                        "nameWithOwner": "mysql/mysql-connector-python"
+                                        "nameWithOwner": "informaticacba/mysql-connector-python"
                                     }
                                 },
                                 {
@@ -45603,7 +45605,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "mysql-connector-python",
                                     "repository": {
-                                        "nameWithOwner": "mysql/mysql-connector-python"
+                                        "nameWithOwner": "informaticacba/mysql-connector-python"
                                     }
                                 },
                                 {
@@ -63026,6 +63028,13 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "codecov/codecov-action",
                                     "repository": {
                                         "nameWithOwner": "codecov/codecov-action"
@@ -72667,7 +72676,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "sandialabs/statMechCrack": {
