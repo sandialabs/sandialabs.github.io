@@ -236,7 +236,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -5719,7 +5719,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -6117,7 +6117,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -6256,7 +6256,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -7356,7 +7356,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -7397,7 +7397,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -8102,7 +8102,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -8226,7 +8226,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -8281,7 +8281,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -31482,9 +31482,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "com.fasterxml.jackson.core:jackson-annotations",
-                                    "repository": {
-                                        "nameWithOwner": "FasterXML/jackson"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -32767,6 +32765,52 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "jwlawson/actions-setup-cmake",
+                                    "repository": {
+                                        "nameWithOwner": "jwlawson/actions-setup-cmake"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
@@ -33402,7 +33446,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -33485,7 +33529,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -33704,7 +33748,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -33773,7 +33817,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -35515,7 +35559,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -36191,7 +36235,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -36551,7 +36595,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -36578,7 +36622,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -39827,7 +39871,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -39945,7 +39989,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -40452,6 +40496,19 @@
                 ]
             }
         },
+        "sandialabs/HiFiPDV2": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
         "sandialabs/Hybrid": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -40924,7 +40981,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -41158,7 +41215,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -41255,7 +41312,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -41383,7 +41440,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -41520,7 +41577,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "sandialabs/NuMAD": {
@@ -41636,7 +41698,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -41710,7 +41772,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -42384,7 +42446,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -42536,7 +42598,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -47400,7 +47462,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -47513,7 +47575,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -47779,7 +47841,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -47862,7 +47924,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -48088,7 +48150,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -48549,7 +48611,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -48930,7 +48992,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -49519,7 +49581,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -49553,7 +49615,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -49677,7 +49739,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -51494,14 +51556,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -51931,7 +51993,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -52083,7 +52145,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -52463,7 +52525,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -53247,7 +53309,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -54079,7 +54141,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -54526,7 +54588,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -54666,7 +54728,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -54733,7 +54795,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -54908,7 +54970,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -55010,7 +55072,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -55415,7 +55477,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -55525,7 +55587,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -58061,7 +58123,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -58272,7 +58334,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -59013,7 +59075,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -59159,7 +59221,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -59385,7 +59447,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -59426,7 +59488,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -59481,7 +59543,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -59775,7 +59837,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -60014,7 +60076,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -60111,7 +60173,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -60632,7 +60694,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -60909,7 +60971,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -61123,7 +61185,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -61409,6 +61471,46 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -61547,7 +61649,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -61722,7 +61824,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -61897,7 +61999,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -61931,7 +62033,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -62031,7 +62133,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -63237,7 +63339,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -63936,7 +64038,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -63963,7 +64065,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -64175,7 +64277,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -69305,7 +69407,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -70151,7 +70253,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -71956,7 +72058,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -72119,7 +72221,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -72387,7 +72489,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -72792,7 +72894,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -72868,7 +72970,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -72937,7 +73039,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -73418,7 +73520,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -73982,7 +74084,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -74058,7 +74160,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -74092,7 +74194,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 },
                                 {
@@ -75036,7 +75138,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
@@ -75587,7 +75689,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
+                                        "nameWithOwner": "scipy/scipy"
                                     }
                                 }
                             ]
