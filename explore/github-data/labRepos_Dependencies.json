@@ -40879,6 +40879,14 @@
                 ]
             }
         },
+        "sandialabs/Jet-Partitioner": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/Juxtaposer": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -43179,6 +43187,13 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "dss-python",
+                                    "repository": {
+                                        "nameWithOwner": "dss-extensions/dss_python"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "matplotlib",
@@ -54302,7 +54317,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "angr",
                                     "repository": {
-                                        "nameWithOwner": "angr/angr"
+                                        "nameWithOwner": "AkshaySG14/582proj-angr"
                                     }
                                 },
                                 {
@@ -61626,6 +61641,47 @@
                                     "packageName": "pyvisa",
                                     "repository": {
                                         "nameWithOwner": "pyvisa/pyvisa"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipykernel",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipykernel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "myst-parser",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/MyST-Parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbsphinx",
+                                    "repository": {
+                                        "nameWithOwner": "spatialaudio/nbsphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpydoc",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpydoc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydata-sphinx-theme",
+                                    "repository": {
+                                        "nameWithOwner": "pydata/pydata-sphinx-theme"
                                     }
                                 }
                             ]
