@@ -51320,7 +51320,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "xunit.extensibility.execution",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/dotnet"
+                                        "nameWithOwner": "xunit/xunit"
                                     }
                                 },
                                 {
@@ -61976,6 +61976,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
@@ -62033,6 +62046,26 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "python-semantic-release/python-semantic-release",
+                                    "repository": {
+                                        "nameWithOwner": "python-semantic-release/python-semantic-release"
                                     }
                                 }
                             ]
