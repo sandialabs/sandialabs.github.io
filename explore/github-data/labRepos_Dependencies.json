@@ -34247,6 +34247,33 @@
                                     "repository": {
                                         "nameWithOwner": "rust-random/rand"
                                     }
+                                },
+                                {
+                                    "packageManager": "RUST",
+                                    "packageName": "rayon",
+                                    "repository": {
+                                        "nameWithOwner": "rayon-rs/rayon"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUST",
+                                    "packageName": "rand",
+                                    "repository": {
+                                        "nameWithOwner": "rust-random/rand"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUST",
+                                    "packageName": "rayon",
+                                    "repository": {
+                                        "nameWithOwner": "rayon-rs/rayon"
+                                    }
                                 }
                             ]
                         }
@@ -43617,7 +43644,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "tensorflow-io",
                                     "repository": {
-                                        "nameWithOwner": "tensorflow/io"
+                                        "nameWithOwner": "JazzEd-EdTech/io"
                                     }
                                 },
                                 {
@@ -48879,6 +48906,14 @@
                 ]
             }
         },
+        "sandialabs/appspack": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/archie": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -49006,7 +49041,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "keras",
                                     "repository": {
-                                        "nameWithOwner": "keras-team/keras"
+                                        "nameWithOwner": "dmlc/keras"
                                     }
                                 },
                                 {
@@ -50057,6 +50092,14 @@
                         "name": "Python"
                     }
                 ]
+            }
+        },
+        "sandialabs/coliny": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/coloring": {
@@ -51411,7 +51454,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "xunit.runner.console",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/dotnet"
+                                        "nameWithOwner": "xunit/xunit"
                                     }
                                 },
                                 {
@@ -53391,6 +53434,14 @@
                 ]
             }
         },
+        "sandialabs/exact": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/exodus_helper": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -53636,6 +53687,14 @@
             }
         },
         "sandialabs/faodel-pubs": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
+        "sandialabs/fast": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -55345,7 +55404,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Threading.Tasks.Extensions",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/corefx"
+                                        "nameWithOwner": "dotnet/runtime"
                                     }
                                 },
                                 {
@@ -55434,7 +55493,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Threading.Tasks.Extensions",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/corefx"
+                                        "nameWithOwner": "dotnet/runtime"
                                     }
                                 },
                                 {
@@ -55523,7 +55582,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Threading.Tasks.Extensions",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/corefx"
+                                        "nameWithOwner": "dotnet/runtime"
                                     }
                                 },
                                 {
@@ -57774,7 +57833,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "keras",
                                     "repository": {
-                                        "nameWithOwner": "keras-team/keras"
+                                        "nameWithOwner": "dmlc/keras"
                                     }
                                 },
                                 {
@@ -57817,6 +57876,14 @@
                         "name": "Python"
                     }
                 ]
+            }
+        },
+        "sandialabs/megraphs": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/mesquite": {
@@ -58287,6 +58354,14 @@
                         "name": "C++"
                     }
                 ]
+            }
+        },
+        "sandialabs/nidr": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/omega_h": {
@@ -58820,6 +58895,14 @@
                 ]
             }
         },
+        "sandialabs/pecos-dakota": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/penney-scripts": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -58996,6 +59079,14 @@
                         "name": "Scala"
                     }
                 ]
+            }
+        },
+        "sandialabs/pico": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/plato": {
