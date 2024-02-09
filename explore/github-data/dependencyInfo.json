@@ -7521,17 +7521,6 @@
                 "login": "dotnet"
             }
         },
-        "dotnet/corefx": {
-            "languages": {
-                "nodes": []
-            },
-            "name": "corefx",
-            "nameWithOwner": "dotnet/corefx",
-            "owner": {
-                "isVerified": true,
-                "login": "dotnet"
-            }
-        },
         "dotnet/dotnet": {
             "languages": {
                 "nodes": []
@@ -8652,6 +8641,22 @@
             },
             "name": "MyST-Parser",
             "nameWithOwner": "executablebooks/MyST-Parser",
+            "owner": {
+                "isVerified": false,
+                "login": "executablebooks"
+            }
+        },
+        "executablebooks/jupyter-cache": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            },
+            "name": "jupyter-cache",
+            "nameWithOwner": "executablebooks/jupyter-cache",
             "owner": {
                 "isVerified": false,
                 "login": "executablebooks"
@@ -12276,6 +12281,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "jakartaee"
+            }
+        },
+        "jakevdp/ipywidgets-static": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            },
+            "name": "ipywidgets-static",
+            "nameWithOwner": "jakevdp/ipywidgets-static",
+            "owner": {
+                "login": "jakevdp"
             }
         },
         "jamestalmage/currently-unhandled": {
@@ -19303,6 +19323,21 @@
                 "login": "plotly"
             }
         },
+        "pombreda/pyamg": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "pyamg",
+            "nameWithOwner": "pombreda/pyamg",
+            "owner": {
+                "login": "pombreda"
+            }
+        },
         "postcss/autoprefixer": {
             "languages": {
                 "nodes": [
@@ -19643,22 +19678,6 @@
             "nameWithOwner": "pwaller/pyfiglet",
             "owner": {
                 "login": "pwaller"
-            }
-        },
-        "pyamg/pyamg": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pyamg",
-            "nameWithOwner": "pyamg/pyamg",
-            "owner": {
-                "isVerified": false,
-                "login": "pyamg"
             }
         },
         "pyca/bcrypt": {
@@ -25214,6 +25233,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "treasure-data"
+            }
+        },
+        "treebeardtech/nbmake": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "nbmake",
+            "nameWithOwner": "treebeardtech/nbmake",
+            "owner": {
+                "isVerified": false,
+                "login": "treebeardtech"
             }
         },
         "trentm/node-dashdash": {

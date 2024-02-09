@@ -5785,13 +5785,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
@@ -5843,6 +5836,26 @@
                                     "packageName": "conda-incubator/setup-miniconda",
                                     "repository": {
                                         "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jupyter-cache",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/jupyter-cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbmake",
+                                    "repository": {
+                                        "nameWithOwner": "treebeardtech/nbmake"
                                     }
                                 }
                             ]
@@ -42303,7 +42316,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "ipywidgets",
                                     "repository": {
-                                        "nameWithOwner": "jupyter-widgets/ipywidgets"
+                                        "nameWithOwner": "jakevdp/ipywidgets-static"
                                     }
                                 },
                                 {
@@ -52039,7 +52052,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "ipywidgets",
                                     "repository": {
-                                        "nameWithOwner": "jupyter-widgets/ipywidgets"
+                                        "nameWithOwner": "jakevdp/ipywidgets-static"
                                     }
                                 },
                                 {
@@ -54506,7 +54519,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pyamg",
                                     "repository": {
-                                        "nameWithOwner": "pyamg/pyamg"
+                                        "nameWithOwner": "pombreda/pyamg"
                                     }
                                 },
                                 {
@@ -55548,7 +55561,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Numerics.Vectors",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/corefx"
+                                        "nameWithOwner": "dotnet/runtime"
                                     }
                                 },
                                 {
@@ -55637,7 +55650,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Numerics.Vectors",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/corefx"
+                                        "nameWithOwner": "dotnet/runtime"
                                     }
                                 },
                                 {
@@ -55726,7 +55739,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Numerics.Vectors",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/corefx"
+                                        "nameWithOwner": "dotnet/runtime"
                                     }
                                 },
                                 {
@@ -62052,7 +62065,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "ipywidgets",
                                     "repository": {
-                                        "nameWithOwner": "jupyter-widgets/ipywidgets"
+                                        "nameWithOwner": "jakevdp/ipywidgets-static"
                                     }
                                 },
                                 {
