@@ -5785,6 +5785,13 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/download-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/download-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
@@ -36464,7 +36471,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -36519,7 +36526,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -36588,7 +36595,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -40467,7 +40474,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -40542,7 +40549,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -40604,7 +40611,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.CodeAnalysis.FxCopAnalyzers",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/roslyn-analyzers"
+                                        "nameWithOwner": "icaas/roslyn-analyzers"
                                     }
                                 },
                                 {
@@ -71005,6 +71012,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "@aashutoshrathi/word-wrap",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/word-wrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "@ampproject/remapping",
                                     "repository": {
                                         "nameWithOwner": "ampproject/remapping"
@@ -71255,7 +71269,7 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-async-generator-functions",
+                                    "packageName": "@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71269,70 +71283,7 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-class-static-block",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-dynamic-import",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-export-namespace-from",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-json-strings",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-logical-assignment-operators",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-nullish-coalescing-operator",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-numeric-separator",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
                                     "packageName": "@babel/plugin-proposal-object-rest-spread",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-optional-catch-binding",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-optional-chaining",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71353,7 +71304,7 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-proposal-unicode-property-regex",
+                                    "packageName": "@babel/plugin-proposal-private-property-in-object",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71403,6 +71354,13 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@babel/plugin-syntax-import-assertions",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-syntax-import-attributes",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71493,7 +71451,21 @@
                                 },
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-syntax-unicode-sets-regex",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "@babel/plugin-transform-arrow-functions",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-async-generator-functions",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71515,6 +71487,20 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@babel/plugin-transform-block-scoping",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-class-properties",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-class-static-block",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71556,7 +71542,21 @@
                                 },
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-dynamic-import",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "@babel/plugin-transform-exponentiation-operator",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-export-namespace-from",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71577,7 +71577,21 @@
                                 },
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-json-strings",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "@babel/plugin-transform-literals",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-logical-assignment-operators",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71633,7 +71647,42 @@
                                 },
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-nullish-coalescing-operator",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-numeric-separator",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-object-rest-spread",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "@babel/plugin-transform-object-super",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-optional-catch-binding",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-transform-optional-chaining",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71647,56 +71696,14 @@
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-property-literals",
+                                    "packageName": "@babel/plugin-transform-private-methods",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-react-display-name",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-react-jsx",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-react-jsx-development",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-react-pure-annotations",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-regenerator",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-reserved-words",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-transform-runtime",
+                                    "packageName": "@babel/plugin-transform-private-property-in-object",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71743,6 +71750,20 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@babel/plugin-proposal-object-rest-spread",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-proposal-private-methods",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/plugin-proposal-private-property-in-object",
                                     "repository": {
                                         "nameWithOwner": "babel/babel"
                                     }
@@ -71823,6 +71844,11 @@
                                     "repository": {
                                         "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
                                     }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/d3v7",
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -72380,27 +72406,6 @@
                                     "packageName": "whatwg-fetch",
                                     "repository": {
                                         "nameWithOwner": "JakeChampion/fetch"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "worker-loader",
-                                    "repository": {
-                                        "nameWithOwner": "webpack-contrib/worker-loader"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "wslink",
-                                    "repository": {
-                                        "nameWithOwner": "Kitware/wslink"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "zipinfo.js",
-                                    "repository": {
-                                        "nameWithOwner": "Rob--W/zipinfo.js"
                                     }
                                 }
                             ]
