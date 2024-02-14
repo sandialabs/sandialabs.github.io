@@ -41197,6 +41197,19 @@
                 ]
             }
         },
+        "sandialabs/LMSMIPNFA": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#198CE7",
+                        "name": "R"
+                    }
+                ]
+            }
+        },
         "sandialabs/Launch_BLTMS_ver1.1.011": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -42232,7 +42245,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "entrypoints",
                                     "repository": {
-                                        "nameWithOwner": "takluyver/entrypoints"
+                                        "nameWithOwner": "sdruskat/poetry-entrypoints"
                                     }
                                 },
                                 {
@@ -43475,7 +43488,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "dss-python",
                                     "repository": {
-                                        "nameWithOwner": "dss-extensions/dss_python"
+                                        "nameWithOwner": "dss-extensions/DSS-Python"
                                     }
                                 },
                                 {
@@ -43760,9 +43773,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "onnxruntime",
+                                    "packageName": "onnx",
                                     "repository": {
-                                        "nameWithOwner": "microsoft/onnxruntime"
+                                        "nameWithOwner": "onnx/onnx"
                                     }
                                 },
                                 {
@@ -52052,7 +52065,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "entrypoints",
                                     "repository": {
-                                        "nameWithOwner": "takluyver/entrypoints"
+                                        "nameWithOwner": "sdruskat/poetry-entrypoints"
                                     }
                                 },
                                 {
@@ -53182,7 +53195,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "entrypoints",
                                     "repository": {
-                                        "nameWithOwner": "takluyver/entrypoints"
+                                        "nameWithOwner": "sdruskat/poetry-entrypoints"
                                     }
                                 },
                                 {
@@ -70797,6 +70810,164 @@
                                     "packageName": "torch",
                                     "repository": {
                                         "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/shell-logger": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mock",
+                                    "repository": {
+                                        "nameWithOwner": "calvinchengx/python-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-argparse",
+                                    "repository": {
+                                        "nameWithOwner": "ashb/sphinx-argparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-argparse",
+                                    "repository": {
+                                        "nameWithOwner": "ashb/sphinx-argparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flake8",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mock",
+                                    "repository": {
+                                        "nameWithOwner": "calvinchengx/python-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "psutil",
+                                    "repository": {
+                                        "nameWithOwner": "giampaolo/psutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "toml",
+                                    "repository": {
+                                        "nameWithOwner": "uiri/toml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "yapf",
+                                    "repository": {
+                                        "nameWithOwner": "google/yapf"
                                     }
                                 }
                             ]
