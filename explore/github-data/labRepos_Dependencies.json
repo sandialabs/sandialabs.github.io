@@ -58365,7 +58365,223 @@
         },
         "sandialabs/mose": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/Azure/go-ansiterm",
+                                    "repository": {
+                                        "nameWithOwner": "Azure/go-ansiterm"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/docker/distribution",
+                                    "repository": {
+                                        "nameWithOwner": "distribution/distribution"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/docker/docker",
+                                    "repository": {
+                                        "nameWithOwner": "moby/moby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/docker/go-connections",
+                                    "repository": {
+                                        "nameWithOwner": "docker/go-connections"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/docker/go-units",
+                                    "repository": {
+                                        "nameWithOwner": "docker/go-units"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/dsnet/compress",
+                                    "repository": {
+                                        "nameWithOwner": "dsnet/compress"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/fatih/color",
+                                    "repository": {
+                                        "nameWithOwner": "fatih/color"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/gobuffalo/envy",
+                                    "repository": {
+                                        "nameWithOwner": "gobuffalo/envy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/gobuffalo/logger",
+                                    "repository": {
+                                        "nameWithOwner": "gobuffalo/logger"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/gobuffalo/packr/v2",
+                                    "repository": {
+                                        "nameWithOwner": "gobuffalo/packr"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/gogo/protobuf",
+                                    "repository": {
+                                        "nameWithOwner": "gogo/protobuf"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/golang/snappy",
+                                    "repository": {
+                                        "nameWithOwner": "golang/snappy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/gorilla/mux",
+                                    "repository": {
+                                        "nameWithOwner": "gorilla/mux"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/l50/goutils",
+                                    "repository": {
+                                        "nameWithOwner": "l50/goutils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/mattn/go-colorable",
+                                    "repository": {
+                                        "nameWithOwner": "mattn/go-colorable"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/mattn/go-isatty",
+                                    "repository": {
+                                        "nameWithOwner": "mattn/go-isatty"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/mholt/archiver",
+                                    "repository": {
+                                        "nameWithOwner": "mholt/archiver"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/Microsoft/go-winio",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/go-winio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/Nvveen/Gotty",
+                                    "repository": {
+                                        "nameWithOwner": "Nvveen/Gotty"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/nwaples/rardecode",
+                                    "repository": {
+                                        "nameWithOwner": "nwaples/rardecode"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/opencontainers/go-digest",
+                                    "repository": {
+                                        "nameWithOwner": "opencontainers/go-digest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/opencontainers/image-spec",
+                                    "repository": {
+                                        "nameWithOwner": "opencontainers/image-spec"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/pierrec/lz4",
+                                    "repository": {
+                                        "nameWithOwner": "pierrec/lz4"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/rogpeppe/go-internal",
+                                    "repository": {
+                                        "nameWithOwner": "rogpeppe/go-internal"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/xi2/xz",
+                                    "repository": {
+                                        "nameWithOwner": "xi2/xz"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/crypto",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/sys",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/time",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "google.golang.org/grpc",
+                                    "repository": {
+                                        "nameWithOwner": "grpc/grpc-go"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "gopkg.in/src-d/go-git.v4",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "gotest.tools",
+                                    "repository": {
+                                        "nameWithOwner": "gotestyourself/gotest.tools"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -60639,6 +60855,13 @@
                                     "repository": {
                                         "nameWithOwner": "pytorch/pytorch"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "umbridge",
+                                    "repository": {
+                                        "nameWithOwner": "UM-Bridge/umbridge"
+                                    }
                                 }
                             ]
                         }
@@ -60735,6 +60958,13 @@
                                     "packageName": "torch",
                                     "repository": {
                                         "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "umbridge",
+                                    "repository": {
+                                        "nameWithOwner": "UM-Bridge/umbridge"
                                     }
                                 }
                             ]
