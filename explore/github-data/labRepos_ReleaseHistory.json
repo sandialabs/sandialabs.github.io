@@ -676,6 +676,16 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "2.4 Release",
+                        "publishedAt": "2024-03-01T06:12:49Z",
+                        "tagName": "2.4.0"
+                    },
+                    {
+                        "name": "2.4 Release Candidate #0",
+                        "publishedAt": "2024-03-01T03:04:01Z",
+                        "tagName": "2.4.0rc0"
+                    },
+                    {
                         "name": "2.3 Release",
                         "publishedAt": "2023-12-15T00:00:37Z",
                         "tagName": "2.3.0"
@@ -9023,11 +9033,6 @@
                         "name": "v1.4.2",
                         "publishedAt": "2023-07-19T16:36:18Z",
                         "tagName": "1.4.2"
-                    },
-                    {
-                        "name": "v1.4.1",
-                        "publishedAt": "2022-11-22T21:19:00Z",
-                        "tagName": "1.4.1"
                     }
                 ]
             }
@@ -9615,7 +9620,13 @@
         },
         "sstsimulator/sst-tutorials": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "HPCA 2024",
+                        "publishedAt": "2024-02-29T19:04:05Z",
+                        "tagName": "hpca2024"
+                    }
+                ]
             }
         },
         "supercontainers/atse": {
@@ -9637,6 +9648,11 @@
         "trilinos/Trilinos": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Trilinos 15.1.0",
+                        "publishedAt": "2024-02-29T22:20:55Z",
+                        "tagName": "trilinos-release-15-1-0"
+                    },
                     {
                         "name": "Trilinos 15.0.0",
                         "publishedAt": "2023-11-16T18:14:17Z",

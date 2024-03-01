@@ -5730,9 +5730,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "sphinx-rtd-theme",
+                                    "packageName": "sphinx-book-theme",
                                     "repository": {
-                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                        "nameWithOwner": "executablebooks/sphinx-book-theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-copybutton",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
                                     }
                                 },
                                 {
@@ -43705,13 +43712,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "hadolint/hadolint-action",
-                                    "repository": {
-                                        "nameWithOwner": "hadolint/hadolint-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "redhat-actions/buildah-build",
                                     "repository": {
                                         "nameWithOwner": "redhat-actions/buildah-build"
@@ -43722,6 +43722,47 @@
                                     "packageName": "redhat-actions/push-to-registry",
                                     "repository": {
                                         "nameWithOwner": "redhat-actions/push-to-registry"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/cache/restore",
+                                    "repository": {
+                                        "nameWithOwner": "actions/cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/cache/save",
+                                    "repository": {
+                                        "nameWithOwner": "actions/cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 }
                             ]
