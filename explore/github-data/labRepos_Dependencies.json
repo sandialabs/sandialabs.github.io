@@ -41992,10 +41992,196 @@
         },
         "sandialabs/OpenCSP": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "imageio",
+                                    "repository": {
+                                        "nameWithOwner": "imageio/imageio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipykernel",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipykernel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "opencv-contrib-python",
+                                    "repository": {
+                                        "nameWithOwner": "opencv/opencv-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "openpyxl",
+                                    "repository": {
+                                        "nameWithOwner": "ericgazoni/openpyxl"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "python-pillow/Pillow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyproj",
+                                    "repository": {
+                                        "nameWithOwner": "pyproj4/pyproj"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pypylon",
+                                    "repository": {
+                                        "nameWithOwner": "basler/pypylon"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pysolar",
+                                    "repository": {
+                                        "nameWithOwner": "kshmirko/pysolar-py3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-xvfb",
+                                    "repository": {
+                                        "nameWithOwner": "The-Compiler/pytest-xvfb"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-pptx",
+                                    "repository": {
+                                        "nameWithOwner": "scanny/python-pptx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytz",
+                                    "repository": {
+                                        "nameWithOwner": "stub42/pytz"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "rawpy",
+                                    "repository": {
+                                        "nameWithOwner": "letmaik/rawpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sympy",
+                                    "repository": {
+                                        "nameWithOwner": "sympy/sympy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-argparse",
+                                    "repository": {
+                                        "nameWithOwner": "ashb/sphinx-argparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "sandialabs/OperonSEQer": {
@@ -58082,7 +58268,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "lit",
                                     "repository": {
-                                        "nameWithOwner": "delcypher/llvm-lit"
+                                        "nameWithOwner": "llvm/llvm-project"
                                     }
                                 },
                                 {
@@ -71415,13 +71601,6 @@
                                     "repository": {
                                         "nameWithOwner": "uiri/toml"
                                     }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "yapf",
-                                    "repository": {
-                                        "nameWithOwner": "google/yapf"
-                                    }
                                 }
                             ]
                         }
@@ -72614,6 +72793,13 @@
                                 },
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "chrono-node",
+                                    "repository": {
+                                        "nameWithOwner": "wanasit/chrono"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "clean-webpack-plugin",
                                     "repository": {
                                         "nameWithOwner": "johnagan/clean-webpack-plugin"
@@ -73049,13 +73235,6 @@
                                     "packageName": "whatwg-fetch",
                                     "repository": {
                                         "nameWithOwner": "JakeChampion/fetch"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "worker-loader",
-                                    "repository": {
-                                        "nameWithOwner": "webpack-contrib/worker-loader"
                                     }
                                 }
                             ]
@@ -74011,6 +74190,100 @@
         "sandialabs/spat": {
             "dependencyGraphManifests": {
                 "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/spot_bt": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "aiortc",
+                                    "repository": {
+                                        "nameWithOwner": "aiortc/aiortc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "black",
+                                    "repository": {
+                                        "nameWithOwner": "psf/black"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bosdyn-api",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bosdyn-choreography-client",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bosdyn-client",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bosdyn-core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bosdyn-mission",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "opencv-python",
+                                    "repository": {
+                                        "nameWithOwner": "opencv/opencv-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "python-pillow/Pillow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "py-trees",
+                                    "repository": {
+                                        "nameWithOwner": "splintered-reality/py_trees"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
