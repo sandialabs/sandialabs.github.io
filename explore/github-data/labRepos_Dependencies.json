@@ -44105,7 +44105,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "tensorflow-io",
                                     "repository": {
-                                        "nameWithOwner": "JazzEd-EdTech/io"
+                                        "nameWithOwner": "tensorflow/io"
                                     }
                                 },
                                 {
@@ -71604,6 +71604,40 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "taskmedia/action-conventional-commits",
+                                    "repository": {
+                                        "nameWithOwner": "taskmedia/action-conventional-commits"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -74995,7 +75029,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pip-licenses",
                                     "repository": {
-                                        "nameWithOwner": "adjust/pip-licenses"
+                                        "nameWithOwner": "raimon49/pip-licenses"
                                     }
                                 },
                                 {
