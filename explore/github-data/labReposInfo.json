@@ -51,7 +51,7 @@
                 "totalCount": 0
             },
             "stargazers": {
-                "totalCount": 558
+                "totalCount": 559
             },
             "url": "https://github.com/Cantera/cantera"
         },
@@ -1638,13 +1638,13 @@
                 "name": "Fortran"
             },
             "pullRequests_Closed": {
-                "totalCount": 506
+                "totalCount": 507
             },
             "pullRequests_Merged": {
                 "totalCount": 3659
             },
             "pullRequests_Open": {
-                "totalCount": 42
+                "totalCount": 41
             },
             "repositoryTopics": {
                 "totalCount": 6
@@ -1848,13 +1848,13 @@
                 "name": "Python"
             },
             "pullRequests_Closed": {
-                "totalCount": 200
+                "totalCount": 201
             },
             "pullRequests_Merged": {
                 "totalCount": 2469
             },
             "pullRequests_Open": {
-                "totalCount": 12
+                "totalCount": 11
             },
             "repositoryTopics": {
                 "totalCount": 0
@@ -2208,7 +2208,7 @@
                 "totalCount": 20
             },
             "issues_Open": {
-                "totalCount": 23
+                "totalCount": 24
             },
             "languages": {
                 "totalCount": 1
@@ -3412,13 +3412,13 @@
                 "totalCount": 1728
             },
             "pullRequests_Open": {
-                "totalCount": 23
+                "totalCount": 24
             },
             "repositoryTopics": {
                 "totalCount": 6
             },
             "stargazers": {
-                "totalCount": 1836
+                "totalCount": 1837
             },
             "url": "https://github.com/Pyomo/pyomo"
         },
@@ -4283,13 +4283,13 @@
                 "name": "C++"
             },
             "pullRequests_Closed": {
-                "totalCount": 300
+                "totalCount": 301
             },
             "pullRequests_Merged": {
                 "totalCount": 3711
             },
             "pullRequests_Open": {
-                "totalCount": 31
+                "totalCount": 30
             },
             "repositoryTopics": {
                 "totalCount": 6
@@ -4900,10 +4900,10 @@
             },
             "homepageUrl": "https://chapel-lang.org",
             "issues_Closed": {
-                "totalCount": 3905
+                "totalCount": 3906
             },
             "issues_Open": {
-                "totalCount": 2686
+                "totalCount": 2687
             },
             "languages": {
                 "totalCount": 34
@@ -4934,13 +4934,13 @@
                 "totalCount": 17165
             },
             "pullRequests_Open": {
-                "totalCount": 112
+                "totalCount": 115
             },
             "repositoryTopics": {
                 "totalCount": 6
             },
             "stargazers": {
-                "totalCount": 1734
+                "totalCount": 1735
             },
             "url": "https://github.com/chapel-lang/chapel"
         },
@@ -4951,7 +4951,7 @@
             },
             "description": "Digital Image Correlation Engine (DICe): a stereo DIC application that runs on Mac, Windows, and Linux",
             "forks": {
-                "totalCount": 121
+                "totalCount": 122
             },
             "homepageUrl": "",
             "issues_Closed": {
@@ -5335,10 +5335,10 @@
             },
             "homepageUrl": "https://kokkos.org",
             "issues_Closed": {
-                "totalCount": 2475
+                "totalCount": 2476
             },
             "issues_Open": {
-                "totalCount": 394
+                "totalCount": 393
             },
             "languages": {
                 "totalCount": 8
@@ -5369,13 +5369,13 @@
                 "totalCount": 3467
             },
             "pullRequests_Open": {
-                "totalCount": 88
+                "totalCount": 89
             },
             "repositoryTopics": {
                 "totalCount": 7
             },
             "stargazers": {
-                "totalCount": 1717
+                "totalCount": 1718
             },
             "url": "https://github.com/kokkos/kokkos"
         },
@@ -5539,13 +5539,13 @@
                 "totalCount": 2712
             },
             "pullRequests_Open": {
-                "totalCount": 17
+                "totalCount": 18
             },
             "repositoryTopics": {
                 "totalCount": 4
             },
             "stargazers": {
-                "totalCount": 2029
+                "totalCount": 2032
             },
             "url": "https://github.com/lammps/lammps"
         },
@@ -5765,7 +5765,7 @@
                 "totalCount": 6
             },
             "stargazers": {
-                "totalCount": 300
+                "totalCount": 301
             },
             "url": "https://github.com/nikdon/pyEntropy"
         },
@@ -5918,7 +5918,7 @@
                 "name": "C"
             },
             "pullRequests_Closed": {
-                "totalCount": 148
+                "totalCount": 149
             },
             "pullRequests_Merged": {
                 "totalCount": 915
@@ -11702,12 +11702,14 @@
         },
         "sandialabs/Jet-Partitioner": {
             "createdAt": "2024-01-25T16:30:09Z",
-            "defaultBranchRef": null,
-            "description": null,
-            "forks": {
-                "totalCount": 0
+            "defaultBranchRef": {
+                "name": "main"
             },
-            "homepageUrl": null,
+            "description": "Jet: Graph Partitioner for GPU",
+            "forks": {
+                "totalCount": 1
+            },
+            "homepageUrl": "",
             "issues_Closed": {
                 "totalCount": 0
             },
@@ -11715,11 +11717,16 @@
                 "totalCount": 0
             },
             "languages": {
-                "totalCount": 0
-            },
-            "licenseInfo": null,
-            "mentionableUsers": {
                 "totalCount": 3
+            },
+            "licenseInfo": {
+                "name": "Other",
+                "nickname": null,
+                "spdxId": "NOASSERTION",
+                "url": "http://choosealicense.com/licenses/other/"
+            },
+            "mentionableUsers": {
+                "totalCount": 4
             },
             "name": "Jet-Partitioner",
             "nameWithOwner": "sandialabs/Jet-Partitioner",
@@ -11728,18 +11735,20 @@
                 "login": "sandialabs"
             },
             "parent": null,
-            "primaryLanguage": null,
+            "primaryLanguage": {
+                "name": "C++"
+            },
             "pullRequests_Closed": {
                 "totalCount": 0
             },
             "pullRequests_Merged": {
-                "totalCount": 0
+                "totalCount": 1
             },
             "pullRequests_Open": {
                 "totalCount": 0
             },
             "repositoryTopics": {
-                "totalCount": 0
+                "totalCount": 2
             },
             "stargazers": {
                 "totalCount": 1
@@ -13386,7 +13395,7 @@
                 "url": "http://choosealicense.com/licenses/lgpl-3.0/"
             },
             "mentionableUsers": {
-                "totalCount": 22
+                "totalCount": 8
             },
             "name": "OWENS.jl",
             "nameWithOwner": "sandialabs/OWENS.jl",
@@ -13441,7 +13450,7 @@
                 "url": "http://choosealicense.com/licenses/lgpl-3.0/"
             },
             "mentionableUsers": {
-                "totalCount": 20
+                "totalCount": 4
             },
             "name": "OWENSAero.jl",
             "nameWithOwner": "sandialabs/OWENSAero.jl",
@@ -13496,7 +13505,7 @@
                 "url": "http://choosealicense.com/licenses/lgpl-3.0/"
             },
             "mentionableUsers": {
-                "totalCount": 20
+                "totalCount": 4
             },
             "name": "OWENSFEA.jl",
             "nameWithOwner": "sandialabs/OWENSFEA.jl",
@@ -13551,7 +13560,7 @@
                 "url": "http://choosealicense.com/licenses/lgpl-3.0/"
             },
             "mentionableUsers": {
-                "totalCount": 20
+                "totalCount": 5
             },
             "name": "OWENSOpenFASTWrappers.jl",
             "nameWithOwner": "sandialabs/OWENSOpenFASTWrappers.jl",
@@ -13606,7 +13615,7 @@
                 "url": "http://choosealicense.com/licenses/apache-2.0/"
             },
             "mentionableUsers": {
-                "totalCount": 20
+                "totalCount": 4
             },
             "name": "OWENSPreComp.jl",
             "nameWithOwner": "sandialabs/OWENSPreComp.jl",
@@ -14704,7 +14713,7 @@
                 "totalCount": 1
             },
             "stargazers": {
-                "totalCount": 22
+                "totalCount": 23
             },
             "url": "https://github.com/sandialabs/Prove-It"
         },
@@ -18437,7 +18446,7 @@
             },
             "description": "Vertical-Axis Wind Turbine  Mesh Generator: VAWTGen",
             "forks": {
-                "totalCount": 1
+                "totalCount": 2
             },
             "homepageUrl": "",
             "issues_Closed": {
@@ -26639,7 +26648,7 @@
                 "totalCount": 1
             },
             "stargazers": {
-                "totalCount": 14
+                "totalCount": 15
             },
             "url": "https://github.com/sandialabs/lim1tr"
         },
@@ -30828,7 +30837,7 @@
             },
             "description": "A python implementation of Gate Set Tomography",
             "forks": {
-                "totalCount": 56
+                "totalCount": 55
             },
             "homepageUrl": "http://www.pygsti.info",
             "issues_Closed": {
@@ -31547,10 +31556,10 @@
             },
             "homepageUrl": "https://pyscan.readthedocs.io/en/latest/",
             "issues_Closed": {
-                "totalCount": 30
+                "totalCount": 29
             },
             "issues_Open": {
-                "totalCount": 49
+                "totalCount": 50
             },
             "languages": {
                 "totalCount": 2
@@ -31921,7 +31930,7 @@
             },
             "description": "Lightweight locality-aware user-level threading runtime.",
             "forks": {
-                "totalCount": 33
+                "totalCount": 34
             },
             "homepageUrl": "https://www.sandia.gov/qthreads/",
             "issues_Closed": {
@@ -34180,7 +34189,7 @@
             },
             "description": "An open source, Python-based software platform for energy storage simulation and analysis developed by Sandia National Laboratories.",
             "forks": {
-                "totalCount": 34
+                "totalCount": 35
             },
             "homepageUrl": "",
             "issues_Closed": {
@@ -36974,7 +36983,7 @@
                 "totalCount": 13
             },
             "pullRequests_Open": {
-                "totalCount": 0
+                "totalCount": 1
             },
             "repositoryTopics": {
                 "totalCount": 8
@@ -37524,7 +37533,7 @@
             },
             "description": "Public development project of the SPARTA DSMC software package http://sparta.sandia.gov",
             "forks": {
-                "totalCount": 72
+                "totalCount": 73
             },
             "homepageUrl": "",
             "issues_Closed": {
@@ -37568,7 +37577,7 @@
                 "totalCount": 4
             },
             "stargazers": {
-                "totalCount": 134
+                "totalCount": 135
             },
             "url": "https://github.com/sparta/sparta"
         },
@@ -37858,10 +37867,10 @@
             },
             "homepageUrl": "https://trilinos.org/",
             "issues_Closed": {
-                "totalCount": 4853
+                "totalCount": 4856
             },
             "issues_Open": {
-                "totalCount": 316
+                "totalCount": 317
             },
             "languages": {
                 "totalCount": 37
@@ -37889,10 +37898,10 @@
                 "totalCount": 1001
             },
             "pullRequests_Merged": {
-                "totalCount": 6690
+                "totalCount": 6693
             },
             "pullRequests_Open": {
-                "totalCount": 63
+                "totalCount": 64
             },
             "repositoryTopics": {
                 "totalCount": 2
@@ -38008,7 +38017,7 @@
                 "totalCount": 6
             },
             "stargazers": {
-                "totalCount": 47
+                "totalCount": 48
             },
             "url": "https://github.com/zadorlab/sella"
         }
