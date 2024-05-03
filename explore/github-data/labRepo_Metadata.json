@@ -2701,6 +2701,14 @@
         ],
         "website": ""
     },
+    "sandialabs/SigProd": {
+        "description": null,
+        "name": "sandialabs/SigProd",
+        "topics": [
+            "scr-764"
+        ],
+        "website": ""
+    },
     "sandialabs/Simulink_PumpedStorageHydropower": {
         "description": "Simulink models of Fixed-Speed, Variable-Speed, and Ternary Pumped Storage Hydropower.",
         "name": "sandialabs/Simulink_PumpedStorageHydropower",
@@ -4251,6 +4259,14 @@
         ],
         "website": ""
     },
+    "sandialabs/lwfs": {
+        "description": null,
+        "name": "sandialabs/lwfs",
+        "topics": [
+            "scr-1166"
+        ],
+        "website": ""
+    },
     "sandialabs/mac-sandbox": {
         "description": "This is a malware analyzer for Mac OS X that extends the Cuckoo Sandbox project (https://cuckoosandbox.org/)",
         "name": "sandialabs/mac-sandbox",
@@ -5214,18 +5230,21 @@
         "website": ""
     },
     "sandialabs/sceptre-bennu": {
-        "description": "Modeling and simulation application for ICS.",
+        "description": "Modeling and simulation of ICS devices",
         "name": "sandialabs/sceptre-bennu",
         "topics": [
-            "scr-2125"
+            "scr-2125",
+            "snl-cyber-sec",
+            "snl-mini-apps"
         ],
-        "website": ""
+        "website": "https://sandialabs.github.io/sceptre-docs/10-bennu.html"
     },
     "sandialabs/sceptre-docs": {
-        "description": null,
+        "description": "SCEPTRE documentation",
         "name": "sandialabs/sceptre-docs",
         "topics": [
-            "scr-2646"
+            "scr-2646",
+            "snl-other"
         ],
         "website": "https://sandialabs.github.io/sceptre-docs/"
     },
@@ -5233,17 +5252,21 @@
         "description": "phenix is an orchestration tool and GUI for Sandia's minimega platform",
         "name": "sandialabs/sceptre-phenix",
         "topics": [
-            "scr-2646"
+            "scr-2646",
+            "snl-applications",
+            "snl-cyber-sec",
+            "snl-os-sys-software"
         ],
-        "website": ""
+        "website": "https://sandialabs.github.io/sceptre-docs/"
     },
     "sandialabs/sceptre-phenix-apps": {
-        "description": "Apps written to work with the latest version of phenix (https://github.com/sandialabs/sceptre-phenix)",
+        "description": "Apps written to work with the latest version of phenix",
         "name": "sandialabs/sceptre-phenix-apps",
         "topics": [
-            "scr-2646"
+            "scr-2646",
+            "snl-cyber-sec"
         ],
-        "website": ""
+        "website": "https://github.com/sandialabs/sceptre-phenix"
     },
     "sandialabs/sceptre-phenix-docs": {
         "description": "phenix documentation",
@@ -5254,21 +5277,25 @@
         "website": ""
     },
     "sandialabs/sceptre-phenix-images": {
-        "description": "phenix image is a tool for quickly creating vm images with debian-based OSes",
+        "description": "phenix image is a tool for quickly creating VM images with Debian-based OSes",
         "name": "sandialabs/sceptre-phenix-images",
         "topics": [
-            "scr-2646"
+            "scr-2646",
+            "snl-cyber-sec",
+            "snl-os-sys-software",
+            "snl-build-tools"
         ],
-        "website": ""
+        "website": "https://phenix.sceptre.dev/latest/image/"
     },
     "sandialabs/sceptre-phenix-topologies": {
-        "description": "Topologies created to work with the latest version of phenix (https://github.com/sandia-minimega/phenix)",
+        "description": "Topologies created to work with the latest version of phenix",
         "name": "sandialabs/sceptre-phenix-topologies",
         "topics": [
             "scr-2646",
-            "scr-2650"
+            "scr-2650",
+            "snl-cyber-sec"
         ],
-        "website": ""
+        "website": "https://github.com/sandialabs/sceptre-phenix"
     },
     "sandialabs/scot": {
         "description": "Sandia Cyber Omni Tracker (SCOT)",
@@ -5785,6 +5812,14 @@
         "name": "sandialabs/tramonto",
         "topics": [
             "scr-947"
+        ],
+        "website": ""
+    },
+    "sandialabs/trios": {
+        "description": "Trios (Trilinos I/O Support)",
+        "name": "sandialabs/trios",
+        "topics": [
+            "scr-1361"
         ],
         "website": ""
     },
