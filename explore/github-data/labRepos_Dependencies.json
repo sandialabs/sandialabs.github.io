@@ -10023,18 +10023,47 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
+                                },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
+                                    "packageName": "advanced-security/filter-sarif",
                                     "repository": {
-                                        "nameWithOwner": "actions/checkout"
+                                        "nameWithOwner": "advanced-security/filter-sarif"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/analyze",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/init",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/upload-sarif",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "seanmiddleditch/gha-setup-ninja",
+                                    "repository": {
+                                        "nameWithOwner": "seanmiddleditch/gha-setup-ninja"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "ssrobins/install-cmake",
+                                    "repository": {
+                                        "nameWithOwner": "ssrobins/install-cmake"
                                     }
                                 }
                             ]
@@ -10178,6 +10207,59 @@
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/upload-sarif",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "microsoft/msvc-code-analysis-action",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/msvc-code-analysis-action"
                                     }
                                 }
                             ]
@@ -14272,6 +14354,19 @@
                     {
                         "color": "#4d41b1",
                         "name": "Fortran"
+                    }
+                ]
+            }
+        },
+        "sandialabs/CANDELINC2": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
                     }
                 ]
             }
@@ -22484,6 +22579,19 @@
             },
             "languages": {
                 "nodes": []
+            }
+        },
+        "sandialabs/PARAFAC_T1": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
             }
         },
         "sandialabs/PDONet": {
@@ -37846,6 +37954,19 @@
                 ]
             }
         },
+        "sandialabs/fcnnls": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
         "sandialabs/feastpack": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -42751,6 +42872,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/mcr": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
                     }
                 ]
             }
