@@ -8466,6 +8466,13 @@
                                     "repository": {
                                         "nameWithOwner": "pyvista/setup-headless-display-action"
                                     }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "urlstechie/urlchecker-action",
+                                    "repository": {
+                                        "nameWithOwner": "urlstechie/urlchecker-action"
+                                    }
                                 }
                             ]
                         }
@@ -8534,6 +8541,13 @@
                                     "packageName": "pyvista/setup-headless-display-action",
                                     "repository": {
                                         "nameWithOwner": "pyvista/setup-headless-display-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "urlstechie/urlchecker-action",
+                                    "repository": {
+                                        "nameWithOwner": "urlstechie/urlchecker-action"
                                     }
                                 }
                             ]
@@ -42665,7 +42679,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "weasel",
                                     "repository": {
-                                        "nameWithOwner": "explosion/weasel"
+                                        "nameWithOwner": "autonlab/weasel"
                                     }
                                 },
                                 {
@@ -45329,6 +45343,14 @@
                         "name": "Jupyter Notebook"
                     }
                 ]
+            }
+        },
+        "sandialabs/pvcracks": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/pyGSTi": {
@@ -63410,6 +63432,13 @@
                                     "packageName": "rmsd",
                                     "repository": {
                                         "nameWithOwner": "charnley/rmsd"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sella",
+                                    "repository": {
+                                        "nameWithOwner": "zadorlab/sella"
                                     }
                                 }
                             ]
