@@ -845,7 +845,6 @@
             "c-plus-plus",
             "abstraction",
             "high-performance-computing",
-            "snl-prog-models-runtimes",
             "kokkos"
         ],
         "website": "https://kokkos.org"
@@ -3676,6 +3675,12 @@
         ],
         "website": ""
     },
+    "sandialabs/everest-core": {
+        "description": null,
+        "name": "sandialabs/everest-core",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/exact": {
         "description": null,
         "name": "sandialabs/exact",
@@ -4344,6 +4349,12 @@
         "topics": [
             "scr-2005"
         ],
+        "website": ""
+    },
+    "sandialabs/maeve-csms": {
+        "description": "MaEVe is an experimental EV Charge Station Management System (CSMS)",
+        "name": "sandialabs/maeve-csms",
+        "topics": null,
         "website": ""
     },
     "sandialabs/malgen-behavior_labels": {
@@ -5038,12 +5049,12 @@
         "website": ""
     },
     "sandialabs/pyapprox": {
-        "description": null,
+        "description": "Flexible and efficient tools for high-dimensional approximation, scientific machine learning and uncertainty quantification. ",
         "name": "sandialabs/pyapprox",
         "topics": [
             "scr-2389"
         ],
-        "website": ""
+        "website": "https://sandialabs.github.io/pyapprox/"
     },
     "sandialabs/pycheron": {
         "description": "Pycheron - A python library for quality control of seismic data based on IRIS Mustang.",
@@ -5056,8 +5067,10 @@
     "sandialabs/pykinml": {
         "description": null,
         "name": "sandialabs/pykinml",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3008"
+        ],
+        "website": ""
     },
     "sandialabs/pymtensor": {
         "description": null,
