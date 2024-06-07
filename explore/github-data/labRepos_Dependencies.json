@@ -3591,6 +3591,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/cache",
                                     "repository": {
                                         "nameWithOwner": "actions/cache"
@@ -4646,19 +4659,6 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
