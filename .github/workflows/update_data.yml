@@ -23,16 +23,16 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
     - name: Checkout sandialabs.github.io source
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Configure git
       run: |
         git config --global user.name "${TOKEN_USER}"
         git config --global user.email "${TOKEN_USER}@users.noreply.github.com"
         git config --global hub.protocol https
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.8
+        python-version: 3.9
     - name: Install requirements
       run: |
         which python
