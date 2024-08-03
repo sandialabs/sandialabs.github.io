@@ -1220,7 +1220,8 @@
             "cen",
             "biorisk",
             "cwa-15793",
-            "scr-2303"
+            "scr-2303",
+            "snl-applications"
         ],
         "website": "https://gcbs.sandia.gov/"
     },
@@ -1995,7 +1996,9 @@
         "description": "Laboratory for Computational Mechanics",
         "name": "sandialabs/LCM",
         "topics": [
-            "scr-1341"
+            "scr-1341",
+            "snl-applications",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -2079,7 +2082,8 @@
         "description": "MATLAB PV function library",
         "name": "sandialabs/MATLAB_PV_LIB",
         "topics": [
-            "scr-1507"
+            "scr-1507",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2409,7 +2413,8 @@
         "description": "Sandia's radiation transport-like statistical sampling research code intended as a training ground and testbed for students and researchers.",
         "name": "sandialabs/PlaybookMC",
         "topics": [
-            "scr-2896"
+            "scr-2896",
+            "snl-mini-apps"
         ],
         "website": ""
     },
@@ -2736,7 +2741,9 @@
         "description": "Simulation Tool for Asynchronous Cortical Streams",
         "name": "sandialabs/STACS",
         "topics": [
-            "scr-2857"
+            "scr-2857",
+            "snl-applications",
+            "spiking-neural-networks"
         ],
         "website": ""
     },
@@ -2899,7 +2906,8 @@
         "description": "Repository for the verification code StREEQ",
         "name": "sandialabs/StREEQ",
         "topics": [
-            "scr-2729"
+            "scr-2729",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -3257,7 +3265,8 @@
         "name": "sandialabs/ali-perf-data",
         "topics": [
             "scr-1341",
-            "snl-performance-workflow"
+            "snl-performance-workflow",
+            "snl-data-analysis"
         ],
         "website": "https://sandialabs.github.io/ali-perf-data/"
     },
@@ -3266,7 +3275,8 @@
         "name": "sandialabs/ali-perf-tests",
         "topics": [
             "scr-1341",
-            "snl-performance-workflow"
+            "snl-performance-workflow",
+            "snl-data-analysis"
         ],
         "website": "https://sandialabs.github.io/ali-perf-data/"
     },
@@ -3380,7 +3390,8 @@
         "description": "3D Bayesian Convolutional Neural Network (BCNN) for Credible Geometric Uncertainty. Code for the paper: https://arxiv.org/abs/1910.10793",
         "name": "sandialabs/bcnn",
         "topics": [
-            "scr-2432"
+            "scr-2432",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -4016,7 +4027,8 @@
         "description": "Fan Speed Extraction Algorithm",
         "name": "sandialabs/fsea",
         "topics": [
-            "scr-2797"
+            "scr-2797",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -4050,7 +4062,8 @@
         "description": null,
         "name": "sandialabs/generic-data-display",
         "topics": [
-            "scr-2840"
+            "scr-2840",
+            "snl-visualization"
         ],
         "website": ""
     },
@@ -4596,7 +4609,8 @@
         "description": "Monte Carlo Dropout Network for 3D Image Segmentation",
         "name": "sandialabs/mcdn-3d-seg",
         "topics": [
-            "scr-2589"
+            "scr-2589",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -5090,7 +5104,9 @@
         "description": "Super project for Plato: contains configuration scripts and contains the other Plato repositories.",
         "name": "sandialabs/plato",
         "topics": [
-            "scr-2306"
+            "scr-2306",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -5098,7 +5114,9 @@
         "description": null,
         "name": "sandialabs/plato-integration-tests",
         "topics": [
-            "scr-2306"
+            "scr-2306",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -5106,7 +5124,9 @@
         "description": "Spack configuration information for Plato.",
         "name": "sandialabs/plato-spack-repo",
         "topics": [
-            "scr-2306"
+            "scr-2306",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -5114,7 +5134,9 @@
         "description": "Performance portable finite element solver for fast physics with gradients for opimization-based design.",
         "name": "sandialabs/platoanalyze",
         "topics": [
-            "scr-2306"
+            "scr-2306",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -5122,7 +5144,9 @@
         "description": null,
         "name": "sandialabs/platoanalyze-tests",
         "topics": [
-            "scr-2306"
+            "scr-2306",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -5130,7 +5154,9 @@
         "description": null,
         "name": "sandialabs/platoanalyze-verification",
         "topics": [
-            "scr-2306"
+            "scr-2306",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -5138,7 +5164,9 @@
         "description": "Plato is designed to enable collaborations with academia, national labs and industries by providing open-source tools for optimization-based design.",
         "name": "sandialabs/platoengine",
         "topics": [
-            "scr-2306"
+            "scr-2306",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -6109,7 +6137,10 @@
             "clustering",
             "distance-geometry",
             "prediction",
-            "scr-1681"
+            "scr-1681",
+            "snl-applications",
+            "snl-data-analysis",
+            "snl-visualization"
         ],
         "website": ""
     },
