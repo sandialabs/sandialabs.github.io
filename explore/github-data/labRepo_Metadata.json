@@ -1176,7 +1176,8 @@
         "description": "Energy Exascale Earth System Model source code.",
         "name": "sandialabs/CLDERA-E3SM",
         "topics": [
-            "snl-applications"
+            "snl-applications",
+            "scr-3066"
         ],
         "website": "https://e3sm.org"
     },
@@ -1430,7 +1431,16 @@
         "description": "Maximal Poisson-disk Sampling in 2D, without approximations or rejections, in deterministic linear time ",
         "name": "sandialabs/DeterministicMPS",
         "topics": [
-            "scr-2749"
+            "scr-2749",
+            "poisson-disc-sampling",
+            "poisson-disk-sampling",
+            "sampling",
+            "sampling-methods",
+            "snl-comp-science-libs",
+            "snl-other",
+            "snl-science-libs",
+            "spatial-statistics",
+            "sample-generation"
         ],
         "website": ""
     },
@@ -1933,7 +1943,16 @@
         "description": "Interval Assignment by Integer Linear Algebra method for solving assigning the number of mesh edges on model curves for quad and hex meshing",
         "name": "sandialabs/IntervalAssignment",
         "topics": [
-            "scr-2481"
+            "scr-2481",
+            "integer",
+            "integer-linear-programming",
+            "mesh",
+            "mesh-generation",
+            "meshing",
+            "meshing-algorithms",
+            "snl-comp-science-libs",
+            "snl-other",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -2404,7 +2423,7 @@
         "description": "Tool for identifying photopeaks and generating nuclide libraries",
         "name": "sandialabs/Peak-Map",
         "topics": [
-            "scr-2448"
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2915,7 +2934,16 @@
         "description": "SpokeDarts sphere-packing sampling in any dimension. Advancing front sampling from radial lines (spokes) through prior samples.",
         "name": "sandialabs/SpokeDartsPublic",
         "topics": [
-            "scr-2084"
+            "scr-2084",
+            "high-dimensional",
+            "high-dimensional-statistics",
+            "poisson-disc-sampling",
+            "poisson-disk-sampling",
+            "sample-generation",
+            "sampling",
+            "snl-science-libs",
+            "spatial-statistics",
+            "sample-methods"
         ],
         "website": ""
     },
@@ -4667,7 +4695,12 @@
         "description": "Mesquite: Mesh Quality Improvement Toolkit",
         "name": "sandialabs/mesquite",
         "topics": [
-            "scr-642"
+            "scr-642",
+            "mesh",
+            "meshes",
+            "meshing",
+            "smoothing",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -5247,6 +5280,14 @@
         "name": "sandialabs/processMC",
         "topics": [
             "scr-1465"
+        ],
+        "website": ""
+    },
+    "sandialabs/pv-atlas": {
+        "description": null,
+        "name": "sandialabs/pv-atlas",
+        "topics": [
+            "scr-3079"
         ],
         "website": ""
     },
