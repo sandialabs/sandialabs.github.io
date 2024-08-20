@@ -2569,7 +2569,9 @@
         "description": "Quantum Manifold Learning",
         "name": "sandialabs/QML",
         "topics": [
-            "scr-2809"
+            "scr-2809",
+            "snl-data-analysis",
+            "snl-visualization"
         ],
         "website": ""
     },
@@ -3594,7 +3596,9 @@
         "description": "Classifier-Guided Sampling evolutionary algorithm",
         "name": "sandialabs/cgs",
         "topics": [
-            "scr-2189"
+            "scr-2189",
+            "snl-applications",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -5637,12 +5641,12 @@
         "website": ""
     },
     "sandialabs/samlab": {
-        "description": "Samlab provides a flexible framework for running, storing, and analyzing machine learning experiments.",
+        "description": "Samlab provides tools for analyzing computer vision models.",
         "name": "sandialabs/samlab",
         "topics": [
             "scr-2305"
         ],
-        "website": "https://samlab.readthedocs.io/en/latest/"
+        "website": "https://samlab.readthedocs.io"
     },
     "sandialabs/sandia-hackathon-fall2021": {
         "description": "Virtual App Development Challenge and Workshop",
@@ -5664,7 +5668,8 @@
         "description": "Surrogate-based optimizer for variational quantum algorithms.",
         "name": "sandialabs/sbovqaopt",
         "topics": [
-            "scr-2807"
+            "scr-2807",
+            "snl-quantum-computing"
         ],
         "website": ""
     },
@@ -5764,6 +5769,14 @@
     "sandialabs/scot4-inbox": {
         "description": "SCOT4 Inbox Processor",
         "name": "sandialabs/scot4-inbox",
+        "topics": [
+            "scr-1627"
+        ],
+        "website": ""
+    },
+    "sandialabs/scot4-perl-builder": {
+        "description": "Builds the custom perl binary and related container image for flair and scot4-inbox",
+        "name": "sandialabs/scot4-perl-builder",
         "topics": [
             "scr-1627"
         ],
@@ -6078,7 +6091,10 @@
             "snl-build-tools",
             "snl-comp-science-libs",
             "snl-os-sys-software",
-            "snl-performance-workflow"
+            "snl-performance-workflow",
+            "replicability",
+            "reproducibility",
+            "scripting"
         ],
         "website": ""
     },
