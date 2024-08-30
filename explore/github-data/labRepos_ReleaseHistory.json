@@ -183,6 +183,11 @@
                 "nodes": []
             }
         },
+        "DARMA-tasking/ccm-milp": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "DARMA-tasking/cfd-mini-app": {
             "releases": {
                 "nodes": []
@@ -3215,6 +3220,16 @@
         "lammps/lammps": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Stable release 29 August 2024",
+                        "publishedAt": "2024-08-30T01:19:11Z",
+                        "tagName": "stable_29Aug2024"
+                    },
+                    {
+                        "name": "Stable release candidate August 29 2024",
+                        "publishedAt": "2024-08-30T00:52:28Z",
+                        "tagName": "patch_29Aug2024"
+                    },
                     {
                         "name": "Update 4 for Stable release 2 August 2023",
                         "publishedAt": "2024-08-28T21:28:26Z",
