@@ -1338,7 +1338,10 @@
         "description": null,
         "name": "sandialabs/ConfigParserEnhanced",
         "topics": [
-            "scr-2670"
+            "scr-2670",
+            "snl-build-tools",
+            "snl-comp-science-libs",
+            "snl-other"
         ],
         "website": ""
     },
@@ -1527,7 +1530,8 @@
             "graphs",
             "python",
             "sampling",
-            "scr-2509"
+            "scr-2509",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -1560,7 +1564,7 @@
         "name": "sandialabs/ExoToComsol",
         "topics": [
             "scr-2921",
-            "applications"
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2010,9 +2014,11 @@
         "description": "Jet: Graph Partitioner for GPU",
         "name": "sandialabs/Jet-Partitioner",
         "topics": [
-            "graph",
             "partitioning-algorithms",
-            "scr-2957"
+            "scr-2957",
+            "snl-comp-science-libs",
+            "snl-science-libs",
+            "graph-algorithm"
         ],
         "website": ""
     },
@@ -2150,7 +2156,8 @@
         "topics": [
             "scr-2664",
             "application",
-            "data-science"
+            "data-science",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2718,7 +2725,9 @@
         "description": "SCOT4 Web Application",
         "name": "sandialabs/SCOT4-Web-App",
         "topics": [
-            "scr-1627"
+            "scr-1627",
+            "snl-applications",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -2811,7 +2820,10 @@
             "jenkins",
             "jenkins-pipeline-library",
             "jenkins-pipeline",
-            "scr-2482"
+            "scr-2482",
+            "snl-build-tools",
+            "snl-comp-science-libs",
+            "snl-other"
         ],
         "website": ""
     },
@@ -2920,7 +2932,10 @@
         "description": null,
         "name": "sandialabs/SetProgramOptions",
         "topics": [
-            "scr-2738"
+            "scr-2738",
+            "snl-build-tools",
+            "snl-comp-science-libs",
+            "snl-other"
         ],
         "website": ""
     },
@@ -3061,7 +3076,8 @@
         "name": "sandialabs/TEB",
         "topics": [
             "scr-2608",
-            "application"
+            "application",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -3241,7 +3257,8 @@
             "disaster",
             "resilience",
             "epanet",
-            "scr-2043"
+            "scr-2043",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -3301,7 +3318,11 @@
         "description": "Zoltan Dynamic Load Balancing and Graph Algorithm Toolkit -- Distribution site",
         "name": "sandialabs/Zoltan",
         "topics": [
-            "scr-429"
+            "scr-429",
+            "graph-algorithms",
+            "partitioning",
+            "snl-comp-science-libs",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -3377,7 +3398,8 @@
             "machinelearning",
             "math",
             "statistics",
-            "scr-978"
+            "scr-978",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -3613,6 +3635,14 @@
         ],
         "website": ""
     },
+    "sandialabs/cbench": {
+        "description": null,
+        "name": "sandialabs/cbench",
+        "topics": [
+            "scr-835"
+        ],
+        "website": ""
+    },
     "sandialabs/ccaffeine": {
         "description": null,
         "name": "sandialabs/ccaffeine",
@@ -3646,7 +3676,8 @@
             "sensors",
             "optimization",
             "pyomo",
-            "scr-2146"
+            "scr-2146",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -4168,7 +4199,7 @@
         "description": "Zeek Extension to Collect Metadata for Profiling of Endpoints and Proxies",
         "name": "sandialabs/gait",
         "topics": [
-            "scr-2783"
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -4211,7 +4242,9 @@
         "description": null,
         "name": "sandialabs/gibraltar",
         "topics": [
-            "scr-1242"
+            "scr-1242",
+            "snl-comp-science-libs",
+            "snl-os-sys-software"
         ],
         "website": ""
     },
@@ -5033,7 +5066,9 @@
         "description": "An IP address indexing tool for highspeed tracking of network connections via zeek conn or netflow",
         "name": "sandialabs/opendiventi",
         "topics": [
-            "scr-2435"
+            "scr-2435",
+            "snl-cyber-sec",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -5156,7 +5191,8 @@
         "description": "Python package for performance monitoring of time series data",
         "name": "sandialabs/pecos",
         "topics": [
-            "scr-2046"
+            "scr-2046",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -5370,7 +5406,8 @@
         "description": null,
         "name": "sandialabs/pv-atlas",
         "topics": [
-            "scr-3079"
+            "scr-3079",
+            "snl-other"
         ],
         "website": "https://sandialabs.github.io/pv-atlas/"
     },
@@ -5822,7 +5859,9 @@
         "description": "SCOT version 4",
         "name": "sandialabs/scot4",
         "topics": [
-            "scr-1627"
+            "scr-1627",
+            "snl-applications",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -5830,7 +5869,9 @@
         "description": "Documentation for SCOT 4",
         "name": "sandialabs/scot4-docs",
         "topics": [
-            "scr-1627"
+            "scr-1627",
+            "snl-applications",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -5838,7 +5879,9 @@
         "description": null,
         "name": "sandialabs/scot4-flair",
         "topics": [
-            "scr-1627"
+            "scr-1627",
+            "snl-applications",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -5846,7 +5889,9 @@
         "description": "SCOT4 Inbox Processor",
         "name": "sandialabs/scot4-inbox",
         "topics": [
-            "scr-1627"
+            "scr-1627",
+            "snl-applications",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -5854,7 +5899,9 @@
         "description": "Builds the custom perl binary and related container image for flair and scot4-inbox",
         "name": "sandialabs/scot4-perl-builder",
         "topics": [
-            "scr-1627"
+            "scr-1627",
+            "snl-applications",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -5999,7 +6046,8 @@
         "description": null,
         "name": "sandialabs/single-sided-messaging",
         "topics": [
-            "scr-2033"
+            "scr-2033",
+            "snl-os-sys-software"
         ],
         "website": ""
     },
@@ -6007,7 +6055,8 @@
         "description": null,
         "name": "sandialabs/sirocco-release",
         "topics": [
-            "scr-2031"
+            "scr-2031",
+            "snl-os-sys-software"
         ],
         "website": ""
     },
@@ -6413,7 +6462,8 @@
         "name": "sandialabs/uh2sc",
         "topics": [
             "scr-2988",
-            "application"
+            "application",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -6578,7 +6628,8 @@
         "description": "This is a repository for a model that is being published and has been provided as open-source code",
         "name": "sandialabs/wts_gshp_tbl",
         "topics": [
-            "scr-2763"
+            "scr-2763",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -6644,7 +6695,8 @@
         "description": null,
         "name": "sandialabs/yodawg-ci-runner",
         "topics": [
-            "scr-2830"
+            "scr-2830",
+            "snl-other"
         ],
         "website": ""
     },
