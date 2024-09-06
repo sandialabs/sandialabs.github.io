@@ -213,6 +213,12 @@
         "topics": null,
         "website": ""
     },
+    "DARMA-tasking/workflows": {
+        "description": null,
+        "name": "DARMA-tasking/workflows",
+        "topics": null,
+        "website": null
+    },
     "E3SM-Project/COMPOSE": {
         "description": "Compact Multi-moment Performance-Portable Semi-Lagrangian methods for non-hydrostatic dynamics",
         "name": "E3SM-Project/COMPOSE",
@@ -1086,7 +1092,8 @@
         "name": "sandialabs/BALDR-Study-07.04",
         "topics": [
             "scr-3042",
-            "scr-3043"
+            "scr-3043",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -1094,7 +1101,8 @@
         "description": "Code, data, and best model for the BALDR study titled, \"A Semi-Supervised Learning Method to Produce Explainable Radioisotope Proportion Estimates for NaI-based Synthetic and Measured Gamma Spectra.\"",
         "name": "sandialabs/BALDR-Study-07.05",
         "topics": [
-            "scr-2969"
+            "scr-2969",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -2582,7 +2590,8 @@
             "scr-2618",
             "snl-applications",
             "snl-data-analysis",
-            "snl-visualization"
+            "snl-visualization",
+            "snl-science-libs"
         ],
         "website": "https://sandialabs.github.io/PyRIID/"
     },
@@ -4714,7 +4723,8 @@
         "description": "This is a malware analyzer for Mac OS X that extends the Cuckoo Sandbox project (https://cuckoosandbox.org/)",
         "name": "sandialabs/mac-sandbox",
         "topics": [
-            "scr-2005"
+            "scr-2005",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -5983,6 +5993,14 @@
             "scr-2918"
         ],
         "website": "https://sandialabs.github.io/seat-qgis-plugin/"
+    },
+    "sandialabs/seismic_boed": {
+        "description": "SCR #2998.0: Code that performs Bayesian OED to optimize seismic monitoring networks",
+        "name": "sandialabs/seismic_boed",
+        "topics": [
+            "scr-2998"
+        ],
+        "website": ""
     },
     "sandialabs/seme-framework": {
         "description": null,
