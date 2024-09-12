@@ -240,6 +240,12 @@
         ],
         "website": "https://docs.e3sm.org/E3SM"
     },
+    "E3SM-Project/EKAT": {
+        "description": "Tools and libraries for writing Kokkos-enabled HPC C++ in E3SM ecosystem",
+        "name": "E3SM-Project/EKAT",
+        "topics": null,
+        "website": null
+    },
     "E3SM-Project/HOMMEXX": {
         "description": "Clone of ACME for CMDV-SE project to convert HOMME to C++",
         "name": "E3SM-Project/HOMMEXX",
@@ -282,24 +288,6 @@
             "exawind"
         ],
         "website": "https://nalu-wind.readthedocs.io"
-    },
-    "FitSNAP/TestSNAP": {
-        "description": "SNAP Proxy app",
-        "name": "FitSNAP/TestSNAP",
-        "topics": null,
-        "website": null
-    },
-    "HPCGraphAnalysis/HPCGraph": {
-        "description": null,
-        "name": "HPCGraphAnalysis/HPCGraph",
-        "topics": null,
-        "website": null
-    },
-    "HexHive/EPOXY": {
-        "description": "Root Repo for the EPOXY tool that applies Privilege Overlays on bare-metal systems",
-        "name": "HexHive/EPOXY",
-        "topics": null,
-        "website": ""
     },
     "HobbesOSR/kitten": {
         "description": "Kitten Lightweight Kernel",
@@ -345,121 +333,6 @@
         ],
         "website": "https://mhkit-software.github.io/MHKiT/"
     },
-    "Mantevo/CloverLeaf": {
-        "description": "Compressible Euler equations on a Cartesian grid",
-        "name": "Mantevo/CloverLeaf",
-        "topics": null,
-        "website": null
-    },
-    "Mantevo/HPCCG": {
-        "description": "High Performance Computing Conjugate Gradients:  The original Mantevo miniapp",
-        "name": "Mantevo/HPCCG",
-        "topics": null,
-        "website": null
-    },
-    "Mantevo/Mantevo": {
-        "description": "Core Mantevo Repository containing common resources",
-        "name": "Mantevo/Mantevo",
-        "topics": null,
-        "website": null
-    },
-    "Mantevo/PathFinder": {
-        "description": "PathFinder Graph Search Mini-App",
-        "name": "Mantevo/PathFinder",
-        "topics": [
-            "snl-mini-apps",
-            "mantevo",
-            "mini-app",
-            "graph-algorithms"
-        ],
-        "website": "http://www.mantevo.org"
-    },
-    "Mantevo/mantevo.github.io": {
-        "description": null,
-        "name": "Mantevo/mantevo.github.io",
-        "topics": null,
-        "website": "https://mantevo.github.io"
-    },
-    "Mantevo/miniAMR": {
-        "description": "MiniAMR Adaptive Mesh Refinement (AMR) Mini-App",
-        "name": "Mantevo/miniAMR",
-        "topics": [
-            "mini-apps"
-        ],
-        "website": "http://www.mantevo.org"
-    },
-    "Mantevo/miniAero": {
-        "description": "MiniAero Unstructured Finite Volume Compressible Navier-Stokes Mini-App",
-        "name": "Mantevo/miniAero",
-        "topics": [
-            "snl-mini-apps",
-            "mantevo",
-            "mini-app",
-            "cfd",
-            "computational-fluid-dynamics"
-        ],
-        "website": "http://www.mantevo.org"
-    },
-    "Mantevo/miniFE": {
-        "description": "MiniFE Finite Element Mini-Application",
-        "name": "Mantevo/miniFE",
-        "topics": [
-            "miniapp",
-            "minife",
-            "ecp",
-            "finite-elements",
-            "solvers",
-            "solver",
-            "snl-mini-apps"
-        ],
-        "website": "http://www.mantevo.org"
-    },
-    "Mantevo/miniGhost": {
-        "description": "MiniGhost Halo Exchange Mini-Application",
-        "name": "Mantevo/miniGhost",
-        "topics": [
-            "snl-mini-apps",
-            "mantevo",
-            "mini-app",
-            "communication"
-        ],
-        "website": "http://www.mantevo.org"
-    },
-    "Mantevo/miniMD": {
-        "description": "MiniMD Molecular Dynamics Mini-App",
-        "name": "Mantevo/miniMD",
-        "topics": [
-            "snl-mini-apps",
-            "molecular-dynamics",
-            "molecular-dynamics-simulation",
-            "mini-app",
-            "mantevo"
-        ],
-        "website": "http://www.mantevo.org"
-    },
-    "Mantevo/miniSMAC": {
-        "description": "MiniSMAC 2D incompressible Navier-Stokes Mini-App",
-        "name": "Mantevo/miniSMAC",
-        "topics": null,
-        "website": "http://www.mantevo.org"
-    },
-    "Mantevo/miniTri": {
-        "description": "miniTri data analytics miniapp",
-        "name": "Mantevo/miniTri",
-        "topics": null,
-        "website": null
-    },
-    "Mantevo/miniXyce": {
-        "description": "miniXyce Circuit Design Mini-Application",
-        "name": "Mantevo/miniXyce",
-        "topics": [
-            "snl-mini-apps",
-            "circuit-simulator",
-            "mini-app",
-            "mantevo"
-        ],
-        "website": "http://www.mantevo.org"
-    },
     "NimbleSM/NimbleSM": {
         "description": "Lagrangian finite-element code for solid mechanics on next-generation computing platforms.",
         "name": "NimbleSM/NimbleSM",
@@ -475,59 +348,6 @@
         ],
         "website": ""
     },
-    "PECOS-packages/PECOS": {
-        "description": "A Python framework, library, and set of tools for exploring, developing, and evaluating quantum error-correction protocols.",
-        "name": "PECOS-packages/PECOS",
-        "topics": null,
-        "website": ""
-    },
-    "PerceptTools/percept": {
-        "description": "Parallel mesh refinement and adaptivity tools for the finite element method.",
-        "name": "PerceptTools/percept",
-        "topics": null,
-        "website": null
-    },
-    "Pressio/pressio": {
-        "description": "core C++ library",
-        "name": "Pressio/pressio",
-        "topics": [
-            "generic-programming",
-            "trilinos",
-            "kokkos",
-            "petrov-galerkin",
-            "reduced-order-models",
-            "surrogate-models",
-            "uq",
-            "dynamical-systems",
-            "nonlinear-dynamics",
-            "snl-applications",
-            "snl-data-analysis",
-            "snl-science",
-            "cpp-concepts",
-            "machine-learning",
-            "linear-algebra",
-            "c-plus-plus",
-            "high-performance-computing"
-        ],
-        "website": ""
-    },
-    "PyProveIt/Prove-It": {
-        "description": "Forwarding from old PyProveIt repository to the new one at sandialabs",
-        "name": "PyProveIt/Prove-It",
-        "topics": null,
-        "website": null
-    },
-    "PyUtilib/pyutilib": {
-        "description": "A collection of general Python utilities, including logging and file IO, subprocess management, plugin systems, and workflow management.",
-        "name": "PyUtilib/pyutilib",
-        "topics": [
-            "pyomo",
-            "pypi",
-            "codecov",
-            "snl-comp-science-libs"
-        ],
-        "website": ""
-    },
     "Pyomo/pyomo": {
         "description": "An object-oriented algebraic modeling language in Python for structured optimization problems.",
         "name": "Pyomo/pyomo",
@@ -540,12 +360,6 @@
             "nonlinear-programming"
         ],
         "website": "https://www.pyomo.org"
-    },
-    "Rapid-Design-of-Systems-Laboratory/beluga": {
-        "description": "General purpose indirect trajectory optimization",
-        "name": "Rapid-Design-of-Systems-Laboratory/beluga",
-        "topics": null,
-        "website": ""
     },
     "SMASHtoolbox/SDAlibrary": {
         "description": "Sandia Data Archive (SDA) library for MATLAB, python, and other languages",
@@ -652,24 +466,6 @@
         ],
         "website": "https://hpx.stellar-group.org"
     },
-    "SamuelMulder/oxide": {
-        "description": "A flexible, modular framework for analyzing binary files.",
-        "name": "SamuelMulder/oxide",
-        "topics": null,
-        "website": ""
-    },
-    "Sandia-OpenSHMEM/SOS": {
-        "description": "Sandia OpenSHMEM is an implementation of the OpenSHMEM specification over multiple Networking APIs, including Portals 4, the Open Fabric Interface (OFI), and UCX.  Please click on the Wiki tab for help with building and using SOS.",
-        "name": "Sandia-OpenSHMEM/SOS",
-        "topics": [
-            "hpc",
-            "pgas",
-            "openshmem",
-            "middleware",
-            "parallel-computing"
-        ],
-        "website": ""
-    },
     "TriBITSPub/TriBITS": {
         "description": "TriBITS: Tribal Build, Integrate, and Test System,",
         "name": "TriBITSPub/TriBITS",
@@ -716,15 +512,6 @@
         ],
         "website": ""
     },
-    "WEC-Sim/WDRT": {
-        "description": "WEC Design Response Toolbox (WDRT)",
-        "name": "WEC-Sim/WDRT",
-        "topics": [
-            "python",
-            "wdrt"
-        ],
-        "website": "http://wec-sim.github.io/WDRT/"
-    },
     "WEC-Sim/WEC-Sim": {
         "description": "Wave Energy Converter Simulator (WEC-Sim), an open-source code for simulating wave energy converters. ",
         "name": "WEC-Sim/WEC-Sim",
@@ -754,24 +541,6 @@
         ],
         "website": ""
     },
-    "bartvbw/MILO": {
-        "description": null,
-        "name": "bartvbw/MILO",
-        "topics": null,
-        "website": null
-    },
-    "ccss-sandia/antfarm": {
-        "description": "Passive network mapping tool written in Ruby",
-        "name": "ccss-sandia/antfarm",
-        "topics": null,
-        "website": "http://ccss-sandia.github.com/antfarm"
-    },
-    "ccss-sandia/cicm": {
-        "description": "Critical Infrastructure Consequence Modeler",
-        "name": "ccss-sandia/cicm",
-        "topics": null,
-        "website": "http://ccss-sandia.github.com/cicm"
-    },
     "chapel-lang/chapel": {
         "description": "a Productive Parallel Programming Language",
         "name": "chapel-lang/chapel",
@@ -800,24 +569,6 @@
         ],
         "website": ""
     },
-    "elgood/SAM": {
-        "description": "Streaming Analytics Machine",
-        "name": "elgood/SAM",
-        "topics": null,
-        "website": null
-    },
-    "embedded-sec/halucinator": {
-        "description": null,
-        "name": "embedded-sec/halucinator",
-        "topics": null,
-        "website": null
-    },
-    "ewalkup/cuckoomac": {
-        "description": "An OS X extension for the open-source Cuckoo Sandbox for malware analysis, developed over the summer in 2014.",
-        "name": "ewalkup/cuckoomac",
-        "topics": null,
-        "website": ""
-    },
     "goma/goma": {
         "description": "A Full-Newton Finite Element Program for Free and Moving Boundary Problems with Coupled Fluid/Solid Momentum, Energy, Mass, and Chemical Species Transport",
         "name": "goma/goma",
@@ -831,12 +582,6 @@
             "snl-applications"
         ],
         "website": "https://www.gomafem.com"
-    },
-    "gregorburger/py_epanet": {
-        "description": "EPAnet implementation in python",
-        "name": "gregorburger/py_epanet",
-        "topics": null,
-        "website": ""
     },
     "grid-parity-exchange/Egret": {
         "description": "Tools for building power systems optimization problems",
@@ -899,18 +644,6 @@
         ],
         "website": "https://www.lammps.org"
     },
-    "mlawsonca/empress": {
-        "description": null,
-        "name": "mlawsonca/empress",
-        "topics": null,
-        "website": null
-    },
-    "nachos-ii/nachos-ii": {
-        "description": "A Finite Element Computer Program for Incompressible Flow Problems",
-        "name": "nachos-ii/nachos-ii",
-        "topics": null,
-        "website": null
-    },
     "netmeld/netmeld": {
         "description": "A tool suite for use during system assessments.",
         "name": "netmeld/netmeld",
@@ -918,43 +651,6 @@
             "snl-cyber-sec",
             "snl-comp-science-libs",
             "snl-performance-workflow"
-        ],
-        "website": ""
-    },
-    "nikdon/pyEntropy": {
-        "description": "Entropy for Python",
-        "name": "nikdon/pyEntropy",
-        "topics": [
-            "entropy",
-            "python",
-            "permutation",
-            "sample",
-            "multiscale",
-            "numpy"
-        ],
-        "website": "https://donets.org/projects/pyentropy/"
-    },
-    "or-fusion/pao": {
-        "description": "A Python Package for Adversarial Optimization",
-        "name": "or-fusion/pao",
-        "topics": [
-            "snl-applications",
-            "snl-science-libs",
-            "snl-data-analysis",
-            "optimization",
-            "python"
-        ],
-        "website": ""
-    },
-    "or-fusion/pyomo_simplemodel": {
-        "description": "An extension of Pyomo that defines a simple modeling class that is similar to PuLP",
-        "name": "or-fusion/pyomo_simplemodel",
-        "topics": [
-            "optimization",
-            "python",
-            "snl-applications",
-            "snl-data-analysis",
-            "snl-science-libs"
         ],
         "website": ""
     },
@@ -966,18 +662,6 @@
             "monitoring"
         ],
         "website": "https://github.com/ovis-hpc/ovis-wiki/wiki"
-    },
-    "peridigm/peridigm": {
-        "description": "Peridigm peridynamics code.",
-        "name": "peridigm/peridigm",
-        "topics": null,
-        "website": null
-    },
-    "pwrapi/pwrapi-ref": {
-        "description": "PowerAPI Reference Implementation and Plugins",
-        "name": "pwrapi/pwrapi-ref",
-        "topics": null,
-        "website": ""
     },
     "sandialabs/.github": {
         "description": "SandiaLabs Organization README",
@@ -3496,6 +3180,14 @@
         ],
         "website": ""
     },
+    "sandialabs/atse": {
+        "description": null,
+        "name": "sandialabs/atse",
+        "topics": [
+            "scr-2521"
+        ],
+        "website": ""
+    },
     "sandialabs/avatar": {
         "description": "The Avatar Tools codes are an implementation of ensembles specifically for decision trees.",
         "name": "sandialabs/avatar",
@@ -4274,6 +3966,14 @@
         ],
         "website": ""
     },
+    "sandialabs/gms": {
+        "description": null,
+        "name": "sandialabs/gms",
+        "topics": [
+            "scr-2362"
+        ],
+        "website": ""
+    },
     "sandialabs/gnawts": {
         "description": null,
         "name": "sandialabs/gnawts",
@@ -4851,6 +4551,14 @@
         ],
         "website": ""
     },
+    "sandialabs/milo": {
+        "description": null,
+        "name": "sandialabs/milo",
+        "topics": [
+            "scr-2273"
+        ],
+        "website": ""
+    },
     "sandialabs/miniAMR": {
         "description": null,
         "name": "sandialabs/miniAMR",
@@ -5015,6 +4723,14 @@
         ],
         "website": ""
     },
+    "sandialabs/nachos-ii": {
+        "description": null,
+        "name": "sandialabs/nachos-ii",
+        "topics": [
+            "scr-2372"
+        ],
+        "website": ""
+    },
     "sandialabs/nanotube": {
         "description": null,
         "name": "sandialabs/nanotube",
@@ -5036,6 +4752,14 @@
         "name": "sandialabs/nidr",
         "topics": [
             "scr-1152"
+        ],
+        "website": ""
+    },
+    "sandialabs/nimblesm": {
+        "description": null,
+        "name": "sandialabs/nimblesm",
+        "topics": [
+            "scr-2315"
         ],
         "website": ""
     },
@@ -5223,14 +4947,6 @@
         ],
         "website": ""
     },
-    "sandialabs/pecs": {
-        "description": null,
-        "name": "sandialabs/pecs",
-        "topics": [
-            "scr-2345"
-        ],
-        "website": ""
-    },
     "sandialabs/penney-scripts": {
         "description": "SCR# 2841",
         "name": "sandialabs/penney-scripts",
@@ -5244,6 +4960,14 @@
         "name": "sandialabs/peopt",
         "topics": [
             "scr-1488"
+        ],
+        "website": ""
+    },
+    "sandialabs/percept": {
+        "description": null,
+        "name": "sandialabs/percept",
+        "topics": [
+            "scr-1695"
         ],
         "website": ""
     },
@@ -5646,6 +5370,14 @@
             "scr-1053"
         ],
         "website": "https://www.sandia.gov/qthreads/"
+    },
+    "sandialabs/quantum-pecos": {
+        "description": null,
+        "name": "sandialabs/quantum-pecos",
+        "topics": [
+            "scr-2345"
+        ],
+        "website": ""
     },
     "sandialabs/que-ldrd-tools": {
         "description": "Tools used in support of the QUE LDRD.",
@@ -6740,14 +6472,10 @@
         ],
         "website": ""
     },
-    "schw4b/DGM": {
-        "description": "Dynamical graphical models for multivariate time series data to estimate directed dynamic relationships in networks.",
-        "name": "schw4b/DGM",
-        "topics": [
-            "functional-connectivity",
-            "dynamic-graphical-models",
-            "time-varying-connectivity"
-        ],
+    "snl-dakota/dakota": {
+        "description": "The core Dakota project",
+        "name": "snl-dakota/dakota",
+        "topics": null,
         "website": ""
     },
     "sparta/sparta": {
@@ -6814,12 +6542,6 @@
         "topics": null,
         "website": null
     },
-    "supercontainers/atse": {
-        "description": "Advanced Tri-Lab Software Environment (ATSE) https://vanguard.sandia.gov/ATSE/",
-        "name": "supercontainers/atse",
-        "topics": null,
-        "website": null
-    },
     "trilinos/Trilinos": {
         "description": "Primary repository for the Trilinos Project",
         "name": "trilinos/Trilinos",
@@ -6842,6 +6564,26 @@
             "potential-energy-surfaces"
         ],
         "website": ""
+    },
+    "zadorlab/PySIDT": {
+        "description": null,
+        "name": "zadorlab/PySIDT",
+        "topics": null,
+        "website": null
+    },
+    "zadorlab/pynta": {
+        "description": "Pynta - an automated workflow for reaction path exploration on metallic surfaces",
+        "name": "zadorlab/pynta",
+        "topics": [
+            "python",
+            "chemistry",
+            "physics",
+            "catalysis",
+            "automation",
+            "workflow",
+            "dft"
+        ],
+        "website": "https://zadorlab.github.io/pynta/"
     },
     "zadorlab/sella": {
         "description": "A Python software package for saddle point optimization and minimization of atomic systems.",
