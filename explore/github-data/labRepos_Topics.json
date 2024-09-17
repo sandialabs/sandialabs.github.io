@@ -1687,7 +1687,7 @@
                 "totalCount": 3
             }
         },
-        "ovis-hpc/ovis": {
+        "ovis-hpc/ldms": {
             "repositoryTopics": {
                 "nodes": [
                     {
@@ -3557,8 +3557,16 @@
         },
         "sandialabs/GeoCricket": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3020",
+                        "topic": {
+                            "name": "scr-3020"
+                        },
+                        "url": "https://github.com/topics/scr-3020"
+                    }
+                ],
+                "totalCount": 1
             }
         },
         "sandialabs/GeoPlace": {
@@ -6967,18 +6975,18 @@
             "repositoryTopics": {
                 "nodes": [
                     {
-                        "resourcePath": "/topics/src-3088",
-                        "topic": {
-                            "name": "src-3088"
-                        },
-                        "url": "https://github.com/topics/src-3088"
-                    },
-                    {
                         "resourcePath": "/topics/snl-data-analysis",
                         "topic": {
                             "name": "snl-data-analysis"
                         },
                         "url": "https://github.com/topics/snl-data-analysis"
+                    },
+                    {
+                        "resourcePath": "/topics/scr-3088",
+                        "topic": {
+                            "name": "scr-3088"
+                        },
+                        "url": "https://github.com/topics/scr-3088"
                     }
                 ],
                 "totalCount": 2
@@ -8417,6 +8425,12 @@
                     }
                 ],
                 "totalCount": 1
+            }
+        },
+        "sandialabs/cldera-tools": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "sandialabs/clif": {

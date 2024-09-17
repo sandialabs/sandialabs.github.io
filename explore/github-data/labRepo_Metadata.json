@@ -654,9 +654,9 @@
         ],
         "website": ""
     },
-    "ovis-hpc/ovis": {
+    "ovis-hpc/ldms": {
         "description": "OVIS/LDMS High Performance Computing monitoring, analysis, and visualization project. ",
-        "name": "ovis-hpc/ovis",
+        "name": "ovis-hpc/ldms",
         "topics": [
             "ldms",
             "monitoring"
@@ -1415,8 +1415,10 @@
     "sandialabs/GeoCricket": {
         "description": null,
         "name": "sandialabs/GeoCricket",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3020"
+        ],
+        "website": ""
     },
     "sandialabs/GeoPlace": {
         "description": "Sampling and placement algorithms for optimal placement of sensor footprint and subfootprint shapes.",
@@ -2850,8 +2852,8 @@
         "description": null,
         "name": "sandialabs/Tight-Practical-Bounds-for-Subgraph-Densities-in-Ego-centric-Networks",
         "topics": [
-            "src-3088",
-            "snl-data-analysis"
+            "snl-data-analysis",
+            "scr-3088"
         ],
         "website": ""
     },
@@ -3455,6 +3457,12 @@
             "scr-1240"
         ],
         "website": ""
+    },
+    "sandialabs/cldera-tools": {
+        "description": "A small lightweight library for in-situ tracking of source-impact pathways in climate codes",
+        "name": "sandialabs/cldera-tools",
+        "topics": null,
+        "website": null
     },
     "sandialabs/clif": {
         "description": "Python tools for CLImate Fingerprinting",
