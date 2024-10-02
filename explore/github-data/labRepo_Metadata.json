@@ -1075,7 +1075,8 @@
         "description": "Release 2.0.1.10 of the Cplant Linux cluster software from 2002",
         "name": "sandialabs/Cplant",
         "topics": [
-            "scr-486"
+            "scr-486",
+            "snl-os-sys-software"
         ],
         "website": ""
     },
@@ -1423,10 +1424,12 @@
         "website": ""
     },
     "sandialabs/GeoCricket": {
-        "description": null,
+        "description": "A collection of functions that collect critical infrastructure and Census data.",
         "name": "sandialabs/GeoCricket",
         "topics": [
-            "scr-3020"
+            "scr-3020",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -1552,7 +1555,8 @@
         "description": "This is the codebase for the HawaiiCoast_GT dataset, available at https://zenodo.org/record/8253611",
         "name": "sandialabs/HawaiiCoast_GT_Code_Generation",
         "topics": [
-            "scr-2948"
+            "scr-2948",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -1761,7 +1765,8 @@
         "description": null,
         "name": "sandialabs/KinCat",
         "topics": [
-            "scr-2889"
+            "scr-2889",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -2019,7 +2024,8 @@
         "description": null,
         "name": "sandialabs/OWENS.jl",
         "topics": [
-            "scr-1617"
+            "scr-1617",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2027,7 +2033,8 @@
         "description": null,
         "name": "sandialabs/OWENSAero.jl",
         "topics": [
-            "scr-1617"
+            "scr-1617",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2035,7 +2042,8 @@
         "description": null,
         "name": "sandialabs/OWENSFEA.jl",
         "topics": [
-            "scr-1617"
+            "scr-1617",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2043,7 +2051,8 @@
         "description": "A repository containing Julia wrappers for standalone InflowWind, HydroDyn, and MoorDyn modules from OpenFAST",
         "name": "sandialabs/OWENSOpenFASTWrappers.jl",
         "topics": [
-            "scr-1617"
+            "scr-1617",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2051,7 +2060,8 @@
         "description": null,
         "name": "sandialabs/OWENSPreComp.jl",
         "topics": [
-            "scr-1617"
+            "scr-1617",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2167,7 +2177,8 @@
         "description": null,
         "name": "sandialabs/Pando",
         "topics": [
-            "scr-3113"
+            "scr-3113",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -2175,7 +2186,8 @@
         "description": "Paracousti is an underwater sound propagation tool used to investigate changes to the marine environment from arrays of current- and wave-energy converters. Paracousti solves the governing equations with a finite-difference, time-domain scheme that can be massively parallelized for use on high performance computing clusters.",
         "name": "sandialabs/Paracousti",
         "topics": [
-            "scr-1643"
+            "scr-1643",
+            "snl-applications"
         ],
         "website": "https://snl-waterpower.github.io/Paracousti/"
     },
@@ -2434,7 +2446,10 @@
         "description": "Archive of Sets and Field software -- TriLabs I/O project from ca. 2000.  Not under active development.  See https://www.osti.gov/biblio/1230929",
         "name": "sandialabs/SAF",
         "topics": [
-            "scr-821"
+            "scr-821",
+            "archived",
+            "snl-comp-science-libs",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -2476,7 +2491,11 @@
         "description": "Synthesize Modes and Correlate Mode Fitter",
         "name": "sandialabs/SMAC",
         "topics": [
-            "scr-505"
+            "scr-505",
+            "modal-analysis",
+            "snl-applications",
+            "vibration",
+            "structral-dynamics"
         ],
         "website": ""
     },
@@ -2657,7 +2676,8 @@
         "description": "Seshat, named after the Egyptian goddess of writing (recording) measurements, is a tool that uses execution-driven event simulation to model parallel message passing systems.",
         "name": "sandialabs/Seshat",
         "topics": [
-            "scr-1014"
+            "scr-1014",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -2782,7 +2802,8 @@
         "description": "Storm detection in climate data",
         "name": "sandialabs/StrideSearch",
         "topics": [
-            "scr-2001"
+            "snl-data-analysis",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -3178,7 +3199,8 @@
         "description": "A program that mimics a parallel application's checkpoint/restart behavior on a system with redundant compute nodes.",
         "name": "sandialabs/app_model",
         "topics": [
-            "scr-1263"
+            "scr-1263",
+            "snl-os-sys-software"
         ],
         "website": ""
     },
@@ -3480,7 +3502,8 @@
         "description": "A small lightweight library for in-situ tracking of source-impact pathways in climate codes",
         "name": "sandialabs/cldera-tools",
         "topics": [
-            "scr-3065"
+            "scr-3065",
+            "computer-science-library"
         ],
         "website": ""
     },
@@ -3727,7 +3750,8 @@
         "description": null,
         "name": "sandialabs/elucidator",
         "topics": [
-            "scr-3104"
+            "scr-3104",
+            "snl-other"
         ],
         "website": ""
     },
@@ -3794,7 +3818,8 @@
         "description": null,
         "name": "sandialabs/exodusii",
         "topics": [
-            "scr-2748"
+            "scr-2748",
+            "snl-comp-science-libs"
         ],
         "website": ""
     },
@@ -4331,7 +4356,8 @@
         "description": "These are scripts for generating exact solution values to the classical cold diode problem of Jaff\u00e9, and computing error measurements for plasma simulations of the problem in several quantities of interest.",
         "name": "sandialabs/jaffe-diode-scripts",
         "topics": [
-            "scr-2904"
+            "scr-2904",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -5403,7 +5429,8 @@
         "description": null,
         "name": "sandialabs/qe-rt-tddft",
         "topics": [
-            "scr-2529"
+            "scr-2529",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -5471,7 +5498,15 @@
         "description": "Vibration Controller targetting Multiple-Input-Multiple-Output (MIMO) and Combined Environments Control",
         "name": "sandialabs/rattlesnake-vibration-controller",
         "topics": [
-            "scr-2655"
+            "scr-2655",
+            "control",
+            "data-acquisition",
+            "modal-analysis",
+            "snl-applications",
+            "structural-dynamics",
+            "vibration",
+            "modal-testing",
+            "random-vibration"
         ],
         "website": ""
     },
@@ -5740,7 +5775,13 @@
         "description": "A Structural Dynamics Python Library",
         "name": "sandialabs/sdynpy",
         "topics": [
-            "scr-2826"
+            "scr-2826",
+            "geometry",
+            "modal-analysis",
+            "snl-applications",
+            "structural-dynamics",
+            "vibration",
+            "signal-processing"
         ],
         "website": ""
     },
@@ -5799,7 +5840,8 @@
         "description": "SCR #2998.0: Code that performs Bayesian OED to optimize seismic monitoring networks",
         "name": "sandialabs/seismic_boed",
         "topics": [
-            "scr-2998"
+            "scr-2998",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -5914,7 +5956,9 @@
             "scr-2672",
             "applications",
             "power-systems",
-            "scientific-libraries"
+            "scientific-libraries",
+            "snl-applications",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -6370,7 +6414,7 @@
         "description": "WeightedAFL(WAFL) allows for weighted distribution sampling of byte locations for subsequent fuzzing.",
         "name": "sandialabs/wafl",
         "topics": [
-            "scr-2505"
+            "snl-cyber-sec"
         ],
         "website": ""
     },
