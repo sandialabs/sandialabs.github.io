@@ -1136,7 +1136,8 @@
         "description": "Data Visualization Saliency Model",
         "name": "sandialabs/DVS",
         "topics": [
-            "scr-2215"
+            "scr-2215",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -1925,7 +1926,9 @@
         "description": "Contains the matrix generation software and normed matrices described in \"Recreating Raven's: Software for systematically generating large numbers of Raven-like matrix problems with normed properties,\" published in Behavior Research Methods in 2010",
         "name": "sandialabs/Matrices",
         "topics": [
-            "scr-1290"
+            "scr-1290",
+            "snl-applications",
+            "snl-other"
         ],
         "website": ""
     },
@@ -2097,7 +2100,9 @@
         "topics": [
             "scr-2691",
             "scientific-libraries",
-            "machine-learning"
+            "machine-learning",
+            "snl-data-analysis",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -2720,7 +2725,9 @@
         "description": "Smart Databases for TIGER",
         "name": "sandialabs/SmartDBs",
         "topics": [
-            "scr-1633"
+            "scr-1633",
+            "snl-other",
+            "bioinformatics"
         ],
         "website": ""
     },
@@ -3690,7 +3697,9 @@
         "description": "Dial-a-cluster can be used to perform interactive visualization/clustering of multi-variate time series data. The original version was in Matlab. This is version 2 and is implemented using the Slycat framework.",
         "name": "sandialabs/dial-a-cluster",
         "topics": [
-            "scr-2100"
+            "scr-2100",
+            "snl-data-analysis",
+            "snl-visualization"
         ],
         "website": ""
     },
@@ -5547,7 +5556,9 @@
         "description": "Reduced Order Modeling for Accelerating Numerical Simulations",
         "name": "sandialabs/romans",
         "topics": [
-            "scr-2704"
+            "scr-2704",
+            "snl-data-analysis",
+            "snl-visualization"
         ],
         "website": ""
     },
@@ -6018,7 +6029,8 @@
             "spack",
             "hpc",
             "build-system",
-            "scr-2762"
+            "scr-2762",
+            "snl-other"
         ],
         "website": "https://sandialabs.github.io/spack-manager/"
     },
@@ -6406,7 +6418,11 @@
         "description": "A flexible test harness designed for scientific application development.",
         "name": "sandialabs/vvtest",
         "topics": [
-            "scr-2277"
+            "scr-2277",
+            "hpc",
+            "python",
+            "snl-performance-workflow",
+            "testing-tools"
         ],
         "website": ""
     },
