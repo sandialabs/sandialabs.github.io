@@ -2336,8 +2336,10 @@
     "sandialabs/Python-Automation-with-CymPy": {
         "description": "Customizable python scripts for automating electric power grid analyses in CYME using the CymPy library",
         "name": "sandialabs/Python-Automation-with-CymPy",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3116"
+        ],
+        "website": ""
     },
     "sandialabs/QGIS-social-burden-plugin": {
         "description": "QGIS plugin for calculating social infrastructure service burden (abbreviated \u201cSocial Burden\u201d) ",
@@ -3687,6 +3689,14 @@
         "name": "sandialabs/delsol",
         "topics": [
             "scr-1197"
+        ],
+        "website": ""
+    },
+    "sandialabs/dg2dag": {
+        "description": "Methods for Causal Discovery",
+        "name": "sandialabs/dg2dag",
+        "topics": [
+            "scr-3092"
         ],
         "website": ""
     },
@@ -5533,8 +5543,10 @@
     "sandialabs/redly": {
         "description": "REDLY is a Python and Julia-based codebase for the design, training, and validation of physics-informed neural networks for power system applications",
         "name": "sandialabs/redly",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3021"
+        ],
+        "website": ""
     },
     "sandialabs/reframe": {
         "description": null,
@@ -5583,7 +5595,8 @@
         "description": "A library based on Tensorflow for constructing neural-operator surrogate models for dynamical systems using the DeepONet architecture",
         "name": "sandialabs/romnet",
         "topics": [
-            "snl-data-analysis"
+            "snl-data-analysis",
+            "scr2843"
         ],
         "website": ""
     },
@@ -6447,7 +6460,8 @@
         "description": "WeightedAFL(WAFL) allows for weighted distribution sampling of byte locations for subsequent fuzzing.",
         "name": "sandialabs/wafl",
         "topics": [
-            "snl-cyber-sec"
+            "snl-cyber-sec",
+            "scr-2505"
         ],
         "website": ""
     },
