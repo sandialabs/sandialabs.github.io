@@ -1564,7 +1564,7 @@
         "website": ""
     },
     "sandialabs/HiFiPDV2": {
-        "description": "A high fidelity analysis program for processing single velocity PDV signals",
+        "description": "A high fidelity analysis program for processing single velocity PDV signals https://doi.org/10.11578/dc.20240320.7",
         "name": "sandialabs/HiFiPDV2",
         "topics": [
             "pdv",
@@ -1572,7 +1572,7 @@
             "scr-2978",
             "snl-data-analysis"
         ],
-        "website": ""
+        "website": "https://doi.org/10.11578/dc.20240320.7"
     },
     "sandialabs/HypeEmb4Py": {
         "description": null,
@@ -2402,10 +2402,16 @@
         "website": ""
     },
     "sandialabs/RTSim": {
-        "description": null,
+        "description": "RTSim is a Python module for simulating the inertial outputs of rotational testbeds (RT).",
         "name": "sandialabs/RTSim",
         "topics": [
-            "scr-2997"
+            "scr-2997",
+            "snl-applications",
+            "inertial-measurement-units",
+            "inertial-sensors",
+            "simulation",
+            "centrifuge",
+            "rate-table"
         ],
         "website": ""
     },
@@ -4960,6 +4966,22 @@
         "topics": [
             "snl-science-libs",
             "scr-2709"
+        ],
+        "website": ""
+    },
+    "sandialabs/oso-airfoils": {
+        "description": "Open-source offshore airfoil design for wind turbines at high Reynolds numbers",
+        "name": "sandialabs/oso-airfoils",
+        "topics": [
+            "scr-3090",
+            "airfoil",
+            "blade",
+            "design",
+            "offshore-wind",
+            "reynolds-number",
+            "wind-turbine",
+            "aerodynamics",
+            "snl-applications"
         ],
         "website": ""
     },
