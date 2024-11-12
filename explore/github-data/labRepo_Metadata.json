@@ -2057,7 +2057,7 @@
         "website": ""
     },
     "sandialabs/OWENSOpenFASTWrappers.jl": {
-        "description": "A repository containing Julia wrappers for standalone InflowWind, HydroDyn, and MoorDyn modules from OpenFAST",
+        "description": "A repository containing Julia wrappers for standalone InflowWind, HydroDyn, AeroDyn, Turbsim, and MoorDyn modules from OpenFAST",
         "name": "sandialabs/OWENSOpenFASTWrappers.jl",
         "topics": [
             "scr-1617",
@@ -5043,6 +5043,17 @@
         ],
         "website": ""
     },
+    "sandialabs/pCubit": {
+        "description": "Place particles and pores using Cubit.",
+        "name": "sandialabs/pCubit",
+        "topics": [
+            "scr-3108",
+            "cubit",
+            "python",
+            "snl-applications"
+        ],
+        "website": "https://pcubit.readthedocs.io"
+    },
     "sandialabs/pMEMCPY": {
         "description": "IO library demonstrating how to get the best performance from persistent memory used as storage",
         "name": "sandialabs/pMEMCPY",
@@ -6268,7 +6279,7 @@
             "snl-applications",
             "scr-2818"
         ],
-        "website": "https://github.com/sandialabs/statMechCrack"
+        "website": "https://statmechcrack.readthedocs.io"
     },
     "sandialabs/stepwise": {
         "description": null,
