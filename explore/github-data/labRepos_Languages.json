@@ -1203,13 +1203,13 @@
                         "size": 82956344
                     },
                     {
-                        "size": 8542228
+                        "size": 8542173
                     },
                     {
                         "size": 2079141
                     },
                     {
-                        "size": 1658851
+                        "size": 1658910
                     },
                     {
                         "size": 1357067
@@ -1221,7 +1221,7 @@
                         "size": 970648
                     },
                     {
-                        "size": 899712
+                        "size": 899765
                     },
                     {
                         "size": 709976
@@ -1382,7 +1382,7 @@
                     }
                 ],
                 "totalCount": 26,
-                "totalSize": 101795672
+                "totalSize": 101795729
             }
         },
         "E3SM-Project/EKAT": {
@@ -3256,7 +3256,7 @@
                         "size": 25660864
                     },
                     {
-                        "size": 1204466
+                        "size": 1202197
                     },
                     {
                         "size": 122190
@@ -3269,6 +3269,9 @@
                     },
                     {
                         "size": 8876
+                    },
+                    {
+                        "size": 8383
                     },
                     {
                         "size": 1677
@@ -3303,6 +3306,10 @@
                         "name": "Assembly"
                     },
                     {
+                        "color": "#EB8CEB",
+                        "name": "XSLT"
+                    },
+                    {
                         "color": "#C1F12E",
                         "name": "Batchfile"
                     },
@@ -3311,8 +3318,8 @@
                         "name": "Dockerfile"
                     }
                 ],
-                "totalCount": 8,
-                "totalSize": 27115363
+                "totalCount": 9,
+                "totalSize": 27121477
             }
         },
         "TriBITSPub/TriBITS": {
@@ -3628,19 +3635,19 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 26295318
+                        "size": 26295343
                     },
                     {
-                        "size": 13802292
+                        "size": 13802473
                     },
                     {
-                        "size": 3850973
+                        "size": 3851004
                     },
                     {
                         "size": 1649575
                     },
                     {
-                        "size": 743881
+                        "size": 744105
                     },
                     {
                         "size": 145055
@@ -3842,7 +3849,7 @@
                     }
                 ],
                 "totalCount": 34,
-                "totalSize": 46974321
+                "totalSize": 46974782
             }
         },
         "dicengine/dice": {
@@ -3991,7 +3998,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11160138
+                        "size": 11160036
                     },
                     {
                         "size": 326780
@@ -4050,14 +4057,14 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 11834414
+                "totalSize": 11834312
             }
         },
         "kokkos/kokkos-kernels": {
             "languages": {
                 "edges": [
                     {
-                        "size": 12540848
+                        "size": 12542766
                     },
                     {
                         "size": 379473
@@ -4109,7 +4116,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 13291865
+                "totalSize": 13293783
             }
         },
         "kokkos/llvm-project": {
@@ -4317,10 +4324,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2819003
+                        "size": 3102135
                     },
                     {
-                        "size": 233727
+                        "size": 238345
                     },
                     {
                         "size": 65028
@@ -4355,7 +4362,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 3177894
+                "totalSize": 3465644
             }
         },
         "ovis-hpc/ldms": {
@@ -13672,10 +13679,40 @@
         },
         "sandialabs/aerial_inspection_planner": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 60739
+                    },
+                    {
+                        "size": 2010
+                    },
+                    {
+                        "size": 1836
+                    },
+                    {
+                        "size": 553
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    },
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#384d54",
+                        "name": "Dockerfile"
+                    }
+                ],
+                "totalCount": 4,
+                "totalSize": 65138
             }
         },
         "sandialabs/aevmod": {
@@ -13851,7 +13888,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 289415917
+                        "size": 289446315
                     },
                     {
                         "size": 5217392
@@ -13882,7 +13919,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 295858894
+                "totalSize": 295889292
             }
         },
         "sandialabs/ali-perf-tests": {
@@ -13914,6 +13951,37 @@
                 ],
                 "totalCount": 3,
                 "totalSize": 104505
+            }
+        },
+        "sandialabs/alice": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 36113
+                    },
+                    {
+                        "size": 19871
+                    },
+                    {
+                        "size": 3299
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#3A4E3A",
+                        "name": "Cuda"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    }
+                ],
+                "totalCount": 3,
+                "totalSize": 59283
             }
         },
         "sandialabs/antfarm": {
@@ -23361,6 +23429,23 @@
                 "totalSize": 3652
             }
         },
+        "sandialabs/sansmic-examples": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 37404
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 37404
+            }
+        },
         "sandialabs/sbovqaopt": {
             "languages": {
                 "edges": [
@@ -26640,7 +26725,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 153055
+                        "size": 161497
                     },
                     {
                         "size": 1600
@@ -26671,7 +26756,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 156112
+                "totalSize": 164554
             }
         },
         "sandialabs/woodland": {
