@@ -170,6 +170,12 @@
         "topics": null,
         "website": null
     },
+    "DARMA-tasking/test-ci-project": {
+        "description": "This is a test for workflows",
+        "name": "DARMA-tasking/test-ci-project",
+        "topics": null,
+        "website": null
+    },
     "DARMA-tasking/vt": {
         "description": "DARMA/vt => Virtual Transport",
         "name": "DARMA-tasking/vt",
@@ -1161,6 +1167,14 @@
         ],
         "website": "https://github.com/sandialabs/Deep-Learning-Denoiser"
     },
+    "sandialabs/DetermineSystem": {
+        "description": null,
+        "name": "sandialabs/DetermineSystem",
+        "topics": [
+            "scr-3074"
+        ],
+        "website": ""
+    },
     "sandialabs/DeterministicMPS": {
         "description": "Maximal Poisson-disk Sampling in 2D, without approximations or rejections, in deterministic linear time ",
         "name": "sandialabs/DeterministicMPS",
@@ -1411,6 +1425,14 @@
         "name": "sandialabs/Gauss-Sum-Strong-Simulation",
         "topics": [
             "scr-2586"
+        ],
+        "website": ""
+    },
+    "sandialabs/GenConfig": {
+        "description": null,
+        "name": "sandialabs/GenConfig",
+        "topics": [
+            "scr-3068"
         ],
         "website": ""
     },
@@ -1772,6 +1794,14 @@
         ],
         "website": ""
     },
+    "sandialabs/KeywordParser": {
+        "description": null,
+        "name": "sandialabs/KeywordParser",
+        "topics": [
+            "scr-3047"
+        ],
+        "website": ""
+    },
     "sandialabs/KinCat": {
         "description": null,
         "name": "sandialabs/KinCat",
@@ -1831,6 +1861,14 @@
         "topics": [
             "scr-2897",
             "snl-science-libs"
+        ],
+        "website": ""
+    },
+    "sandialabs/LoadEnv": {
+        "description": null,
+        "name": "sandialabs/LoadEnv",
+        "topics": [
+            "scr-3048"
         ],
         "website": ""
     },
@@ -2738,6 +2776,14 @@
         ],
         "website": ""
     },
+    "sandialabs/SetEnvironment": {
+        "description": null,
+        "name": "sandialabs/SetEnvironment",
+        "topics": [
+            "scr-3019"
+        ],
+        "website": ""
+    },
     "sandialabs/SetProgramOptions": {
         "description": null,
         "name": "sandialabs/SetProgramOptions",
@@ -3166,7 +3212,7 @@
         "website": ""
     },
     "sandialabs/aerial_inspection_planner": {
-        "description": "Repository for planning trajectories of drones for automated inspection of 3D models with output to RViz.",
+        "description": "This repo contains methods for 3D inspection using aerial vehicles.",
         "name": "sandialabs/aerial_inspection_planner",
         "topics": null,
         "website": null
@@ -4080,8 +4126,22 @@
     "sandialabs/firewheel_repo_base": {
         "description": "This Model Component repository contains many of the basic objects necessary to create an experiment using FIREWHEEL.",
         "name": "sandialabs/firewheel_repo_base",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-cyber-sec",
+            "snl-emulytics",
+            "src-3033"
+        ],
+        "website": "https://sandialabs.github.io/firewheel/"
+    },
+    "sandialabs/firewheel_repo_tutorials": {
+        "description": "This FIREWHEEL Model Component repository contains several MCs which are used as examples in FIREWHEEL tutorials.",
+        "name": "sandialabs/firewheel_repo_tutorials",
+        "topics": [
+            "snl-cyber-sec",
+            "snl-emulytics",
+            "src-3033"
+        ],
+        "website": "https://sandialabs.github.io/firewheel/"
     },
     "sandialabs/fl": {
         "description": "Collecton of machine vision and numeric tools",
