@@ -1206,6 +1206,14 @@
         "topics": null,
         "website": "https://docs.e3sm.org/E3SM"
     },
+    "sandialabs/EAGLE": {
+        "description": null,
+        "name": "sandialabs/EAGLE",
+        "topics": [
+            "snl-data-analysis"
+        ],
+        "website": ""
+    },
     "sandialabs/EAM-X-Potential-Generator": {
         "description": null,
         "name": "sandialabs/EAM-X-Potential-Generator",
@@ -3214,8 +3222,10 @@
     "sandialabs/aerial_inspection_planner": {
         "description": "This repo contains methods for 3D inspection using aerial vehicles.",
         "name": "sandialabs/aerial_inspection_planner",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-other"
+        ],
+        "website": ""
     },
     "sandialabs/aevmod": {
         "description": "Atomic environment vector module",
@@ -5187,7 +5197,8 @@
             "jax",
             "physics",
             "physics-informed-neural-networks",
-            "physics-simulation"
+            "physics-simulation",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -5425,8 +5436,11 @@
     "sandialabs/poplar": {
         "description": null,
         "name": "sandialabs/poplar",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-applications",
+            "snl-data-analysis"
+        ],
+        "website": ""
     },
     "sandialabs/portals4": {
         "description": "Portals is a low-level network API for high-performance networking on high-performance computing systems developed by Sandia National Laboratories, Intel Corporation, and the University of New Mexico.  The Portals 4 Reference Implementation is a complete implementation of Portals 4, with transport over InfiniBand VERBS and UDP. Shared memory transport is available as an optimization, including Linux KNEM support. The Portals 4 reference implementation is supported on both modern 64 bit Linux and 64 bit Mac OS X. The reference implementation has been developed by Sandia National Laboratories, Intel Corporation, and System Fabric Works.  For more information on the Portals 4 standard, please see the Portals 4 page. ",
@@ -5727,7 +5741,7 @@
             "snl-data-analysis",
             "sandia-national-laboratories"
         ],
-        "website": ""
+        "website": " https://energy.sandia.gov/programs/energy-storage/analytics/quest-planning-tool/"
     },
     "sandialabs/quinn": {
         "description": "Quantification of Uncertainties in Neural Networks",
@@ -5880,7 +5894,8 @@
         "description": "Docs archive for sansmic software releases",
         "name": "sandialabs/sansmic-ci",
         "topics": [
-            "scr-2966"
+            "scr-2966",
+            "snl-build-tools"
         ],
         "website": "https://sandialabs.github.io/sansmic"
     },
@@ -5892,7 +5907,10 @@
             "scr-2966",
             "solution-mining",
             "underground-storage",
-            "sansmic"
+            "sansmic",
+            "snl-build-tools",
+            "snl-documentation",
+            "snl-other"
         ],
         "website": "https://sandialabs.github.io/sansmic"
     },
@@ -6239,7 +6257,7 @@
         "website": ""
     },
     "sandialabs/slycat": {
-        "description": "Web-based data science analysis and visualization platform.",
+        "description": "A web-based analysis and visualization platform for HPC ensembles and high dimensional data sets.",
         "name": "sandialabs/slycat",
         "topics": [
             "scr-1593"
@@ -6257,8 +6275,11 @@
     "sandialabs/slypi": {
         "description": "Slycat Python Interface",
         "name": "sandialabs/slypi",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-data-analysis",
+            "snl-visualization"
+        ],
+        "website": ""
     },
     "sandialabs/snl-pstess": {
         "description": "The Power and Energy Storage Systems Toolbox",
