@@ -1203,14 +1203,17 @@
     "sandialabs/E3SMFC": {
         "description": "Energy Exascale Earth System Model with a built in feedback controller",
         "name": "sandialabs/E3SMFC",
-        "topics": null,
+        "topics": [
+            "scr-3139"
+        ],
         "website": "https://docs.e3sm.org/E3SM"
     },
     "sandialabs/EAGLE": {
         "description": null,
         "name": "sandialabs/EAGLE",
         "topics": [
-            "snl-data-analysis"
+            "snl-data-analysis",
+            "scr-3150"
         ],
         "website": ""
     },
@@ -1975,7 +1978,11 @@
         "description": "Minima-Preserving Neural Network",
         "name": "sandialabs/MPNN",
         "topics": [
-            "scr-2771"
+            "scr-2771",
+            "chemistry",
+            "neural-network",
+            "pytorch",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -3223,7 +3230,8 @@
         "description": "This repo contains methods for 3D inspection using aerial vehicles.",
         "name": "sandialabs/aerial_inspection_planner",
         "topics": [
-            "snl-other"
+            "snl-other",
+            "scr-3096"
         ],
         "website": ""
     },
@@ -5198,7 +5206,8 @@
             "physics",
             "physics-informed-neural-networks",
             "physics-simulation",
-            "snl-applications"
+            "snl-applications",
+            "scr-3050"
         ],
         "website": ""
     },
@@ -5438,7 +5447,8 @@
         "name": "sandialabs/poplar",
         "topics": [
             "snl-applications",
-            "snl-data-analysis"
+            "snl-data-analysis",
+            "scr-3136"
         ],
         "website": ""
     },
@@ -5747,7 +5757,14 @@
         "description": "Quantification of Uncertainties in Neural Networks",
         "name": "sandialabs/quinn",
         "topics": [
-            "scr-2871"
+            "scr-2871",
+            "bayesian-inference",
+            "markov-chain",
+            "mcmc",
+            "neural-network",
+            "snl-applications",
+            "uncertainty-quantification",
+            "variational-inference"
         ],
         "website": "https://quinn.readthedocs.io"
     },
@@ -6277,7 +6294,8 @@
         "name": "sandialabs/slypi",
         "topics": [
             "snl-data-analysis",
-            "snl-visualization"
+            "snl-visualization",
+            "scr-3037"
         ],
         "website": ""
     },
