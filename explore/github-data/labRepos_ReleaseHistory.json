@@ -280,6 +280,11 @@
                 "nodes": []
             }
         },
+        "DARMA-tasking/slow-node-detector": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "DARMA-tasking/spack-package": {
             "releases": {
                 "nodes": []
@@ -566,6 +571,11 @@
         "E3SM-Project/E3SM": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "E3SM v3.0.2",
+                        "publishedAt": "2024-12-17T22:01:06Z",
+                        "tagName": "v3.0.2"
+                    },
                     {
                         "name": "E3SM v3.0.1",
                         "publishedAt": "2024-10-02T21:32:51Z",
@@ -5985,6 +5995,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "20241217 Python package alpha-2",
+                        "publishedAt": "2024-12-18T05:27:26Z",
+                        "tagName": "20241217-python-package-alpha-2"
+                    },
+                    {
                         "name": "Bleeding Edge Build",
                         "publishedAt": "2024-10-11T23:43:35Z",
                         "tagName": "bleeding-edge"
@@ -8768,6 +8783,11 @@
                         "tagName": "v0.2.0"
                     },
                     {
+                        "name": "v0.8.6",
+                        "publishedAt": "2024-12-17T16:41:58Z",
+                        "tagName": "v0.8.6"
+                    },
+                    {
                         "name": "v0.8.5",
                         "publishedAt": "2024-10-29T20:53:08Z",
                         "tagName": "v0.8.5"
@@ -9265,6 +9285,16 @@
         "sandialabs/reverse_argparse": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v2.0.2",
+                        "publishedAt": "2024-12-17T17:49:19Z",
+                        "tagName": "v2.0.2"
+                    },
+                    {
+                        "name": "v2.0.1",
+                        "publishedAt": "2024-12-17T17:37:39Z",
+                        "tagName": "v2.0.1"
+                    },
                     {
                         "name": "v2.0.0",
                         "publishedAt": "2024-12-03T19:18:04Z",
@@ -10267,6 +10297,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2.0.1",
+                        "publishedAt": "2024-12-17T17:41:57Z",
+                        "tagName": "v2.0.1"
+                    },
+                    {
                         "name": "v2.0.0",
                         "publishedAt": "2024-12-03T19:19:24Z",
                         "tagName": "v2.0.0"
@@ -11025,6 +11060,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "stable_2024_12_17",
+                        "publishedAt": "2024-12-17T11:07:37Z",
+                        "tagName": "vstable_2024_12_17"
+                    },
+                    {
                         "name": "stable_2024_12_16",
                         "publishedAt": "2024-12-16T11:06:01Z",
                         "tagName": "vstable_2024_12_16"
@@ -11043,11 +11083,6 @@
                         "name": "stable_2024_12_13",
                         "publishedAt": "2024-12-13T11:06:45Z",
                         "tagName": "vstable_2024_12_13"
-                    },
-                    {
-                        "name": "stable_2024_12_12",
-                        "publishedAt": "2024-12-12T11:05:50Z",
-                        "tagName": "vstable_2024_12_12"
                     },
                     {
                         "name": "6.21.0",
