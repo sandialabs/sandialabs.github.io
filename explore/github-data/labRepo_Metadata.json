@@ -2099,7 +2099,8 @@
             "duid",
             "snl-other",
             "rfc6355",
-            "rfc8415"
+            "rfc8415",
+            "ipv6"
         ],
         "website": ""
     },
@@ -4208,10 +4209,14 @@
         "website": "https://sandialabs.github.io/firewheel/"
     },
     "sandialabs/firewheel_repo_linux": {
-        "description": "FIREWHEEL Model Components related to Linux and Linux specific applications.",
+        "description": "FIREWHEEL Model Components related to Linux and Linux-specific applications.",
         "name": "sandialabs/firewheel_repo_linux",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-cyber-sec",
+            "scr-3033",
+            "snl-emulytics"
+        ],
+        "website": "https://sandialabs.github.io/firewheel/"
     },
     "sandialabs/firewheel_repo_ntp": {
         "description": "This repository contains FIREWHEEL model components for enabling the Network Time Protocol (NTP) within an experiment.",
@@ -4234,10 +4239,14 @@
         "website": "https://sandialabs.github.io/firewheel/"
     },
     "sandialabs/firewheel_repo_vyos": {
-        "description": null,
+        "description": "FIREWHEEL Model Components related to VyOS and VyOS-specific applications. ",
         "name": "sandialabs/firewheel_repo_vyos",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3033",
+            "snl-cyber-sec",
+            "snl-emulytics"
+        ],
+        "website": "https://sandialabs.github.io/firewheel/"
     },
     "sandialabs/fl": {
         "description": "Collecton of machine vision and numeric tools",
@@ -5882,7 +5891,8 @@
         "description": "REDLY is a Python and Julia-based codebase for the design, training, and validation of physics-informed neural networks for power system applications",
         "name": "sandialabs/redly",
         "topics": [
-            "scr-3021"
+            "scr-3021",
+            "snl-data-analysis"
         ],
         "website": ""
     },
