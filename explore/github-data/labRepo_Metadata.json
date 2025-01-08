@@ -1441,7 +1441,8 @@
         "description": "Source code for numerical experiments in the paper \"Bayesian learning with Gaussian processes for low-dimensional representations of time-dependent nonlinear systems\" by McQuarrie, Chaudhuri, Willcox, and Guo.",
         "name": "sandialabs/GP-BayesOpInf",
         "topics": [
-            "scr-3099"
+            "scr-3099",
+            "snl-other"
         ],
         "website": "https://arxiv.org/abs/2408.03455"
     },
@@ -3074,8 +3075,15 @@
     "sandialabs/Tusqh": {
         "description": "Tusqh (pronounced \"tusk\") is software for generating cubical meshes in 2D and 3D, and computing, describing and controlling the homology (topology) of these meshes using persistent homology.",
         "name": "sandialabs/Tusqh",
-        "topics": null,
-        "website": null
+        "topics": [
+            "antialiasing",
+            "homology",
+            "mesh",
+            "topology",
+            "snl-comp-science-libs",
+            "snl-other"
+        ],
+        "website": ""
     },
     "sandialabs/TwinMe4AD": {
         "description": "SCR# 3056.0:  WGAN-based Digital Twins for Anomaly Detection",
@@ -5149,6 +5157,14 @@
         "name": "sandialabs/nimblesm",
         "topics": [
             "scr-2315"
+        ],
+        "website": ""
+    },
+    "sandialabs/nomopy": {
+        "description": "Noise modeling in Python",
+        "name": "sandialabs/nomopy",
+        "topics": [
+            "scr-2632"
         ],
         "website": ""
     },
