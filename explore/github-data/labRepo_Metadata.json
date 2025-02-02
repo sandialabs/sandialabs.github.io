@@ -2553,8 +2553,10 @@
     "sandialabs/RFR-CLDERA": {
         "description": "This repository contains scripts to apply the source-impact pathway identification/ranking analysis described in the following paper: M. Brown, M. Peterson, I. Tezaur, K. Peterson, D. Bull, \"Random forest regression feature importance for climate impact pathway detection\", J. Comput. Appl. Math. 2025 (https://doi.org/10.1016/j.cam.2024.116479). ",
         "name": "sandialabs/RFR-CLDERA",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-data-analysis"
+        ],
+        "website": ""
     },
     "sandialabs/RTSim": {
         "description": "RTSim is a Python module for simulating the inertial outputs of rotational testbeds (RT).",
@@ -4759,8 +4761,12 @@
     "sandialabs/lasca": {
         "description": "Fitting CALPHAD models using LASSO",
         "name": "sandialabs/lasca",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-applications",
+            "snl-data-analysis",
+            "scr-3151"
+        ],
+        "website": ""
     },
     "sandialabs/lgrtk": {
         "description": "Tool Kit for Lagrangian Grid Reconnection",
@@ -5197,7 +5203,8 @@
         "description": "Noise modeling in Python",
         "name": "sandialabs/nomopy",
         "topics": [
-            "scr-2632"
+            "scr-2632",
+            "snl-data-analysis"
         ],
         "website": ""
     },
