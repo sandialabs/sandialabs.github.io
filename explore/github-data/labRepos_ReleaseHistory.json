@@ -9941,7 +9941,13 @@
         },
         "sandialabs/sceptre-phenix-images": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "release-20250312",
+                        "publishedAt": "2025-03-12T11:32:33Z",
+                        "tagName": "release-20250312"
+                    }
+                ]
             }
         },
         "sandialabs/sceptre-phenix-topologies": {
@@ -11563,6 +11569,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "stable_2025_03_12",
+                        "publishedAt": "2025-03-12T10:04:51Z",
+                        "tagName": "vstable_2025_03_12"
+                    },
+                    {
                         "name": "stable_2025_03_11",
                         "publishedAt": "2025-03-11T10:04:28Z",
                         "tagName": "vstable_2025_03_11"
@@ -11581,11 +11592,6 @@
                         "name": "stable_2025_03_08",
                         "publishedAt": "2025-03-08T11:05:00Z",
                         "tagName": "vstable_2025_03_08"
-                    },
-                    {
-                        "name": "stable_2025_03_07",
-                        "publishedAt": "2025-03-07T11:05:46Z",
-                        "tagName": "vstable_2025_03_07"
                     },
                     {
                         "name": "6.21.0",
