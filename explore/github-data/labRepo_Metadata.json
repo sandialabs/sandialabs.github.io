@@ -5495,7 +5495,9 @@
     "sandialabs/pdas-experiments": {
         "description": "Experiment runner for Pressio-based Schwarz decomposed projection ROMs",
         "name": "sandialabs/pdas-experiments",
-        "topics": null,
+        "topics": [
+            "scr-3189"
+        ],
         "website": ""
     },
     "sandialabs/pecos": {
@@ -6273,7 +6275,7 @@
         "topics": [
             "scr-2125",
             "snl-cyber-sec",
-            "snl-mini-apps"
+            "snl-emulytics"
         ],
         "website": "https://sandialabs.github.io/sceptre-docs/10-bennu.html"
     },
@@ -6282,7 +6284,8 @@
         "name": "sandialabs/sceptre-docs",
         "topics": [
             "scr-2646",
-            "snl-other"
+            "snl-other",
+            "snl-emulytics"
         ],
         "website": "https://sandialabs.github.io/sceptre-docs/"
     },
@@ -6293,7 +6296,8 @@
             "scr-2646",
             "snl-applications",
             "snl-cyber-sec",
-            "snl-os-sys-software"
+            "snl-os-sys-software",
+            "snl-emulytics"
         ],
         "website": "https://sandialabs.github.io/sceptre-docs/"
     },
@@ -6302,7 +6306,8 @@
         "name": "sandialabs/sceptre-phenix-apps",
         "topics": [
             "scr-2646",
-            "snl-cyber-sec"
+            "snl-cyber-sec",
+            "snl-emulytics"
         ],
         "website": "https://github.com/sandialabs/sceptre-phenix"
     },
@@ -6310,9 +6315,11 @@
         "description": "phenix documentation",
         "name": "sandialabs/sceptre-phenix-docs",
         "topics": [
-            "scr-2646"
+            "scr-2646",
+            "snl-emulytics",
+            "snl-other"
         ],
-        "website": ""
+        "website": "https://phenix.sceptre.dev/"
     },
     "sandialabs/sceptre-phenix-images": {
         "description": "phenix image is a tool for quickly creating VM images with Debian-based OSes",
@@ -6321,7 +6328,8 @@
             "scr-2646",
             "snl-cyber-sec",
             "snl-os-sys-software",
-            "snl-build-tools"
+            "snl-build-tools",
+            "snl-emulytics"
         ],
         "website": "https://phenix.sceptre.dev/latest/image/"
     },
@@ -6331,7 +6339,8 @@
         "topics": [
             "scr-2646",
             "scr-2650",
-            "snl-cyber-sec"
+            "snl-cyber-sec",
+            "snl-emulytics"
         ],
         "website": "https://github.com/sandialabs/sceptre-phenix"
     },
