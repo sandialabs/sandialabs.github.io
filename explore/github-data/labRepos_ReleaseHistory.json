@@ -5148,6 +5148,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "Beta Release 1.5.0",
+                        "publishedAt": "2025-04-09T15:20:09Z",
+                        "tagName": "1.5.0b0"
+                    },
+                    {
                         "name": "Beta Release 1.4.97",
                         "publishedAt": "2025-02-14T15:04:30Z",
                         "tagName": "1.4.97b0"
@@ -5966,7 +5971,13 @@
         },
         "sandialabs/SILT": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "SILT 2.2",
+                        "publishedAt": null,
+                        "tagName": ""
+                    }
+                ]
             }
         },
         "sandialabs/SMAC": {
@@ -7145,6 +7156,11 @@
             }
         },
         "sandialabs/conditional-multistep-attribution": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "sandialabs/conformal-functional-outliers": {
             "releases": {
                 "nodes": []
             }
@@ -8446,6 +8462,11 @@
         "sandialabs/pancax": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v0.0.8",
+                        "publishedAt": "2025-04-09T19:01:45Z",
+                        "tagName": "v0.0.8"
+                    },
                     {
                         "name": "v0.0.7",
                         "publishedAt": "2025-03-30T06:29:18Z",
@@ -9982,6 +10003,11 @@
         "sandialabs/sceptre-phenix-images": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "release-20250409",
+                        "publishedAt": "2025-04-09T11:31:04Z",
+                        "tagName": "release-20250409"
+                    },
                     {
                         "name": "release-20250319",
                         "publishedAt": "2025-03-19T11:31:51Z",
@@ -11624,6 +11650,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "stable_2025_04_09",
+                        "publishedAt": "2025-04-09T08:20:24Z",
+                        "tagName": "vstable_2025_04_09"
+                    },
+                    {
                         "name": "stable_2025_04_08",
                         "publishedAt": "2025-04-08T09:06:48Z",
                         "tagName": "vstable_2025_04_08"
@@ -11642,11 +11673,6 @@
                         "name": "stable_2025_04_05",
                         "publishedAt": "2025-04-05T10:04:46Z",
                         "tagName": "vstable_2025_04_05"
-                    },
-                    {
-                        "name": "stable_2025_04_04",
-                        "publishedAt": "2025-04-04T09:05:33Z",
-                        "tagName": "vstable_2025_04_04"
                     },
                     {
                         "name": "6.21.0",
