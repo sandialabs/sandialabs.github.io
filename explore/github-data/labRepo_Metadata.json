@@ -3216,6 +3216,12 @@
         ],
         "website": ""
     },
+    "sandialabs/Verilog-SE050-Interface": {
+        "description": "Verilog Interface between Arty A7-100T FPGA and SE050 Secure Element",
+        "name": "sandialabs/Verilog-SE050-Interface",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/WDRT": {
         "description": null,
         "name": "sandialabs/WDRT",
@@ -3865,8 +3871,10 @@
     "sandialabs/conformal-functional-outliers": {
         "description": "This code implements functional outlier detection using the conformal inference framework.",
         "name": "sandialabs/conformal-functional-outliers",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3205"
+        ],
+        "website": ""
     },
     "sandialabs/confronting_domain_shift": {
         "description": "This repository includes the code and data presented in the paper \"Confronting Domain Shift in Trained Neural Networks\". In NeurIPS 2020 Workshop on Pre-registration in Machine Learning (pp. 176-192). PMLR.",
@@ -3923,6 +3931,12 @@
     "sandialabs/ctadl": {
         "description": null,
         "name": "sandialabs/ctadl",
+        "topics": null,
+        "website": null
+    },
+    "sandialabs/ctadl-jadx-fact-generator": {
+        "description": null,
+        "name": "sandialabs/ctadl-jadx-fact-generator",
         "topics": null,
         "website": null
     },
@@ -6924,7 +6938,8 @@
         "description": "Python toolkit and domain specific language making it easy to compose and adapt analytics that use Generative AI",
         "name": "sandialabs/talkpipe",
         "topics": [
-            "scr-3199"
+            "scr-3199",
+            "snl-data-analysis"
         ],
         "website": ""
     },
