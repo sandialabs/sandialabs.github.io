@@ -68,7 +68,7 @@ angular.module('app', []).controller('gitHubDataController', [
                     path: '/assets/images/all_icon_sandia.svg',
                     alt: 'All Software'
                 },
-                description: 'Browse all 795 Sandia open source projects',
+                description: 'Browse all 796 Sandia open source projects',
                 displayTitle: 'All Software',
                 topics: []
             };
