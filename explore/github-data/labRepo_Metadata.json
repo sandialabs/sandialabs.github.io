@@ -2070,7 +2070,9 @@
         "description": "Reference Implementation for SecureMQTT protocol using identity-based cryptography",
         "name": "sandialabs/MasQiTT",
         "topics": [
-            "scr-3100"
+            "scr-3100",
+            "ibc",
+            "mqtt"
         ],
         "website": ""
     },
@@ -3969,8 +3971,12 @@
     "sandialabs/ctadl-jadx-fact-generator": {
         "description": null,
         "name": "sandialabs/ctadl-jadx-fact-generator",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3040",
+            "snl-cyber-sec",
+            "snl-comp-science-libs"
+        ],
+        "website": ""
     },
     "sandialabs/cxxtest": {
         "description": null,
@@ -6988,6 +6994,15 @@
             "synchronic-web"
         ],
         "website": ""
+    },
+    "sandialabs/sync-web": {
+        "description": "Main repository for the Synchronic Web",
+        "name": "sandialabs/sync-web",
+        "topics": [
+            "scr-3172",
+            "synchronic-web"
+        ],
+        "website": "https://sandialabs.github.io/sync-web/"
     },
     "sandialabs/tacho": {
         "description": "performance portable parallel sparse direct solver  ",
