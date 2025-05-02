@@ -1643,7 +1643,8 @@
         "description": "This repo contains files for reproducing results in the following paper:Canonical and Noncanonical Hamiltonian Operator Inference",
         "name": "sandialabs/HamiltonianOpInf",
         "topics": [
-            "scr-2917"
+            "scr-2917",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -2072,7 +2073,9 @@
         "topics": [
             "scr-3100",
             "ibc",
-            "mqtt"
+            "mqtt",
+            "snl-applications",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -3906,7 +3909,8 @@
         "description": "This code implements functional outlier detection using the conformal inference framework.",
         "name": "sandialabs/conformal-functional-outliers",
         "topics": [
-            "scr-3205"
+            "scr-3205",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -5565,7 +5569,10 @@
         "description": "Experiment runner for Pressio-based Schwarz decomposed projection ROMs",
         "name": "sandialabs/pdas-experiments",
         "topics": [
-            "scr-3189"
+            "scr-3189",
+            "snl-applications",
+            "snl-data-analysis",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -6760,6 +6767,17 @@
         ],
         "website": ""
     },
+    "sandialabs/snl-quest-equity": {
+        "description": "QuESt Equity is application for assessing energy equity and environmental justice of energy storage projects. ",
+        "name": "sandialabs/snl-quest-equity",
+        "topics": [
+            "batteries",
+            "energy",
+            "eeej",
+            "scr-2934"
+        ],
+        "website": "https://www.sandia.gov/ess/tools-resources/quest"
+    },
     "sandialabs/socorro": {
         "description": null,
         "name": "sandialabs/socorro",
@@ -6973,7 +6991,8 @@
         "name": "sandialabs/sync-journal",
         "topics": [
             "scr-3172",
-            "synchronic-web"
+            "synchronic-web",
+            "snl-other"
         ],
         "website": "https://sandialabs.github.io/sync-journal/journal_sdk/"
     },
@@ -6982,7 +7001,8 @@
         "name": "sandialabs/sync-records",
         "topics": [
             "scr-3172",
-            "synchronic-web"
+            "synchronic-web",
+            "snl-other"
         ],
         "website": ""
     },
@@ -6991,7 +7011,8 @@
         "name": "sandialabs/sync-services",
         "topics": [
             "scr-3172",
-            "synchronic-web"
+            "synchronic-web",
+            "snl-other"
         ],
         "website": ""
     },
@@ -7000,7 +7021,8 @@
         "name": "sandialabs/sync-web",
         "topics": [
             "scr-3172",
-            "synchronic-web"
+            "synchronic-web",
+            "snl-other"
         ],
         "website": "https://sandialabs.github.io/sync-web/"
     },
