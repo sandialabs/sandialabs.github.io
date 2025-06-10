@@ -1283,7 +1283,7 @@
                         "size": 974581
                     },
                     {
-                        "size": 913425
+                        "size": 913953
                     },
                     {
                         "size": 715596
@@ -1448,7 +1448,7 @@
                     }
                 ],
                 "totalCount": 27,
-                "totalSize": 100295793
+                "totalSize": 100296321
             }
         },
         "E3SM-Project/EKAT": {
@@ -4221,7 +4221,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11585637
+                        "size": 11585307
                     },
                     {
                         "size": 341256
@@ -4287,7 +4287,7 @@
                     }
                 ],
                 "totalCount": 9,
-                "totalSize": 12248016
+                "totalSize": 12247686
             }
         },
         "kokkos/kokkos-kernels": {
@@ -4361,7 +4361,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 63770916
+                        "size": 63781585
                     },
                     {
                         "size": 4074185
@@ -4415,6 +4415,9 @@
                         "size": 12346
                     },
                     {
+                        "size": 10836
+                    },
+                    {
                         "size": 6681
                     },
                     {
@@ -4431,9 +4434,6 @@
                     },
                     {
                         "size": 1104
-                    },
-                    {
-                        "size": 419
                     }
                 ],
                 "nodes": [
@@ -4510,6 +4510,10 @@
                         "name": "NMODL"
                     },
                     {
+                        "color": "#4F3A4F",
+                        "name": "HIP"
+                    },
+                    {
                         "color": "#c065db",
                         "name": "Emacs Lisp"
                     },
@@ -4546,8 +4550,8 @@
                         "name": "Gnuplot"
                     }
                 ],
-                "totalCount": 27,
-                "totalSize": 76093035
+                "totalCount": 28,
+                "totalSize": 76114540
             }
         },
         "netmeld/netmeld": {
@@ -4599,13 +4603,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 6471683
+                        "size": 6496990
                     },
                     {
-                        "size": 963630
+                        "size": 964781
                     },
                     {
-                        "size": 349200
+                        "size": 349297
                     },
                     {
                         "size": 211733
@@ -4614,7 +4618,7 @@
                         "size": 211722
                     },
                     {
-                        "size": 129883
+                        "size": 130330
                     },
                     {
                         "size": 73754
@@ -4686,7 +4690,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 8492364
+                "totalSize": 8519366
             }
         },
         "sandialabs/.github": {
@@ -14562,7 +14566,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 264543000
+                        "size": 264566768
                     },
                     {
                         "size": 5264975
@@ -14593,7 +14597,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 271094574
+                "totalSize": 271118342
             }
         },
         "sandialabs/ali-perf-tests": {
@@ -15451,7 +15455,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1068854
+                        "size": 1069452
                     },
                     {
                         "size": 16375
@@ -15475,7 +15479,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 1086766
+                "totalSize": 1087364
             }
         },
         "sandialabs/canary-yaml": {
@@ -25119,10 +25123,19 @@
         },
         "sandialabs/scANNs": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 12175
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 12175
             }
         },
         "sandialabs/sceptre-bennu": {
@@ -25135,7 +25148,7 @@
                         "size": 5569562
                     },
                     {
-                        "size": 1665526
+                        "size": 1669653
                     },
                     {
                         "size": 709812
@@ -25150,13 +25163,16 @@
                         "size": 262542
                     },
                     {
+                        "size": 161982
+                    },
+                    {
                         "size": 137719
                     },
                     {
                         "size": 94510
                     },
                     {
-                        "size": 85527
+                        "size": 85505
                     },
                     {
                         "size": 60577
@@ -25174,6 +25190,9 @@
                         "size": 13939
                     },
                     {
+                        "size": 12883
+                    },
+                    {
                         "size": 4539
                     },
                     {
@@ -25181,9 +25200,6 @@
                     },
                     {
                         "size": 843
-                    },
-                    {
-                        "size": 57
                     }
                 ],
                 "nodes": [
@@ -25214,6 +25230,10 @@
                     {
                         "color": "#c22d40",
                         "name": "Scala"
+                    },
+                    {
+                        "color": "#e34c26",
+                        "name": "HTML"
                     },
                     {
                         "color": "#e16737",
@@ -25248,6 +25268,10 @@
                         "name": "Makefile"
                     },
                     {
+                        "color": "#663399",
+                        "name": "CSS"
+                    },
+                    {
                         "color": "#384d54",
                         "name": "Dockerfile"
                     },
@@ -25258,14 +25282,10 @@
                     {
                         "color": "#dbb284",
                         "name": "Pawn"
-                    },
-                    {
-                        "color": "#663399",
-                        "name": "CSS"
                     }
                 ],
-                "totalCount": 19,
-                "totalSize": 19844442
+                "totalCount": 20,
+                "totalSize": 20023355
             }
         },
         "sandialabs/sceptre-docs": {
@@ -26794,7 +26814,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 372934
+                        "size": 375011
                     }
                 ],
                 "nodes": [
@@ -26804,7 +26824,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 372934
+                "totalSize": 375011
             }
         },
         "sandialabs/snl-progress": {
@@ -28998,7 +29018,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 12086563
+                        "size": 12085988
                     },
                     {
                         "size": 809235
@@ -29134,7 +29154,7 @@
                     }
                 ],
                 "totalCount": 19,
-                "totalSize": 14109968
+                "totalSize": 14109393
             }
         },
         "sparta/sparta": {
@@ -29301,34 +29321,34 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 9943945
+                        "size": 9934661
                     },
                     {
-                        "size": 2067962
+                        "size": 2063486
                     },
                     {
-                        "size": 1329946
+                        "size": 1329669
                     },
                     {
-                        "size": 212733
+                        "size": 212657
                     },
                     {
-                        "size": 150118
+                        "size": 150116
                     },
                     {
-                        "size": 68613
+                        "size": 68576
                     },
                     {
-                        "size": 27138
+                        "size": 26970
                     },
                     {
                         "size": 22105
                     },
                     {
-                        "size": 14860
+                        "size": 14857
                     },
                     {
-                        "size": 9491
+                        "size": 9475
                     },
                     {
                         "size": 2183
@@ -29381,7 +29401,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 13849094
+                "totalSize": 13834755
             }
         },
         "sstsimulator/sst-macro": {
