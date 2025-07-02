@@ -966,9 +966,10 @@
         "description": "Computational singular perturbation analysis library",
         "name": "sandialabs/CSPlib",
         "topics": [
-            "scr-2601"
+            "scr-2601",
+            "snl-science-libs"
         ],
-        "website": ""
+        "website": "https://github.com/sandialabs/csplib"
     },
     "sandialabs/CWA-15793-2011-Planning-and-Implementation-Tool": {
         "description": "A tool to assist organizations in the implementation of a biorisk management system consistent with the requirements of the international, publicly available guidance document CEN Workshop Agreement 15793:2011 (CWA 15793).",
@@ -1429,7 +1430,10 @@
         "description": "Fortran quadrature integration",
         "name": "sandialabs/ForQint",
         "topics": [
-            "scr-1649"
+            "fortran",
+            "integration",
+            "quadrature",
+            "scientific-computing"
         ],
         "website": ""
     },
@@ -1885,7 +1889,13 @@
         "description": "Kalman Auto-Regression Moving-Average Fore[4]casting",
         "name": "sandialabs/KARMA4",
         "topics": [
-            "scr-2227"
+            "data-compression",
+            "forecasting",
+            "time-series",
+            "wavelets",
+            "auto-regressive-model",
+            "data-analysis",
+            "kalman"
         ],
         "website": ""
     },
@@ -2894,7 +2904,13 @@
         "description": "Sensing Wavelets in-situ zip",
         "name": "sandialabs/SWinzip",
         "topics": [
-            "scr-2103"
+            "compression",
+            "data-analysis",
+            "data-compression",
+            "large-dataset",
+            "validation",
+            "wavelet-transform",
+            "wavelets"
         ],
         "website": ""
     },
@@ -3188,12 +3204,13 @@
         "website": ""
     },
     "sandialabs/Tines": {
-        "description": null,
+        "description": "Time integration, Newton, and eigensolver with Kokkos-based parallelism",
         "name": "sandialabs/Tines",
         "topics": [
-            "scr-2607"
+            "scr-2607",
+            "snl-science-libs"
         ],
-        "website": ""
+        "website": "https://github.com/sandialabs/Tines"
     },
     "sandialabs/Tracer-FIRE": {
         "description": null,
@@ -3305,6 +3322,12 @@
             "scr-2087"
         ],
         "website": ""
+    },
+    "sandialabs/WEC-OpenFOAM-Open-Datasets": {
+        "description": null,
+        "name": "sandialabs/WEC-OpenFOAM-Open-Datasets",
+        "topics": null,
+        "website": null
     },
     "sandialabs/WECSSim": {
         "description": null,
@@ -3991,8 +4014,12 @@
     "sandialabs/conin": {
         "description": "A python library that supports the constrained analysis of probabilistic graphical models",
         "name": "sandialabs/conin",
-        "topics": null,
-        "website": null
+        "topics": [
+            "snl-applications",
+            "snl-data-analysis",
+            "snl-science-libs"
+        ],
+        "website": ""
     },
     "sandialabs/cortext": {
         "description": null,
@@ -6010,7 +6037,13 @@
         "description": "Pycheron - A python library for quality control of seismic data based on IRIS Mustang.",
         "name": "sandialabs/pycheron",
         "topics": [
-            "scr-2416"
+            "scr-2416",
+            "ai-ml",
+            "qc",
+            "seismology",
+            "snl-data-analysis",
+            "qc-issues",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -6062,7 +6095,8 @@
         "description": "Python package to model invasion percolation",
         "name": "sandialabs/pyperc",
         "topics": [
-            "scr-2287"
+            "scr-2287",
+            "snl-applications"
         ],
         "website": ""
     },
