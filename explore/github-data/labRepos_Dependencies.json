@@ -32352,9 +32352,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "com.github.spotbugs:spotbugs",
-                                    "repository": {
-                                        "nameWithOwner": "spotbugs/spotbugs"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -44126,6 +44124,19 @@
                     {
                         "color": "#555555",
                         "name": "C"
+                    }
+                ]
+            }
+        },
+        "sandialabs/matcal": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -69790,6 +69801,13 @@
                                     "packageName": "uvicorn",
                                     "repository": {
                                         "nameWithOwner": "encode/uvicorn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "whoosh",
+                                    "repository": {
+                                        "nameWithOwner": "whoosh-community/whoosh"
                                     }
                                 }
                             ]
