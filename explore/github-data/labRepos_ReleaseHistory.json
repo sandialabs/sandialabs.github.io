@@ -1870,6 +1870,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "Xyce Release 7.10",
+                        "publishedAt": "2025-07-21T19:17:59Z",
+                        "tagName": "Release-7.10.0"
+                    },
+                    {
                         "name": "Xyce Release 7.9",
                         "publishedAt": "2025-02-03T18:36:44Z",
                         "tagName": "Release-7.9.0"
@@ -2801,6 +2806,21 @@
         "lammps/lammps": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Update 4 for Stable release 29 August 2024",
+                        "publishedAt": "2025-07-22T00:41:54Z",
+                        "tagName": "stable_29Aug2024_update4"
+                    },
+                    {
+                        "name": "Stable release 22 July 2025",
+                        "publishedAt": "2025-07-22T03:12:29Z",
+                        "tagName": "stable_22Jul2025"
+                    },
+                    {
+                        "name": "Stable release candidate 22 July 2025",
+                        "publishedAt": "2025-07-22T01:41:41Z",
+                        "tagName": "patch_22Jul2025"
+                    },
                     {
                         "name": "Update 3 for Stable release 29 August 2024",
                         "publishedAt": "2025-06-13T03:11:12Z",
@@ -4305,6 +4325,11 @@
                 ]
             }
         },
+        "sandialabs/CANDELINC2": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "sandialabs/CFDbuilder": {
             "releases": {
                 "nodes": []
@@ -4543,6 +4568,11 @@
             }
         },
         "sandialabs/EPANET-BAM": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "sandialabs/EPOXY": {
             "releases": {
                 "nodes": []
             }
@@ -4849,6 +4879,17 @@
         "sandialabs/IceT": {
             "releases": {
                 "nodes": []
+            }
+        },
+        "sandialabs/IcyPaw": {
+            "releases": {
+                "nodes": [
+                    {
+                        "name": "Version 0.2.0",
+                        "publishedAt": "2021-08-16T18:29:16Z",
+                        "tagName": "0.2.0"
+                    }
+                ]
             }
         },
         "sandialabs/Image-Preprocessing-Function": {
@@ -5679,6 +5720,17 @@
         "sandialabs/PDandCLtool": {
             "releases": {
                 "nodes": []
+            }
+        },
+        "sandialabs/PRAQTICE": {
+            "releases": {
+                "nodes": [
+                    {
+                        "name": "2025-07-21",
+                        "publishedAt": "2025-07-22T01:04:51Z",
+                        "tagName": "v2025.07.21"
+                    }
+                ]
             }
         },
         "sandialabs/PRIME": {
