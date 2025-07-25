@@ -21039,6 +21039,26 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "julia-actions/setup-julia",
+                                    "repository": {
+                                        "nameWithOwner": "julia-actions/setup-julia"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "JuliaRegistries/TagBot",
                                     "repository": {
                                         "nameWithOwner": "JuliaRegistries/TagBot"
