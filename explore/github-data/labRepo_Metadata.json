@@ -1457,8 +1457,10 @@
             "spiking-circuits",
             "scr-2708",
             "snl-comp-science-libs",
-            "snl-other",
-            "snl-prog-models-runtimes"
+            "snl-prog-models-runtimes",
+            "snl-nerl",
+            "nerl-neuromorphic",
+            "snl-neuromorphic"
         ],
         "website": ""
     },
@@ -1495,7 +1497,10 @@
             "graph-analysis",
             "spiking-neural-networks",
             "spiking-neural-network-analysis",
-            "scr-2875"
+            "scr-2875",
+            "nerl-neuromorphic",
+            "snl-nerl",
+            "snl-neuromorphic"
         ],
         "website": ""
     },
@@ -1507,6 +1512,14 @@
             "snl-other"
         ],
         "website": "https://arxiv.org/abs/2408.03455"
+    },
+    "sandialabs/GSH_EDT_AE": {
+        "description": "Clustering Algorithm for AM Parts using GSH and EDT with Autoencoder",
+        "name": "sandialabs/GSH_EDT_AE",
+        "topics": [
+            "scr-3250"
+        ],
+        "website": ""
     },
     "sandialabs/Gauss-Sum-Strong-Simulation": {
         "description": null,
@@ -1692,7 +1705,10 @@
             "neuromorphic-computing",
             "pde",
             "spiking-neural-networks",
-            "scr-2532"
+            "scr-2532",
+            "nerl-neuromorphic",
+            "snl-nerl",
+            "snl-neuromorphic"
         ],
         "website": ""
     },
@@ -2916,7 +2932,10 @@
         "topics": [
             "scr-2857",
             "snl-applications",
-            "spiking-neural-networks"
+            "spiking-neural-networks",
+            "snl-nerl",
+            "nerl-neuromorphic",
+            "snl-neuromorphic"
         ],
         "website": ""
     },
@@ -3356,6 +3375,15 @@
         ],
         "website": ""
     },
+    "sandialabs/VorLap": {
+        "description": "Generalized Vortex Overlap Fluid Structure Interaction Prediction Code",
+        "name": "sandialabs/VorLap",
+        "topics": [
+            "snl-applications",
+            "scr-3254"
+        ],
+        "website": ""
+    },
     "sandialabs/WDRT": {
         "description": null,
         "name": "sandialabs/WDRT",
@@ -3415,7 +3443,10 @@
             "neuromorphic",
             "neuromorphic-computing",
             "spiking-neural-networks",
-            "scr-2331"
+            "scr-2331",
+            "nerl-neuromorphic",
+            "snl-nerl",
+            "snl-neuromorphic"
         ],
         "website": ""
     },
@@ -5474,7 +5505,10 @@
             "neurons",
             "simulator",
             "snl-prog-models-runtimes",
-            "scr-1532"
+            "scr-1532",
+            "nerl-neuromorphic",
+            "snl-nerl",
+            "snl-neuromorphic"
         ],
         "website": ""
     },
@@ -6577,7 +6611,10 @@
         "topics": [
             "scr-3144",
             "snl-data-analysis",
-            "snl-other"
+            "snl-other",
+            "nerl-neuromorphic",
+            "snl-nerl",
+            "snl-neuromorphic"
         ],
         "website": ""
     },
@@ -7584,7 +7621,8 @@
         "description": "WEC as a multi-port",
         "name": "sandialabs/wec_as_multiport",
         "topics": [
-            "scr-3129"
+            "scr-3129",
+            "snl-applications"
         ],
         "website": ""
     },
