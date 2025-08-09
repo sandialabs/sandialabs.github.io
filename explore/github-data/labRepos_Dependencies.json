@@ -35625,7 +35625,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Text.Json",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/dotnet"
+                                        "nameWithOwner": "dotnet/runtime"
                                     }
                                 },
                                 {
@@ -46227,6 +46227,110 @@
         "sandialabs/matcal": {
             "dependencyGraphManifests": {
                 "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bokeh",
+                                    "repository": {
+                                        "nameWithOwner": "bokeh/bokeh"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "chardet",
+                                    "repository": {
+                                        "nameWithOwner": "chardet/chardet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "exodus-helper",
+                                    "repository": {
+                                        "nameWithOwner": "sandialabs/exodus_helper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jinja2",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/jinja"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "joblib",
+                                    "repository": {
+                                        "nameWithOwner": "joblib/joblib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nevada",
+                                    "repository": {
+                                        "nameWithOwner": "taegyumin/python_nevada"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "packaging",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/packaging"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "seaborn",
+                                    "repository": {
+                                        "nameWithOwner": "mwaskom/seaborn"
+                                    }
+                                }
+                            ]
+                        }
+                    },
                     {
                         "dependencies": {
                             "nodes": [
