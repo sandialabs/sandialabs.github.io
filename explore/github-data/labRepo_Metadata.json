@@ -2756,6 +2756,12 @@
         ],
         "website": ""
     },
+    "sandialabs/Radiation-Damage-Response-Functions": {
+        "description": null,
+        "name": "sandialabs/Radiation-Damage-Response-Functions",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/Read_BLT": {
         "description": null,
         "name": "sandialabs/Read_BLT",
@@ -7200,6 +7206,14 @@
         ],
         "website": ""
     },
+    "sandialabs/surface-fluxes-paper": {
+        "description": "Scripts for paper \"On moist ocean-atmosphere coupling mechanisms\" by O. Guba et al",
+        "name": "sandialabs/surface-fluxes-paper",
+        "topics": [
+            "scr-3255"
+        ],
+        "website": ""
+    },
     "sandialabs/svp_1547.1": {
         "description": "Test scripts for IEEE 1547.1",
         "name": "sandialabs/svp_1547.1",
@@ -7619,12 +7633,6 @@
         ],
         "website": ""
     },
-    "sandialabs/wireguard-go": {
-        "description": "Fork exposes stack and dispatcher in tun/netstack/tun.go for https://github.com/sandialabs/wiretap",
-        "name": "sandialabs/wireguard-go",
-        "topics": null,
-        "website": ""
-    },
     "sandialabs/wiretap": {
         "description": "Wiretap is a transparent, VPN-like proxy server that tunnels traffic via WireGuard and requires no special privileges to run.",
         "name": "sandialabs/wiretap",
@@ -7638,6 +7646,14 @@
             "wireguard",
             "scr-2819",
             "snl-applications"
+        ],
+        "website": ""
+    },
+    "sandialabs/wiretap-wireguard-go": {
+        "description": "Fork exposes stack and dispatcher in tun/netstack/tun.go for https://github.com/sandialabs/wiretap",
+        "name": "sandialabs/wiretap-wireguard-go",
+        "topics": [
+            "scr-2819"
         ],
         "website": ""
     },

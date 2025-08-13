@@ -4725,6 +4725,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "DARMA-tasking/badge-generator",
+                                    "repository": {
+                                        "nameWithOwner": "DARMA-tasking/badge-generator"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/cache",
                                     "repository": {
                                         "nameWithOwner": "actions/cache"
@@ -28709,6 +28722,14 @@
                 ]
             }
         },
+        "sandialabs/Radiation-Damage-Response-Functions": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/Read_BLT": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -33959,6 +33980,33 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "pypa/gh-action-pypi-publish",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/gh-action-pypi-publish"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/upload-artifact",
                                     "repository": {
                                         "nameWithOwner": "actions/upload-artifact"
@@ -33969,13 +34017,6 @@
                                     "packageName": "astral-sh/ruff-action",
                                     "repository": {
                                         "nameWithOwner": "astral-sh/ruff-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "pypa/gh-action-pypi-publish",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/gh-action-pypi-publish"
                                     }
                                 }
                             ]
@@ -71279,6 +71320,14 @@
                 ]
             }
         },
+        "sandialabs/surface-fluxes-paper": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "sandialabs/svp_1547.1": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -73784,65 +73833,6 @@
                 ]
             }
         },
-        "sandialabs/wireguard-go": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "github.com/google/btree",
-                                    "repository": {
-                                        "nameWithOwner": "google/btree"
-                                    }
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/crypto",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/net",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/sys",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.org/x/time",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "golang.zx2c4.com/wintun",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "GO",
-                                    "packageName": "gvisor.dev/gvisor",
-                                    "repository": {
-                                        "nameWithOwner": "google/gvisor"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#00ADD8",
-                        "name": "Go"
-                    }
-                ]
-            }
-        },
         "sandialabs/wiretap": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -74135,6 +74125,65 @@
                                     "packageName": "goreleaser/goreleaser-action",
                                     "repository": {
                                         "nameWithOwner": "goreleaser/goreleaser-action"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#00ADD8",
+                        "name": "Go"
+                    }
+                ]
+            }
+        },
+        "sandialabs/wiretap-wireguard-go": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/google/btree",
+                                    "repository": {
+                                        "nameWithOwner": "google/btree"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/crypto",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/net",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/sys",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/time",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.zx2c4.com/wintun",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "gvisor.dev/gvisor",
+                                    "repository": {
+                                        "nameWithOwner": "google/gvisor"
                                     }
                                 }
                             ]
