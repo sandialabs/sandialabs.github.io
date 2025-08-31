@@ -39018,27 +39018,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "ilammy/msvc-dev-cmd",
-                                    "repository": {
-                                        "nameWithOwner": "ilammy/msvc-dev-cmd"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "lukka/get-cmake",
-                                    "repository": {
-                                        "nameWithOwner": "lukka/get-cmake"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "msys2/setup-msys2",
                                     "repository": {
                                         "nameWithOwner": "msys2/setup-msys2"
@@ -39062,6 +39041,26 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/github-script",
+                                    "repository": {
+                                        "nameWithOwner": "actions/github-script"
                                     }
                                 }
                             ]
@@ -59164,6 +59163,19 @@
                                     "packageName": "pypa/gh-action-pypi-publish",
                                     "repository": {
                                         "nameWithOwner": "pypa/gh-action-pypi-publish"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
