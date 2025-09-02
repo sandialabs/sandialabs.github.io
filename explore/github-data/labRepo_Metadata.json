@@ -1985,7 +1985,8 @@
         "description": "This software analyzes electrical distribution low-voltage (LV) networks to assess the amount of distributed energy resources, such as solar photovoltaic systems, that can be installed without causing violations to operational constraints of the system.",
         "name": "sandialabs/LV-Network-Analysis",
         "topics": [
-            "scr-3218"
+            "scr-3218",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2124,6 +2125,24 @@
         ],
         "website": ""
     },
+    "sandialabs/MFUQ-MFU-GSA": {
+        "description": null,
+        "name": "sandialabs/MFUQ-MFU-GSA",
+        "topics": [
+            "scr-3137",
+            "snl-data-analysis"
+        ],
+        "website": ""
+    },
+    "sandialabs/MFUQ-Scalable-Given-Data-Sobol-Index-Estimators": {
+        "description": null,
+        "name": "sandialabs/MFUQ-Scalable-Given-Data-Sobol-Index-Estimators",
+        "topics": [
+            "scr-3137",
+            "snl-data-analysis"
+        ],
+        "website": ""
+    },
     "sandialabs/MLC": {
         "description": "Machine Learned Collisions code",
         "name": "sandialabs/MLC",
@@ -2216,7 +2235,8 @@
         "description": "MoHCA is software for performing MOdel-free Hosting Capacity Analysis for electric distribution networks. It utilizes AMI data to calculate hosting capacity without the need for a circuit model. This approach has significant speed and accuracy advantages over traditional circuit-based hosting capacity analysis.",
         "name": "sandialabs/MoHCA",
         "topics": [
-            "scr-3209"
+            "scr-3209",
+            "snl-applications"
         ],
         "website": ""
     },
