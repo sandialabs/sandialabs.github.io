@@ -1790,10 +1790,11 @@
         "website": ""
     },
     "sandialabs/IX2.6": {
-        "description": null,
+        "description": "Coordinates DOE2.2 Building Energy Model (BEM) fleets with energy conservation measure studies",
         "name": "sandialabs/IX2.6",
         "topics": [
-            "scr-1687"
+            "scr-1687",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -2098,10 +2099,11 @@
         "website": ""
     },
     "sandialabs/MCMD1": {
-        "description": "Multi-configuration membrane distillation model version 1.0",
+        "description": "Multi-configuration membrane distillation model version 1.0. Allows air-gap, and direct contact membrane distillation configurations. Programming strives to make simulation of other layouts straightforward.",
         "name": "sandialabs/MCMD1",
         "topics": [
-            "scr-2279"
+            "scr-2279",
+            "snl-application"
         ],
         "website": ""
     },
@@ -2826,7 +2828,10 @@
     "sandialabs/RealVectorFramework": {
         "description": "Zero Overhead Abstractions for Vector Algorithms",
         "name": "sandialabs/RealVectorFramework",
-        "topics": null,
+        "topics": [
+            "scr-3272",
+            "snl-science-libs"
+        ],
         "website": ""
     },
     "sandialabs/RelationalBlackboard": {
@@ -3311,8 +3316,11 @@
     "sandialabs/TInCuP": {
         "description": "Tag Invoke + Customization Point generator and validator",
         "name": "sandialabs/TInCuP",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3273",
+            "snl-other"
+        ],
+        "website": ""
     },
     "sandialabs/TenSQL": {
         "description": "An SQL Database Built on GraphBLAS",
@@ -3491,7 +3499,10 @@
         "description": "VoroClust",
         "name": "sandialabs/VoroClust",
         "topics": [
-            "scr-2983"
+            "scr-2983",
+            "snl-applications",
+            "snl-build-tools",
+            "snl-data-analysis"
         ],
         "website": "https://voroclust.sandia.gov/"
     },
@@ -3502,12 +3513,6 @@
             "scr-2087"
         ],
         "website": ""
-    },
-    "sandialabs/WEC-OpenFOAM-Open-Datasets": {
-        "description": null,
-        "name": "sandialabs/WEC-OpenFOAM-Open-Datasets",
-        "topics": null,
-        "website": null
     },
     "sandialabs/WECSSim": {
         "description": null,
@@ -5665,6 +5670,14 @@
         ],
         "website": ""
     },
+    "sandialabs/norma-opinf": {
+        "description": "Codebase for tools to perform OpInf in norma",
+        "name": "sandialabs/norma-opinf",
+        "topics": [
+            "scr-3264"
+        ],
+        "website": ""
+    },
     "sandialabs/np_synthesis_automation": {
         "description": null,
         "name": "sandialabs/np_synthesis_automation",
@@ -6192,7 +6205,8 @@
         "description": "Simulation and Optimization of Quantum Circuits in Python/C++",
         "name": "sandialabs/pyQAOA",
         "topics": [
-            "scr-2404"
+            "scr-2404",
+            "snl-quantum-computing"
         ],
         "website": ""
     },
@@ -7308,7 +7322,8 @@
         "description": "Scripts for paper \"On moist ocean-atmosphere coupling mechanisms\" by O. Guba et al",
         "name": "sandialabs/surface-fluxes-paper",
         "topics": [
-            "scr-3255"
+            "scr-3255",
+            "snl-applications"
         ],
         "website": ""
     },
