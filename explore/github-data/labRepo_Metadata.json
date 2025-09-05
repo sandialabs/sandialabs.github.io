@@ -2821,7 +2821,13 @@
         "description": null,
         "name": "sandialabs/Radiation-Damage-Response-Functions",
         "topics": [
-            "scr-3258"
+            "scr-3258",
+            "damage",
+            "metrics",
+            "neutron",
+            "radiation",
+            "semiconductor",
+            "recoil-energy"
         ],
         "website": ""
     },
@@ -5344,6 +5350,15 @@
         ],
         "website": "https://sjplimp.github.io/mapreduce/"
     },
+    "sandialabs/maritime-trajectory-anomaly-detection": {
+        "description": "This codebase is a benchmarking suite focused on artificially generated anomaly detection algorithms.",
+        "name": "sandialabs/maritime-trajectory-anomaly-detection",
+        "topics": [
+            "snl-data-analysis",
+            "scr-3202"
+        ],
+        "website": ""
+    },
     "sandialabs/maskman": {
         "description": "Maskman is a utility for generating hex masks. Its initial development was targeted at masks to help set affinity within applications through MPI and HPC scheduler environments.",
         "name": "sandialabs/maskman",
@@ -6618,6 +6633,19 @@
             "scr-2872"
         ],
         "website": "https://reverse-argparse.readthedocs.io"
+    },
+    "sandialabs/rol": {
+        "description": "Rapid Optimization Library",
+        "name": "sandialabs/rol",
+        "topics": [
+            "large-scale-optimization",
+            "numerical-optimization",
+            "optimal-experimental-design",
+            "pde-constrained-optimization",
+            "stochastic-optimization",
+            "trust-region-methods"
+        ],
+        "website": "https://rol.sandia.gov"
     },
     "sandialabs/romans": {
         "description": "Reduced Order Modeling for Accelerating Numerical Simulations",
