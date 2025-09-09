@@ -31085,8 +31085,8 @@
             "languages": {
                 "nodes": [
                     {
-                        "color": "#3572A5",
-                        "name": "Python"
+                        "color": "#f34b7d",
+                        "name": "C++"
                     }
                 ]
             }
@@ -34241,6 +34241,14 @@
                         "name": "C"
                     }
                 ]
+            }
+        },
+        "sandialabs/camulator": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/canary": {
@@ -37881,6 +37889,11 @@
                                     }
                                 }
                             ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": []
                         }
                     },
                     {
@@ -41890,6 +41903,20 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ansible",
+                                    "repository": {
+                                        "nameWithOwner": "ansible/ansible"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ansible-runner",
+                                    "repository": {
+                                        "nameWithOwner": "ansible/ansible-runner"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "clustershell",
@@ -68138,7 +68165,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "nptdms",
                                     "repository": {
-                                        "nameWithOwner": "adamreeve/npTDMS"
+                                        "nameWithOwner": "jhillairet/npTDMS"
                                     }
                                 },
                                 {
@@ -68262,7 +68289,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "nptdms",
                                     "repository": {
-                                        "nameWithOwner": "adamreeve/npTDMS"
+                                        "nameWithOwner": "jhillairet/npTDMS"
                                     }
                                 },
                                 {
@@ -72654,10 +72681,69 @@
         },
         "sandialabs/sync-analysis": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "locust",
+                                    "repository": {
+                                        "nameWithOwner": "locustio/locust"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "docker/login-action",
+                                    "repository": {
+                                        "nameWithOwner": "docker/login-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "sandialabs/sync-journal": {
