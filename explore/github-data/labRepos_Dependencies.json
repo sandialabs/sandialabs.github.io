@@ -7921,6 +7921,26 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "jwlawson/actions-setup-cmake",
+                                    "repository": {
+                                        "nameWithOwner": "jwlawson/actions-setup-cmake"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "PIP",
                                     "packageName": "lxml",
                                     "repository": {
@@ -20634,6 +20654,13 @@
                                     "packageName": "StyleCop.Analyzers",
                                     "repository": {
                                         "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "System.Reflection.Metadata",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
                                     }
                                 },
                                 {
@@ -35897,7 +35924,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Nancy.Hosting.Self",
                                     "repository": {
-                                        "nameWithOwner": "NancyFx/Nancy"
+                                        "nameWithOwner": "Rophuine/GitHub-XMPP"
                                     }
                                 },
                                 {
@@ -36610,7 +36637,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Nancy.Hosting.Self",
                                     "repository": {
-                                        "nameWithOwner": "NancyFx/Nancy"
+                                        "nameWithOwner": "Rophuine/GitHub-XMPP"
                                     }
                                 },
                                 {
@@ -36677,7 +36704,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Nancy.Testing",
                                     "repository": {
-                                        "nameWithOwner": "NancyFx/Nancy"
+                                        "nameWithOwner": "moljac/Nancy"
                                     }
                                 },
                                 {
@@ -68364,7 +68391,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "nptdms",
                                     "repository": {
-                                        "nameWithOwner": "jhillairet/npTDMS"
+                                        "nameWithOwner": "adamreeve/npTDMS"
                                     }
                                 },
                                 {
@@ -68488,7 +68515,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "nptdms",
                                     "repository": {
-                                        "nameWithOwner": "jhillairet/npTDMS"
+                                        "nameWithOwner": "adamreeve/npTDMS"
                                     }
                                 },
                                 {
