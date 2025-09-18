@@ -19684,6 +19684,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "alive-progress",
+                                    "repository": {
+                                        "nameWithOwner": "rsalmei/alive-progress"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "matplotlib",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/matplotlib"
@@ -19710,13 +19717,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "ray",
-                                    "repository": {
-                                        "nameWithOwner": "ray-project/ray"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
                                         "nameWithOwner": "scipy/scipy"
@@ -19727,6 +19727,13 @@
                                     "packageName": "tqdm",
                                     "repository": {
                                         "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "yaspin",
+                                    "repository": {
+                                        "nameWithOwner": "pavdmyt/yaspin"
                                     }
                                 }
                             ]
