@@ -1311,8 +1311,10 @@
     "sandialabs/ENCoRP": {
         "description": "ENCoRP: A Tool to Compute and Visualize an Electrical Network's Conductive and Radiative Propagation",
         "name": "sandialabs/ENCoRP",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3111"
+        ],
+        "website": ""
     },
     "sandialabs/ENnUI": {
         "description": "ENnUI : Exemplar Navigator Using Inertial Sensors",
@@ -4803,6 +4805,20 @@
         ],
         "website": ""
     },
+    "sandialabs/forcefinder": {
+        "description": "Advanced inverse source estimation tools for force reconstruction, TPA, and MIMO vibration testing.",
+        "name": "sandialabs/forcefinder",
+        "topics": [
+            "scr-3225",
+            "inverse-problems",
+            "signal-processing",
+            "structural-dynamics",
+            "force-recontruction",
+            "mimo-vibration",
+            "transfer-path-analysis"
+        ],
+        "website": ""
+    },
     "sandialabs/frosted_tracks": {
         "description": "Unsupervised behavioral segmentation and labeling of trajectory data",
         "name": "sandialabs/frosted_tracks",
@@ -6676,7 +6692,8 @@
             "optimal-experimental-design",
             "pde-constrained-optimization",
             "stochastic-optimization",
-            "trust-region-methods"
+            "trust-region-methods",
+            "scr-1629"
         ],
         "website": "https://rol.sandia.gov"
     },

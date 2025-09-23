@@ -42084,6 +42084,40 @@
                 ]
             }
         },
+        "sandialabs/bientropy": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bitstring",
+                                    "repository": {
+                                        "nameWithOwner": "scott-griffiths/bitstring"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "sandialabs/bigdna": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -42506,7 +42540,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.IO.Pipelines",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -45322,7 +45356,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Collections.Immutable",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -45357,7 +45391,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Text.Encodings.Web",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -45371,7 +45405,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Threading.Channels",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -52241,6 +52275,68 @@
                 ]
             }
         },
+        "sandialabs/forcefinder": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "joblib",
+                                    "repository": {
+                                        "nameWithOwner": "joblib/joblib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyqt5",
+                                    "repository": {
+                                        "nameWithOwner": "pradeepkumar35/Tamil-Learning-Game-For-Kids"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sdynpy",
+                                    "repository": {
+                                        "nameWithOwner": "sandialabs/sdynpy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            }
+        },
         "sandialabs/frosted_tracks": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -57664,7 +57760,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Collections.Immutable",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -57699,7 +57795,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Threading.Channels",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
