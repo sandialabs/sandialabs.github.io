@@ -7706,26 +7706,6 @@
                         "dependencies": {
                             "nodes": [
                                 {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "jwlawson/actions-setup-cmake",
-                                    "repository": {
-                                        "nameWithOwner": "jwlawson/actions-setup-cmake"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
                                     "packageManager": "PIP",
                                     "packageName": "lxml",
                                     "repository": {
