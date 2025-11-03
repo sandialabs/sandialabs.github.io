@@ -9995,19 +9995,6 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
@@ -10089,6 +10076,19 @@
                                     "packageName": "actions/upload-pages-artifact",
                                     "repository": {
                                         "nameWithOwner": "actions/upload-pages-artifact"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
@@ -10403,19 +10403,6 @@
                                     "packageName": "step-security/harden-runner",
                                     "repository": {
                                         "nameWithOwner": "step-security/harden-runner"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
