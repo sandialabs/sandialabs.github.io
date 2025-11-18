@@ -9392,6 +9392,314 @@
                 ]
             }
         },
+        "halucinator/.github": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
+        "halucinator/GHALdra": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "halucinator/PMatch": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "halucinator/avatar-qemu": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "avocado-framework",
+                                    "repository": {
+                                        "nameWithOwner": "avocado-framework/avocado"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            }
+        },
+        "halucinator/avatar2": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bitstring",
+                                    "repository": {
+                                        "nameWithOwner": "scott-griffiths/bitstring"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cached-property",
+                                    "repository": {
+                                        "nameWithOwner": "pydanny/cached-property"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "capstone",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "configparser",
+                                    "repository": {
+                                        "nameWithOwner": "jaraco/configparser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "enum34",
+                                    "repository": {
+                                        "nameWithOwner": "certik/enum34"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "intervaltree",
+                                    "repository": {
+                                        "nameWithOwner": "chaimleib/intervaltree"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "keystone-engine",
+                                    "repository": {
+                                        "nameWithOwner": "fjh658/keystone-engine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "npyscreen",
+                                    "repository": {
+                                        "nameWithOwner": "npcole/npyscreen"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "parse",
+                                    "repository": {
+                                        "nameWithOwner": "r1chardj0n3s/parse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "posix-ipc",
+                                    "repository": {
+                                        "nameWithOwner": "osvenskan/posix_ipc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygdbmi",
+                                    "repository": {
+                                        "nameWithOwner": "cs01/pygdbmi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygdbmi",
+                                    "repository": {
+                                        "nameWithOwner": "cs01/pygdbmi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pylink-square",
+                                    "repository": {
+                                        "nameWithOwner": "square/pylink"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyusb",
+                                    "repository": {
+                                        "nameWithOwner": "pyusb/pyusb"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "unicorn",
+                                    "repository": {
+                                        "nameWithOwner": "mkoistinen/unicorn-homebridge-integration"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "halucinator/halucinator": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "angr",
+                                    "repository": {
+                                        "nameWithOwner": "angr/angr"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "avatar2",
+                                    "repository": {
+                                        "nameWithOwner": "avatartwo/avatar2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "black",
+                                    "repository": {
+                                        "nameWithOwner": "psf/black"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "deprecated",
+                                    "repository": {
+                                        "nameWithOwner": "laurent-laporte-pro/deprecated"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipython",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pycparser",
+                                    "repository": {
+                                        "nameWithOwner": "eliben/pycparser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyelftools",
+                                    "repository": {
+                                        "nameWithOwner": "eliben/pyelftools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pylint",
+                                    "repository": {
+                                        "nameWithOwner": "pylint-dev/pylint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyserial",
+                                    "repository": {
+                                        "nameWithOwner": "pyserial/pyserial"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyyaml",
+                                    "repository": {
+                                        "nameWithOwner": "yaml/pyyaml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scapy",
+                                    "repository": {
+                                        "nameWithOwner": "secdev/scapy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "yamllint",
+                                    "repository": {
+                                        "nameWithOwner": "adrienverge/yamllint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "zmq",
+                                    "repository": {
+                                        "nameWithOwner": "minrk/zmq"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "halucinator/hq-tracer": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "kokkos/kokkos": {
             "dependencyGraphManifests": {
                 "nodes": [
