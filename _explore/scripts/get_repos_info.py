@@ -26,7 +26,7 @@ for org in orglist:
     try:
         outObj = queryMan.queryGitHubFromFile(
             queryPath,
-            {"orgName": org, "numRepos": 25, "pgCursor": None},
+            {"orgName": org, "numRepos": 35, "pgCursor": None},
             paginate=True,
             cursorVar="pgCursor",
             keysToList=["data", "organization", "repositories", "nodes"],
