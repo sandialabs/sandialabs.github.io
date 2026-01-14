@@ -36,7 +36,7 @@ for usr in memberlist:
     try:
         outObj = queryMan.queryGitHubFromFile(
             queryPath,
-            {"userName": usr, "numRepos": 50, "pgCursor": None},
+            {"userName": usr, "numRepos": 25, "pgCursor": None},
             paginate=True,
             cursorVar="pgCursor",
             keysToList=["data", "user", "repositoriesContributedTo", "nodes"],
