@@ -26,7 +26,7 @@ dataCollector = qm.DataManager(datfilepath, False)
 dataCollector.data = {"data": {}}
 
 # Initialize query manager
-queryMan = qm.GitHubQueryManager(maxRetry=10, retryDelay=1)
+queryMan = qm.GitHubQueryManager(maxRetry=10, retryDelay=2)
 
 # Iterate through lab members
 print("Gathering data across multiple paginated queries...")
