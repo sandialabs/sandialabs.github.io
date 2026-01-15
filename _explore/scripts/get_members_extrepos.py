@@ -26,7 +26,7 @@ dataCollector = qm.DataManager(datfilepath, False)
 dataCollector.data = {"data": {}}
 
 # Initialize query manager
-queryMan = qm.GitHubQueryManager()
+queryMan = qm.GitHubQueryManager(maxRetry=10, retryDelay=1)
 
 # Iterate through lab members
 print("Gathering data across multiple paginated queries...")
@@ -36,7 +36,7 @@ for usr in memberlist:
     try:
         outObj = queryMan.queryGitHubFromFile(
             queryPath,
-            {"userName": usr, "numRepos": 35, "pgCursor": None},
+            {"userName": usr, "numRepos": 50, "pgCursor": None},
             paginate=True,
             cursorVar="pgCursor",
             keysToList=["data", "user", "repositoriesContributedTo", "nodes"],

@@ -16,7 +16,7 @@ dataCollector = qm.DataManager(datfilepath, False)
 dataCollector.data = {"data": {}}
 
 # Initialize query manager
-queryMan = qm.GitHubQueryManager()
+queryMan = qm.GitHubQueryManager(maxRetry=10, retryDelay=1)
 
 # Iterate through orgs of interest
 print("Gathering data across multiple paginated queries...")
@@ -26,7 +26,7 @@ for org in orglist:
     try:
         outObj = queryMan.queryGitHubFromFile(
             queryPath,
-            {"orgName": org, "numRepos": 35, "pgCursor": None},
+            {"orgName": org, "numRepos": 25, "pgCursor": None},
             paginate=True,
             cursorVar="pgCursor",
             keysToList=["data", "organization", "repositories", "nodes"],
