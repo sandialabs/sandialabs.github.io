@@ -14,7 +14,7 @@ repolist = sorted(inputLists.data["data"].keys())
 print("Repo list complete. Found %d repos." % (len(repolist)))
 
 # Initialize query manager
-queryMan = qm.GitHubQueryManager(maxRetry=10, retryDelay=2)
+queryMan = qm.GitHubQueryManager(maxRetry=10, retryDelay=1.5)
 
 # Initialize data collector
 dataCollector = qm.DataManager(datfilepath, False)
