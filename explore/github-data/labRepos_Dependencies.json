@@ -21801,96 +21801,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "NUGET",
-                                    "packageName": "Microsoft.Bcl.HashCode",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/corefx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.Build.Tasks.Git",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/dotnet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.NETCore.Platforms",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.SourceLink.Common",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/dotnet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.SourceLink.GitHub",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/sourcelink"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "NETStandard.Library",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/source-build"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Roslynator.Analyzers",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/roslynator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Roslynator.CodeAnalysis.Analyzers",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/roslynator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Roslynator.Formatting.Analyzers",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/roslynator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "SonarAnalyzer.CSharp",
-                                    "repository": {
-                                        "nameWithOwner": "SonarSource/sonar-dotnet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "StyleCop.Analyzers",
-                                    "repository": {
-                                        "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "StyleCop.Analyzers.Unstable",
-                                    "repository": {
-                                        "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NUGET",
                                     "packageName": "Microsoft.ApplicationInsights",
                                     "repository": {
                                         "nameWithOwner": "microsoft/ApplicationInsights-dotnet"
@@ -22181,6 +22091,96 @@
                                     "packageName": "xunit.v3.runner.inproc.console",
                                     "repository": {
                                         "nameWithOwner": "xunit/xunit"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.Bcl.HashCode",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/corefx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.Build.Tasks.Git",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.NETCore.Platforms",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.SourceLink.Common",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.SourceLink.GitHub",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/sourcelink"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "NETStandard.Library",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/source-build"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Roslynator.Analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/roslynator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Roslynator.CodeAnalysis.Analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/roslynator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Roslynator.Formatting.Analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/roslynator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "SonarAnalyzer.CSharp",
+                                    "repository": {
+                                        "nameWithOwner": "SonarSource/sonar-dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "StyleCop.Analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "StyleCop.Analyzers.Unstable",
+                                    "repository": {
+                                        "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
                                     }
                                 }
                             ]
@@ -60185,9 +60185,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "com.fasterxml.jackson.core:jackson-databind",
-                                    "repository": {
-                                        "nameWithOwner": "FasterXML/jackson"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -61760,6 +61758,416 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "asttokens",
+                                    "repository": {
+                                        "nameWithOwner": "gristlabs/asttokens"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "attrs",
+                                    "repository": {
+                                        "nameWithOwner": "python-attrs/attrs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "comm",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/comm"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "contourpy",
+                                    "repository": {
+                                        "nameWithOwner": "contourpy/contourpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "coverage",
+                                    "repository": {
+                                        "nameWithOwner": "coveragepy/coveragepy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cycler",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/cycler"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "debugpy",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/debugpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "decorator",
+                                    "repository": {
+                                        "nameWithOwner": "micheles/decorator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "et-xmlfile",
+                                    "repository": {
+                                        "nameWithOwner": "dimensions11/et_xmlfile"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "executing",
+                                    "repository": {
+                                        "nameWithOwner": "alexmojaki/executing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "fastjsonschema",
+                                    "repository": {
+                                        "nameWithOwner": "horejsek/python-fastjsonschema"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "fonttools",
+                                    "repository": {
+                                        "nameWithOwner": "fonttools/fonttools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "iniconfig",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/iniconfig"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipykernel",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipykernel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipython",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipython-pygments-lexers",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jedi",
+                                    "repository": {
+                                        "nameWithOwner": "davidhalter/jedi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jsonschema",
+                                    "repository": {
+                                        "nameWithOwner": "python-jsonschema/jsonschema"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jsonschema-specifications",
+                                    "repository": {
+                                        "nameWithOwner": "python-jsonschema/jsonschema-specifications"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jupyter-client",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/jupyter_client"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jupyter-core",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/jupyter_core"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "kiwisolver",
+                                    "repository": {
+                                        "nameWithOwner": "nucleic/kiwi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "lasio",
+                                    "repository": {
+                                        "nameWithOwner": "kinverarity1/lasio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib-inline",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/matplotlib-inline"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbclient",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbclient"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbformat",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbformat"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nbmake",
+                                    "repository": {
+                                        "nameWithOwner": "treebeardtech/nbmake"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nest-asyncio",
+                                    "repository": {
+                                        "nameWithOwner": "erdewit/nest_asyncio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "openpyxl",
+                                    "repository": {
+                                        "nameWithOwner": "ericgazoni/openpyxl"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "packaging",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/packaging"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "parso",
+                                    "repository": {
+                                        "nameWithOwner": "davidhalter/parso"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pexpect",
+                                    "repository": {
+                                        "nameWithOwner": "pexpect/pexpect"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "python-pillow/Pillow"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "platformdirs",
+                                    "repository": {
+                                        "nameWithOwner": "tox-dev/platformdirs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pluggy",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pluggy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "prompt-toolkit",
+                                    "repository": {
+                                        "nameWithOwner": "prompt-toolkit/python-prompt-toolkit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "psutil",
+                                    "repository": {
+                                        "nameWithOwner": "giampaolo/psutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ptyprocess",
+                                    "repository": {
+                                        "nameWithOwner": "pexpect/ptyprocess"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pure-eval",
+                                    "repository": {
+                                        "nameWithOwner": "alexmojaki/pure_eval"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygments",
+                                    "repository": {
+                                        "nameWithOwner": "pygments/pygments"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyparsing",
+                                    "repository": {
+                                        "nameWithOwner": "pyparsing/pyparsing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dateutil",
+                                    "repository": {
+                                        "nameWithOwner": "dateutil/dateutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyyaml",
+                                    "repository": {
+                                        "nameWithOwner": "yaml/pyyaml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyzmq",
+                                    "repository": {
+                                        "nameWithOwner": "zeromq/pyzmq"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "referencing",
+                                    "repository": {
+                                        "nameWithOwner": "python-jsonschema/referencing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "rpds-py",
+                                    "repository": {
+                                        "nameWithOwner": "crate-py/rpds"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "six",
+                                    "repository": {
+                                        "nameWithOwner": "benjaminp/six"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stack-data",
+                                    "repository": {
+                                        "nameWithOwner": "alexmojaki/stack_data"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tabulate",
+                                    "repository": {
+                                        "nameWithOwner": "astanin/python-tabulate"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tornado",
+                                    "repository": {
+                                        "nameWithOwner": "tornadoweb/tornado"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "traitlets",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/traitlets"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typing-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "python/typing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "wcwidth",
+                                    "repository": {
+                                        "nameWithOwner": "jquast/wcwidth"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "accessible-pygments",
                                     "repository": {
                                         "nameWithOwner": "Quansight-Labs/accessible-pygments"
@@ -62562,416 +62970,6 @@
                                     "packageName": "tzdata",
                                     "repository": {
                                         "nameWithOwner": "python/tzdata"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "asttokens",
-                                    "repository": {
-                                        "nameWithOwner": "gristlabs/asttokens"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "attrs",
-                                    "repository": {
-                                        "nameWithOwner": "python-attrs/attrs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "comm",
-                                    "repository": {
-                                        "nameWithOwner": "ipython/comm"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "contourpy",
-                                    "repository": {
-                                        "nameWithOwner": "contourpy/contourpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "coverage",
-                                    "repository": {
-                                        "nameWithOwner": "coveragepy/coveragepy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "cycler",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/cycler"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "debugpy",
-                                    "repository": {
-                                        "nameWithOwner": "microsoft/debugpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "decorator",
-                                    "repository": {
-                                        "nameWithOwner": "micheles/decorator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "et-xmlfile",
-                                    "repository": {
-                                        "nameWithOwner": "dimensions11/et_xmlfile"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "executing",
-                                    "repository": {
-                                        "nameWithOwner": "alexmojaki/executing"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "fastjsonschema",
-                                    "repository": {
-                                        "nameWithOwner": "horejsek/python-fastjsonschema"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "fonttools",
-                                    "repository": {
-                                        "nameWithOwner": "fonttools/fonttools"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "h5py",
-                                    "repository": {
-                                        "nameWithOwner": "h5py/h5py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "iniconfig",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/iniconfig"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ipykernel",
-                                    "repository": {
-                                        "nameWithOwner": "ipython/ipykernel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ipython",
-                                    "repository": {
-                                        "nameWithOwner": "ipython/ipython"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ipython-pygments-lexers",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "jedi",
-                                    "repository": {
-                                        "nameWithOwner": "davidhalter/jedi"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "jsonschema",
-                                    "repository": {
-                                        "nameWithOwner": "python-jsonschema/jsonschema"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "jsonschema-specifications",
-                                    "repository": {
-                                        "nameWithOwner": "python-jsonschema/jsonschema-specifications"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "jupyter-client",
-                                    "repository": {
-                                        "nameWithOwner": "jupyter/jupyter_client"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "jupyter-core",
-                                    "repository": {
-                                        "nameWithOwner": "jupyter/jupyter_core"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "kiwisolver",
-                                    "repository": {
-                                        "nameWithOwner": "nucleic/kiwi"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "lasio",
-                                    "repository": {
-                                        "nameWithOwner": "kinverarity1/lasio"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib-inline",
-                                    "repository": {
-                                        "nameWithOwner": "ipython/matplotlib-inline"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "nbclient",
-                                    "repository": {
-                                        "nameWithOwner": "jupyter/nbclient"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "nbformat",
-                                    "repository": {
-                                        "nameWithOwner": "jupyter/nbformat"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "nbmake",
-                                    "repository": {
-                                        "nameWithOwner": "treebeardtech/nbmake"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "nest-asyncio",
-                                    "repository": {
-                                        "nameWithOwner": "erdewit/nest_asyncio"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "openpyxl",
-                                    "repository": {
-                                        "nameWithOwner": "ericgazoni/openpyxl"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "packaging",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/packaging"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "parso",
-                                    "repository": {
-                                        "nameWithOwner": "davidhalter/parso"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pexpect",
-                                    "repository": {
-                                        "nameWithOwner": "pexpect/pexpect"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pillow",
-                                    "repository": {
-                                        "nameWithOwner": "python-pillow/Pillow"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "platformdirs",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/platformdirs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pluggy",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pluggy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "prompt-toolkit",
-                                    "repository": {
-                                        "nameWithOwner": "prompt-toolkit/python-prompt-toolkit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "psutil",
-                                    "repository": {
-                                        "nameWithOwner": "giampaolo/psutil"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ptyprocess",
-                                    "repository": {
-                                        "nameWithOwner": "pexpect/ptyprocess"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pure-eval",
-                                    "repository": {
-                                        "nameWithOwner": "alexmojaki/pure_eval"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pygments",
-                                    "repository": {
-                                        "nameWithOwner": "pygments/pygments"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyparsing",
-                                    "repository": {
-                                        "nameWithOwner": "pyparsing/pyparsing"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-cov",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-cov"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-dateutil",
-                                    "repository": {
-                                        "nameWithOwner": "dateutil/dateutil"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyyaml",
-                                    "repository": {
-                                        "nameWithOwner": "yaml/pyyaml"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyzmq",
-                                    "repository": {
-                                        "nameWithOwner": "zeromq/pyzmq"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "referencing",
-                                    "repository": {
-                                        "nameWithOwner": "python-jsonschema/referencing"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "rpds-py",
-                                    "repository": {
-                                        "nameWithOwner": "crate-py/rpds"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "six",
-                                    "repository": {
-                                        "nameWithOwner": "benjaminp/six"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "stack-data",
-                                    "repository": {
-                                        "nameWithOwner": "alexmojaki/stack_data"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tabulate",
-                                    "repository": {
-                                        "nameWithOwner": "astanin/python-tabulate"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tornado",
-                                    "repository": {
-                                        "nameWithOwner": "tornadoweb/tornado"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "traitlets",
-                                    "repository": {
-                                        "nameWithOwner": "ipython/traitlets"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "typing-extensions",
-                                    "repository": {
-                                        "nameWithOwner": "python/typing"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "wcwidth",
-                                    "repository": {
-                                        "nameWithOwner": "jquast/wcwidth"
                                     }
                                 }
                             ]
@@ -69997,7 +69995,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "nrel-rex",
                                     "repository": {
-                                        "nameWithOwner": "NREL/rex"
+                                        "nameWithOwner": "NatLabRockies/rex"
                                     }
                                 },
                                 {
@@ -70113,7 +70111,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "nrel-rex",
                                     "repository": {
-                                        "nameWithOwner": "NREL/rex"
+                                        "nameWithOwner": "NatLabRockies/rex"
                                     }
                                 },
                                 {
