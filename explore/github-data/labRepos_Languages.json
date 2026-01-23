@@ -1353,7 +1353,7 @@
                         "size": 81553230
                     },
                     {
-                        "size": 9186208
+                        "size": 9185833
                     },
                     {
                         "size": 2079071
@@ -1371,7 +1371,7 @@
                         "size": 974639
                     },
                     {
-                        "size": 919483
+                        "size": 919617
                     },
                     {
                         "size": 710287
@@ -1536,7 +1536,7 @@
                     }
                 ],
                 "totalCount": 27,
-                "totalSize": 101274795
+                "totalSize": 101274554
             }
         },
         "E3SM-Project/EKAT": {
@@ -2258,7 +2258,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 18840204
+                        "size": 18852348
                     },
                     {
                         "size": 390610
@@ -2331,7 +2331,7 @@
                     }
                 ],
                 "totalCount": 10,
-                "totalSize": 19635976
+                "totalSize": 19648120
             }
         },
         "SNL-GMS/GMS-PI13-OPEN": {
@@ -3338,6 +3338,37 @@
                 "totalSize": 510576
             }
         },
+        "SNL-WaterPower/OpenNWT": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 156149
+                    },
+                    {
+                        "size": 103266
+                    },
+                    {
+                        "size": 17717
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    }
+                ],
+                "totalCount": 3,
+                "totalSize": 277132
+            }
+        },
         "SNL-WaterPower/WecOptTool": {
             "languages": {
                 "edges": [
@@ -3870,19 +3901,19 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 26826830
+                        "size": 26825123
                     },
                     {
-                        "size": 15052151
+                        "size": 15053996
                     },
                     {
-                        "size": 3911070
+                        "size": 3911078
                     },
                     {
                         "size": 1871009
                     },
                     {
-                        "size": 762794
+                        "size": 763039
                     },
                     {
                         "size": 148139
@@ -4084,7 +4115,7 @@
                     }
                 ],
                 "totalCount": 34,
-                "totalSize": 49078015
+                "totalSize": 49078406
             }
         },
         "dicengine/dice": {
@@ -4202,7 +4233,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1277547
+                        "size": 1275690
                     },
                     {
                         "size": 1363
@@ -4219,7 +4250,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 1278910
+                "totalSize": 1277053
             }
         },
         "halucinator/.github": {
@@ -4495,8 +4526,8 @@
                         "name": "Assembly"
                     },
                     {
-                        "color": "#f0c040",
-                        "name": "Smarty"
+                        "color": "#00ADD8",
+                        "name": "Go Template"
                     },
                     {
                         "color": "#427819",
@@ -4532,7 +4563,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11065990
+                        "size": 11066164
                     },
                     {
                         "size": 292219
@@ -4605,7 +4636,7 @@
                     }
                 ],
                 "totalCount": 10,
-                "totalSize": 11495503
+                "totalSize": 11495677
             }
         },
         "kokkos/kokkos-kernels": {
@@ -8864,22 +8895,22 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 16845752
+                        "size": 17379228
                     },
                     {
-                        "size": 2291542
+                        "size": 2320177
                     },
                     {
-                        "size": 936226
+                        "size": 936999
                     },
                     {
-                        "size": 299578
+                        "size": 301878
                     },
                     {
                         "size": 297573
                     },
                     {
-                        "size": 269649
+                        "size": 274500
                     },
                     {
                         "size": 138414
@@ -8903,6 +8934,9 @@
                         "size": 9677
                     },
                     {
+                        "size": 9226
+                    },
+                    {
                         "size": 7315
                     },
                     {
@@ -8913,9 +8947,6 @@
                     },
                     {
                         "size": 3547
-                    },
-                    {
-                        "size": 2978
                     },
                     {
                         "size": 2941
@@ -8990,6 +9021,10 @@
                         "name": "Dockerfile"
                     },
                     {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
                         "color": "#c6538c",
                         "name": "SCSS"
                     },
@@ -8999,15 +9034,11 @@
                     },
                     {
                         "color": "#dd1100",
-                        "name": "Mathematica"
+                        "name": "Wolfram Language"
                     },
                     {
                         "color": null,
                         "name": "QMake"
-                    },
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     },
                     {
                         "color": "#427819",
@@ -9035,7 +9066,7 @@
                     }
                 ],
                 "totalCount": 24,
-                "totalSize": 21339006
+                "totalSize": 21915289
             }
         },
         "sandialabs/IntervalAssignment": {
@@ -9140,6 +9171,30 @@
                 ],
                 "totalCount": 9,
                 "totalSize": 11065913
+            }
+        },
+        "sandialabs/IterML-for-VOCs": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 217114
+                    },
+                    {
+                        "size": 2234
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#198CE7",
+                        "name": "R"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 2,
+                "totalSize": 219348
             }
         },
         "sandialabs/JaqalPaq": {
@@ -15784,7 +15839,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 271643849
+                        "size": 271681229
                     },
                     {
                         "size": 5264975
@@ -15815,7 +15870,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 278195423
+                "totalSize": 278232803
             }
         },
         "sandialabs/ali-perf-tests": {
@@ -16109,7 +16164,7 @@
                         "size": 1538747
                     },
                     {
-                        "size": 637812
+                        "size": 646995
                     },
                     {
                         "size": 468785
@@ -16165,7 +16220,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 2742085
+                "totalSize": 2751268
             }
         },
         "sandialabs/atse": {
@@ -16716,7 +16771,7 @@
                         "size": 101560
                     },
                     {
-                        "size": 25276
+                        "size": 26185
                     },
                     {
                         "size": 2495
@@ -16755,7 +16810,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 1135185
+                "totalSize": 1136094
             }
         },
         "sandialabs/cambio": {
@@ -16880,7 +16935,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1297332
+                        "size": 1299007
                     },
                     {
                         "size": 16568
@@ -16911,7 +16966,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 1333071
+                "totalSize": 1334746
             }
         },
         "sandialabs/canary-notebook": {
@@ -18079,7 +18134,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 520635
+                        "size": 520632
                     },
                     {
                         "size": 111320
@@ -18096,7 +18151,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 631955
+                "totalSize": 631952
             }
         },
         "sandialabs/cortext": {
@@ -27214,7 +27269,7 @@
                         "size": 5286738
                     },
                     {
-                        "size": 1233219
+                        "size": 1234363
                     },
                     {
                         "size": 440366
@@ -27224,6 +27279,9 @@
                     },
                     {
                         "size": 48903
+                    },
+                    {
+                        "size": 47311
                     },
                     {
                         "size": 27579
@@ -27269,6 +27327,10 @@
                         "name": "HTML"
                     },
                     {
+                        "color": "#00ADD8",
+                        "name": "Go Template"
+                    },
+                    {
                         "color": "#2ACCA8",
                         "name": "API Blueprint"
                     },
@@ -27297,8 +27359,8 @@
                         "name": "PowerShell"
                     }
                 ],
-                "totalCount": 12,
-                "totalSize": 7154483
+                "totalCount": 13,
+                "totalSize": 7202938
             }
         },
         "sandialabs/sceptre-phenix-apps": {
@@ -30801,7 +30863,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 168602
+                        "size": 173898
                     },
                     {
                         "size": 3055
@@ -30839,7 +30901,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 174738
+                "totalSize": 180034
             }
         },
         "sandialabs/wiretap-wireguard-go": {
@@ -31211,9 +31273,6 @@
                         "size": 7842
                     },
                     {
-                        "size": 7453
-                    },
-                    {
                         "size": 7157
                     },
                     {
@@ -31229,10 +31288,16 @@
                         "size": 2974
                     },
                     {
+                        "size": 2573
+                    },
+                    {
                         "size": 1996
                     },
                     {
-                        "size": 704
+                        "size": 382
+                    },
+                    {
+                        "size": 357
                     }
                 ],
                 "nodes": [
@@ -31281,10 +31346,6 @@
                         "name": "SWIG"
                     },
                     {
-                        "color": "#ecdebe",
-                        "name": "Roff"
-                    },
-                    {
                         "color": "#e16737",
                         "name": "MATLAB"
                     },
@@ -31305,16 +31366,24 @@
                         "name": "AMPL"
                     },
                     {
+                        "color": "#ecdebe",
+                        "name": "Roff"
+                    },
+                    {
                         "color": "#427819",
                         "name": "Makefile"
                     },
                     {
                         "color": "#f0c040",
                         "name": "Smarty"
+                    },
+                    {
+                        "color": "#00ADD8",
+                        "name": "Go Template"
                     }
                 ],
-                "totalCount": 19,
-                "totalSize": 14204336
+                "totalCount": 20,
+                "totalSize": 14199491
             }
         },
         "sparta/sparta": {

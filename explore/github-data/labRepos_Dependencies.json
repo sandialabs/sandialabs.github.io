@@ -7200,6 +7200,19 @@
                 ]
             }
         },
+        "SNL-WaterPower/OpenNWT": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "SNL-WaterPower/WecOptTool": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -11870,33 +11883,6 @@
             },
             "languages": {
                 "nodes": []
-            }
-        },
-        "sandialabs/ARCADE": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "libzmq_vc143",
-                                    "repository": {
-                                        "nameWithOwner": "zeromq/libzmq"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
             }
         },
         "sandialabs/Adaptive-Self-Tuning": {
@@ -20227,6 +20213,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/IterML-for-VOCs": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#198CE7",
+                        "name": "R"
                     }
                 ]
             }
@@ -61758,6 +61757,66 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "click",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/click"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dateutil",
+                                    "repository": {
+                                        "nameWithOwner": "dateutil/dateutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytz",
+                                    "repository": {
+                                        "nameWithOwner": "stub42/pytz"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sansmic",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "six",
+                                    "repository": {
+                                        "nameWithOwner": "benjaminp/six"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tzdata",
+                                    "repository": {
+                                        "nameWithOwner": "python/tzdata"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "asttokens",
                                     "repository": {
                                         "nameWithOwner": "gristlabs/asttokens"
@@ -62897,66 +62956,6 @@
                                     "repository": {
                                         "nameWithOwner": "stub42/pytz"
                                     }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "six",
-                                    "repository": {
-                                        "nameWithOwner": "benjaminp/six"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tzdata",
-                                    "repository": {
-                                        "nameWithOwner": "python/tzdata"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "click",
-                                    "repository": {
-                                        "nameWithOwner": "pallets/click"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-dateutil",
-                                    "repository": {
-                                        "nameWithOwner": "dateutil/dateutil"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytz",
-                                    "repository": {
-                                        "nameWithOwner": "stub42/pytz"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sansmic",
-                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
