@@ -1263,6 +1263,14 @@
         ],
         "website": ""
     },
+    "sandialabs/DREAMS": {
+        "description": "DREAMS (Distributed Renewable Energy Analysis and Mapping Suite) facilitates the creation, simulation, and analysis of snapshot and QSTS hosting capacity scenarios involving distribution systems modeled in OpenDSS. DREAMS can also export geospatial files for easier visualization, troubleshooting, and mapping of system models.",
+        "name": "sandialabs/DREAMS",
+        "topics": [
+            "scr-3168"
+        ],
+        "website": ""
+    },
     "sandialabs/DVS": {
         "description": "Data Visualization Saliency Model",
         "name": "sandialabs/DVS",
@@ -1990,7 +1998,8 @@
         "description": "Research code companion to \"Combining Machine Learning and Iterative Experiments to Keep Pace with Emerging Viral Variants of Concern\". Contains code for training and using iterative ML models using public and experimental COVID data.",
         "name": "sandialabs/IterML-for-VOCs",
         "topics": [
-            "scr-3314"
+            "scr-3314",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -3550,6 +3559,7 @@
         "description": null,
         "name": "sandialabs/Tracer-FIRE",
         "topics": [
+            "snl-cyber-sec",
             "scr-2530"
         ],
         "website": ""
@@ -6095,7 +6105,10 @@
     "sandialabs/nnopf": {
         "description": "A repository containing neural network models for learning solutions to ACOPF.",
         "name": "sandialabs/nnopf",
-        "topics": null,
+        "topics": [
+            "scr-3342",
+            "snl-other"
+        ],
         "website": ""
     },
     "sandialabs/nnopinf": {
@@ -6198,7 +6211,8 @@
         "description": "Toolkit for Pyomo Alternative Solutions ",
         "name": "sandialabs/or_topas",
         "topics": [
-            "scr-3329"
+            "scr-3329",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -6593,7 +6607,8 @@
         "description": "Code for combining Proximal Policy Optimization (PPO) with Hindsight Experience Replay (HER).",
         "name": "sandialabs/ppo-her",
         "topics": [
-            "scr-3256"
+            "scr-3256",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -7108,7 +7123,8 @@
             "fatigue",
             "mooseframework",
             "phase-field-damage",
-            "scr-3317"
+            "scr-3317",
+            "damage"
         ],
         "website": ""
     },
@@ -7708,7 +7724,8 @@
         "description": "Stochastic Programming And Related Optimization Workflows",
         "name": "sandialabs/sparow",
         "topics": [
-            "scr-3328"
+            "scr-3328",
+            "snl-science-libs"
         ],
         "website": ""
     },
@@ -7716,7 +7733,8 @@
         "description": "A library of sparow examples",
         "name": "sandialabs/sparow_examples",
         "topics": [
-            "scr-3333"
+            "scr-3333",
+            "snl-science-libs"
         ],
         "website": ""
     },
