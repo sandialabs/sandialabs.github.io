@@ -420,6 +420,12 @@
         "topics": null,
         "website": null
     },
+    "SNL-GMS/GMS-PI32": {
+        "description": "GMS PI32 release",
+        "name": "SNL-GMS/GMS-PI32",
+        "topics": null,
+        "website": null
+    },
     "SNL-GMS/GMS-PI7-OPEN": {
         "description": "GMS PI7 open source release (requires git-lfs)",
         "name": "SNL-GMS/GMS-PI7-OPEN",
@@ -2658,7 +2664,7 @@
             "snl-applications",
             "snl-cyber-sec"
         ],
-        "website": ""
+        "website": "https://sandialabs.github.io/PEAT/"
     },
     "sandialabs/PRAQTICE": {
         "description": "PRAQTICE (Python Repository for Advanced QCVV Tutorials and Interesting Characterization Experiments) is a software package containing advanced demonstrations of the implementation of quantum characterization, verification and validation protocols.",
@@ -6107,7 +6113,10 @@
         "name": "sandialabs/nnopf",
         "topics": [
             "scr-3342",
-            "snl-other"
+            "snl-other",
+            "snl-applications",
+            "snl-data-analysis",
+            "snl-science-libs"
         ],
         "website": ""
     },
