@@ -4709,6 +4709,11 @@
                 "nodes": []
             }
         },
+        "sandialabs/CaaS": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "sandialabs/CasCollect": {
             "releases": {
                 "nodes": []
@@ -8668,7 +8673,23 @@
         },
         "sandialabs/firewheel_ci": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "",
+                        "publishedAt": "2026-03-24T19:21:58Z",
+                        "tagName": "v1.1.0"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2026-03-24T17:22:25Z",
+                        "tagName": "v1.0.1"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2026-03-24T16:59:51Z",
+                        "tagName": "v1.0.0"
+                    }
+                ]
             }
         },
         "sandialabs/firewheel_repo_base": {
@@ -13872,6 +13893,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "stable_2026_03_24",
+                        "publishedAt": "2026-03-24T10:01:43Z",
+                        "tagName": "vstable_2026_03_24"
+                    },
+                    {
                         "name": "stable_2026_03_23",
                         "publishedAt": "2026-03-23T10:01:55Z",
                         "tagName": "vstable_2026_03_23"
@@ -13890,11 +13916,6 @@
                         "name": "stable_2026_03_20",
                         "publishedAt": "2026-03-20T10:01:47Z",
                         "tagName": "vstable_2026_03_20"
-                    },
-                    {
-                        "name": "stable_2026_03_19",
-                        "publishedAt": "2026-03-19T10:02:19Z",
-                        "tagName": "vstable_2026_03_19"
                     },
                     {
                         "name": "6.23.0",
