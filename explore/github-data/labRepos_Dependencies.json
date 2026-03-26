@@ -9359,6 +9359,19 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "PIP",
                                     "packageName": "pyzmq",
                                     "repository": {
@@ -22342,6 +22355,96 @@
                             "nodes": [
                                 {
                                     "packageManager": "NUGET",
+                                    "packageName": "Microsoft.Bcl.HashCode",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/corefx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.Build.Tasks.Git",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.NETCore.Platforms",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/runtime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.SourceLink.Common",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Microsoft.SourceLink.GitHub",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/sourcelink"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "NETStandard.Library",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/source-build"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Roslynator.Analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/roslynator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Roslynator.CodeAnalysis.Analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/roslynator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "Roslynator.Formatting.Analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "dotnet/roslynator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "SonarAnalyzer.CSharp",
+                                    "repository": {
+                                        "nameWithOwner": "SonarSource/sonar-dotnet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "StyleCop.Analyzers",
+                                    "repository": {
+                                        "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NUGET",
+                                    "packageName": "StyleCop.Analyzers.Unstable",
+                                    "repository": {
+                                        "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NUGET",
                                     "packageName": "Microsoft.ApplicationInsights",
                                     "repository": {
                                         "nameWithOwner": "microsoft/ApplicationInsights-dotnet"
@@ -22632,96 +22735,6 @@
                                     "packageName": "xunit.v3.runner.inproc.console",
                                     "repository": {
                                         "nameWithOwner": "xunit/xunit"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.Bcl.HashCode",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/corefx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.Build.Tasks.Git",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/dotnet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.NETCore.Platforms",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.SourceLink.Common",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/dotnet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Microsoft.SourceLink.GitHub",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/sourcelink"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "NETStandard.Library",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/source-build"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Roslynator.Analyzers",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/roslynator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Roslynator.CodeAnalysis.Analyzers",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/roslynator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "Roslynator.Formatting.Analyzers",
-                                    "repository": {
-                                        "nameWithOwner": "dotnet/roslynator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "SonarAnalyzer.CSharp",
-                                    "repository": {
-                                        "nameWithOwner": "SonarSource/sonar-dotnet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "StyleCop.Analyzers",
-                                    "repository": {
-                                        "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NUGET",
-                                    "packageName": "StyleCop.Analyzers.Unstable",
-                                    "repository": {
-                                        "nameWithOwner": "DotNetAnalyzers/StyleCopAnalyzers"
                                     }
                                 }
                             ]
@@ -30534,6 +30547,40 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
+                    }
+                ]
+            }
+        },
+        "sandialabs/Sango": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "networkx",
+                                    "repository": {
+                                        "nameWithOwner": "networkx/networkx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
                     }
                 ]
             }
@@ -64738,68 +64785,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pybind11",
-                                    "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-dateutil",
-                                    "repository": {
-                                        "nameWithOwner": "dateutil/dateutil"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytz",
-                                    "repository": {
-                                        "nameWithOwner": "stub42/pytz"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "six",
-                                    "repository": {
-                                        "nameWithOwner": "benjaminp/six"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tzdata",
-                                    "repository": {
-                                        "nameWithOwner": "python/tzdata"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "click",
-                                    "repository": {
-                                        "nameWithOwner": "pallets/click"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "python-dateutil",
                                     "repository": {
                                         "nameWithOwner": "dateutil/dateutil"
@@ -65929,6 +65914,68 @@
                                     "packageName": "webencodings",
                                     "repository": {
                                         "nameWithOwner": "gsnedders/python-webencodings"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "click",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/click"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pybind11",
+                                    "repository": {
+                                        "nameWithOwner": "pybind/pybind11"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dateutil",
+                                    "repository": {
+                                        "nameWithOwner": "dateutil/dateutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytz",
+                                    "repository": {
+                                        "nameWithOwner": "stub42/pytz"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "six",
+                                    "repository": {
+                                        "nameWithOwner": "benjaminp/six"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tzdata",
+                                    "repository": {
+                                        "nameWithOwner": "python/tzdata"
                                     }
                                 }
                             ]
@@ -76386,6 +76433,828 @@
                     {
                         "color": "#1e4aec",
                         "name": "Scheme"
+                    }
+                ]
+            }
+        },
+        "sandialabs/sync-web": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mkdocs",
+                                    "repository": {
+                                        "nameWithOwner": "mkdocs/mkdocs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mkdocs-git-revision-date-localized-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "timvink/mkdocs-git-revision-date-localized-plugin"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mkdocs-material",
+                                    "repository": {
+                                        "nameWithOwner": "squidfunk/mkdocs-material"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/configure-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/configure-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/deploy-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/deploy-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-node",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-node"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-pages-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-pages-artifact"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/compiler",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/compiler"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/internal-helpers",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/astro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/markdown-remark",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/astro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/mdx",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/astro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/prism",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/astro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/sitemap",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/astro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/starlight",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/starlight"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/telemetry",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/astro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/helper-string-parser",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/helper-validator-identifier",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/parser",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/runtime",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/types",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@capsizecss/unpack",
+                                    "repository": {
+                                        "nameWithOwner": "seek-oss/capsize"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@ctrl/tinycolor",
+                                    "repository": {
+                                        "nameWithOwner": "scttcper/tinycolor"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emnapi/runtime",
+                                    "repository": {
+                                        "nameWithOwner": "toyobayashi/emnapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/aix-ppc64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/aix-ppc64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/android-arm",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/android-arm",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/android-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/android-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/android-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/android-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/darwin-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/darwin-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/darwin-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/darwin-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/freebsd-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/freebsd-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/freebsd-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/freebsd-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-arm",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-arm",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-ia32",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-ia32",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-loong64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-loong64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-mips64el",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-mips64el",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-ppc64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-ppc64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-riscv64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-riscv64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-s390x",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-s390x",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/linux-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/netbsd-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/netbsd-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/netbsd-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/netbsd-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/openbsd-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/openbsd-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/openbsd-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/openbsd-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/openharmony-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/openharmony-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/sunos-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/sunos-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/win32-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/win32-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/win32-ia32",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/win32-ia32",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/win32-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@esbuild/win32-x64",
+                                    "repository": {
+                                        "nameWithOwner": "evanw/esbuild"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@expressive-code/core",
+                                    "repository": {
+                                        "nameWithOwner": "expressive-code/expressive-code"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@expressive-code/plugin-frames",
+                                    "repository": {
+                                        "nameWithOwner": "expressive-code/expressive-code"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@expressive-code/plugin-shiki",
+                                    "repository": {
+                                        "nameWithOwner": "expressive-code/expressive-code"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@expressive-code/plugin-text-markers",
+                                    "repository": {
+                                        "nameWithOwner": "expressive-code/expressive-code"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/colour",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/colour"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-darwin-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-darwin-x64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-darwin-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-darwin-x64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-linux-arm",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-linux-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-linux-ppc64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-linux-riscv64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-linux-s390x",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-linux-x64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-linuxmusl-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-libvips-linuxmusl-x64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp-libvips"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-linux-arm",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-linux-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-linux-ppc64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-linux-riscv64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-linux-s390x",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-linux-x64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-linuxmusl-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-linuxmusl-x64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-wasm32",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-win32-arm64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-win32-ia32",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@img/sharp-win32-x64",
+                                    "repository": {
+                                        "nameWithOwner": "lovell/sharp"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@jridgewell/sourcemap-codec",
+                                    "repository": {
+                                        "nameWithOwner": "jridgewell/sourcemap-codec"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@mdx-js/mdx",
+                                    "repository": {
+                                        "nameWithOwner": "mdx-js/mdx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@oslojs/encoding",
+                                    "repository": {
+                                        "nameWithOwner": "oslo-project/encoding"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/mdx",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/astro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@astrojs/starlight",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/starlight"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "astro",
+                                    "repository": {
+                                        "nameWithOwner": "withastro/astro"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "playwright",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/playwright"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#fcb32c",
+                        "name": "MDX"
                     }
                 ]
             }
