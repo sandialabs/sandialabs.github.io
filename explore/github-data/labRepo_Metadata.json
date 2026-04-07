@@ -1105,7 +1105,9 @@
         "description": "A common API for executing containerized workloads",
         "name": "sandialabs/CaaS",
         "topics": [
-            "scr-3360"
+            "scr-3360",
+            "snl-applications",
+            "snl-performance-workflow"
         ],
         "website": ""
     },
@@ -4089,6 +4091,14 @@
         "name": "sandialabs/appspack",
         "topics": [
             "scr-489"
+        ],
+        "website": ""
+    },
+    "sandialabs/arbf": {
+        "description": "Implementation of a modified radial basis function netwrok architecture.",
+        "name": "sandialabs/arbf",
+        "topics": [
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -7248,7 +7258,10 @@
         "description": "Applications of kernel methods to non-intrusive reduced-order models",
         "name": "sandialabs/rkhs-roms",
         "topics": [
-            "scr-3305"
+            "scr-3305",
+            "snl-applications",
+            "snl-data-analysis",
+            "snl-science-libs"
         ],
         "website": ""
     },
