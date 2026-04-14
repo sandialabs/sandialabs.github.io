@@ -1246,7 +1246,9 @@
     "sandialabs/D3T4SOC": {
         "description": "SCR-3364.0: Data Driven Digital Twins for Soil Organic Carbon Profiles using a Generative AI-based cWGAN.",
         "name": "sandialabs/D3T4SOC",
-        "topics": null,
+        "topics": [
+            "scr-3364"
+        ],
         "website": ""
     },
     "sandialabs/DCS-Slmod": {
@@ -3895,6 +3897,12 @@
         ],
         "website": ""
     },
+    "sandialabs/abox": {
+        "description": null,
+        "name": "sandialabs/abox",
+        "topics": null,
+        "website": null
+    },
     "sandialabs/acro": {
         "description": null,
         "name": "sandialabs/acro",
@@ -4110,7 +4118,8 @@
         "description": "Implementation of a modified radial basis function netwrok architecture.",
         "name": "sandialabs/arbf",
         "topics": [
-            "snl-data-analysis"
+            "snl-data-analysis",
+            "scr-3359"
         ],
         "website": ""
     },
@@ -5925,6 +5934,17 @@
         "topics": [
             "scr-2589",
             "snl-applications"
+        ],
+        "website": ""
+    },
+    "sandialabs/mcnpy": {
+        "description": "A Python interface for parsing MCNP 6.2/6.3 binary PTRAC files, and utilities for running and interacting with MCNP",
+        "name": "sandialabs/mcnpy",
+        "topics": [
+            "mcnp",
+            "ptrac",
+            "scr-3378",
+            "snl-other"
         ],
         "website": ""
     },
