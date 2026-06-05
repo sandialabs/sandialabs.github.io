@@ -520,62 +520,6 @@
                 "totalCount": 0
             }
         },
-        "Exawind/nalu-wind": {
-            "repositoryTopics": {
-                "nodes": [
-                    {
-                        "resourcePath": "/topics/low-mach",
-                        "topic": {
-                            "name": "low-mach"
-                        },
-                        "url": "https://github.com/topics/low-mach"
-                    },
-                    {
-                        "resourcePath": "/topics/wind-energy",
-                        "topic": {
-                            "name": "wind-energy"
-                        },
-                        "url": "https://github.com/topics/wind-energy"
-                    },
-                    {
-                        "resourcePath": "/topics/les",
-                        "topic": {
-                            "name": "les"
-                        },
-                        "url": "https://github.com/topics/les"
-                    },
-                    {
-                        "resourcePath": "/topics/cfd",
-                        "topic": {
-                            "name": "cfd"
-                        },
-                        "url": "https://github.com/topics/cfd"
-                    },
-                    {
-                        "resourcePath": "/topics/ecp",
-                        "topic": {
-                            "name": "ecp"
-                        },
-                        "url": "https://github.com/topics/ecp"
-                    },
-                    {
-                        "resourcePath": "/topics/exascale-computing",
-                        "topic": {
-                            "name": "exascale-computing"
-                        },
-                        "url": "https://github.com/topics/exascale-computing"
-                    },
-                    {
-                        "resourcePath": "/topics/exawind",
-                        "topic": {
-                            "name": "exawind"
-                        },
-                        "url": "https://github.com/topics/exawind"
-                    }
-                ],
-                "totalCount": 7
-            }
-        },
         "HobbesOSR/kitten": {
             "repositoryTopics": {
                 "nodes": [
@@ -1890,6 +1834,48 @@
                 "totalCount": 0
             }
         },
+        "kynema/kynema-ugf": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/low-mach",
+                        "topic": {
+                            "name": "low-mach"
+                        },
+                        "url": "https://github.com/topics/low-mach"
+                    },
+                    {
+                        "resourcePath": "/topics/les",
+                        "topic": {
+                            "name": "les"
+                        },
+                        "url": "https://github.com/topics/les"
+                    },
+                    {
+                        "resourcePath": "/topics/cfd",
+                        "topic": {
+                            "name": "cfd"
+                        },
+                        "url": "https://github.com/topics/cfd"
+                    },
+                    {
+                        "resourcePath": "/topics/ecp",
+                        "topic": {
+                            "name": "ecp"
+                        },
+                        "url": "https://github.com/topics/ecp"
+                    },
+                    {
+                        "resourcePath": "/topics/exascale-computing",
+                        "topic": {
+                            "name": "exascale-computing"
+                        },
+                        "url": "https://github.com/topics/exascale-computing"
+                    }
+                ],
+                "totalCount": 5
+            }
+        },
         "lammps/lammps": {
             "repositoryTopics": {
                 "nodes": [
@@ -2780,9 +2766,23 @@
                             "name": "synthetic-data"
                         },
                         "url": "https://github.com/topics/synthetic-data"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-data-analysis",
+                        "topic": {
+                            "name": "snl-data-analysis"
+                        },
+                        "url": "https://github.com/topics/snl-data-analysis"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-applications",
+                        "topic": {
+                            "name": "snl-applications"
+                        },
+                        "url": "https://github.com/topics/snl-applications"
                     }
                 ],
-                "totalCount": 4
+                "totalCount": 6
             }
         },
         "sandialabs/CWA-15793-2011-Planning-and-Implementation-Tool": {
@@ -3753,6 +3753,34 @@
                             "name": "snl-cyber-sec"
                         },
                         "url": "https://github.com/topics/snl-cyber-sec"
+                    }
+                ],
+                "totalCount": 3
+            }
+        },
+        "sandialabs/EFBMC": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/data-analysis",
+                        "topic": {
+                            "name": "data-analysis"
+                        },
+                        "url": "https://github.com/topics/data-analysis"
+                    },
+                    {
+                        "resourcePath": "/topics/data-science",
+                        "topic": {
+                            "name": "data-science"
+                        },
+                        "url": "https://github.com/topics/data-science"
+                    },
+                    {
+                        "resourcePath": "/topics/scr-3407",
+                        "topic": {
+                            "name": "scr-3407"
+                        },
+                        "url": "https://github.com/topics/scr-3407"
                     }
                 ],
                 "totalCount": 3
@@ -4925,6 +4953,34 @@
                     }
                 ],
                 "totalCount": 2
+            }
+        },
+        "sandialabs/HdsaLib": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3362",
+                        "topic": {
+                            "name": "scr-3362"
+                        },
+                        "url": "https://github.com/topics/scr-3362"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-applications",
+                        "topic": {
+                            "name": "snl-applications"
+                        },
+                        "url": "https://github.com/topics/snl-applications"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-data-analysis",
+                        "topic": {
+                            "name": "snl-data-analysis"
+                        },
+                        "url": "https://github.com/topics/snl-data-analysis"
+                    }
+                ],
+                "totalCount": 3
             }
         },
         "sandialabs/HeatEquationNeuralSimulation": {
@@ -9085,6 +9141,34 @@
                 "totalCount": 3
             }
         },
+        "sandialabs/Sola": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3363",
+                        "topic": {
+                            "name": "scr-3363"
+                        },
+                        "url": "https://github.com/topics/scr-3363"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-applications",
+                        "topic": {
+                            "name": "snl-applications"
+                        },
+                        "url": "https://github.com/topics/snl-applications"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-data-analysis",
+                        "topic": {
+                            "name": "snl-data-analysis"
+                        },
+                        "url": "https://github.com/topics/snl-data-analysis"
+                    }
+                ],
+                "totalCount": 3
+            }
+        },
         "sandialabs/SpecUtils": {
             "repositoryTopics": {
                 "nodes": [
@@ -10326,8 +10410,16 @@
         },
         "sandialabs/abox": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3371",
+                        "topic": {
+                            "name": "scr-3371"
+                        },
+                        "url": "https://github.com/topics/scr-3371"
+                    }
+                ],
+                "totalCount": 1
             }
         },
         "sandialabs/acro": {
@@ -11681,6 +11773,76 @@
                 "totalCount": 8
             }
         },
+        "sandialabs/cargo-sanctify": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/cargo",
+                        "topic": {
+                            "name": "cargo"
+                        },
+                        "url": "https://github.com/topics/cargo"
+                    },
+                    {
+                        "resourcePath": "/topics/cargo-plugin",
+                        "topic": {
+                            "name": "cargo-plugin"
+                        },
+                        "url": "https://github.com/topics/cargo-plugin"
+                    },
+                    {
+                        "resourcePath": "/topics/cargo-subcommand",
+                        "topic": {
+                            "name": "cargo-subcommand"
+                        },
+                        "url": "https://github.com/topics/cargo-subcommand"
+                    },
+                    {
+                        "resourcePath": "/topics/crates",
+                        "topic": {
+                            "name": "crates"
+                        },
+                        "url": "https://github.com/topics/crates"
+                    },
+                    {
+                        "resourcePath": "/topics/rust",
+                        "topic": {
+                            "name": "rust"
+                        },
+                        "url": "https://github.com/topics/rust"
+                    },
+                    {
+                        "resourcePath": "/topics/rust-lang",
+                        "topic": {
+                            "name": "rust-lang"
+                        },
+                        "url": "https://github.com/topics/rust-lang"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-build-tools",
+                        "topic": {
+                            "name": "snl-build-tools"
+                        },
+                        "url": "https://github.com/topics/snl-build-tools"
+                    },
+                    {
+                        "resourcePath": "/topics/cargo-sanctify",
+                        "topic": {
+                            "name": "cargo-sanctify"
+                        },
+                        "url": "https://github.com/topics/cargo-sanctify"
+                    },
+                    {
+                        "resourcePath": "/topics/scr-3370",
+                        "topic": {
+                            "name": "scr-3370"
+                        },
+                        "url": "https://github.com/topics/scr-3370"
+                    }
+                ],
+                "totalCount": 9
+            }
+        },
         "sandialabs/cbench": {
             "repositoryTopics": {
                 "nodes": [
@@ -12488,6 +12650,34 @@
                             "name": "snl-comp-science-libs"
                         },
                         "url": "https://github.com/topics/snl-comp-science-libs"
+                    }
+                ],
+                "totalCount": 3
+            }
+        },
+        "sandialabs/ctadl-rs": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3040",
+                        "topic": {
+                            "name": "scr-3040"
+                        },
+                        "url": "https://github.com/topics/scr-3040"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-comp-science-libs",
+                        "topic": {
+                            "name": "snl-comp-science-libs"
+                        },
+                        "url": "https://github.com/topics/snl-comp-science-libs"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-cyber-sec",
+                        "topic": {
+                            "name": "snl-cyber-sec"
+                        },
+                        "url": "https://github.com/topics/snl-cyber-sec"
                     }
                 ],
                 "totalCount": 3
@@ -14511,9 +14701,16 @@
                             "name": "scr-3251"
                         },
                         "url": "https://github.com/topics/scr-3251"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-data-analysis",
+                        "topic": {
+                            "name": "snl-data-analysis"
+                        },
+                        "url": "https://github.com/topics/snl-data-analysis"
                     }
                 ],
-                "totalCount": 1
+                "totalCount": 2
             }
         },
         "sandialabs/idash2018task1": {
@@ -15286,6 +15483,41 @@
                 "totalCount": 2
             }
         },
+        "sandialabs/mcnp_utilities": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3386",
+                        "topic": {
+                            "name": "scr-3386"
+                        },
+                        "url": "https://github.com/topics/scr-3386"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-applications",
+                        "topic": {
+                            "name": "snl-applications"
+                        },
+                        "url": "https://github.com/topics/snl-applications"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-data-analysis",
+                        "topic": {
+                            "name": "snl-data-analysis"
+                        },
+                        "url": "https://github.com/topics/snl-data-analysis"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-visualization",
+                        "topic": {
+                            "name": "snl-visualization"
+                        },
+                        "url": "https://github.com/topics/snl-visualization"
+                    }
+                ],
+                "totalCount": 4
+            }
+        },
         "sandialabs/mcnpy": {
             "repositoryTopics": {
                 "nodes": [
@@ -15358,6 +15590,20 @@
                             "name": "scr-1267"
                         },
                         "url": "https://github.com/topics/scr-1267"
+                    }
+                ],
+                "totalCount": 1
+            }
+        },
+        "sandialabs/mellifera": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3270",
+                        "topic": {
+                            "name": "scr-3270"
+                        },
+                        "url": "https://github.com/topics/scr-3270"
                     }
                 ],
                 "totalCount": 1
@@ -15659,6 +15905,27 @@
                             "name": "scr-3292"
                         },
                         "url": "https://github.com/topics/scr-3292"
+                    }
+                ],
+                "totalCount": 2
+            }
+        },
+        "sandialabs/mlqmcpy": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/snl-applications",
+                        "topic": {
+                            "name": "snl-applications"
+                        },
+                        "url": "https://github.com/topics/snl-applications"
+                    },
+                    {
+                        "resourcePath": "/topics/scr-3297",
+                        "topic": {
+                            "name": "scr-3297"
+                        },
+                        "url": "https://github.com/topics/scr-3297"
                     }
                 ],
                 "totalCount": 2
@@ -16166,6 +16433,27 @@
                     }
                 ],
                 "totalCount": 3
+            }
+        },
+        "sandialabs/offlinefolium": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3252",
+                        "topic": {
+                            "name": "scr-3252"
+                        },
+                        "url": "https://github.com/topics/scr-3252"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-data-analysis",
+                        "topic": {
+                            "name": "snl-data-analysis"
+                        },
+                        "url": "https://github.com/topics/snl-data-analysis"
+                    }
+                ],
+                "totalCount": 2
             }
         },
         "sandialabs/omega_h": {
@@ -22848,6 +23136,27 @@
                             "name": "snl-cyber-sec"
                         },
                         "url": "https://github.com/topics/snl-cyber-sec"
+                    }
+                ],
+                "totalCount": 2
+            }
+        },
+        "sandialabs/wonderwall": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/scr-3405",
+                        "topic": {
+                            "name": "scr-3405"
+                        },
+                        "url": "https://github.com/topics/scr-3405"
+                    },
+                    {
+                        "resourcePath": "/topics/snl-data-analysis",
+                        "topic": {
+                            "name": "snl-data-analysis"
+                        },
+                        "url": "https://github.com/topics/snl-data-analysis"
                     }
                 ],
                 "totalCount": 2

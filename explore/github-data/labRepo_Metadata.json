@@ -297,20 +297,6 @@
         "topics": null,
         "website": "http://esmci.github.io/cime"
     },
-    "Exawind/nalu-wind": {
-        "description": "Solver for wind farm simulations targeting exascale computational platforms",
-        "name": "Exawind/nalu-wind",
-        "topics": [
-            "low-mach",
-            "wind-energy",
-            "les",
-            "cfd",
-            "ecp",
-            "exascale-computing",
-            "exawind"
-        ],
-        "website": "https://exawind.github.io/nalu-wind/"
-    },
     "HobbesOSR/kitten": {
         "description": "Kitten Lightweight Kernel",
         "name": "HobbesOSR/kitten",
@@ -743,6 +729,18 @@
         "topics": null,
         "website": "http://llvm.org"
     },
+    "kynema/kynema-ugf": {
+        "description": "Unstructured grid fluid solver for the Kynema project",
+        "name": "kynema/kynema-ugf",
+        "topics": [
+            "low-mach",
+            "les",
+            "cfd",
+            "ecp",
+            "exascale-computing"
+        ],
+        "website": "https://kynema.github.io/kynema-ugf/"
+    },
     "lammps/lammps": {
         "description": "Public development project of the LAMMPS MD software package  ",
         "name": "lammps/lammps",
@@ -1088,7 +1086,9 @@
             "scr-3348",
             "machine-learning",
             "neural-network",
-            "synthetic-data"
+            "synthetic-data",
+            "snl-data-analysis",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -1306,7 +1306,7 @@
         "website": ""
     },
     "sandialabs/DREAMS": {
-        "description": "DREAMS (Distributed Renewable Energy Analysis and Mapping Suite) facilitates the creation, simulation, and analysis of snapshot and QSTS hosting capacity scenarios involving distribution systems modeled in OpenDSS. DREAMS can also export geospatial files for easier visualization, troubleshooting, and mapping of system models.",
+        "description": "DREAMS (Distribution System Energy Analysis and Mapping Suite) facilitates the creation, simulation, and analysis of snapshot and QSTS hosting capacity scenarios involving distribution systems modeled in OpenDSS. DREAMS can also export geospatial files for easier visualization, troubleshooting, and mapping of system models.",
         "name": "sandialabs/DREAMS",
         "topics": [
             "scr-3168",
@@ -1426,6 +1426,16 @@
             "scr-2915",
             "snl-applications",
             "snl-cyber-sec"
+        ],
+        "website": ""
+    },
+    "sandialabs/EFBMC": {
+        "description": "Elastic Functional Bayesian Model Calibration",
+        "name": "sandialabs/EFBMC",
+        "topics": [
+            "data-analysis",
+            "data-science",
+            "scr-3407"
         ],
         "website": ""
     },
@@ -1872,6 +1882,16 @@
         ],
         "website": ""
     },
+    "sandialabs/HdsaLib": {
+        "description": "This C++ library implements various Hyper-differential Sensitivity Analysis algorithms, with a focus on model discrepancy analysis.",
+        "name": "sandialabs/HdsaLib",
+        "topics": [
+            "scr-3362",
+            "snl-applications",
+            "snl-data-analysis"
+        ],
+        "website": ""
+    },
     "sandialabs/HeatEquationNeuralSimulation": {
         "description": "Solving a steady-state PDE using spiking networks and neuromorphic hardware - Smith et al. ICONS 2020",
         "name": "sandialabs/HeatEquationNeuralSimulation",
@@ -2238,7 +2258,7 @@
         "website": ""
     },
     "sandialabs/MANIPULATE-2020": {
-        "description": null,
+        "description": "An interface tool for nuclear data processing",
         "name": "sandialabs/MANIPULATE-2020",
         "topics": [
             "scr-2685",
@@ -3444,6 +3464,16 @@
         ],
         "website": ""
     },
+    "sandialabs/Sola": {
+        "description": "The Sandbox for Outer Loop Analysis (Sola) is a MATLAB library that solves equality constrained optimization problems in reduced space with derivative (1st and 2nd) based optimization computed via adjoints. In addition, it automatically enables other outer loop analyses such as hyper-differential sensitivity analysis.",
+        "name": "sandialabs/Sola",
+        "topics": [
+            "scr-3363",
+            "snl-applications",
+            "snl-data-analysis"
+        ],
+        "website": "https://sandialabs.github.io/Sola/"
+    },
     "sandialabs/SpecUtils": {
         "description": "A library for opening, manipulating, and exporting gamma spectral files",
         "name": "sandialabs/SpecUtils",
@@ -3900,8 +3930,10 @@
     "sandialabs/abox": {
         "description": null,
         "name": "sandialabs/abox",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3371"
+        ],
+        "website": ""
     },
     "sandialabs/acro": {
         "description": null,
@@ -4414,6 +4446,22 @@
         ],
         "website": ""
     },
+    "sandialabs/cargo-sanctify": {
+        "description": null,
+        "name": "sandialabs/cargo-sanctify",
+        "topics": [
+            "cargo",
+            "cargo-plugin",
+            "cargo-subcommand",
+            "crates",
+            "rust",
+            "rust-lang",
+            "snl-build-tools",
+            "cargo-sanctify",
+            "scr-3370"
+        ],
+        "website": ""
+    },
     "sandialabs/cbench": {
         "description": null,
         "name": "sandialabs/cbench",
@@ -4731,6 +4779,16 @@
             "scr-3040",
             "snl-cyber-sec",
             "snl-comp-science-libs"
+        ],
+        "website": ""
+    },
+    "sandialabs/ctadl-rs": {
+        "description": "CTADL is a flexible static taint analysis tool",
+        "name": "sandialabs/ctadl-rs",
+        "topics": [
+            "scr-3040",
+            "snl-comp-science-libs",
+            "snl-cyber-sec"
         ],
         "website": ""
     },
@@ -5108,7 +5166,7 @@
         "website": "https://stream-benchmarking.github.io/firehose/"
     },
     "sandialabs/firewheel": {
-        "description": "FIREWHEEL is an experiment orchestration tool that assists a user in building and controlling, repeatable experiments of distributed network systems at any scale.",
+        "description": "FIREWHEEL is an experiment orchestration tool that assists a user in building and controlling repeatable experiments of distributed network systems at any scale.",
         "name": "sandialabs/firewheel",
         "topics": [
             "snl-applications",
@@ -5601,7 +5659,8 @@
         "description": "Bayesian optimal experimental design is performed to improve model calibration by iteratively selecting experiments that will provide the most informative data for model calibration.",
         "name": "sandialabs/icc-boed",
         "topics": [
-            "scr-3251"
+            "scr-3251",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -5937,6 +5996,17 @@
         ],
         "website": ""
     },
+    "sandialabs/mcnp_utilities": {
+        "description": "MCNP Utilities supports users of the MCNP version 6 and later. It offers Python-based scripts that simplify creating MCNP input files, extracting and analyzing output data, and visualizing results such as spectra and geometry. The suite includes functions for material card generation, tally processing, reactivity calculations, and plotting.",
+        "name": "sandialabs/mcnp_utilities",
+        "topics": [
+            "scr-3386",
+            "snl-applications",
+            "snl-data-analysis",
+            "snl-visualization"
+        ],
+        "website": ""
+    },
     "sandialabs/mcnpy": {
         "description": "A Python interface for parsing MCNP 6.2/6.3 binary PTRAC files, and utilities for running and interacting with MCNP",
         "name": "sandialabs/mcnpy",
@@ -5969,6 +6039,14 @@
         "name": "sandialabs/megraphs",
         "topics": [
             "scr-1267"
+        ],
+        "website": ""
+    },
+    "sandialabs/mellifera": {
+        "description": null,
+        "name": "sandialabs/mellifera",
+        "topics": [
+            "scr-3270"
         ],
         "website": ""
     },
@@ -6102,6 +6180,15 @@
         "topics": [
             "snl-data-analysis",
             "scr-3292"
+        ],
+        "website": ""
+    },
+    "sandialabs/mlqmcpy": {
+        "description": "Multilevel (quasi-)Monte Carlo methods in Python",
+        "name": "sandialabs/mlqmcpy",
+        "topics": [
+            "snl-applications",
+            "scr-3297"
         ],
         "website": ""
     },
@@ -6312,6 +6399,15 @@
             "scr-3244",
             "snl-applications",
             "snl-prog-models-runtimes"
+        ],
+        "website": ""
+    },
+    "sandialabs/offlinefolium": {
+        "description": "offlinefolium is a slightly modified version of the folium package with a few tweaks allowing interactive folium maps to function without access to Internet resources. ",
+        "name": "sandialabs/offlinefolium",
+        "topics": [
+            "scr-3252",
+            "snl-data-analysis"
         ],
         "website": ""
     },
@@ -8557,6 +8653,15 @@
         "topics": [
             "scr-2819",
             "snl-cyber-sec"
+        ],
+        "website": ""
+    },
+    "sandialabs/wonderwall": {
+        "description": "Network Restrictor allowing for semi-isolated container environments with access to allow-listed resources",
+        "name": "sandialabs/wonderwall",
+        "topics": [
+            "scr-3405",
+            "snl-data-analysis"
         ],
         "website": ""
     },
