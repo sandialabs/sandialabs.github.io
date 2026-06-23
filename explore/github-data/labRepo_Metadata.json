@@ -134,6 +134,12 @@
         "topics": null,
         "website": "http://llvm.org"
     },
+    "DARMA-tasking/loc": {
+        "description": null,
+        "name": "DARMA-tasking/loc",
+        "topics": null,
+        "website": null
+    },
     "DARMA-tasking/magistrate": {
         "description": "DARMA/magistrate => Serialization and checkpointing library",
         "name": "DARMA-tasking/magistrate",
@@ -1920,8 +1926,10 @@
     "sandialabs/Hql": {
         "description": "Hql is a universal query language based on Kusto with detection engineering capabilities built in. It allows for cross database querying and joining hoping to bridge the gap between free and paid SIEM platforms. On going work focuses on caching, speeding up slower databases.",
         "name": "sandialabs/Hql",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3415"
+        ],
+        "website": ""
     },
     "sandialabs/HypeEmb4Py": {
         "description": null,
