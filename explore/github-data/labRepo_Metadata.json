@@ -2202,8 +2202,10 @@
     "sandialabs/KiMecO": {
         "description": "KiMecO optimizes chemical kinetic mechanisms by coupling Master Equation calculations (MESS), Cantera simulations, and different choice of optimization algorithm. It iteratively refines ME parameters to maximize agreement the model with experimental and theoretical data.",
         "name": "sandialabs/KiMecO",
-        "topics": null,
-        "website": null
+        "topics": [
+            "scr-3394"
+        ],
+        "website": ""
     },
     "sandialabs/KinCat": {
         "description": null,
@@ -5576,6 +5578,17 @@
         "name": "sandialabs/gnom3-fe",
         "topics": [
             "scr-2192"
+        ],
+        "website": ""
+    },
+    "sandialabs/goated": {
+        "description": "Goal-oriented tensor decompositions in python",
+        "name": "sandialabs/goated",
+        "topics": [
+            "scr-3373",
+            "python",
+            "snl-data-analysis",
+            "tensors"
         ],
         "website": ""
     },
