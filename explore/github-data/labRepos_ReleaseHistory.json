@@ -5592,14 +5592,14 @@
             "releases": {
                 "nodes": [
                     {
-                        "name": "Development Build",
-                        "publishedAt": "2026-07-19T06:58:14Z",
-                        "tagName": "bleeding-edge"
-                    },
-                    {
                         "name": "Really Bleeding Edge (v1.1 preview)",
                         "publishedAt": "2026-09-11T19:23:42Z",
                         "tagName": "wt4-bleeding-edge"
+                    },
+                    {
+                        "name": "Development Build",
+                        "publishedAt": "2026-07-19T06:58:14Z",
+                        "tagName": "bleeding-edge"
                     },
                     {
                         "name": "v1.0.14",
@@ -10534,7 +10534,23 @@
         },
         "sandialabs/or_topas": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "OR-Topas 1.1.0",
+                        "publishedAt": "2026-09-21T13:46:16Z",
+                        "tagName": "1.1.0"
+                    },
+                    {
+                        "name": "OR-Topas 1.0.1",
+                        "publishedAt": "2026-06-13T23:16:33Z",
+                        "tagName": "1.0.1"
+                    },
+                    {
+                        "name": "OR-Topas 1.0.0",
+                        "publishedAt": "2026-05-24T15:51:47Z",
+                        "tagName": "1.0.0"
+                    }
+                ]
             }
         },
         "sandialabs/oso-airfoils": {
