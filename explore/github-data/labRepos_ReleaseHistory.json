@@ -5617,14 +5617,14 @@
             "releases": {
                 "nodes": [
                     {
-                        "name": "Really Bleeding Edge (v1.1 preview)",
-                        "publishedAt": "2026-09-11T19:23:42Z",
-                        "tagName": "wt4-bleeding-edge"
-                    },
-                    {
                         "name": "Development Build",
                         "publishedAt": "2026-07-19T06:58:14Z",
                         "tagName": "bleeding-edge"
+                    },
+                    {
+                        "name": "Really Bleeding Edge (v1.1 preview)",
+                        "publishedAt": "2026-09-11T19:23:42Z",
+                        "tagName": "wt4-bleeding-edge"
                     },
                     {
                         "name": "v1.0.14",
@@ -9867,7 +9867,13 @@
         },
         "sandialabs/gtotr": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v0.1.0",
+                        "publishedAt": "2026-10-05T02:20:21Z",
+                        "tagName": "v0.1.0"
+                    }
+                ]
             }
         },
         "sandialabs/helpr": {
@@ -13929,6 +13935,11 @@
                 ]
             }
         },
+        "sandialabs/spparks": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "sandialabs/spt": {
             "releases": {
                 "nodes": []
@@ -15519,6 +15530,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "stable_2026_10_05",
+                        "publishedAt": "2026-10-05T09:48:14Z",
+                        "tagName": "vstable_2026_10_05"
+                    },
+                    {
                         "name": "stable_2026_10_04",
                         "publishedAt": "2026-10-04T10:24:59Z",
                         "tagName": "vstable_2026_10_04"
@@ -15537,11 +15553,6 @@
                         "name": "stable_2026_09_30",
                         "publishedAt": "2026-09-30T10:31:53Z",
                         "tagName": "vstable_2026_09_30"
-                    },
-                    {
-                        "name": "stable_2026_09_04",
-                        "publishedAt": "2026-09-04T10:02:58Z",
-                        "tagName": "vstable_2026_09_04"
                     },
                     {
                         "name": "6.24.0",
