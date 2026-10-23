@@ -270,7 +270,9 @@
             "fortran",
             "e3sm",
             "snl-applications",
-            "earth-science"
+            "earth-science",
+            "high-performance-computing",
+            "scientific-computing"
         ],
         "website": "https://docs.e3sm.org/E3SM"
     },
@@ -2188,6 +2190,12 @@
             "graph-algorithm"
         ],
         "website": ""
+    },
+    "sandialabs/JumboJet": {
+        "description": "Distributed memory (multi-GPU) version of the Jet partitioner",
+        "name": "sandialabs/JumboJet",
+        "topics": null,
+        "website": null
     },
     "sandialabs/Juxtaposer": {
         "description": "Juxtaposer is software used to identify actively mobile genomic elements using high throughput sequencing data.",
@@ -5445,6 +5453,16 @@
             "snl-emulytics"
         ],
         "website": ""
+    },
+    "sandialabs/firewheel_repo_android": {
+        "description": "This repository contains FIREWHEEL Model Components for Android emulation, Android-specific VM resources, and Android-oriented test and automation topologies.",
+        "name": "sandialabs/firewheel_repo_android",
+        "topics": [
+            "snl-cyber-sec",
+            "snl-emulytics",
+            "src-3033"
+        ],
+        "website": "https://sandialabs.github.io/firewheel/"
     },
     "sandialabs/firewheel_repo_base": {
         "description": "This Model Component repository contains many of the basic objects necessary to create an experiment using FIREWHEEL.",
