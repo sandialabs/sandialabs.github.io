@@ -1579,7 +1579,8 @@
         "description": "A specified file format for sharing complex data and metadata packages.",
         "name": "sandialabs/Engineering-Sciences-Common-Data-Format",
         "topics": [
-            "scr-3455"
+            "scr-3455",
+            "snl-other"
         ],
         "website": ""
     },
@@ -1619,6 +1620,15 @@
             "scr-2990"
         ],
         "website": "https://sandialabs.github.io/F3M/"
+    },
+    "sandialabs/FCC_Taylor_Factor_Monte_Carlo_Study": {
+        "description": "This program computes the mean Taylor factors and Lankford ratios (R-values) for FCC materials by sampling Euler angles (orientations) and minimizing the average Taylor factor over a lateral shrinking ratio, q. ",
+        "name": "sandialabs/FCC_Taylor_Factor_Monte_Carlo_Study",
+        "topics": [
+            "snl-applications",
+            "scr-3478"
+        ],
+        "website": ""
     },
     "sandialabs/FRENSIE-0.3.0": {
         "description": "SCR #2123",
@@ -2212,7 +2222,8 @@
         "description": "Juxtaposer-meta aims to detect sharing of mobile DNAs between species in metagenomic samples. Juxtaposer-meta also makes basic improvements to Juxtaposer, for example recovering far more recombinant reads.",
         "name": "sandialabs/Juxtaposer-meta",
         "topics": [
-            "scr-3475"
+            "scr-3475",
+            "snl-applications"
         ],
         "website": ""
     },
@@ -3487,6 +3498,14 @@
             "snl-nerl",
             "nerl-neuromorphic",
             "snl-neuromorphic"
+        ],
+        "website": ""
+    },
+    "sandialabs/STAGED_DDCM-Staged_Embedded_Comparison": {
+        "description": "A repository for the code associated with the paper \"Efficient Closure Learning in Dynamical Systems: A Comparison of Data-Assimilated and Embedded Approaches\"",
+        "name": "sandialabs/STAGED_DDCM-Staged_Embedded_Comparison",
+        "topics": [
+            "scr-3472"
         ],
         "website": ""
     },
@@ -7002,7 +7021,11 @@
         "description": "Graphical user interface for operational technology security analysis.",
         "name": "sandialabs/parseus",
         "topics": [
-            "scr-3466"
+            "scr-3466",
+            "snl-applications",
+            "snl-cyber-sec",
+            "snl-data-analysis",
+            "snl-visualization"
         ],
         "website": ""
     },
@@ -8333,7 +8356,10 @@
         "description": "A light-weight optimization modeling framework",
         "name": "sandialabs/smoek",
         "topics": [
-            "scr-3463"
+            "scr-3463",
+            "snl-data-analysis",
+            "snl-other",
+            "snl-science-libs"
         ],
         "website": ""
     },
