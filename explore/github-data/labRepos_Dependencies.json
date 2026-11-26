@@ -36804,6 +36804,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "sqlglot",
+                                    "repository": {
+                                        "nameWithOwner": "tobymao/sqlglot"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "tomli-w",
                                     "repository": null
                                 },
@@ -37024,6 +37031,40 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "httpx",
+                                    "repository": {
+                                        "nameWithOwner": "encode/httpx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "uvicorn",
+                                    "repository": {
+                                        "nameWithOwner": "Kludex/uvicorn"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "fastapi",
+                                    "repository": {
+                                        "nameWithOwner": "fastapi/fastapi"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "httpx",
@@ -37944,6 +37985,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "sqlglot",
+                                    "repository": {
+                                        "nameWithOwner": "tobymao/sqlglot"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "starlette",
                                     "repository": {
                                         "nameWithOwner": "Kludex/starlette"
@@ -38172,6 +38220,13 @@
                                     "packageName": "actions/setup-node",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-node"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 },
                                 {
@@ -42533,6 +42588,14 @@
                         "name": "Python"
                     }
                 ]
+            }
+        },
+        "sandialabs/PIPs": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "sandialabs/PRAQTICE": {
@@ -47290,6 +47353,19 @@
             }
         },
         "sandialabs/QSCOUT-gatemodels": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "sandialabs/QSCOUT-gatemodels-ionsim": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
